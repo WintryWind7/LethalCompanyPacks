@@ -100,7 +100,7 @@ def input_number():
 
         elif _pwd in package_list:
             show_info()
-            print('正在下载整合包(410MB)...')
+            print('正在下载整合包...')
             return _pwd
 
         elif _pwd in rmc_list:
