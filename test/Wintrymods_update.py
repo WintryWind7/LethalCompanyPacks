@@ -14,13 +14,20 @@ print('{:^50}'.format('By WintryWind'))
 print('{:-^50}'.format(''))
 
 
-def show_info():
-    url = f"https://raw.githubusercontent.com/WintryWind7/LethalCompanyPacks/master/README.md"
-    response = requests.get(url)
-    if response.status_code == 200:
-        print(response.text)
-    else:
-        print("无法获取文件内容")
+def show_info(command):
+    if command == '0':
+        return 0
+    url = "https://raw.githubusercontent.com/WintryWind7/LethalCompanyPacks/master/README.md"
+    for i in range(5):
+        try:
+            print(f'尝试读取简介文件 {i+1} 如果卡住了请重新打开输入代码1000-0')
+            response = requests.get(url)
+            if response.status_code == 200:
+                print(response.text)
+                return 0
+        except:
+            pass
+    print('无法读取简介文件')
 
 
 
@@ -67,7 +74,7 @@ def check_control():
 
 def rm_Bep():
     rm_list = ['BepInEx', '_state', 'doorstop_config.ini', 'arialuni_sdf_u2019', 'Sinter-Normal', 'winhttp.dll',
-               'mods.yml', 'LICENSE']
+               'mods.yml', 'LICENSE', '.gitignore']
 
     for file in rm_list:
         delete(file)
@@ -92,20 +99,23 @@ def input_number():
     print('\tquit\t关闭程序')
     _count = 0
     while _count <5:
-        _pwd = input('请输入需求代码>>').replace(' ', '')
+        __pwd = input('请输入需求代码>>').replace(' ', '')
+        _pwd = __pwd[:4]
+        _command = __pwd[5:6]
 
         if _pwd in quit_list:
             print('检测到退出指令，已退出!')
             exit()
 
         elif _pwd in package_list:
-            show_info()
+            show_info(_command)
             print('正在下载整合包...')
             return _pwd
 
         elif _pwd in rmc_list:
             print('仅卸载整合包！')
             rm_Bep()
+            rm_temp()
             print('done！')
             exit()
         _count += 1
@@ -154,6 +164,11 @@ def move_controls():
         shutil.move('./temp/controls', './BepInEx/config/controls')
         shutil.rmtree('temp')
 
+
+def rm_temp():
+    delete('temp')
+    delete('temp.zip')
+
 def main():
     check_control()
     pwd = input_number()
@@ -163,7 +178,7 @@ def main():
             if os.path.exists('temp.zip'):
                 break
         except:
-            print(f'重试 {i+1}')
+            print(f'重试 第{i+1}次')
     if not os.path.exists('temp.zip'):
         print("[ERROR] 网络连接异常")
         exit()
@@ -172,6 +187,7 @@ def main():
     rm_Bep()
     unzip(excluede_list(pwd))
     move_controls()
+    rm_temp()
 
 
 
