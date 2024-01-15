@@ -11,8 +11,19 @@ def exit(t=3):
     time.sleep(t)
     sys.exit()
 
+
+def delete(path):
+    if os.path.isfile(path):
+        # 如果是文件，则直接删除
+        os.remove(path)
+    elif os.path.isdir(path):
+        # 如果是目录，则删除该目录及其所有内容
+        shutil.rmtree(path)
+
+
 def download_file(url, local_filename):
     """使用requests下载BepInEX"""
+    delete('temp.zip')
     with requests.get(url, stream=True) as r:
         r.raise_for_status()
         with open(local_filename, 'wb') as f:
@@ -34,9 +45,7 @@ def rm_Bep():
     rm_list = ['BepInEx', '_state', 'doorstop_config', 'arialuni_sdf_u2019', 'Sinter-Normal', 'winhttp.dll', 'mods.yml']
 
     for file in rm_list:
-        if os.path.exists(file):
-            shutil.rmtree(file)
-
+        delete(file)
 
 
 def input_number():
@@ -73,54 +82,53 @@ def input_number():
     exit()
 
 
-import zipfile
-import os
-
-import zipfile
-import os
-
-
 def unzip(exclusions):
-    """解压"""
-    print('开始解压!')
     zip_path = './temp.zip'
     extract_to = './'
 
     with zipfile.ZipFile(zip_path, 'r') as zip_ref:
         zip_files = zip_ref.namelist()
-
-        # 确定 ZIP 文件中的第一个目录名称
-        first_dir = zip_files[0].split('/')[0] + '/'
+        subfolder = zip_files[0].split('/')[0] + '/'
 
         for file in zip_files:
-            if not any(file.startswith(exclusion) for exclusion in exclusions):
-                # 检查是否为文件（非目录）
-                if not file.endswith('/'):
-                    # 调整文件路径，去掉最顶层目录部分
-                    adjusted_file_path = os.path.join(extract_to, file[len(first_dir):])
-                    # 创建必要的目录结构
-                    os.makedirs(os.path.dirname(adjusted_file_path), exist_ok=True)
-                    # 从 ZIP 文件中提取文件
-                    with zip_ref.open(file) as source_file:
-                        with open(adjusted_file_path, 'wb') as target_file:
+            # 跳过排除的文件或目录
+            if not any(os.path.dirname(file.lower()).endswith(exclusion.lower()) or file.lower().endswith(exclusion.lower()) for exclusion in exclusions):
+                if file.startswith(subfolder):
+                    # 调整文件路径，移除子目录部分
+                    adjusted_path = file[len(subfolder):]
+                    if adjusted_path:  # 确保不是子目录本身
+                        adjusted_full_path = os.path.join(extract_to, adjusted_path)
+                        os.makedirs(os.path.dirname(adjusted_full_path), exist_ok=True)
+                        with zip_ref.open(file) as source_file, open(adjusted_full_path, 'wb') as target_file:
                             target_file.write(source_file.read())
-        print('done!')
 
 
 def excluede_list(pwd):
 
-    dt = {'1000': [''],
-          'test': [''],
+    dt = {'1000': [],
+          'test': [],
           }
 
-
-    return dt.get(pwd)
+    ls = dt.get(pwd)
+    lsa = ['README.md', 'LICENSE']
+    for file in lsa:
+        ls.append(file)
+    return ls
 
 
 def main():
     check_control()
     pwd = input_number()
-    download_file('https://github.com/WintryWind7/LethalCompanyPacks/archive/refs/heads/main.zip', 'temp.zip')
+    for i in range(5):
+        try:
+            download_file('https://github.com/WintryWind7/LethalCompanyPacks/archive/refs/heads/main.zip', 'temp.zip')
+            if os.path.exists('temp.zip'):
+                break
+        except:
+            print(f'重试 {i+1}')
+    if not os.path.exists('temp.zip'):
+        print("[ERROR] 网络连接异常")
+        exit()
     rm_Bep()
     unzip(excluede_list(pwd))
 
