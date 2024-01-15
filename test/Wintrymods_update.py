@@ -6,18 +6,30 @@ import requests
 import sys
 import shutil
 from tqdm import tqdm
+import ctypes
+
+def is_admin():
+    try:
+        return ctypes.windll.shell32.IsUserAnAdmin()
+    except:
+        return False
+
+if not is_admin():
+    print("此程序需要管理员权限运行。")
+    # exit()
 
 print('{:-^50}'.format(''))
 print('{:^50}'.format('Lethal Company Mods 加载工具'))
-print('{:^50}'.format('version 1.0.0'))
+print('{:^50}'.format('version 1.1.0'))
 print('{:^50}'.format('By WintryWind'))
 print('{:-^50}'.format(''))
 
 
 def show_info(command):
     if command == 'l':
-        return 0
-    url = "https://raw.githubusercontent.com/WintryWind7/LethalCompanyPacks/master/README.md"
+        url = 'https://raw.yzuu.cf/WintryWind7/LethalCompanyPacks/main/README.md'
+    else:
+        url = "https://raw.githubusercontent.com/WintryWind7/LethalCompanyPacks/main/README.md"
     try:
         print(f'尝试读取简介文件 如果卡住了请重新打开输入代码1000-l')
         response = requests.get(url)
@@ -63,6 +75,7 @@ def download_file(url, local_filename):
 
 
 def check_control():
+    # Done
     """读取文件并检查是否有controls绑定"""
     if os.path.exists('./BepInEx/config/controls'):
         if os.path.exists('./temp'):
@@ -94,12 +107,12 @@ def input_number():
     print('\t1000\t完整整合包')
     print('\t9000\t不加载HD画质优化插件')
     print('\t4009\t不加载自定义音效(不包括音响)')
-
+    print('')
     print('\tuninstall\t卸载mod')
     print('\tquit\t关闭程序')
     print('特殊：')
     print('-d 本地安装，需改名temp.zip')
-    print('-l 镜像云(暂无)')
+    print('-l 使用国内镜像安装')
     print('')
     _count = 0
     while _count <5:
@@ -157,7 +170,6 @@ def unzip(exclusions):
                             target_file.write(source_file.read())
 
 
-
 def excluede_list(pwd):
 
     dt = {'1000': [],
@@ -185,9 +197,9 @@ def rm_temp():
 
 def download(command):
     if command == 'l':
-        url = ''
+        url = 'https://hub.yzuu.cf/WintryWind7/LethalCompanyPacks/archive/refs/heads/main.zip'
     else:
-        url = 'https://github.com/WintryWind7/LethalCompanyPacks/archive/refs/heads/master.zip'
+        url = 'https://github.com/WintryWind7/LethalCompanyPacks/archive/refs/heads/main.zip'
 
     for i in range(5):
         try:
@@ -201,7 +213,7 @@ def download(command):
         exit()
 
 def main():
-    check_control()
+    check_control()     # Done
     pwd = input_number()
     download(_command)
     print('')
@@ -210,7 +222,6 @@ def main():
     unzip(excluede_list(pwd))
     move_controls()
     rm_temp()
-
 
 
 if __name__ == "__main__":
