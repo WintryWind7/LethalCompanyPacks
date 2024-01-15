@@ -14,13 +14,19 @@ print('{:^50}'.format('By WintryWind'))
 print('{:-^50}'.format(''))
 
 
-def show_info():
-    url = f"https://raw.githubusercontent.com/WintryWind7/LethalCompanyPacks/master/README.md"
-    response = requests.get(url)
-    if response.status_code == 200:
-        print(response.text)
-    else:
-        print("无法获取文件内容")
+def show_info(command):
+    if command == 'l':
+        return 0
+    url = "https://raw.githubusercontent.com/WintryWind7/LethalCompanyPacks/master/README.md"
+    try:
+        print(f'尝试读取简介文件 如果卡住了请重新打开输入代码1000-l')
+        response = requests.get(url)
+        if response.status_code == 200:
+            print(response.text)
+            return 0
+    except:
+        pass
+    print('无法读取简介文件')
 
 
 
@@ -67,13 +73,14 @@ def check_control():
 
 def rm_Bep():
     rm_list = ['BepInEx', '_state', 'doorstop_config.ini', 'arialuni_sdf_u2019', 'Sinter-Normal', 'winhttp.dll',
-               'mods.yml', 'LICENSE']
+               'mods.yml', 'LICENSE', '.gitignore']
 
     for file in rm_list:
         delete(file)
 
 
 def input_number():
+    global _command
     quit_list = ['quit', 'exit', ]
     package_list = ['test', '1000']
     rmc_list = ['uninstall']
@@ -90,22 +97,39 @@ def input_number():
 
     print('\tuninstall\t卸载mod')
     print('\tquit\t关闭程序')
+    print('特殊：')
+    print('-d 本地安装，需改名temp.zip')
+    print('-l 镜像云(暂无)')
+    print('')
     _count = 0
     while _count <5:
-        _pwd = input('请输入需求代码>>').replace(' ', '')
+        __pwd = input('请输入需求代码>>').replace(' ', '')
+        if len(__pwd) <6:
+            __pwd = __pwd + '111111'
+        _command = __pwd[5:6]
+        _pwd = __pwd[:4]
+
+        if _command == 'd':
+            rm_Bep()
+            unzip(excluede_list(_pwd))
+            move_controls()
+            rm_temp()
+            exit()
+
 
         if _pwd in quit_list:
             print('检测到退出指令，已退出!')
             exit()
 
         elif _pwd in package_list:
-            show_info()
+            show_info(_command)
             print('正在下载整合包...')
             return _pwd
 
         elif _pwd in rmc_list:
             print('仅卸载整合包！')
             rm_Bep()
+            rm_temp()
             print('done！')
             exit()
         _count += 1
@@ -143,7 +167,7 @@ def excluede_list(pwd):
           }
 
     ls = dt.get(pwd)
-    lsa = ['README.md', 'LICENSE', 'test', '.gitignore', ]
+    lsa = ['README.md', 'LICENSE', 'test', '.gitignore', '.idea']
     for file in lsa:
         ls.append(file)
     return ls
@@ -154,24 +178,38 @@ def move_controls():
         shutil.move('./temp/controls', './BepInEx/config/controls')
         shutil.rmtree('temp')
 
-def main():
-    check_control()
-    pwd = input_number()
+
+def rm_temp():
+    delete('temp')
+    delete('temp.zip')
+
+def download(command):
+    if command == 'l':
+        url = ''
+    else:
+        url = 'https://github.com/WintryWind7/LethalCompanyPacks/archive/refs/heads/master.zip'
+
     for i in range(5):
         try:
-            download_file('https://github.com/WintryWind7/LethalCompanyPacks/archive/refs/heads/master.zip', 'temp.zip')
+            download_file(url, 'temp.zip')
             if os.path.exists('temp.zip'):
                 break
         except:
-            print(f'重试 {i+1}')
+            print(f'重试 第{i+1}次')
     if not os.path.exists('temp.zip'):
         print("[ERROR] 网络连接异常")
         exit()
-    print('---')
+
+def main():
+    check_control()
+    pwd = input_number()
+    download(_command)
+    print('')
     print('正在整理目录...')
     rm_Bep()
     unzip(excluede_list(pwd))
     move_controls()
+    rm_temp()
 
 
 
