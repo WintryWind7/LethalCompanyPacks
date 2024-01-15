@@ -15,18 +15,17 @@ print('{:-^50}'.format(''))
 
 
 def show_info(command):
-    if command == '0':
+    if command == 'l':
         return 0
     url = "https://raw.githubusercontent.com/WintryWind7/LethalCompanyPacks/master/README.md"
-    for i in range(5):
-        try:
-            print(f'尝试读取简介文件 {i+1} 如果卡住了请重新打开输入代码1000-0')
-            response = requests.get(url)
-            if response.status_code == 200:
-                print(response.text)
-                return 0
-        except:
-            pass
+    try:
+        print(f'尝试读取简介文件 如果卡住了请重新打开输入代码1000-l')
+        response = requests.get(url)
+        if response.status_code == 200:
+            print(response.text)
+            return 0
+    except:
+        pass
     print('无法读取简介文件')
 
 
@@ -81,6 +80,7 @@ def rm_Bep():
 
 
 def input_number():
+    global _command
     quit_list = ['quit', 'exit', ]
     package_list = ['test', '1000']
     rmc_list = ['uninstall']
@@ -97,11 +97,25 @@ def input_number():
 
     print('\tuninstall\t卸载mod')
     print('\tquit\t关闭程序')
+    print('特殊：')
+    print('-d 本地安装，需改名temp.zip')
+    print('-l 镜像云(暂无)')
+    print('')
     _count = 0
     while _count <5:
         __pwd = input('请输入需求代码>>').replace(' ', '')
-        _pwd = __pwd[:4]
+        if len(__pwd) <6:
+            __pwd = __pwd + '111111'
         _command = __pwd[5:6]
+        _pwd = __pwd[:4]
+
+        if _command == 'd':
+            rm_Bep()
+            unzip(excluede_list(_pwd))
+            move_controls()
+            rm_temp()
+            exit()
+
 
         if _pwd in quit_list:
             print('检测到退出指令，已退出!')
@@ -153,7 +167,7 @@ def excluede_list(pwd):
           }
 
     ls = dt.get(pwd)
-    lsa = ['README.md', 'LICENSE', 'test', '.gitignore', ]
+    lsa = ['README.md', 'LICENSE', 'test', '.gitignore', '.idea']
     for file in lsa:
         ls.append(file)
     return ls
@@ -169,12 +183,15 @@ def rm_temp():
     delete('temp')
     delete('temp.zip')
 
-def main():
-    check_control()
-    pwd = input_number()
+def download(command):
+    if command == 'l':
+        url = ''
+    else:
+        url = 'https://github.com/WintryWind7/LethalCompanyPacks/archive/refs/heads/master.zip'
+
     for i in range(5):
         try:
-            download_file('https://github.com/WintryWind7/LethalCompanyPacks/archive/refs/heads/master.zip', 'temp.zip')
+            download_file(url, 'temp.zip')
             if os.path.exists('temp.zip'):
                 break
         except:
@@ -182,7 +199,12 @@ def main():
     if not os.path.exists('temp.zip'):
         print("[ERROR] 网络连接异常")
         exit()
-    print('---')
+
+def main():
+    check_control()
+    pwd = input_number()
+    download(_command)
+    print('')
     print('正在整理目录...')
     rm_Bep()
     unzip(excluede_list(pwd))
