@@ -1,0 +1,9 @@
+{
+  "name": "Kill_It_With_Shovel",
+  "version_number": "1.0.1",
+  "website_url": "https://github.com/19miffyliu/Kill-It-With-Shovel",
+  "description": "Let you disable a turret by shoveling it.",
+  "dependencies": [
+    "BepInEx-BepInExPack-5.4.2100"
+  ]
+}

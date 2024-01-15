@@ -1,0 +1,9 @@
+{
+    "name": "CleanerLogs",
+    "version_number": "1.0.0",
+    "website_url": "https://github.com/EliteMasterEric/CleanerLogs",
+    "description": "Reduces log spam to boost performance.",
+    "dependencies": [
+        "BepInEx-BepInExPack-5.4.2100"
+    ]
+}
