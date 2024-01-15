@@ -9,15 +9,16 @@ from tqdm import tqdm
 
 print('{:-^50}'.format(''))
 print('{:^50}'.format('Lethal Company Mods 加载工具'))
-print('{:^50}'.format('version 1.0.0'))
+print('{:^50}'.format('version 1.1.0'))
 print('{:^50}'.format('By WintryWind'))
 print('{:-^50}'.format(''))
 
 
 def show_info(command):
     if command == 'l':
-        return 0
-    url = "https://raw.githubusercontent.com/WintryWind7/LethalCompanyPacks/master/README.md"
+        url = 'https://raw.gitcode.com/WintryWind/LethalCompanyPacks/raw/main/README.md'
+    else:
+        url = "https://raw.githubusercontent.com/WintryWind7/LethalCompanyPacks/main/README.md"
     try:
         print(f'尝试读取简介文件 如果卡住了请重新打开输入代码1000-l')
         response = requests.get(url)
@@ -63,6 +64,7 @@ def download_file(url, local_filename):
 
 
 def check_control():
+    # Done
     """读取文件并检查是否有controls绑定"""
     if os.path.exists('./BepInEx/config/controls'):
         if os.path.exists('./temp'):
@@ -157,7 +159,6 @@ def unzip(exclusions):
                             target_file.write(source_file.read())
 
 
-
 def excluede_list(pwd):
 
     dt = {'1000': [],
@@ -185,9 +186,9 @@ def rm_temp():
 
 def download(command):
     if command == 'l':
-        url = ''
+        url = 'https://raw.gitcode.com/WintryWind/LethalCompanyPacks/archive/refs/heads/main.zip'
     else:
-        url = 'https://github.com/WintryWind7/LethalCompanyPacks/archive/refs/heads/master.zip'
+        url = 'https://github.com/WintryWind7/LethalCompanyPacks/archive/refs/heads/main.zip'
 
     for i in range(5):
         try:
@@ -201,7 +202,7 @@ def download(command):
         exit()
 
 def main():
-    check_control()
+    check_control()     # Done
     pwd = input_number()
     download(_command)
     print('')
@@ -210,7 +211,6 @@ def main():
     unzip(excluede_list(pwd))
     move_controls()
     rm_temp()
-
 
 
 if __name__ == "__main__":
