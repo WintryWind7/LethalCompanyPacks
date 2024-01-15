@@ -1,0 +1,9 @@
+{
+    "name": "MouseBind",
+    "version_number": "1.0.0",
+    "website_url": "https://github.com/zatrit/mousebind/",
+    "description": "A simple Lethal Company mod that allows rebinding Push-To-Talk button to mouse.",
+    "dependencies": [
+        "BepInEx-BepInExPack-5.4.2100"
+    ]
+}

@@ -1,0 +1,8 @@
+{
+    "name": "DisableUnityLogs",
+    "version_number": "1.0.0",
+    "website_url": "",
+    "description": "Reduce the generation of logs.",
+    "dependencies": [
+    ]
+}

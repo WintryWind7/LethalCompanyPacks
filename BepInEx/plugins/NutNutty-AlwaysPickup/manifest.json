@@ -1,0 +1,7 @@
+{
+    "name": "AlwaysPickup",
+    "version_number": "1.2.0",
+    "website_url": "",
+    "description": "Allows you to pickup equipment before the game has started.",
+    "dependencies": []
+}

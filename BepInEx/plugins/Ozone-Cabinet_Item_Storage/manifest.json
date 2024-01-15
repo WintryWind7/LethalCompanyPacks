@@ -1,0 +1,11 @@
+{
+  "name": "Cabinet_Item_Storage",
+  "version_number": "0.0.4",
+  "website_url": "",
+  "description": "Allows bulk item storage inside the drawers of the file cabinet.",
+  "dependencies": [
+    "BepInEx-BepInExPack-5.4.2100",
+    "Ozone-BepInUtils-1.2.1",
+    "Ozone-NC_LC_API-0.0.5"
+  ]
+}

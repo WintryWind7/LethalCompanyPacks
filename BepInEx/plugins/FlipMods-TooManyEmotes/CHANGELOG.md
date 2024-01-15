@@ -1,3 +1,6 @@
+# 1.7.13
++ Fixed issue with "start" emote clips not transition to the "loop" emote clip.
++ Fixed issue with certain emotes not knowing when they ended.
 # 1.7.12
 + Added checks in case the player's animator controller is not an AnimatorOverrideController.
 + Fixed issue with not being able to scroll in the emote menu.

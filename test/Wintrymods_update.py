@@ -6,6 +6,17 @@ import requests
 import sys
 import shutil
 from tqdm import tqdm
+import ctypes
+
+def is_admin():
+    try:
+        return ctypes.windll.shell32.IsUserAnAdmin()
+    except:
+        return False
+
+if not is_admin():
+    print("此程序需要管理员权限运行。")
+    # exit()
 
 print('{:-^50}'.format(''))
 print('{:^50}'.format('Lethal Company Mods 加载工具'))
@@ -16,7 +27,7 @@ print('{:-^50}'.format(''))
 
 def show_info(command):
     if command == 'l':
-        url = 'https://raw.gitcode.com/WintryWind/LethalCompanyPacks/raw/main/README.md'
+        url = 'https://raw.yzuu.cf/WintryWind7/LethalCompanyPacks/main/README.md'
     else:
         url = "https://raw.githubusercontent.com/WintryWind7/LethalCompanyPacks/main/README.md"
     try:
@@ -96,12 +107,12 @@ def input_number():
     print('\t1000\t完整整合包')
     print('\t9000\t不加载HD画质优化插件')
     print('\t4009\t不加载自定义音效(不包括音响)')
-
+    print('')
     print('\tuninstall\t卸载mod')
     print('\tquit\t关闭程序')
     print('特殊：')
     print('-d 本地安装，需改名temp.zip')
-    print('-l 镜像云(暂无)')
+    print('-l 使用国内镜像安装')
     print('')
     _count = 0
     while _count <5:
@@ -186,7 +197,7 @@ def rm_temp():
 
 def download(command):
     if command == 'l':
-        url = 'https://raw.gitcode.com/WintryWind/LethalCompanyPacks/archive/refs/heads/main.zip'
+        url = 'https://hub.yzuu.cf/WintryWind7/LethalCompanyPacks/archive/refs/heads/main.zip'
     else:
         url = 'https://github.com/WintryWind7/LethalCompanyPacks/archive/refs/heads/main.zip'
 

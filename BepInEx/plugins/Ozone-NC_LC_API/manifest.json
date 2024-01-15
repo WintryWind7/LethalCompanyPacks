@@ -1,0 +1,9 @@
+{
+  "name": "NC_LC_API",
+  "version_number": "0.0.5",
+  "website_url": "",
+  "description": "A library some of my mods depend on.",
+  "dependencies": [
+    "BepInEx-BepInExPack-5.4.2100"
+  ]
+}
