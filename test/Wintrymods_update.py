@@ -8,15 +8,33 @@ import shutil
 from tqdm import tqdm
 import ctypes
 
-def is_admin():
-    try:
-        return ctypes.windll.shell32.IsUserAnAdmin()
-    except:
-        return False
+def pause_exit():
+    time.sleep(3)
+    sys.exit()
 
-if not is_admin():
-    print("此程序需要管理员权限运行。")
-    # exit()
+def check_admin():
+
+    def is_admin():
+        try:
+            return ctypes.windll.shell32.IsUserAnAdmin()
+        except:
+            return False
+
+    if not is_admin():
+        print("此程序需要管理员权限运行。")
+        pause_exit()
+
+def check_dir():
+
+    if os.path.exists('Lethal Company.exe'):
+        return 0
+    else:
+        print('请将此文件放在游戏根目录下！')
+        pause_exit()
+
+
+check_admin()
+check_dir()
 
 print('{:-^50}'.format(''))
 print('{:^50}'.format('Lethal Company Mods 加载工具'))
@@ -39,12 +57,6 @@ def show_info(command):
     except:
         pass
     print('无法读取简介文件')
-
-
-
-def exit(t=3):
-    time.sleep(t)
-    sys.exit()
 
 
 def delete(path):
@@ -105,8 +117,7 @@ def input_number():
     """
     print('\t需求代码\t\t包名')
     print('\t1000\t完整整合包')
-    print('\t9000\t不加载HD画质优化插件')
-    print('\t4009\t不加载自定义音效(不包括音响)')
+    print('\t4009\t不加载自定义音效')
     print('')
     print('\tuninstall\t卸载mod')
     print('\tquit\t关闭程序')
@@ -127,12 +138,12 @@ def input_number():
             unzip(excluede_list(_pwd))
             move_controls()
             rm_temp()
-            exit()
+            pause_exit()
 
 
         if _pwd in quit_list:
             print('检测到退出指令，已退出!')
-            exit()
+            pause_exit()
 
         elif _pwd in package_list:
             show_info(_command)
@@ -144,10 +155,10 @@ def input_number():
             rm_Bep()
             rm_temp()
             print('done！')
-            exit()
+            pause_exit()
         _count += 1
     print('错误次数过多，程序退出')
-    exit()
+    pause_exit()
 
 
 def unzip(exclusions):
@@ -210,14 +221,14 @@ def download(command):
             print(f'重试 第{i+1}次')
     if not os.path.exists('temp.zip'):
         print("[ERROR] 网络连接异常")
-        exit()
+        pause_exit()
 
 def main():
     check_control()     # Done
     pwd = input_number()
     download(_command)
     print('')
-    print('正在整理目录...')
+    print('正在解压并整理目录...')
     rm_Bep()
     unzip(excluede_list(pwd))
     move_controls()
