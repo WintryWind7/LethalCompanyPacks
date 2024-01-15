@@ -1,0 +1,9 @@
+{
+    "name": "EladsHUD",
+    "version_number": "1.2.1",
+    "website_url": "https://github.com/EladNLG/EladsHUD",
+    "description": "More configurable than the other one...",
+    "dependencies": [
+        "BepInEx-BepInExPack-5.4.2100"
+    ]
+}

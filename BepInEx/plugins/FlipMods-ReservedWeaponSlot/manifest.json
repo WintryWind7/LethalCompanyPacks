@@ -1,0 +1,10 @@
+{
+    "name": "ReservedWeaponSlot",
+    "version_number": "1.0.6",
+    "website_url": "",
+    "description": "Gives a free, dedicated Weapon slot on the right side of your screen! This slot accepts all weapons, and even weapons from popular mods! Now includes a Reserved ammo slot on the left side of the screen. (optional)",
+    "dependencies": [
+        "BepInEx-BepInExPack-5.4.2100",
+        "FlipMods-ReservedItemSlotCore-1.8.9"
+    ]
+}

@@ -1,0 +1,9 @@
+{
+  "name": "AlwaysShowClock",
+  "version_number": "1.0.0",
+  "website_url": "",
+  "description": "Show the clock GUI from arrival to departure, even while inside dungeons.",
+  "dependencies": [
+    "BepInEx-BepInExPack-5.4.2100"
+  ]
+}

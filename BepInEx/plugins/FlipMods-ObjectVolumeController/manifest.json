@@ -1,0 +1,9 @@
+{
+    "name": "ObjectVolumeController",
+    "version_number": "1.0.4",
+    "website_url": "",
+    "description": "Allows adjusting the volume on the media objects, such as television, boombox, and record player, by pressing the [-] and [+] keys. Can configure the default volumes for each device!",
+    "dependencies": [
+        "BepInEx-BepInExPack-5.4.2100"
+    ]
+}

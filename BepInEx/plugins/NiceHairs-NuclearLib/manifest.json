@@ -1,0 +1,9 @@
+{
+  "name": "NuclearLib",
+  "version_number": "1.0.4",
+  "website_url": "",
+  "description": "My Library for easy mod development.",
+  "dependencies": [
+    "BepInEx-BepInExPack-5.4.2100"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+    "name": "TooManyEmotes",
+    "version_number": "1.7.12",
+    "website_url": "https://github.com/cmooref17/Lethal-Company-TooManyEmotes",
+    "description": "Adds over 100 new emotes! Emote wheel included! Also implements a system for purchasing them on the store, masked enemies can emote, and much more!",
+    "dependencies": [
+        "BepInEx-BepInExPack-5.4.2100"
+    ]
+}

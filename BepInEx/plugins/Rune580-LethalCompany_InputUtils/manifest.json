@@ -1,0 +1,9 @@
+{
+    "name": "LethalCompany_InputUtils",
+    "version_number": "0.5.5",
+    "website_url": "https://github.com/Rune580/LethalCompanyInputUtils",
+    "description": "Utilities for creating InputActions and providing an (opinionated) improved UI.",
+    "dependencies": [
+        "BepInEx-BepInExPack-5.4.2100"
+    ]
+}

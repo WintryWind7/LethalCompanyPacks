@@ -1,0 +1,7 @@
+{
+    "name": "LethalRegeneration",
+    "version_number": "1.2.0",
+    "website_url": "https://github.com/Toskan4134/LethalRegeneration",
+    "description": "Natural health regeneration mod with customizable parameters that syncs with host",
+    "dependencies": ["BepInEx-BepInExPack-5.4.2100"]
+}
