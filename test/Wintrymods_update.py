@@ -10,7 +10,7 @@ import ctypes
 
 def pause_exit():
     time.sleep(3)
-    # sys.exit()
+    sys.exit()
 
 def check_admin():
 
@@ -44,17 +44,20 @@ print('{:-^50}'.format(''))
 
 
 def show_version():
-    url = 'https://raw.yzuu.cf/WintryWind7/LethalCompanyPacks/main/README.md'
+    url = 'https://raw.githubusercontent.com/WintryWind7/LethalCompanyPacks/main/BepInEx/config/Wintrymods_version.txt'
     if os.path.exists('./BepInEx/config/Wintrymods_version.txt'):
         with open('./BepInEx/config/Wintrymods_version.txt', 'r') as fr:
             for line in fr:
                 ver = line
+    else:
+        ver = '未知'
+
     try:
-        print('')
         print(f'本地版本: {ver}')
-        response = requests.get(url)
+        response = requests.get(url, timeout=5)
         if response.status_code == 200:
             print(f"远程整合包版本: {response.text}")
+            print('')
             return 0
     except:
         pass
@@ -70,7 +73,7 @@ def show_info(command):
         url = "https://raw.githubusercontent.com/WintryWind7/LethalCompanyPacks/main/README.md"
     try:
         print(f'尝试读取简介文件 如果卡住了请重新打开输入代码1000-i')
-        response = requests.get(url)
+        response = requests.get(url, timeout=10)
         if response.status_code == 200:
             print(response.text)
             return 0
@@ -91,7 +94,7 @@ def delete(path):
 def download_file(url, local_filename):
     """使用requests下载BepInEX"""
     delete('temp.zip')
-    response = requests.head(url)
+    response = requests.head(url, timeout=10)
     total_size = int(response.headers.get('content-iength', 0))
 
     with requests.get(url, stream=True) as r:
@@ -127,7 +130,7 @@ def rm_Bep():
 def input_number():
     global _command
     quit_list = ['quit', 'exit', ]
-    package_list = ['test', '1000']
+    package_list = ['test', '1000', '4009', '9000']
     rmc_list = ['uninstall']
     """
     输入需求密码
@@ -248,12 +251,15 @@ def main():
     pwd = input_number()
     download(_command)
     print('')
-    print('正在解压并整理目录...')
+    print('正在解压并整理目录，请勿关闭...')
     rm_Bep()
     unzip(excluede_list(pwd))
+    print('正在同步...')
     move_controls()
     rm_temp()
+    print('删除多余文件...')
 
 
 if __name__ == "__main__":
     main()
+    pause_exit()
