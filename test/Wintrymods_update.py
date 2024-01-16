@@ -8,30 +8,68 @@ import shutil
 from tqdm import tqdm
 import ctypes
 
-def is_admin():
-    try:
-        return ctypes.windll.shell32.IsUserAnAdmin()
-    except:
-        return False
+def pause_exit():
+    time.sleep(3)
+    # sys.exit()
 
-if not is_admin():
-    print("此程序需要管理员权限运行。")
-    # exit()
+def check_admin():
+
+    def is_admin():
+        try:
+            return ctypes.windll.shell32.IsUserAnAdmin()
+        except:
+            return False
+
+    if not is_admin():
+        print("此程序需要管理员权限运行。")
+        pause_exit()
+
+def check_dir():
+
+    if os.path.exists('Lethal Company.exe'):
+        return 0
+    else:
+        print('请将此文件放在游戏根目录下！')
+        pause_exit()
+
+
+check_admin()
+check_dir()
 
 print('{:-^50}'.format(''))
 print('{:^50}'.format('Lethal Company Mods 加载工具'))
-print('{:^50}'.format('version 1.1.0'))
+print('{:^50}'.format('version 1.1.3'))
 print('{:^50}'.format('By WintryWind'))
 print('{:-^50}'.format(''))
 
 
+def show_version():
+    url = 'https://raw.yzuu.cf/WintryWind7/LethalCompanyPacks/main/README.md'
+    if os.path.exists('./BepInEx/config/Wintrymods_version.txt'):
+        with open('./BepInEx/config/Wintrymods_version.txt', 'r') as fr:
+            for line in fr:
+                ver = line
+    try:
+        print('')
+        print(f'本地版本: {ver}')
+        response = requests.get(url)
+        if response.status_code == 200:
+            print(f"远程整合包版本: {response.text}")
+            return 0
+    except:
+        pass
+    print('无法读取远程版本')
+    print('')
+
+show_version()
+
 def show_info(command):
-    if command == 'l':
+    if command == 'i':
         url = 'https://raw.yzuu.cf/WintryWind7/LethalCompanyPacks/main/README.md'
     else:
         url = "https://raw.githubusercontent.com/WintryWind7/LethalCompanyPacks/main/README.md"
     try:
-        print(f'尝试读取简介文件 如果卡住了请重新打开输入代码1000-l')
+        print(f'尝试读取简介文件 如果卡住了请重新打开输入代码1000-i')
         response = requests.get(url)
         if response.status_code == 200:
             print(response.text)
@@ -39,12 +77,6 @@ def show_info(command):
     except:
         pass
     print('无法读取简介文件')
-
-
-
-def exit(t=3):
-    time.sleep(t)
-    sys.exit()
 
 
 def delete(path):
@@ -60,7 +92,7 @@ def download_file(url, local_filename):
     """使用requests下载BepInEX"""
     delete('temp.zip')
     response = requests.head(url)
-    total_size = int(response.headers.get('content-length', 0))
+    total_size = int(response.headers.get('content-iength', 0))
 
     with requests.get(url, stream=True) as r:
         r.raise_for_status()
@@ -105,14 +137,13 @@ def input_number():
     """
     print('\t需求代码\t\t包名')
     print('\t1000\t完整整合包')
-    print('\t9000\t不加载HD画质优化插件')
-    print('\t4009\t不加载自定义音效(不包括音响)')
+    print('\t4009\t不加载自定义音效')
     print('')
     print('\tuninstall\t卸载mod')
     print('\tquit\t关闭程序')
     print('特殊：')
     print('-d 本地安装，需改名temp.zip')
-    print('-l 使用国内镜像安装')
+    print('-i 使用国内镜像安装')
     print('')
     _count = 0
     while _count <5:
@@ -127,12 +158,12 @@ def input_number():
             unzip(excluede_list(_pwd))
             move_controls()
             rm_temp()
-            exit()
+            pause_exit()
 
 
         if _pwd in quit_list:
             print('检测到退出指令，已退出!')
-            exit()
+            pause_exit()
 
         elif _pwd in package_list:
             show_info(_command)
@@ -144,10 +175,10 @@ def input_number():
             rm_Bep()
             rm_temp()
             print('done！')
-            exit()
+            pause_exit()
         _count += 1
     print('错误次数过多，程序退出')
-    exit()
+    pause_exit()
 
 
 def unzip(exclusions):
@@ -196,7 +227,7 @@ def rm_temp():
     delete('temp.zip')
 
 def download(command):
-    if command == 'l':
+    if command == 'i':
         url = 'https://hub.yzuu.cf/WintryWind7/LethalCompanyPacks/archive/refs/heads/main.zip'
     else:
         url = 'https://github.com/WintryWind7/LethalCompanyPacks/archive/refs/heads/main.zip'
@@ -210,14 +241,14 @@ def download(command):
             print(f'重试 第{i+1}次')
     if not os.path.exists('temp.zip'):
         print("[ERROR] 网络连接异常")
-        exit()
+        pause_exit()
 
 def main():
     check_control()     # Done
     pwd = input_number()
     download(_command)
     print('')
-    print('正在整理目录...')
+    print('正在解压并整理目录...')
     rm_Bep()
     unzip(excluede_list(pwd))
     move_controls()
