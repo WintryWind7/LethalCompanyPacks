@@ -10,7 +10,7 @@ import ctypes
 
 def pause_exit():
     time.sleep(3)
-    sys.exit()
+    # sys.exit()
 
 def check_admin():
 
@@ -38,18 +38,38 @@ check_dir()
 
 print('{:-^50}'.format(''))
 print('{:^50}'.format('Lethal Company Mods 加载工具'))
-print('{:^50}'.format('version 1.1.0'))
+print('{:^50}'.format('version 1.1.3'))
 print('{:^50}'.format('By WintryWind'))
 print('{:-^50}'.format(''))
 
 
+def show_version():
+    url = 'https://raw.yzuu.cf/WintryWind7/LethalCompanyPacks/main/README.md'
+    if os.path.exists('./BepInEx/config/Wintrymods_version.txt'):
+        with open('./BepInEx/config/Wintrymods_version.txt', 'r') as fr:
+            for line in fr:
+                ver = line
+    try:
+        print('')
+        print(f'本地版本: {ver}')
+        response = requests.get(url)
+        if response.status_code == 200:
+            print(f"远程整合包版本: {response.text}")
+            return 0
+    except:
+        pass
+    print('无法读取远程版本')
+    print('')
+
+show_version()
+
 def show_info(command):
-    if command == 'l':
+    if command == 'i':
         url = 'https://raw.yzuu.cf/WintryWind7/LethalCompanyPacks/main/README.md'
     else:
         url = "https://raw.githubusercontent.com/WintryWind7/LethalCompanyPacks/main/README.md"
     try:
-        print(f'尝试读取简介文件 如果卡住了请重新打开输入代码1000-l')
+        print(f'尝试读取简介文件 如果卡住了请重新打开输入代码1000-i')
         response = requests.get(url)
         if response.status_code == 200:
             print(response.text)
@@ -72,7 +92,7 @@ def download_file(url, local_filename):
     """使用requests下载BepInEX"""
     delete('temp.zip')
     response = requests.head(url)
-    total_size = int(response.headers.get('content-length', 0))
+    total_size = int(response.headers.get('content-iength', 0))
 
     with requests.get(url, stream=True) as r:
         r.raise_for_status()
@@ -123,7 +143,7 @@ def input_number():
     print('\tquit\t关闭程序')
     print('特殊：')
     print('-d 本地安装，需改名temp.zip')
-    print('-l 使用国内镜像安装')
+    print('-i 使用国内镜像安装')
     print('')
     _count = 0
     while _count <5:
@@ -207,7 +227,7 @@ def rm_temp():
     delete('temp.zip')
 
 def download(command):
-    if command == 'l':
+    if command == 'i':
         url = 'https://hub.yzuu.cf/WintryWind7/LethalCompanyPacks/archive/refs/heads/main.zip'
     else:
         url = 'https://github.com/WintryWind7/LethalCompanyPacks/archive/refs/heads/main.zip'
