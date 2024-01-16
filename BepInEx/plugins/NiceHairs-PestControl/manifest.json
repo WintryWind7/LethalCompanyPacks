@@ -1,0 +1,9 @@
+{
+  "name": "PestControl",
+  "version_number": "1.0.1",
+  "website_url": "",
+  "description": "Control the spawn chance for all monsters.",
+  "dependencies": [
+    "BepInEx-BepInExPack-5.4.2100"
+  ]
+}
