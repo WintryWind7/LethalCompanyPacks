@@ -186,7 +186,7 @@
   versionNumber:
     major: 1
     minor: 8
-    patch: 10
+    patch: 11
   enabled: true
   icon: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\FlipMods-ReservedItemSlotCore\icon.png
 - manifestVersion: 1
@@ -370,9 +370,9 @@
   versionNumber:
     major: 1
     minor: 7
-    patch: 12
+    patch: 13
   enabled: true
-  icon: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\cache\FlipMods-TooManyEmotes\1.7.12\icon.png
+  icon: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\FlipMods-TooManyEmotes\icon.png
 - manifestVersion: 1
   name: HK417KEN-Lethal_Company_Simplified_Chinese_Localization
   authorName: HK417KEN
@@ -936,11 +936,11 @@
   enabled: true
   icon: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\FlipMods-ObjectVolumeController\icon.png
 - manifestVersion: 1
-  name: rafl-CustomBoomboxMusicFixed
-  authorName: rafl
-  websiteUrl: https://thunderstore.io/c/lethal-company/p/rafl/CustomBoomboxMusicFixed/
-  displayName: CustomBoomboxMusicFixed
-  description: Allows you to use your own music in the boombox.
+  name: EliteMasterEric-CleanerLogs
+  authorName: EliteMasterEric
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/EliteMasterEric/CleanerLogs/
+  displayName: CleanerLogs
+  description: Reduces log spam to boost performance.
   gameVersion: "0"
   networkMode: both
   packageType: other
@@ -953,6 +953,391 @@
   versionNumber:
     major: 1
     minor: 0
+    patch: 0
+  enabled: true
+  icon: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\EliteMasterEric-CleanerLogs\icon.png
+- manifestVersion: 1
+  name: zMods-DynamicScrapsAmount
+  authorName: zMods
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/zMods/DynamicScrapsAmount/
+  displayName: DynamicScrapsAmount
+  description: The mod will spawn additional scraps in the dungeon when required
+    quota has surpassed 1000.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 4
+  enabled: true
+  icon: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\zMods-DynamicScrapsAmount\icon.png
+- manifestVersion: 1
+  name: Azim-LethalPresents
+  authorName: Azim
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/Azim/LethalPresents/
+  displayName: LethalPresents
+  description: A mod which gives Presents a configurable chance of spawning a
+    random enemy when opened.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+    - Evaisa-HookGenPatcher-0.0.5
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 4
+  enabled: true
+  icon: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\Azim-LethalPresents\icon.png
+- manifestVersion: 1
+  name: MiffyL-Kill_It_With_Shovel
+  authorName: MiffyL
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/MiffyL/Kill_It_With_Shovel/
+  displayName: Kill_It_With_Shovel
+  description: Let you disable a turret by shoveling it.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 1
+  enabled: true
+  icon: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\MiffyL-Kill_It_With_Shovel\icon.png
+- manifestVersion: 1
+  name: mrov-UnlockOnStart
+  authorName: mrov
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/mrov/UnlockOnStart/
+  displayName: UnlockOnStart
+  description: Unlock ship upgrades and items on new runs.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 0
+    minor: 2
+    patch: 0
+  enabled: true
+  icon: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\mrov-UnlockOnStart\icon.png
+- manifestVersion: 1
+  name: NutNutty-AlwaysPickup
+  authorName: NutNutty
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/NutNutty/AlwaysPickup/
+  displayName: AlwaysPickup
+  description: Allows you to pickup equipment before the game has started.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies: []
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 2
+    patch: 0
+  enabled: true
+  icon: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\NutNutty-AlwaysPickup\icon.png
+- manifestVersion: 1
+  name: 5Bit-FPSSpectate
+  authorName: 5Bit
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/5Bit/FPSSpectate/
+  displayName: FPSSpectate
+  description: FPS spectator camera
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 1
+  enabled: true
+  icon: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\5Bit-FPSSpectate\icon.png
+- manifestVersion: 1
+  name: monkes_mods-JumpDelayPatch
+  authorName: monkes_mods
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/monkes_mods/JumpDelayPatch/
+  displayName: JumpDelayPatch
+  description: (Mostly) patches out the delay when jumping.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 1
+  enabled: true
+  icon: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\monkes_mods-JumpDelayPatch\icon.png
+- manifestVersion: 1
+  name: Blorb-WeatherMultipliers
+  authorName: Blorb
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/Blorb/WeatherMultipliers/
+  displayName: WeatherMultipliers
+  description: Moons with active weather will contain scrap with higher value
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 1
+    patch: 0
+  enabled: true
+  icon: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\Blorb-WeatherMultipliers\icon.png
+- manifestVersion: 1
+  name: bozzobrain-ShipMaid
+  authorName: bozzobrain
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/bozzobrain/ShipMaid/
+  displayName: ShipMaid
+  description: On keypress, within the ship, items in the ship or closet will be organized.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 3
+    minor: 2
+    patch: 3
+  enabled: true
+  icon: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\bozzobrain-ShipMaid\icon.png
+- manifestVersion: 1
+  name: Mhz-DisableUnityLogs
+  authorName: Mhz
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/Mhz/DisableUnityLogs/
+  displayName: DisableUnityLogs
+  description: Reduce the generation of logs.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies: []
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 0
+  enabled: true
+  icon: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\Mhz-DisableUnityLogs\icon.png
+- manifestVersion: 1
+  name: Jordo-NeedyCats
+  authorName: Jordo
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/Jordo/NeedyCats/
+  displayName: NeedyCats
+  description: You like cats? The company likes cats too! Find them roaming the
+    various abandoned facilities and bring them home!
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 1
+    patch: 1
+  enabled: true
+  icon: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\Jordo-NeedyCats\icon.png
+- manifestVersion: 1
+  name: AnythingGoesGit-MoreDeathNotes
+  authorName: AnythingGoesGit
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/AnythingGoesGit/MoreDeathNotes/
+  displayName: MoreDeathNotes
+  description: Update the Performance Report to include new information, such as
+    the cause of death.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 4
+    patch: 0
+  enabled: true
+  icon: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\AnythingGoesGit-MoreDeathNotes\icon.png
+- manifestVersion: 1
+  name: zatrit-MouseBind
+  authorName: zatrit
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/zatrit/MouseBind/
+  displayName: MouseBind
+  description: A simple Lethal Company mod that allows rebinding Push-To-Talk
+    button to mouse.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 0
+  enabled: true
+  icon: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\zatrit-MouseBind\icon.png
+- manifestVersion: 1
+  name: Ozone-NC_LC_API
+  authorName: Ozone
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/Ozone/NC_LC_API/
+  displayName: NC_LC_API
+  description: A library some of my mods depend on.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 0
+    minor: 0
+    patch: 5
+  enabled: true
+  icon: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\Ozone-NC_LC_API\icon.png
+- manifestVersion: 1
+  name: Ozone-Cabinet_Item_Storage
+  authorName: Ozone
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/Ozone/Cabinet_Item_Storage/
+  displayName: Cabinet_Item_Storage
+  description: Allows bulk item storage inside the drawers of the file cabinet.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+    - Ozone-BepInUtils-1.2.1
+    - Ozone-NC_LC_API-0.0.5
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 0
+    minor: 0
+    patch: 4
+  enabled: true
+  icon: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\Ozone-Cabinet_Item_Storage\icon.png
+- manifestVersion: 1
+  name: OE_Tweaks-Possessed_Masks
+  authorName: OE_Tweaks
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/OE_Tweaks/Possessed_Masks/
+  displayName: Possessed_Masks
+  description: A ghost haunts your masks, the mask will try to get in your active
+    slot and possess you. Tweaks spawn chances of masks to allow them to spawn
+    on all moons.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies: []
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 1
     patch: 2
   enabled: true
-  icon: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\rafl-CustomBoomboxMusicFixed\icon.png
+  icon: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\OE_Tweaks-Possessed_Masks\icon.png
+- manifestVersion: 1
+  name: NiceHairs-PestControl
+  authorName: NiceHairs
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/NiceHairs/PestControl/
+  displayName: PestControl
+  description: Control the spawn chance for all monsters.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 1
+  enabled: true
+  icon: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\NiceHairs-PestControl\icon.png
+- manifestVersion: 1
+  name: ViViKo-NoInsuredPenalty
+  authorName: ViViKo
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/ViViKo/NoInsuredPenalty/
+  displayName: NoInsuredPenalty
+  description: No death penalty for bodies insured
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 0
+  enabled: true
+  icon: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\ViViKo-NoInsuredPenalty\icon.png
