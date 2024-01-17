@@ -374,27 +374,6 @@
   enabled: true
   icon: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\FlipMods-TooManyEmotes\icon.png
 - manifestVersion: 1
-  name: HK417KEN-Lethal_Company_Simplified_Chinese_Localization
-  authorName: HK417KEN
-  websiteUrl: https://thunderstore.io/c/lethal-company/p/HK417KEN/Lethal_Company_Simplified_Chinese_Localization/
-  displayName: Lethal_Company_Simplified_Chinese_Localization
-  description: Lethal Company 简体中文汉化
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - BepInEx-BepInExPack-5.4.2100
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 1
-    minor: 0
-    patch: 11
-  enabled: true
-  icon: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\HK417KEN-Lethal_Company_Simplified_Chinese_Localization\icon.png
-- manifestVersion: 1
   name: Toskan4134-LethalRegeneration
   authorName: Toskan4134
   websiteUrl: https://thunderstore.io/c/lethal-company/p/Toskan4134/LethalRegeneration/
@@ -544,49 +523,6 @@
     patch: 2
   enabled: true
   icon: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\alexanderjoe-BiggeryBattery\icon.png
-- manifestVersion: 1
-  name: ScruffyRules-BatteryText
-  authorName: ScruffyRules
-  websiteUrl: https://thunderstore.io/c/lethal-company/p/ScruffyRules/BatteryText/
-  displayName: BatteryText
-  description: Shows the battery percentage of your items under the item slots
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - BepInEx-BepInExPack-5.4.2100
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 1
-    minor: 0
-    patch: 0
-  enabled: true
-  icon: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\ScruffyRules-BatteryText\icon.png
-- manifestVersion: 1
-  name: juls07-AtAGlance
-  authorName: juls07
-  websiteUrl: https://thunderstore.io/c/lethal-company/p/juls07/AtAGlance/
-  displayName: AtAGlance
-  description: Modifies the scan UI to include extra info about the item such as
-    if it's conductive, two handed, and if it has a battery.
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - BepInEx-BepInExPack-5.4.2100
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 0
-    minor: 1
-    patch: 0
-  enabled: true
-  icon: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\juls07-AtAGlance\icon.png
 - manifestVersion: 1
   name: Verity-3rdPerson
   authorName: Verity
@@ -1255,29 +1191,6 @@
   enabled: true
   icon: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\Ozone-NC_LC_API\icon.png
 - manifestVersion: 1
-  name: Ozone-Cabinet_Item_Storage
-  authorName: Ozone
-  websiteUrl: https://thunderstore.io/c/lethal-company/p/Ozone/Cabinet_Item_Storage/
-  displayName: Cabinet_Item_Storage
-  description: Allows bulk item storage inside the drawers of the file cabinet.
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - BepInEx-BepInExPack-5.4.2100
-    - Ozone-BepInUtils-1.2.1
-    - Ozone-NC_LC_API-0.0.5
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 0
-    minor: 0
-    patch: 4
-  enabled: true
-  icon: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\Ozone-Cabinet_Item_Storage\icon.png
-- manifestVersion: 1
   name: OE_Tweaks-Possessed_Masks
   authorName: OE_Tweaks
   websiteUrl: https://thunderstore.io/c/lethal-company/p/OE_Tweaks/Possessed_Masks/
@@ -1341,25 +1254,3 @@
     patch: 4
   enabled: true
   icon: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\2018-LC_API\icon.png
-- manifestVersion: 1
-  name: bizzlemip-NoPenalty
-  authorName: bizzlemip
-  websiteUrl: https://thunderstore.io/c/lethal-company/p/bizzlemip/NoPenalty/
-  displayName: NoPenalty
-  description: Removes the penalty you get from players dying.
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - BepInEx-BepInExPack-5.4.2100
-    - 2018-LC_API-1.0.0
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 1
-    minor: 0
-    patch: 1
-  enabled: true
-  icon: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\bizzlemip-NoPenalty\icon.png
