@@ -10,7 +10,7 @@ import ctypes
 
 def pause_exit():
     time.sleep(3)
-    # sys.exit()
+    sys.exit()
 
 def check_admin():
 
