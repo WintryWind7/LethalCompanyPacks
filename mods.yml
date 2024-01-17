@@ -1321,11 +1321,11 @@
   enabled: true
   icon: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\NiceHairs-PestControl\icon.png
 - manifestVersion: 1
-  name: ViViKo-NoInsuredPenalty
-  authorName: ViViKo
-  websiteUrl: https://thunderstore.io/c/lethal-company/p/ViViKo/NoInsuredPenalty/
-  displayName: NoInsuredPenalty
-  description: No death penalty for bodies insured
+  name: 2018-LC_API
+  authorName: "2018"
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/2018/LC_API/
+  displayName: LC_API
+  description: Multipurpose modding API for Lethal Company
   gameVersion: "0"
   networkMode: both
   packageType: other
@@ -1336,8 +1336,30 @@
   incompatibilities: []
   optionalDependencies: []
   versionNumber:
+    major: 3
+    minor: 4
+    patch: 4
+  enabled: true
+  icon: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\2018-LC_API\icon.png
+- manifestVersion: 1
+  name: bizzlemip-NoPenalty
+  authorName: bizzlemip
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/bizzlemip/NoPenalty/
+  displayName: NoPenalty
+  description: Removes the penalty you get from players dying.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+    - 2018-LC_API-1.0.0
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
     major: 1
     minor: 0
-    patch: 0
+    patch: 1
   enabled: true
-  icon: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\ViViKo-NoInsuredPenalty\icon.png
+  icon: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\bizzlemip-NoPenalty\icon.png
