@@ -1,6 +1,6 @@
 {
     "name": "ReservedItemSlotCore",
-    "version_number": "1.8.11",
+    "version_number": "1.8.12",
     "website_url": "",
     "description": "The core mod for all ReservedItemSlot mods. Adds functionality for my ReservedItemSlot mods.",
     "dependencies": [

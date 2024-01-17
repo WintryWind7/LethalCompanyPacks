@@ -1,3 +1,7 @@
+# 1.8.12
++ Nothing too crazy.
++ Disabled adjusting inventory HUD elements in AdvancedCompany is enabled. (temporary maybe)
++ Small tweaks to code.
 # 1.8.11
 + Added more reliable checks for the local player when the inventory size changes, for calculating which item slot index is the start of the reserved item slots. Should fix <i>some</i> issues.<br>
 + When using this mod with AdvanceCompany, (and it decides to behave itself) the reserved slots shouldn't use the feet slots from that mod.

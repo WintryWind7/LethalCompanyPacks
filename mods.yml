@@ -186,9 +186,9 @@
   versionNumber:
     major: 1
     minor: 8
-    patch: 11
+    patch: 12
   enabled: true
-  icon: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\FlipMods-ReservedItemSlotCore\icon.png
+  icon: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\cache\FlipMods-ReservedItemSlotCore\1.8.12\icon.png
 - manifestVersion: 1
   name: FlipMods-ReservedFlashlightSlot
   authorName: FlipMods
@@ -370,7 +370,7 @@
   versionNumber:
     major: 1
     minor: 7
-    patch: 13
+    patch: 18
   enabled: true
   icon: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\FlipMods-TooManyEmotes\icon.png
 - manifestVersion: 1
@@ -753,7 +753,7 @@
   versionNumber:
     major: 0
     minor: 13
-    patch: 0
+    patch: 2
   enabled: true
   icon: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\Evaisa-LethalLib\icon.png
 - manifestVersion: 1
@@ -1234,27 +1234,6 @@
   enabled: true
   icon: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\NiceHairs-PestControl\icon.png
 - manifestVersion: 1
-  name: 2018-LC_API
-  authorName: "2018"
-  websiteUrl: https://thunderstore.io/c/lethal-company/p/2018/LC_API/
-  displayName: LC_API
-  description: Multipurpose modding API for Lethal Company
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - BepInEx-BepInExPack-5.4.2100
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 3
-    minor: 4
-    patch: 4
-  enabled: true
-  icon: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\2018-LC_API\icon.png
-- manifestVersion: 1
   name: bozzobrain-ShipMaid
   authorName: bozzobrain
   websiteUrl: https://thunderstore.io/c/lethal-company/p/bozzobrain/ShipMaid/
@@ -1317,4 +1296,4 @@
     minor: 6
     patch: 3
   enabled: true
-  icon: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\cache\SweetFox-Lethal_Company_Simplified_Chinese_Localization\1.6.3\icon.png
+  icon: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\SweetFox-Lethal_Company_Simplified_Chinese_Localization\icon.png

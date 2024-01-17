@@ -1,3 +1,17 @@
+# 1.7.18
++ Additional tweaks to maybe fix the emotes canceling for players at times.
+# 1.7.17
++ Fixed compat with certain terminal mods, such as Neofetch.
++ Fixed echoing in third person emote camera.
++ Made some small changes to maybe prevent issue with player's animations getting canceled when another player cancels their. Probably didn't fix it.
+# 1.7.16
++ Fixed compat with MoreCompany.
++ Fixed bug where emote credits were being depleted for everyone when one player purchased an emote with ShareEverything disabled.
++ Fixed bug with emotes/emote credits not being loaded correctly for non-host clients.
+# 1.7.15
++ Re-added hook method ModelReplacementAPI used to grab currently playing emotes. (I forgot it was referencing it)
+# 1.7.14
++ Tweaked some code to help a bit more with compat with mods that might edit the player's animator controller.
 # 1.7.13
 + Fixed issue with "start" emote clips not transition to the "loop" emote clip.
 + Fixed issue with certain emotes not knowing when they ended.
