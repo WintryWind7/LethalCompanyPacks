@@ -10,7 +10,7 @@ import ctypes
 
 def pause_exit():
     time.sleep(3)
-    sys.exit()
+    # sys.exit()
 
 def check_admin():
 
@@ -38,7 +38,7 @@ check_dir()
 
 print('{:-^50}'.format(''))
 print('{:^50}'.format('Lethal Company Mods 加载工具'))
-print('{:^50}'.format('version 1.1.3'))
+print('{:^50}'.format('version 1.2.1'))
 print('{:^50}'.format('By WintryWind'))
 print('{:-^50}'.format(''))
 
@@ -130,7 +130,7 @@ def rm_Bep():
 def input_number():
     global _command
     quit_list = ['quit', 'exit', ]
-    package_list = ['test', '1000', '4009', '9000']
+    package_list = ['test', '1000', '4009', '9000', '1900']
     rmc_list = ['uninstall']
     """
     输入需求密码
@@ -140,6 +140,7 @@ def input_number():
     """
     print('\t需求代码\t\t包名')
     print('\t1000\t完整整合包')
+    print('\t1900\t不加载汉化(减少卡顿)')
     print('\t4009\t不加载自定义音效')
     print('')
     print('\tuninstall\t卸载mod')
@@ -184,6 +185,17 @@ def input_number():
     pause_exit()
 
 
+def dirname(file, n=1):
+    try:
+        if n != 0:
+            n -= 1
+            file = os.path.dirname(file)
+    except:
+        pass
+    return file
+
+
+
 def unzip(exclusions):
     zip_path = './temp.zip'
     extract_to = './'
@@ -193,7 +205,11 @@ def unzip(exclusions):
         subfolder = zip_files[0].split('/')[0] + '/'
 
         for file in zip_files:
-            if not any(os.path.dirname(file).lower().endswith('/' + exclusion.lower()) or file.lower().endswith(exclusion.lower()) for exclusion in exclusions):
+            if not any(dirname(file, 1).lower().endswith('/' + exclusion.lower())     # 文件夹排除
+                       or dirname(file, 2).lower().endswith('/' + exclusion.lower())
+                       or dirname(file, 3).lower().endswith('/' + exclusion.lower())
+                       or dirname(file, 4).lower().endswith('/' + exclusion.lower())
+                       or file.lower().endswith(exclusion.lower()) for exclusion in exclusions):    # 文件名排除
                 if file.startswith(subfolder):
                     # 调整文件路径，移除子目录部分
                     adjusted_path = file[len(subfolder):]
@@ -208,6 +224,8 @@ def excluede_list(pwd):
 
     dt = {'1000': [],
           'test': [],
+          '1900': ['LocalizationCore_BepInEx5汉化模组前置.dll', '精校汉化包V1-2', 'LocalizationCore', 'Translation',
+                   'HK417KEN-Lethal_Company_Simplified_Chinese_Localization'],
           '4009': ['CustomSounds'],
           '9000': ['HDLethalCompany', 'HDLethalCompany画质优化.dll'],
           }
