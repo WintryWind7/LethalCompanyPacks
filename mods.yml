@@ -437,27 +437,6 @@
   enabled: true
   icon: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\EladNLG-EladsHUD\icon.png
 - manifestVersion: 1
-  name: blink9803-DimmingFlashlights
-  authorName: blink9803
-  websiteUrl: https://thunderstore.io/c/lethal-company/p/blink9803/DimmingFlashlights/
-  displayName: DimmingFlashlights
-  description: flashlights get dimmer as the battery gets low
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - BepInEx-BepInExPack-5.4.2100
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 1
-    minor: 0
-    patch: 1
-  enabled: true
-  icon: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\blink9803-DimmingFlashlights\icon.png
-- manifestVersion: 1
   name: no00ob-LCSoundTool
   authorName: no00ob
   websiteUrl: https://thunderstore.io/c/lethal-company/p/no00ob/LCSoundTool/
@@ -475,7 +454,7 @@
   optionalDependencies: []
   versionNumber:
     major: 1
-    minor: 4
+    minor: 5
     patch: 0
   enabled: true
   icon: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\no00ob-LCSoundTool\icon.png
@@ -777,7 +756,7 @@
   optionalDependencies: []
   versionNumber:
     major: 3
-    minor: 0
+    minor: 1
     patch: 0
   enabled: true
   icon: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\HomelessGinger-MaskedEnemyOverhaul\icon.png
@@ -850,28 +829,6 @@
   enabled: true
   icon: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\EliteMasterEric-CleanerLogs\icon.png
 - manifestVersion: 1
-  name: zMods-DynamicScrapsAmount
-  authorName: zMods
-  websiteUrl: https://thunderstore.io/c/lethal-company/p/zMods/DynamicScrapsAmount/
-  displayName: DynamicScrapsAmount
-  description: The mod will spawn additional scraps in the dungeon when required
-    quota has surpassed 1000.
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - BepInEx-BepInExPack-5.4.2100
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 1
-    minor: 0
-    patch: 4
-  enabled: true
-  icon: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\zMods-DynamicScrapsAmount\icon.png
-- manifestVersion: 1
   name: Azim-LethalPresents
   authorName: Azim
   websiteUrl: https://thunderstore.io/c/lethal-company/p/Azim/LethalPresents/
@@ -933,7 +890,7 @@
   versionNumber:
     major: 0
     minor: 2
-    patch: 0
+    patch: 1
   enabled: true
   icon: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\mrov-UnlockOnStart\icon.png
 - manifestVersion: 1
@@ -1166,15 +1123,15 @@
   versionNumber:
     major: 1
     minor: 6
-    patch: 3
+    patch: 6
   enabled: true
   icon: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\SweetFox-Lethal_Company_Simplified_Chinese_Localization\icon.png
 - manifestVersion: 1
-  name: ViViKo-NoInsuredPenalty
-  authorName: ViViKo
-  websiteUrl: https://thunderstore.io/c/lethal-company/p/ViViKo/NoInsuredPenalty/
-  displayName: NoInsuredPenalty
-  description: No death penalty for bodies insured
+  name: blink9803-DimmingFlashlights
+  authorName: blink9803
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/blink9803/DimmingFlashlights/
+  displayName: DimmingFlashlights
+  description: flashlights get dimmer as the battery gets low
   gameVersion: "0"
   networkMode: both
   packageType: other
@@ -1187,27 +1144,6 @@
   versionNumber:
     major: 1
     minor: 0
-    patch: 0
+    patch: 1
   enabled: true
-  icon: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\ViViKo-NoInsuredPenalty\icon.png
-- manifestVersion: 1
-  name: EliteMasterEric-Coroner
-  authorName: EliteMasterEric
-  websiteUrl: https://thunderstore.io/c/lethal-company/p/EliteMasterEric/Coroner/
-  displayName: Coroner
-  description: Rework the Performance Report with new info, including cause of death.
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - BepInEx-BepInExPack-5.4.2100
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 1
-    minor: 5
-    patch: 3
-  enabled: true
-  icon: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\EliteMasterEric-Coroner\icon.png
+  icon: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\blink9803-DimmingFlashlights\icon.png

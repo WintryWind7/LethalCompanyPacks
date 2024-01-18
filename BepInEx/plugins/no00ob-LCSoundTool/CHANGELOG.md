@@ -1,3 +1,11 @@
+-   **1.5.0**
+
+    -   Added support for AudioSource names as filters to where sounds can play. No more same sound from different sources!
+    -	Fixed a bug where AudioSources using the standard Play() would not randomize properly. 
+    -	Added a config option to turn informational debugging on by default on launch.
+    -	Some minor tweaks to logging again. Mostly the same this time too. Cleaned up some useless messages, fixed typos, etc.
+    -	Added few new mod API methods and updated existing ones. You can now use some of the methods with different parameters than before.
+
 -   **1.4.0**
 
     -   Added support for Ogg Vorbis and Mpeg MP3 files. Now any of the 3 file types should work. Wav, ogg or mp3.

@@ -20,3 +20,7 @@ Initial release
 ### Please regenerate your config file!
 
 - changed which method to patch, should resolve issues with IntroTweaks
+
+# 0.2.1
+
+- fixed an issue where items would not spawn after getting fired
