@@ -38,7 +38,7 @@ check_dir()
 
 print('{:-^50}'.format(''))
 print('{:^50}'.format('Lethal Company Mods 加载工具'))
-print('{:^50}'.format('version 1.2.1'))
+print('{:^50}'.format('version 1.2.2'))
 print('{:^50}'.format('By WintryWind'))
 print('{:-^50}'.format(''))
 
@@ -140,7 +140,6 @@ def input_number():
     """
     print('\t需求代码\t\t包名')
     print('\t1000\t完整整合包')
-    print('\t1900\t不加载汉化(减少卡顿)')
     print('\t4009\t不加载自定义音效')
     print('')
     print('\tuninstall\t卸载mod')
@@ -186,14 +185,10 @@ def input_number():
 
 
 def dirname(file, n=1):
-    try:
-        if n != 0:
-            n -= 1
-            file = os.path.dirname(file)
-    except:
-        pass
+    if n != 0:
+        temp = os.path.dirname(file)
+        return dirname(temp, n-1)
     return file
-
 
 
 def unzip(exclusions):
