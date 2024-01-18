@@ -2,7 +2,7 @@
   "namespace": "2018",
   "name": "LC_API",
   "description": "Multipurpose modding API for Lethal Company",
-  "version_number": "3.4.4",
+  "version_number": "3.4.5",
   "dependencies": [
     "BepInEx-BepInExPack-5.4.2100"
   ],
