@@ -1,9 +1,0 @@
-{
-    "name": "AtAGlance",
-    "version_number": "0.1.0",
-    "website_url": "https://github.com/MaxWasUnavailable/MoonOfTheDay",
-    "description": "Modifies the scan UI to include extra info about the item such as if it's conductive, two handed, and if it has a battery.",
-    "dependencies": [
-        "BepInEx-BepInExPack-5.4.2100"
-    ]
-}

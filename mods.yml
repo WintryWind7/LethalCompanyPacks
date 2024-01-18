@@ -351,29 +351,6 @@
   enabled: true
   icon: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\taffyko-NameplateTweaks\icon.png
 - manifestVersion: 1
-  name: FlipMods-TooManyEmotes
-  authorName: FlipMods
-  websiteUrl: https://thunderstore.io/c/lethal-company/p/FlipMods/TooManyEmotes/
-  displayName: TooManyEmotes
-  description: Adds over 100 new emotes! Emote wheel included! Also implements a
-    system for purchasing them on the store, masked enemies can emote, and much
-    more!
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - BepInEx-BepInExPack-5.4.2100
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 1
-    minor: 7
-    patch: 18
-  enabled: true
-  icon: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\FlipMods-TooManyEmotes\icon.png
-- manifestVersion: 1
   name: Toskan4134-LethalRegeneration
   authorName: Toskan4134
   websiteUrl: https://thunderstore.io/c/lethal-company/p/Toskan4134/LethalRegeneration/
@@ -395,27 +372,6 @@
     patch: 0
   enabled: true
   icon: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\Toskan4134-LethalRegeneration\icon.png
-- manifestVersion: 1
-  name: anormaltwig-LateCompany
-  authorName: anormaltwig
-  websiteUrl: https://thunderstore.io/c/lethal-company/p/anormaltwig/LateCompany/
-  displayName: LateCompany
-  description: A mod to allow players to join after the game starts.
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - BepInEx-BepInExPack-5.4.2100
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 1
-    minor: 0
-    patch: 10
-  enabled: true
-  icon: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\anormaltwig-LateCompany\icon.png
 - manifestVersion: 1
   name: RickArg-Helmet_Cameras
   authorName: RickArg
@@ -459,27 +415,6 @@
     patch: 1
   enabled: true
   icon: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\EladNLG-EladsHUD\icon.png
-- manifestVersion: 1
-  name: blink9803-DimmingFlashlights
-  authorName: blink9803
-  websiteUrl: https://thunderstore.io/c/lethal-company/p/blink9803/DimmingFlashlights/
-  displayName: DimmingFlashlights
-  description: flashlights get dimmer as the battery gets low
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - BepInEx-BepInExPack-5.4.2100
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 1
-    minor: 0
-    patch: 1
-  enabled: true
-  icon: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\blink9803-DimmingFlashlights\icon.png
 - manifestVersion: 1
   name: no00ob-LCSoundTool
   authorName: no00ob
@@ -543,49 +478,7 @@
     minor: 0
     patch: 0
   enabled: true
-  icon: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\cache\ScruffyRules-BatteryText\1.0.0\icon.png
-- manifestVersion: 1
-  name: juls07-AtAGlance
-  authorName: juls07
-  websiteUrl: https://thunderstore.io/c/lethal-company/p/juls07/AtAGlance/
-  displayName: AtAGlance
-  description: Modifies the scan UI to include extra info about the item such as
-    if it's conductive, two handed, and if it has a battery.
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - BepInEx-BepInExPack-5.4.2100
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 0
-    minor: 1
-    patch: 0
-  enabled: true
-  icon: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\cache\juls07-AtAGlance\0.1.0\icon.png
-- manifestVersion: 1
-  name: Verity-3rdPerson
-  authorName: Verity
-  websiteUrl: https://thunderstore.io/c/lethal-company/p/Verity/3rdPerson/
-  displayName: 3rdPerson
-  description: Toggle between first and third person with ease.
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies: []
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 1
-    minor: 1
-    patch: 0
-  enabled: true
-  icon: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\Verity-3rdPerson\icon.png
+  icon: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\ScruffyRules-BatteryText\icon.png
 - manifestVersion: 1
   name: x753-Mimics
   authorName: x753
@@ -847,51 +740,6 @@
   enabled: true
   icon: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\HomelessGinger-MaskedEnemyOverhaul\icon.png
 - manifestVersion: 1
-  name: Evaisa-LethalThings
-  authorName: Evaisa
-  websiteUrl: https://thunderstore.io/c/lethal-company/p/Evaisa/LethalThings/
-  displayName: LethalThings
-  description: Adds 11 scrap, 6 store items, 1 enemy, 4 decor, 1 map hazard, and 1
-    game mechanic.
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - BepInEx-BepInExPack-5.4.2100
-    - Evaisa-HookGenPatcher-0.0.5
-    - Evaisa-LethalLib-0.11.2
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 0
-    minor: 9
-    patch: 4
-  enabled: true
-  icon: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\Evaisa-LethalThings\icon.png
-- manifestVersion: 1
-  name: EliteMasterEric-Coroner
-  authorName: EliteMasterEric
-  websiteUrl: https://thunderstore.io/c/lethal-company/p/EliteMasterEric/Coroner/
-  displayName: Coroner
-  description: Rework the Performance Report with new info, including cause of death.
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - BepInEx-BepInExPack-5.4.2100
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 1
-    minor: 5
-    patch: 3
-  enabled: true
-  icon: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\EliteMasterEric-Coroner\icon.png
-- manifestVersion: 1
   name: FlipMods-ObjectVolumeController
   authorName: FlipMods
   websiteUrl: https://thunderstore.io/c/lethal-company/p/FlipMods/ObjectVolumeController/
@@ -935,28 +783,6 @@
     patch: 0
   enabled: true
   icon: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\EliteMasterEric-CleanerLogs\icon.png
-- manifestVersion: 1
-  name: zMods-DynamicScrapsAmount
-  authorName: zMods
-  websiteUrl: https://thunderstore.io/c/lethal-company/p/zMods/DynamicScrapsAmount/
-  displayName: DynamicScrapsAmount
-  description: The mod will spawn additional scraps in the dungeon when required
-    quota has surpassed 1000.
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - BepInEx-BepInExPack-5.4.2100
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 1
-    minor: 0
-    patch: 4
-  enabled: true
-  icon: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\zMods-DynamicScrapsAmount\icon.png
 - manifestVersion: 1
   name: Azim-LethalPresents
   authorName: Azim
@@ -1105,50 +931,6 @@
   enabled: true
   icon: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\Mhz-DisableUnityLogs\icon.png
 - manifestVersion: 1
-  name: Jordo-NeedyCats
-  authorName: Jordo
-  websiteUrl: https://thunderstore.io/c/lethal-company/p/Jordo/NeedyCats/
-  displayName: NeedyCats
-  description: You like cats? The company likes cats too! Find them roaming the
-    various abandoned facilities and bring them home!
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - BepInEx-BepInExPack-5.4.2100
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 1
-    minor: 1
-    patch: 1
-  enabled: true
-  icon: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\Jordo-NeedyCats\icon.png
-- manifestVersion: 1
-  name: AnythingGoesGit-MoreDeathNotes
-  authorName: AnythingGoesGit
-  websiteUrl: https://thunderstore.io/c/lethal-company/p/AnythingGoesGit/MoreDeathNotes/
-  displayName: MoreDeathNotes
-  description: Update the Performance Report to include new information, such as
-    the cause of death.
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - BepInEx-BepInExPack-5.4.2100
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 1
-    minor: 4
-    patch: 0
-  enabled: true
-  icon: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\AnythingGoesGit-MoreDeathNotes\icon.png
-- manifestVersion: 1
   name: Ozone-NC_LC_API
   authorName: Ozone
   websiteUrl: https://thunderstore.io/c/lethal-company/p/Ozone/NC_LC_API/
@@ -1212,24 +994,3 @@
     patch: 1
   enabled: true
   icon: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\NiceHairs-PestControl\icon.png
-- manifestVersion: 1
-  name: bozzobrain-ShipMaid
-  authorName: bozzobrain
-  websiteUrl: https://thunderstore.io/c/lethal-company/p/bozzobrain/ShipMaid/
-  displayName: ShipMaid
-  description: On keypress, within the ship, items in the ship or closet will be organized.
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - BepInEx-BepInExPack-5.4.2100
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 3
-    minor: 2
-    patch: 3
-  enabled: true
-  icon: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\bozzobrain-ShipMaid\icon.png
