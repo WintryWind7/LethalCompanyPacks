@@ -1,0 +1,7 @@
+{
+  "name": "DynamicScrapsAmount",
+  "version_number": "1.0.4",
+  "website_url": "",
+  "description": "The mod will spawn additional scraps in the dungeon when required quota has surpassed 1000.",
+  "dependencies": ["BepInEx-BepInExPack-5.4.2100"]
+}

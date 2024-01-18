@@ -1,0 +1,9 @@
+{
+    "name": "MoreDeathNotes",
+    "version_number": "1.4.0",
+    "website_url": "https://github.com/AnythingGoesGit/MoreDeathNotes",
+    "description": "Update the Performance Report to include new information, such as the cause of death.",
+    "dependencies": [
+        "BepInEx-BepInExPack-5.4.2100"
+    ]
+}
