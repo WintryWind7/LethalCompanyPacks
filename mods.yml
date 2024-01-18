@@ -373,6 +373,27 @@
   enabled: true
   icon: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\Toskan4134-LethalRegeneration\icon.png
 - manifestVersion: 1
+  name: anormaltwig-LateCompany
+  authorName: anormaltwig
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/anormaltwig/LateCompany/
+  displayName: LateCompany
+  description: A mod to allow players to join after the game starts.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 10
+  enabled: true
+  icon: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\anormaltwig-LateCompany\icon.png
+- manifestVersion: 1
   name: RickArg-Helmet_Cameras
   authorName: RickArg
   websiteUrl: https://thunderstore.io/c/lethal-company/p/RickArg/Helmet_Cameras/
@@ -415,6 +436,27 @@
     patch: 1
   enabled: true
   icon: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\EladNLG-EladsHUD\icon.png
+- manifestVersion: 1
+  name: blink9803-DimmingFlashlights
+  authorName: blink9803
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/blink9803/DimmingFlashlights/
+  displayName: DimmingFlashlights
+  description: flashlights get dimmer as the battery gets low
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 1
+  enabled: true
+  icon: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\blink9803-DimmingFlashlights\icon.png
 - manifestVersion: 1
   name: no00ob-LCSoundTool
   authorName: no00ob
@@ -478,7 +520,7 @@
     minor: 0
     patch: 0
   enabled: true
-  icon: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\ScruffyRules-BatteryText\icon.png
+  icon: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\cache\ScruffyRules-BatteryText\1.0.0\icon.png
 - manifestVersion: 1
   name: x753-Mimics
   authorName: x753
@@ -740,6 +782,30 @@
   enabled: true
   icon: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\HomelessGinger-MaskedEnemyOverhaul\icon.png
 - manifestVersion: 1
+  name: Evaisa-LethalThings
+  authorName: Evaisa
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/Evaisa/LethalThings/
+  displayName: LethalThings
+  description: Adds 11 scrap, 6 store items, 1 enemy, 4 decor, 1 map hazard, and 1
+    game mechanic.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+    - Evaisa-HookGenPatcher-0.0.5
+    - Evaisa-LethalLib-0.11.2
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 0
+    minor: 9
+    patch: 4
+  enabled: true
+  icon: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\Evaisa-LethalThings\icon.png
+- manifestVersion: 1
   name: FlipMods-ObjectVolumeController
   authorName: FlipMods
   websiteUrl: https://thunderstore.io/c/lethal-company/p/FlipMods/ObjectVolumeController/
@@ -783,6 +849,28 @@
     patch: 0
   enabled: true
   icon: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\EliteMasterEric-CleanerLogs\icon.png
+- manifestVersion: 1
+  name: zMods-DynamicScrapsAmount
+  authorName: zMods
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/zMods/DynamicScrapsAmount/
+  displayName: DynamicScrapsAmount
+  description: The mod will spawn additional scraps in the dungeon when required
+    quota has surpassed 1000.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 4
+  enabled: true
+  icon: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\zMods-DynamicScrapsAmount\icon.png
 - manifestVersion: 1
   name: Azim-LethalPresents
   authorName: Azim
@@ -931,6 +1019,50 @@
   enabled: true
   icon: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\Mhz-DisableUnityLogs\icon.png
 - manifestVersion: 1
+  name: Jordo-NeedyCats
+  authorName: Jordo
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/Jordo/NeedyCats/
+  displayName: NeedyCats
+  description: You like cats? The company likes cats too! Find them roaming the
+    various abandoned facilities and bring them home!
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 1
+    patch: 1
+  enabled: true
+  icon: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\Jordo-NeedyCats\icon.png
+- manifestVersion: 1
+  name: AnythingGoesGit-MoreDeathNotes
+  authorName: AnythingGoesGit
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/AnythingGoesGit/MoreDeathNotes/
+  displayName: MoreDeathNotes
+  description: Update the Performance Report to include new information, such as
+    the cause of death.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 4
+    patch: 0
+  enabled: true
+  icon: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\AnythingGoesGit-MoreDeathNotes\icon.png
+- manifestVersion: 1
   name: Ozone-NC_LC_API
   authorName: Ozone
   websiteUrl: https://thunderstore.io/c/lethal-company/p/Ozone/NC_LC_API/
@@ -994,3 +1126,88 @@
     patch: 1
   enabled: true
   icon: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\NiceHairs-PestControl\icon.png
+- manifestVersion: 1
+  name: Sligili-HDLethalCompany
+  authorName: Sligili
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/Sligili/HDLethalCompany/
+  displayName: HDLethalCompany
+  description: Additional graphics settings such as resolution, anti-aliasing, fog
+    quality etc.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 5
+    patch: 6
+  enabled: true
+  icon: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\Sligili-HDLethalCompany\icon.png
+- manifestVersion: 1
+  name: SweetFox-Lethal_Company_Simplified_Chinese_Localization
+  authorName: SweetFox
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/SweetFox/Lethal_Company_Simplified_Chinese_Localization/
+  displayName: Lethal_Company_Simplified_Chinese_Localization
+  description: Lethal Company 致命公司简体中文汉化
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 6
+    patch: 3
+  enabled: true
+  icon: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\SweetFox-Lethal_Company_Simplified_Chinese_Localization\icon.png
+- manifestVersion: 1
+  name: ViViKo-NoInsuredPenalty
+  authorName: ViViKo
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/ViViKo/NoInsuredPenalty/
+  displayName: NoInsuredPenalty
+  description: No death penalty for bodies insured
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 0
+  enabled: true
+  icon: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\ViViKo-NoInsuredPenalty\icon.png
+- manifestVersion: 1
+  name: EliteMasterEric-Coroner
+  authorName: EliteMasterEric
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/EliteMasterEric/Coroner/
+  displayName: Coroner
+  description: Rework the Performance Report with new info, including cause of death.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 5
+    patch: 3
+  enabled: true
+  icon: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\EliteMasterEric-Coroner\icon.png
