@@ -373,27 +373,6 @@
   enabled: true
   icon: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\Toskan4134-LethalRegeneration\icon.png
 - manifestVersion: 1
-  name: anormaltwig-LateCompany
-  authorName: anormaltwig
-  websiteUrl: https://thunderstore.io/c/lethal-company/p/anormaltwig/LateCompany/
-  displayName: LateCompany
-  description: A mod to allow players to join after the game starts.
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - BepInEx-BepInExPack-5.4.2100
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 1
-    minor: 0
-    patch: 10
-  enabled: true
-  icon: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\anormaltwig-LateCompany\icon.png
-- manifestVersion: 1
   name: RickArg-Helmet_Cameras
   authorName: RickArg
   websiteUrl: https://thunderstore.io/c/lethal-company/p/RickArg/Helmet_Cameras/
@@ -1167,4 +1146,4 @@
     minor: 4
     patch: 4
   enabled: true
-  icon: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\cache\2018-LC_API\3.4.4\icon.png
+  icon: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\2018-LC_API\icon.png
