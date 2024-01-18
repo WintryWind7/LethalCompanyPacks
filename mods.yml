@@ -1043,27 +1043,6 @@
   enabled: true
   icon: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\NutNutty-AlwaysPickup\icon.png
 - manifestVersion: 1
-  name: 5Bit-FPSSpectate
-  authorName: 5Bit
-  websiteUrl: https://thunderstore.io/c/lethal-company/p/5Bit/FPSSpectate/
-  displayName: FPSSpectate
-  description: FPS spectator camera
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - BepInEx-BepInExPack-5.4.2100
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 1
-    minor: 0
-    patch: 1
-  enabled: true
-  icon: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\5Bit-FPSSpectate\icon.png
-- manifestVersion: 1
   name: monkes_mods-JumpDelayPatch
   authorName: monkes_mods
   websiteUrl: https://thunderstore.io/c/lethal-company/p/monkes_mods/JumpDelayPatch/

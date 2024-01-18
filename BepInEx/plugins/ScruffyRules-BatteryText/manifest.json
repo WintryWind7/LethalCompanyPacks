@@ -1,0 +1,9 @@
+{
+  "name": "BatteryText",
+  "version_number": "1.0.0",
+  "website_url": "",
+  "description": "Shows the battery percentage of your items under the item slots",
+  "dependencies": [
+    "BepInEx-BepInExPack-5.4.2100"
+  ]
+}
