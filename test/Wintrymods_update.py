@@ -10,7 +10,7 @@ import ctypes
 
 def pause_exit():
     time.sleep(3)
-    sys.exit()
+    # sys.exit()
 
 def check_admin():
 
@@ -38,7 +38,7 @@ check_dir()
 
 print('{:-^50}'.format(''))
 print('{:^50}'.format('Lethal Company Mods 加载工具'))
-print('{:^50}'.format('version 1.2.2'))
+print('{:^50}'.format('version 1.2.3'))
 print('{:^50}'.format('By WintryWind'))
 print('{:-^50}'.format(''))
 
@@ -128,7 +128,7 @@ def rm_Bep():
 
 
 def input_number():
-    global _command
+    global _command, __pwd, _pwd
     quit_list = ['quit', 'exit', ]
     package_list = ['test', '1000', '4009', '9000', '1900']
     rmc_list = ['uninstall']
@@ -154,7 +154,10 @@ def input_number():
         if len(__pwd) <6:
             __pwd = __pwd + '111111'
         _command = __pwd[5:6]
-        _pwd = __pwd[:4]
+        if __pwd != 'uninstall':
+            _pwd = __pwd[:4]
+        else:
+            _pwd = 'uninstall'
 
         if _command == 'd':
             rm_Bep()
@@ -162,7 +165,6 @@ def input_number():
             move_controls()
             rm_temp()
             pause_exit()
-
 
         if _pwd in quit_list:
             print('检测到退出指令，已退出!')
