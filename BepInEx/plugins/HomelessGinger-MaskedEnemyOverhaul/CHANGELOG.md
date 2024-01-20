@@ -1,4 +1,8 @@
 # Changelog
+## v3.1.1
+- Readme update
+- Removed some console logs
+
 ## v3.1.0
 - Actually fixed Advanced Company
 

@@ -10,4 +10,7 @@ This way, you can swap to these items to drop them, as well as other actions, su
 You can activate and speak into walkie anytime by holding X, and with any item in your hands.<br>
 This hotkey can be changed in the config.<br>
 <br>
-The walkie straps nicely your your chest when not in your hand. (patch 1.3.0)
+The walkie straps nicely your your chest when not in your hand.
+<br>
+### Masked Enemies can now display the same reserved items as you if they are mimicking you.
+Enjoy :)

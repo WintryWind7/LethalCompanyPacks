@@ -33,6 +33,14 @@ You can also configure how many items to spawn:
 - Stun grenades
 - Zap guns
 
+## Configuration
+
+This mod creates its config files in **`BepInEx/config/UnlockOnStart/`** directory:
+
+- **`Items.cfg`** - config for items - how many of them to spawn
+- **`ShipUpgrades.cfg`** - config for ship upgrades - which ones to unlock
+- **`Decorations.cfg`** - config for decorations - which ones to unlock
+
 ## License
 
 This project is licensed under [MIT License](https://github.com/AndreyMrovol/LethalRichPresence/blob/main/LICENSE).

@@ -1,3 +1,7 @@
+# 1.6.1
++ Forgot to update README and dll version.
+# 1.6.0
++ Masked enemies will now display your holstered reserved items if they are mimicking you.
 # 1.5.10
 + Fixed the laser pointer red cube mesh issue. Again.
 # 1.5.9

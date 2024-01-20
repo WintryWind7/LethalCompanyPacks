@@ -10,3 +10,6 @@ You can activate the flashlight anytime by pressing F, and with any item in your
 This hotkey can be changed in the config.<br>
 <br>
 The flashlight sits nicely on your shoulder when not in your hand. (patch 1.3.0)
+<br>
+### Masked Enemies can now display the same reserved items as you if they are mimicking you.
+Enjoy :)

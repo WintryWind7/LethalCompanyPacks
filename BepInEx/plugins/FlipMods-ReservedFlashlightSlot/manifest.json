@@ -1,6 +1,6 @@
 {
     "name": "ReservedFlashlightSlot",
-    "version_number": "1.5.10",
+    "version_number": "1.6.1",
     "website_url": "",
     "description": "Gives a free, dedicated Flashlight slot on the right side of your screen. Can be toggled with [F] to activate the Flashlight at anytime.",
     "dependencies": [

@@ -1,6 +1,6 @@
 {
     "name": "ReservedSprayPaintSlot",
-    "version_number": "1.0.6",
+    "version_number": "1.0.7",
     "website_url": "",
     "description": "Gives a free, dedicated SprayPaint slot on the right side of your screen, and adds quality of life tweaks to them! Required ReservedItemSlotCore mod.",
     "dependencies": [

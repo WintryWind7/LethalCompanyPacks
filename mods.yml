@@ -36,7 +36,7 @@
   versionNumber:
     major: 1
     minor: 7
-    patch: 4
+    patch: 6
   enabled: true
   icon: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\notnotnotswipez-MoreCompany\icon.png
 - manifestVersion: 1
@@ -208,34 +208,10 @@
   optionalDependencies: []
   versionNumber:
     major: 1
-    minor: 5
-    patch: 10
+    minor: 6
+    patch: 1
   enabled: true
   icon: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\FlipMods-ReservedFlashlightSlot\icon.png
-- manifestVersion: 1
-  name: FlipMods-ReservedWeaponSlot
-  authorName: FlipMods
-  websiteUrl: https://thunderstore.io/c/lethal-company/p/FlipMods/ReservedWeaponSlot/
-  displayName: ReservedWeaponSlot
-  description: Gives a free, dedicated Weapon slot on the right side of your
-    screen! This slot accepts all weapons, and even weapons from popular mods!
-    Now includes a Reserved ammo slot on the left side of the screen. (optional)
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - BepInEx-BepInExPack-5.4.2100
-    - FlipMods-ReservedItemSlotCore-1.8.9
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 1
-    minor: 0
-    patch: 6
-  enabled: true
-  icon: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\FlipMods-ReservedWeaponSlot\icon.png
 - manifestVersion: 1
   name: FlipMods-ReservedSprayPaintSlot
   authorName: FlipMods
@@ -257,7 +233,7 @@
   versionNumber:
     major: 1
     minor: 0
-    patch: 6
+    patch: 7
   enabled: true
   icon: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\FlipMods-ReservedSprayPaintSlot\icon.png
 - manifestVersion: 1
@@ -279,8 +255,8 @@
   optionalDependencies: []
   versionNumber:
     major: 1
-    minor: 5
-    patch: 5
+    minor: 6
+    patch: 0
   enabled: true
   icon: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\FlipMods-ReservedWalkieSlot\icon.png
 - manifestVersion: 1
@@ -603,7 +579,7 @@
   versionNumber:
     major: 1
     minor: 5
-    patch: 0
+    patch: 1
   enabled: true
   icon: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\NotAtomicBomb-TerminalApi\icon.png
 - manifestVersion: 1
@@ -736,7 +712,7 @@
   versionNumber:
     major: 3
     minor: 1
-    patch: 0
+    patch: 1
   enabled: true
   icon: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\HomelessGinger-MaskedEnemyOverhaul\icon.png
 - manifestVersion: 1
@@ -868,8 +844,8 @@
   optionalDependencies: []
   versionNumber:
     major: 0
-    minor: 2
-    patch: 1
+    minor: 3
+    patch: 0
   enabled: true
   icon: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\mrov-UnlockOnStart\icon.png
 - manifestVersion: 1
@@ -1085,27 +1061,6 @@
   enabled: true
   icon: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\Sligili-HDLethalCompany\icon.png
 - manifestVersion: 1
-  name: SweetFox-Lethal_Company_Simplified_Chinese_Localization
-  authorName: SweetFox
-  websiteUrl: https://thunderstore.io/c/lethal-company/p/SweetFox/Lethal_Company_Simplified_Chinese_Localization/
-  displayName: Lethal_Company_Simplified_Chinese_Localization
-  description: Lethal Company 致命公司简体中文汉化
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - BepInEx-BepInExPack-5.4.2100
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 1
-    minor: 6
-    patch: 6
-  enabled: true
-  icon: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\SweetFox-Lethal_Company_Simplified_Chinese_Localization\icon.png
-- manifestVersion: 1
   name: blink9803-DimmingFlashlights
   authorName: blink9803
   websiteUrl: https://thunderstore.io/c/lethal-company/p/blink9803/DimmingFlashlights/
@@ -1146,4 +1101,136 @@
     minor: 4
     patch: 5
   enabled: true
-  icon: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\cache\2018-LC_API\3.4.5\icon.png
+  icon: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\2018-LC_API\icon.png
+- manifestVersion: 1
+  name: BomBom-TalkingHeads
+  authorName: BomBom
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/BomBom/TalkingHeads/
+  displayName: TalkingHeads
+  description: A client side mod that scales player heads when they're talking
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 0
+  enabled: true
+  icon: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\BomBom-TalkingHeads\icon.png
+- manifestVersion: 1
+  name: Clementinise-CustomSounds
+  authorName: Clementinise
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/Clementinise/CustomSounds/
+  displayName: CustomSounds
+  description: Let's you easily load audio files (With LCSoundTool) and replace
+    any in game audio clip.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+    - no00ob-LCSoundTool-1.5.0
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 2
+    minor: 3
+    patch: 2
+  enabled: true
+  icon: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\cache\Clementinise-CustomSounds\2.3.2\icon.png
+- manifestVersion: 1
+  name: Verity-3rdPerson
+  authorName: Verity
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/Verity/3rdPerson/
+  displayName: 3rdPerson
+  description: Toggle between first and third person with ease.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies: []
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 1
+    patch: 0
+  enabled: true
+  icon: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\Verity-3rdPerson\icon.png
+- manifestVersion: 1
+  name: SweetFox-Lethal_Company_Simplified_Chinese_Localization
+  authorName: SweetFox
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/SweetFox/Lethal_Company_Simplified_Chinese_Localization/
+  displayName: Lethal_Company_Simplified_Chinese_Localization
+  description: Lethal Company 致命公司简体中文汉化
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 6
+    patch: 9
+  enabled: true
+  icon: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\SweetFox-Lethal_Company_Simplified_Chinese_Localization\icon.png
+- manifestVersion: 1
+  name: JunLethalCompany-GamblingMachineAtTheCompany
+  authorName: JunLethalCompany
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/JunLethalCompany/GamblingMachineAtTheCompany/
+  displayName: GamblingMachineAtTheCompany
+  description: Adds a gambling machine to gamble your scraps at The Company moon.
+    A great last ditch effort to not get ejected... or maybe you're just a
+    gambling addict. Clients automatically sync with hosts gambling
+    configuration when they join. Good luck!
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 3
+    patch: 5
+  enabled: true
+  icon: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\JunLethalCompany-GamblingMachineAtTheCompany\icon.png
+- manifestVersion: 1
+  name: Ozone-Cabinet_Item_Storage
+  authorName: Ozone
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/Ozone/Cabinet_Item_Storage/
+  displayName: Cabinet_Item_Storage
+  description: Allows bulk item storage inside the drawers of the file cabinet.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+    - Ozone-BepInUtils-1.2.1
+    - Ozone-NC_LC_API-0.0.5
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 0
+    minor: 0
+    patch: 4
+  enabled: true
+  icon: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\Ozone-Cabinet_Item_Storage\icon.png

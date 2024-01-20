@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/LethalCompanyPacks.iml" filepath="$PROJECT_DIR$/.idea/LethalCompanyPacks.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modpackages.iml" filepath="$PROJECT_DIR$/.idea/modpackages.iml" />
     </modules>
   </component>
 </project>

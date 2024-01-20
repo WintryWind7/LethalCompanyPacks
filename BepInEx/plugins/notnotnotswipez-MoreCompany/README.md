@@ -41,6 +41,13 @@ This mod is not affiliated with BiggerLobby/LethalPlayers nor does it use any co
 ```
 
 # Changelog
+## 1.7.6
+- Revert audio related changes. Will revisit at a later date.
+
+## 1.7.5
+- Fixed bug regarding mimics ignoring the local cosmetic setting and equipping player cosmetics anyway.
+- Minor "patch" relating to voice pitch. Only affects primary 4 players.
+
 ## 1.7.4
 - Fixed crew count changer not displaying on the host screen.
 

@@ -57,3 +57,7 @@
 - Added a config option that allows users to disable TerminalApi logs
 - Added NodeAppendLine, appends a line of text to a node via its keyword
 
+## Version 1.5.1
+
+- Updated README
+

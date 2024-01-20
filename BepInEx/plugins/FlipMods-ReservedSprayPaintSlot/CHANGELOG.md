@@ -1,3 +1,5 @@
+# 1.0.7
++ Tweaked some code to help with compat issues with mods adding/modifying scan nodes on items.
 # 1.0.6
 + Changes to support ReservedItemSlotCore 1.8.9
 + Adds one quality of life tweak that extends the spraypaint capcity by 10x, but can be edited in the config. This amount does not currently sync, but it will in the future. More tweaks will come!

@@ -1,4 +1,4 @@
-# Masked Enemy Overhaul (v3.1.0)
+# Masked Enemy Overhaul (v3.1.1)
 + Removes the mask the mimic wears, so no one can tell its a fake until it is too late. 
 + Fake username above the mimic
 + Boosts the spawn rate to be the same as a bracken, so it can now spawn on every moon

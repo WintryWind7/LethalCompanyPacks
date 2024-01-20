@@ -1,3 +1,5 @@
+# 1.6.0
++ Masked enemies will now display your holstered reserved items if they are mimicking you.
 # 1.5.5
 + Changes to support ReservedItemSlotCore 1.8.9
 + Fixed issue with not being able to type correctly in terminal with walkie equipped, and pressing the talk hotkey.
