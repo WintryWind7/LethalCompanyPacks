@@ -51,3 +51,21 @@ def delete(path):
         print('路径不存在')
         return 0
 
+
+def show_tools_version():
+    """输出加载工具模板"""
+    info()
+
+
+def info(string, a=''):
+    """作为基础的输出模板"""
+    if a == '^':
+        print('{:^55}'.format(string))
+    elif a == '|^|':
+        print('|{:^55}|'.format(string))
+    elif a == '-':
+        print('{:-55}'.format(string))
+    elif a == '=':
+        print('{:=55}'.format(string))
+    elif a == '' or a == '<':
+        print(string)

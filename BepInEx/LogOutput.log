@@ -24,14 +24,12 @@
 [Message:   BepInEx] Chainloader ready
 [Message:   BepInEx] Chainloader started
 [Debug  :   BepInEx] Skipping loading C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\SweetFox-Lethal_Company_Simplified_Chinese_Localization\winhttp.dll because it's not a valid .NET assembly. Full error: Format of the executable (.exe) or library (.dll) is invalid.
-[Info   :   BepInEx] 61 plugins to load
+[Info   :   BepInEx] 57 plugins to load
 [Warning:   BepInEx] Skipping [LC Sound Tool 1.4.0] because a newer version exists (LC Sound Tool 1.5.0)
 [Warning:   BepInEx] Plugin [Custom Boombox Music 1.4.0] targets a wrong version of BepInEx (5.4.22.0) and might not work until you update
 [Warning:   BepInEx] Plugin [MoreEmotes-Sligili 1.3.2] targets a wrong version of BepInEx (5.4.22.0) and might not work until you update
-[Warning:   BepInEx] Plugin [Gamblers Mod 1.0.0] targets a wrong version of BepInEx (5.4.22.0) and might not work until you update
 [Warning:   BepInEx] Plugin [HDLethalCompany-Sligili 1.5.6] targets a wrong version of BepInEx (5.4.22.0) and might not work until you update
 [Warning:   BepInEx] Plugin [TreysHealthText 1.3.0] targets a wrong version of BepInEx (5.4.22.0) and might not work until you update
-[Warning:   BepInEx] Plugin [3rd Person 1.1.0] targets a wrong version of BepInEx (5.4.22.0) and might not work until you update
 [Info   :   BepInEx] Loading [Terminal Api 1.5.0]
 [Info   :Terminal Api] Plugin TerminalApi is loaded!
 [Info   :   BepInEx] Loading [AlwaysShowClock 1.0.0]
@@ -67,8 +65,8 @@
 [Info   :SlimeTamingFix] Plugin SlimeTamingFix (com.elitemastereric.slimetamingfix) is loaded!
 [Info   :   BepInEx] Loading [ShipLoot 1.0]
 [Info   :   BepInEx] Loading [SpidersBegone 1.0]
-[Info   :   BepInEx] Loading [Lethal Company Input Utils 0.5.5]
-[Info   :Lethal Company Input Utils] InputUtils 0.5.5 has finished loading!
+[Info   :   BepInEx] Loading [Lethal Company Input Utils 0.5.6]
+[Info   :Lethal Company Input Utils] InputUtils 0.5.6 has finished loading!
 [Info   :   BepInEx] Loading [Custom Boombox Music 1.4.0]
 [Info   :Custom Boombox Music] Loading...
 [Info   :Custom Boombox Music] Created directory at C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\Custom Songs\Boombox Music
@@ -90,7 +88,7 @@
 [Info   :ReservedItemSlotCore-1.8.12] ReservedItemSlotCore loaded
 [Info   :   BepInEx] Loading [LethalThings 0.9.4]
 [Info   :LethalThings] LethalLib version is 0.13.2, which is compatible with LethalThings 0.9.0+
-[Info   :LethalThings] [Optional dependency] LethalCompanyInputUtils version is 0.5.5, which is compatible with LethalThings 0.8.0+
+[Info   :LethalThings] [Optional dependency] LethalCompanyInputUtils version is 0.5.6, which is compatible with LethalThings 0.8.0+
 [Info   :LethalThings] [Compatibility] ReservedItemSlotCore version is 1.8.12, which is compatible with LethalThings 0.8.0+
 [Info   : LethalLib] [LethalLib] LethalThings is registering 26 content items!
 [Info   :LethalThings] LethalThings loaded successfully!!!
@@ -127,110 +125,6 @@
 [Info   :HDLethalCompany-Sligili] HDLethalCompany loaded
 [Info   :   BepInEx] Loading [Needy Cats 1.1.1]
 [Info   :Jordo.NeedyCats] Initialized Needy Cats
-[Info   :   BepInEx] Loading [Gamblers Mod 1.0.0]
-[Info   :Junypai.GamblersMod] Getting configuration entry: Section: General Machine Settings Key: gamblingMachineMaxCooldown
-[Info   :Junypai.GamblersMod] Getting configuration entry: Section: Gambling Chances Key: JackpotChance
-[Info   :Junypai.GamblersMod] Getting configuration entry: Section: Gambling Chances Key: TripleChance
-[Info   :Junypai.GamblersMod] Getting configuration entry: Section: Gambling Chances Key: DoubleChance
-[Info   :Junypai.GamblersMod] Getting configuration entry: Section: Gambling Chances Key: HalveChance
-[Info   :Junypai.GamblersMod] Getting configuration entry: Section: Gambling Chances Key: ZeroChance
-[Info   :Junypai.GamblersMod] Getting configuration entry: Section: Gambling Multipliers Key: JackpotMultiplier
-[Info   :Junypai.GamblersMod] Getting configuration entry: Section: Gambling Multipliers Key: TripleMultiplier
-[Info   :Junypai.GamblersMod] Getting configuration entry: Section: Gambling Multipliers Key: DoubleMultiplier
-[Info   :Junypai.GamblersMod] Getting configuration entry: Section: Gambling Multipliers Key: HalveMultiplier
-[Info   :Junypai.GamblersMod] Getting configuration entry: Section: Gambling Multipliers Key: ZeroMultiplier
-[Info   :Junypai.GamblersMod] Getting configuration entry: Section: Audio Key: GambleMachineMusicEnabled
-[Info   :Junypai.GamblersMod] Getting configuration entry: Section: Audio Key: GambleMachineMusicVolume
-[Info   :Junypai.GamblersMod] Getting configuration entry: Section: General Machine Settings Key: Number Of Uses
-[Info   :Junypai.GamblersMod] Getting configuration entry: Section: General Machine Settings Key: Number Of Machines
-[Info   :Junypai.GamblersMod] Cooldown value from config: 4
-[Info   :Junypai.GamblersMod] Jackpot chance value from config: 3
-[Info   :Junypai.GamblersMod] Triple chance value from config: 11
-[Info   :Junypai.GamblersMod] Double chance value from config: 36
-[Info   :Junypai.GamblersMod] Halve chance value from config: 47
-[Info   :Junypai.GamblersMod] Zero chance value from config: 3
-[Info   :Junypai.GamblersMod] Jackpot multiplier value from config: 10
-[Info   :Junypai.GamblersMod] Triple multiplier value from config: 3
-[Info   :Junypai.GamblersMod] Double multiplier value from config: 2
-[Info   :Junypai.GamblersMod] Halve multiplier value from config: 0.5
-[Info   :Junypai.GamblersMod] Zero multiplier value from config: 0
-[Info   :Junypai.GamblersMod] Music enabled from config: True
-[Info   :Junypai.GamblersMod] Music volume from config: 0.35
-[Info   :Junypai.GamblersMod] Number of uses from config: 9999
-[Info   :Junypai.GamblersMod] Number of machines from config: 2
-[Info   :Junypai.GamblersMod] Getting configuration entry: Section: General Machine Settings Key: gamblingMachineMaxCooldown
-[Info   :Junypai.GamblersMod] Getting configuration entry: Section: Gambling Chances Key: JackpotChance
-[Info   :Junypai.GamblersMod] Getting configuration entry: Section: Gambling Chances Key: TripleChance
-[Info   :Junypai.GamblersMod] Getting configuration entry: Section: Gambling Chances Key: DoubleChance
-[Info   :Junypai.GamblersMod] Getting configuration entry: Section: Gambling Chances Key: HalveChance
-[Info   :Junypai.GamblersMod] Getting configuration entry: Section: Gambling Chances Key: ZeroChance
-[Info   :Junypai.GamblersMod] Getting configuration entry: Section: Gambling Multipliers Key: JackpotMultiplier
-[Info   :Junypai.GamblersMod] Getting configuration entry: Section: Gambling Multipliers Key: TripleMultiplier
-[Info   :Junypai.GamblersMod] Getting configuration entry: Section: Gambling Multipliers Key: DoubleMultiplier
-[Info   :Junypai.GamblersMod] Getting configuration entry: Section: Gambling Multipliers Key: HalveMultiplier
-[Info   :Junypai.GamblersMod] Getting configuration entry: Section: Gambling Multipliers Key: ZeroMultiplier
-[Info   :Junypai.GamblersMod] Getting configuration entry: Section: Audio Key: GambleMachineMusicEnabled
-[Info   :Junypai.GamblersMod] Getting configuration entry: Section: Audio Key: GambleMachineMusicVolume
-[Info   :Junypai.GamblersMod] Getting configuration entry: Section: General Machine Settings Key: Number Of Uses
-[Info   :Junypai.GamblersMod] Getting configuration entry: Section: General Machine Settings Key: Number Of Machines
-[Info   :Junypai.GamblersMod] Cooldown value from config: 4
-[Info   :Junypai.GamblersMod] Jackpot chance value from config: 3
-[Info   :Junypai.GamblersMod] Triple chance value from config: 11
-[Info   :Junypai.GamblersMod] Double chance value from config: 36
-[Info   :Junypai.GamblersMod] Halve chance value from config: 47
-[Info   :Junypai.GamblersMod] Zero chance value from config: 3
-[Info   :Junypai.GamblersMod] Jackpot multiplier value from config: 10
-[Info   :Junypai.GamblersMod] Triple multiplier value from config: 3
-[Info   :Junypai.GamblersMod] Double multiplier value from config: 2
-[Info   :Junypai.GamblersMod] Halve multiplier value from config: 0.5
-[Info   :Junypai.GamblersMod] Zero multiplier value from config: 0
-[Info   :Junypai.GamblersMod] Music enabled from config: True
-[Info   :Junypai.GamblersMod] Music volume from config: 0.35
-[Info   :Junypai.GamblersMod] Number of uses from config: 9999
-[Info   :Junypai.GamblersMod] Number of machines from config: 2
-[Info   :Junypai.GamblersMod] Getting configuration entry: Section: General Machine Settings Key: gamblingMachineMaxCooldown
-[Info   :Junypai.GamblersMod] Getting configuration entry: Section: Gambling Chances Key: JackpotChance
-[Info   :Junypai.GamblersMod] Getting configuration entry: Section: Gambling Chances Key: TripleChance
-[Info   :Junypai.GamblersMod] Getting configuration entry: Section: Gambling Chances Key: DoubleChance
-[Info   :Junypai.GamblersMod] Getting configuration entry: Section: Gambling Chances Key: HalveChance
-[Info   :Junypai.GamblersMod] Getting configuration entry: Section: Gambling Chances Key: ZeroChance
-[Info   :Junypai.GamblersMod] Getting configuration entry: Section: Gambling Multipliers Key: JackpotMultiplier
-[Info   :Junypai.GamblersMod] Getting configuration entry: Section: Gambling Multipliers Key: TripleMultiplier
-[Info   :Junypai.GamblersMod] Getting configuration entry: Section: Gambling Multipliers Key: DoubleMultiplier
-[Info   :Junypai.GamblersMod] Getting configuration entry: Section: Gambling Multipliers Key: HalveMultiplier
-[Info   :Junypai.GamblersMod] Getting configuration entry: Section: Gambling Multipliers Key: ZeroMultiplier
-[Info   :Junypai.GamblersMod] Getting configuration entry: Section: Audio Key: GambleMachineMusicEnabled
-[Info   :Junypai.GamblersMod] Getting configuration entry: Section: Audio Key: GambleMachineMusicVolume
-[Info   :Junypai.GamblersMod] Getting configuration entry: Section: General Machine Settings Key: Number Of Uses
-[Info   :Junypai.GamblersMod] Getting configuration entry: Section: General Machine Settings Key: Number Of Machines
-[Info   :Junypai.GamblersMod] Cooldown value from config: 4
-[Info   :Junypai.GamblersMod] Jackpot chance value from config: 3
-[Info   :Junypai.GamblersMod] Triple chance value from config: 11
-[Info   :Junypai.GamblersMod] Double chance value from config: 36
-[Info   :Junypai.GamblersMod] Halve chance value from config: 47
-[Info   :Junypai.GamblersMod] Zero chance value from config: 3
-[Info   :Junypai.GamblersMod] Jackpot multiplier value from config: 10
-[Info   :Junypai.GamblersMod] Triple multiplier value from config: 3
-[Info   :Junypai.GamblersMod] Double multiplier value from config: 2
-[Info   :Junypai.GamblersMod] Halve multiplier value from config: 0.5
-[Info   :Junypai.GamblersMod] Zero multiplier value from config: 0
-[Info   :Junypai.GamblersMod] Music enabled from config: True
-[Info   :Junypai.GamblersMod] Music volume from config: 0.35
-[Info   :Junypai.GamblersMod] Number of uses from config: 9999
-[Info   :Junypai.GamblersMod] Number of machines from config: 2
-[Info   :Junypai.GamblersMod] Loading gambler bundle assets
-[Info   :Junypai.GamblersMod] Gamblers bundle assets successfully loaded
-[Info   :Junypai.GamblersMod] drumroll asset successfully loaded
-[Info   :Junypai.GamblersMod] holyshit asset successfully loaded
-[Info   :Junypai.GamblersMod] cricket asset successfully loaded
-[Info   :Junypai.GamblersMod] womp asset successfully loaded
-[Info   :Junypai.GamblersMod] machineMusic asset successfully loaded
-[Info   :Junypai.GamblersMod] doublekill asset successfully loaded
-[Info   :Junypai.GamblersMod] triplekill asset successfully loaded
-[Info   :Junypai.GamblersMod] 3270-Regular asset successfully loaded
-[Info   :Junypai.GamblersMod] GamblingMachine asset successfully loaded
-[Info   :Junypai.GamblersMod] HandIconGO asset successfully loaded
-[Message:Junypai.GamblersMod] Gambling machine manager has awoken!
 [Info   :   BepInEx] Loading [LC Sound Tool 1.5.0]
 [Info   :LCSoundTool] Plugin LCSoundTool is loaded!
 [Info   :   BepInEx] Loading [LethalPresents 1.0.4]
@@ -307,7 +201,6 @@
 [Info   :   BepInEx] Loading [BepInUtils 1.2.1]
 [Info   :BepInUtils] System loaded.
 [Info   :   BepInEx] Loading [Lethal Company API 0.0.5]
-[Info   :   BepInEx] Loading [Cabinet Item Storage 0.0.4]
 [Info   :   BepInEx] Loading [Glow Steps 1.1.2]
 [Info   :Glow Steps] [Production] Patched class FootstepPatcher, containing 2 methods.
 [Info   :   BepInEx] Loading [Always Pickup 1.0.0]
@@ -352,8 +245,6 @@
 [Info   :suskitech.LCAlwaysHearActiveWalkie] PlayerToPlayerSpatialHearingRange: 20
 [Info   :   BepInEx] Loading [NameplateTweaks 1.0.6]
 [Info   :NameplateTweaks] Loading taffyko.NameplateTweaks
-[Info   :   BepInEx] Loading [TalkingHeads 1.0.0]
-[Info   :TalkingHeads] Plugin TalkingHeads is loaded!
 [Info   :   BepInEx] Loading [LethalRegeneration 1.2.0]
 [Info   :LethalRegeneration] Configuration Set
 [Info   :LethalRegeneration] Loaded Succesfully
@@ -378,8 +269,6 @@
 [Info   :TreysHealthText] Harmony patches applied.
 [Info   :   BepInEx] Loading [UnlockOnStart 0.3.0]
 [Info   :UnlockOnStart] Plugin UnlockOnStart is loaded!
-[Info   :   BepInEx] Loading [3rd Person 1.1.0]
-[Info   :3rd Person] 3rd Person Mod Loaded.
 [Info   :   BepInEx] Loading [WeatherMultipliers 1.1.0]
 [Info   :WeatherMultipliers] Plugin WeatherMultipliers is loaded!
 [Info   :   BepInEx] Loading [Mimics 2.3.2]
@@ -391,7 +280,7 @@
 [Info   :ReservedWalkieSlot] Initializing hotkeys.
 [Info   :Lethal Company API] LC_API Started!
 [Warning:LCSoundTool] Networking disabled. Mod in fully client side mode, but no networked actions can take place! You can safely ignore this if you want the mod to run fully client side.
-[Info   : Elads HUD] 60 plugins loaded
+[Info   : Elads HUD] 56 plugins loaded
 [Info   : Elads HUD] Plugin GUID: atomic.terminalapi
 [Info   : Elads HUD] Plugin GUID: AUniqueName.AlwaysShowClock
 [Info   : Elads HUD] Plugin GUID: BetterTeleporter
@@ -417,7 +306,6 @@
 [Info   : Elads HUD] Plugin GUID: GameTranslator
 [Info   : Elads HUD] Plugin GUID: HDLethalCompany
 [Info   : Elads HUD] Plugin GUID: Jordo.NeedyCats
-[Info   : Elads HUD] Plugin GUID: Junypai.GamblersMod
 [Info   : Elads HUD] Plugin GUID: LCSoundTool
 [Info   : Elads HUD] Plugin GUID: LethalPresents
 [Info   : Elads HUD] Plugin GUID: me.swipez.melonloader.morecompany
@@ -436,7 +324,6 @@
 [Info   : Elads HUD] Plugin GUID: niceh.Symbiosis
 [Info   : Elads HUD] Plugin GUID: NicholaScott.BepInEx.Utils
 [Info   : Elads HUD] Plugin GUID: NicholaScott.LethalCompany.API
-[Info   : Elads HUD] Plugin GUID: NicholaScott.LethalCompany.CabinetStorage
 [Info   : Elads HUD] Plugin GUID: NicholaScott.LethalCompany.GlowSteps
 [Info   : Elads HUD] Plugin GUID: NutNutty.AlwaysPickup
 [Info   : Elads HUD] Plugin GUID: oe.tweaks.qol.possessedmask
@@ -444,24 +331,12 @@
 [Info   : Elads HUD] Plugin GUID: RugbugRedfern.SkinwalkerMod
 [Info   : Elads HUD] Plugin GUID: suskitech.LCAlwaysHearActiveWalkie
 [Info   : Elads HUD] Plugin GUID: taffyko.NameplateTweaks
-[Info   : Elads HUD] Plugin GUID: TalkingHeads
 [Info   : Elads HUD] Plugin GUID: Toskan4134.LethalRegeneration
 [Info   : Elads HUD] Plugin GUID: TreysHealthText
 [Info   : Elads HUD] Plugin GUID: UnlockOnStart
-[Info   : Elads HUD] Plugin GUID: verity.3rdperson
 [Info   : Elads HUD] Plugin GUID: WeatherMultipliers
 [Info   : Elads HUD] Plugin GUID: x753.Mimics
 [Info   : Elads HUD] Plugin GUID: x753.More_Suits
-[Info   :3rd Person] Local Player Caching Initialized.
-[Info   :3rd Person] Keybinding Initialized, Current Keybind c.
-[Info   :3rd Person] Third Person Camera Initialized.
-[Info   :3rd Person] Open Menu Hooked.
-[Info   :3rd Person] Close Menu Hooked.
-[Info   :3rd Person] Open Terminal Hooked.
-[Info   :3rd Person] Close Terminal Hooked.
-[Info   :3rd Person] Player Look Input Hooked.
-[Info   :3rd Person] Player Killed Hooked.
-[Info   :3rd Person] Hooks Initialized.
 [Debug  :   BepInEx] [UnityInput] Unknown key name: OEM1, skipping remapping
 [Debug  :   BepInEx] [UnityInput] Unknown key name: OEM2, skipping remapping
 [Debug  :   BepInEx] [UnityInput] Unknown key name: OEM3, skipping remapping
@@ -474,7 +349,6 @@
 [Info   :BuyableShotgun] Shotgun added to Shop for 700 credits
 [Info   :Buyable Shotgun Shells] Shotgun Shells added to Shop for 20 credits
 [Info   :Jordo.NeedyCats] Added Needy Cats prefab to Network Manager.
-[Info   :Junypai.GamblersMod] Adding Gambling machine to network prefab
 [Info   :BuyableShotgun] Shotgun added to Shop for 700 credits
 [Info   :Buyable Shotgun Shells] Shotgun Shells added to Shop for 20 credits
 [Message:Lethal Company API] server pre-setup success
@@ -521,7 +395,6 @@
 [Info   :Custom Boombox Music] Loading C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\Custom Songs\Boombox Music\鸡你太美.mp3!
 [Info   :Custom Boombox Music] Loading C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\Custom Songs\Boombox Music\黑桃A.mp3!
 [Info   :Jordo.NeedyCats] Added Needy Cats to items list.
-[Info   :Junypai.GamblersMod] StartOfRoundPatch has awoken
 [Info   : LethalLib] Added Boomba to ExperimentationLevel with SpawnType [Default]
 [Info   : LethalLib] Added Boomba to AssuranceLevel with SpawnType [Default]
 [Info   : LethalLib] Added Boomba to VowLevel with SpawnType [Default]
@@ -540,125 +413,12 @@
 [Info   : LethalLib] Added TeleporterTrap to DineLevel
 [Info   : LethalLib] Added TeleporterTrap to OffenseLevel
 [Info   : LethalLib] Added TeleporterTrap to TitanLevel
-[Info   :TalkingHeads] StartOfRound patch subscribed to voiceChatModule events
-[Warning:GameTranslator] 处理UI发现时发生错误.
-System.NullReferenceException: Object reference not set to an instance of an object.
-  at (wrapper managed-to-native) UnityEngine.Font.get_fontSize(UnityEngine.Font)
-  at (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.FastReflection<UnityEngine.Font.get_fontSize>(object,object[])
-  at XUnity.Common.Utilities.CachedProperty.Get (System.Object instance) [0x0000a] in <5f5c77dda5b3447393f01a7ca8c77c71>:IL_000A 
-  at GameTranslator.Patches.Translatons.TextTranslationInfo.ChangeFont (System.Object ui) [0x00082] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_0082 
-  at GameTranslator.Patches.Utils.TextTranslate.DiscoverComponent (System.Object ui, GameTranslator.Patches.Translatons.TextTranslationInfo info) [0x0003a] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_003A 
-[Warning:GameTranslator] 处理UI发现时发生错误.
-System.NullReferenceException: Object reference not set to an instance of an object.
-  at (wrapper managed-to-native) UnityEngine.Font.get_fontSize(UnityEngine.Font)
-  at (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.FastReflection<UnityEngine.Font.get_fontSize>(object,object[])
-  at XUnity.Common.Utilities.CachedProperty.Get (System.Object instance) [0x0000a] in <5f5c77dda5b3447393f01a7ca8c77c71>:IL_000A 
-  at GameTranslator.Patches.Translatons.TextTranslationInfo.ChangeFont (System.Object ui) [0x00082] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_0082 
-  at GameTranslator.Patches.Utils.TextTranslate.DiscoverComponent (System.Object ui, GameTranslator.Patches.Translatons.TextTranslationInfo info) [0x0003a] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_003A 
-[Warning:GameTranslator] 处理UI发现时发生错误.
-System.NullReferenceException: Object reference not set to an instance of an object.
-  at (wrapper managed-to-native) UnityEngine.Font.get_fontSize(UnityEngine.Font)
-  at (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.FastReflection<UnityEngine.Font.get_fontSize>(object,object[])
-  at XUnity.Common.Utilities.CachedProperty.Get (System.Object instance) [0x0000a] in <5f5c77dda5b3447393f01a7ca8c77c71>:IL_000A 
-  at GameTranslator.Patches.Translatons.TextTranslationInfo.ChangeFont (System.Object ui) [0x00082] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_0082 
-  at GameTranslator.Patches.Utils.TextTranslate.DiscoverComponent (System.Object ui, GameTranslator.Patches.Translatons.TextTranslationInfo info) [0x0003a] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_003A 
-[Warning:GameTranslator] 处理UI发现时发生错误.
-System.NullReferenceException: Object reference not set to an instance of an object.
-  at (wrapper managed-to-native) UnityEngine.Font.get_fontSize(UnityEngine.Font)
-  at (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.FastReflection<UnityEngine.Font.get_fontSize>(object,object[])
-  at XUnity.Common.Utilities.CachedProperty.Get (System.Object instance) [0x0000a] in <5f5c77dda5b3447393f01a7ca8c77c71>:IL_000A 
-  at GameTranslator.Patches.Translatons.TextTranslationInfo.ChangeFont (System.Object ui) [0x00082] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_0082 
-  at GameTranslator.Patches.Utils.TextTranslate.DiscoverComponent (System.Object ui, GameTranslator.Patches.Translatons.TextTranslationInfo info) [0x0003a] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_003A 
 [Info   :RuntimeNetcodeRPCValidator] Successfully added SignEmoteText to PlayerControllerB via Awake. Triggered by plugin MoreEmotes
 [Info   :RuntimeNetcodeRPCValidator] Successfully added SyncAnimatorToOthers to PlayerControllerB via Awake. Triggered by plugin MoreEmotes
-[Warning:GameTranslator] 处理UI发现时发生错误.
-System.NullReferenceException: Object reference not set to an instance of an object.
-  at (wrapper managed-to-native) UnityEngine.Font.get_fontSize(UnityEngine.Font)
-  at (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.FastReflection<UnityEngine.Font.get_fontSize>(object,object[])
-  at XUnity.Common.Utilities.CachedProperty.Get (System.Object instance) [0x0000a] in <5f5c77dda5b3447393f01a7ca8c77c71>:IL_000A 
-  at GameTranslator.Patches.Translatons.TextTranslationInfo.ChangeFont (System.Object ui) [0x00082] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_0082 
-  at GameTranslator.Patches.Utils.TextTranslate.DiscoverComponent (System.Object ui, GameTranslator.Patches.Translatons.TextTranslationInfo info) [0x0003a] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_003A 
-[Warning:GameTranslator] 处理UI发现时发生错误.
-System.NullReferenceException: Object reference not set to an instance of an object.
-  at (wrapper managed-to-native) UnityEngine.Font.get_fontSize(UnityEngine.Font)
-  at (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.FastReflection<UnityEngine.Font.get_fontSize>(object,object[])
-  at XUnity.Common.Utilities.CachedProperty.Get (System.Object instance) [0x0000a] in <5f5c77dda5b3447393f01a7ca8c77c71>:IL_000A 
-  at GameTranslator.Patches.Translatons.TextTranslationInfo.ChangeFont (System.Object ui) [0x00082] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_0082 
-  at GameTranslator.Patches.Utils.TextTranslate.DiscoverComponent (System.Object ui, GameTranslator.Patches.Translatons.TextTranslationInfo info) [0x0003a] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_003A 
-[Warning:GameTranslator] 处理UI发现时发生错误.
-System.NullReferenceException: Object reference not set to an instance of an object.
-  at (wrapper managed-to-native) UnityEngine.Font.get_fontSize(UnityEngine.Font)
-  at (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.FastReflection<UnityEngine.Font.get_fontSize>(object,object[])
-  at XUnity.Common.Utilities.CachedProperty.Get (System.Object instance) [0x0000a] in <5f5c77dda5b3447393f01a7ca8c77c71>:IL_000A 
-  at GameTranslator.Patches.Translatons.TextTranslationInfo.ChangeFont (System.Object ui) [0x00082] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_0082 
-  at GameTranslator.Patches.Utils.TextTranslate.DiscoverComponent (System.Object ui, GameTranslator.Patches.Translatons.TextTranslationInfo info) [0x0003a] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_003A 
-[Warning:GameTranslator] 处理UI发现时发生错误.
-System.NullReferenceException: Object reference not set to an instance of an object.
-  at (wrapper managed-to-native) UnityEngine.Font.get_fontSize(UnityEngine.Font)
-  at (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.FastReflection<UnityEngine.Font.get_fontSize>(object,object[])
-  at XUnity.Common.Utilities.CachedProperty.Get (System.Object instance) [0x0000a] in <5f5c77dda5b3447393f01a7ca8c77c71>:IL_000A 
-  at GameTranslator.Patches.Translatons.TextTranslationInfo.ChangeFont (System.Object ui) [0x00082] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_0082 
-  at GameTranslator.Patches.Utils.TextTranslate.DiscoverComponent (System.Object ui, GameTranslator.Patches.Translatons.TextTranslationInfo info) [0x0003a] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_003A 
 [Info   :RuntimeNetcodeRPCValidator] Successfully added SignEmoteText to PlayerControllerB via Awake. Triggered by plugin MoreEmotes
 [Info   :RuntimeNetcodeRPCValidator] Successfully added SyncAnimatorToOthers to PlayerControllerB via Awake. Triggered by plugin MoreEmotes
-[Warning:GameTranslator] 处理UI发现时发生错误.
-System.NullReferenceException: Object reference not set to an instance of an object.
-  at (wrapper managed-to-native) UnityEngine.Font.get_fontSize(UnityEngine.Font)
-  at (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.FastReflection<UnityEngine.Font.get_fontSize>(object,object[])
-  at XUnity.Common.Utilities.CachedProperty.Get (System.Object instance) [0x0000a] in <5f5c77dda5b3447393f01a7ca8c77c71>:IL_000A 
-  at GameTranslator.Patches.Translatons.TextTranslationInfo.ChangeFont (System.Object ui) [0x00082] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_0082 
-  at GameTranslator.Patches.Utils.TextTranslate.DiscoverComponent (System.Object ui, GameTranslator.Patches.Translatons.TextTranslationInfo info) [0x0003a] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_003A 
-[Warning:GameTranslator] 处理UI发现时发生错误.
-System.NullReferenceException: Object reference not set to an instance of an object.
-  at (wrapper managed-to-native) UnityEngine.Font.get_fontSize(UnityEngine.Font)
-  at (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.FastReflection<UnityEngine.Font.get_fontSize>(object,object[])
-  at XUnity.Common.Utilities.CachedProperty.Get (System.Object instance) [0x0000a] in <5f5c77dda5b3447393f01a7ca8c77c71>:IL_000A 
-  at GameTranslator.Patches.Translatons.TextTranslationInfo.ChangeFont (System.Object ui) [0x00082] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_0082 
-  at GameTranslator.Patches.Utils.TextTranslate.DiscoverComponent (System.Object ui, GameTranslator.Patches.Translatons.TextTranslationInfo info) [0x0003a] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_003A 
-[Warning:GameTranslator] 处理UI发现时发生错误.
-System.NullReferenceException: Object reference not set to an instance of an object.
-  at (wrapper managed-to-native) UnityEngine.Font.get_fontSize(UnityEngine.Font)
-  at (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.FastReflection<UnityEngine.Font.get_fontSize>(object,object[])
-  at XUnity.Common.Utilities.CachedProperty.Get (System.Object instance) [0x0000a] in <5f5c77dda5b3447393f01a7ca8c77c71>:IL_000A 
-  at GameTranslator.Patches.Translatons.TextTranslationInfo.ChangeFont (System.Object ui) [0x00082] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_0082 
-  at GameTranslator.Patches.Utils.TextTranslate.DiscoverComponent (System.Object ui, GameTranslator.Patches.Translatons.TextTranslationInfo info) [0x0003a] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_003A 
-[Warning:GameTranslator] 处理UI发现时发生错误.
-System.NullReferenceException: Object reference not set to an instance of an object.
-  at (wrapper managed-to-native) UnityEngine.Font.get_fontSize(UnityEngine.Font)
-  at (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.FastReflection<UnityEngine.Font.get_fontSize>(object,object[])
-  at XUnity.Common.Utilities.CachedProperty.Get (System.Object instance) [0x0000a] in <5f5c77dda5b3447393f01a7ca8c77c71>:IL_000A 
-  at GameTranslator.Patches.Translatons.TextTranslationInfo.ChangeFont (System.Object ui) [0x00082] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_0082 
-  at GameTranslator.Patches.Utils.TextTranslate.DiscoverComponent (System.Object ui, GameTranslator.Patches.Translatons.TextTranslationInfo info) [0x0003a] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_003A 
 [Info   :RuntimeNetcodeRPCValidator] Successfully added SignEmoteText to PlayerControllerB via Awake. Triggered by plugin MoreEmotes
 [Info   :RuntimeNetcodeRPCValidator] Successfully added SyncAnimatorToOthers to PlayerControllerB via Awake. Triggered by plugin MoreEmotes
-[Warning:GameTranslator] 处理UI发现时发生错误.
-System.NullReferenceException: Object reference not set to an instance of an object.
-  at (wrapper managed-to-native) UnityEngine.Font.get_fontSize(UnityEngine.Font)
-  at (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.FastReflection<UnityEngine.Font.get_fontSize>(object,object[])
-  at XUnity.Common.Utilities.CachedProperty.Get (System.Object instance) [0x0000a] in <5f5c77dda5b3447393f01a7ca8c77c71>:IL_000A 
-  at GameTranslator.Patches.Translatons.TextTranslationInfo.ChangeFont (System.Object ui) [0x00082] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_0082 
-  at GameTranslator.Patches.Utils.TextTranslate.DiscoverComponent (System.Object ui, GameTranslator.Patches.Translatons.TextTranslationInfo info) [0x0003a] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_003A 
-[Warning:GameTranslator] 处理UI发现时发生错误.
-System.NullReferenceException: Object reference not set to an instance of an object.
-  at (wrapper managed-to-native) UnityEngine.Font.get_fontSize(UnityEngine.Font)
-  at (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.FastReflection<UnityEngine.Font.get_fontSize>(object,object[])
-  at XUnity.Common.Utilities.CachedProperty.Get (System.Object instance) [0x0000a] in <5f5c77dda5b3447393f01a7ca8c77c71>:IL_000A 
-  at GameTranslator.Patches.Translatons.TextTranslationInfo.ChangeFont (System.Object ui) [0x00082] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_0082 
-  at GameTranslator.Patches.Utils.TextTranslate.DiscoverComponent (System.Object ui, GameTranslator.Patches.Translatons.TextTranslationInfo info) [0x0003a] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_003A 
-[Warning:GameTranslator] 处理UI发现时发生错误.
-System.NullReferenceException: Object reference not set to an instance of an object.
-  at (wrapper managed-to-native) UnityEngine.Font.get_fontSize(UnityEngine.Font)
-  at (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.FastReflection<UnityEngine.Font.get_fontSize>(object,object[])
-  at XUnity.Common.Utilities.CachedProperty.Get (System.Object instance) [0x0000a] in <5f5c77dda5b3447393f01a7ca8c77c71>:IL_000A 
-  at GameTranslator.Patches.Translatons.TextTranslationInfo.ChangeFont (System.Object ui) [0x00082] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_0082 
-  at GameTranslator.Patches.Utils.TextTranslate.DiscoverComponent (System.Object ui, GameTranslator.Patches.Translatons.TextTranslationInfo info) [0x0003a] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_003A 
-[Warning:GameTranslator] 处理UI发现时发生错误.
-System.NullReferenceException: Object reference not set to an instance of an object.
-  at (wrapper managed-to-native) UnityEngine.Font.get_fontSize(UnityEngine.Font)
-  at (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.FastReflection<UnityEngine.Font.get_fontSize>(object,object[])
-  at XUnity.Common.Utilities.CachedProperty.Get (System.Object instance) [0x0000a] in <5f5c77dda5b3447393f01a7ca8c77c71>:IL_000A 
-  at GameTranslator.Patches.Translatons.TextTranslationInfo.ChangeFont (System.Object ui) [0x00082] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_0082 
-  at GameTranslator.Patches.Utils.TextTranslate.DiscoverComponent (System.Object ui, GameTranslator.Patches.Translatons.TextTranslationInfo info) [0x0003a] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_003A 
 [Info   :RuntimeNetcodeRPCValidator] Successfully added SignEmoteText to PlayerControllerB via Awake. Triggered by plugin MoreEmotes
 [Info   :RuntimeNetcodeRPCValidator] Successfully added SyncAnimatorToOthers to PlayerControllerB via Awake. Triggered by plugin MoreEmotes
 [Info   : LethalLib] Adding 4 unlockables to unlockables list
@@ -850,700 +610,27 @@ System.NullReferenceException: Object reference not set to an instance of an obj
 [Info   : LethalLib] Generated keyword: shells
 [Info   : LethalLib] Item Shotgun already exists in terminal, skipping
 [Info   : LethalLib] Item Shells already exists in terminal, skipping
-[Info   :Junypai.GamblersMod] RoundManagerPatch has awoken
 [Info   :TreysHealthText] UpdatedHealth
 [Info   :BuyableShotgun] Shotgun added to Shop for 700 credits
 [Info   :Buyable Shotgun Shells] Shotgun Shells added to Shop for 20 credits
 [Info   :RugbugRedfern.SkinwalkerMod] HOST SENDING CONFIG TO CLIENTS
 [Info   :RugbugRedfern.SkinwalkerMod] SkinwalkerNetworkManager Awake
-[Warning:GameTranslator] 处理UI发现时发生错误.
-System.NullReferenceException: Object reference not set to an instance of an object.
-  at (wrapper managed-to-native) UnityEngine.Font.get_fontSize(UnityEngine.Font)
-  at (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.FastReflection<UnityEngine.Font.get_fontSize>(object,object[])
-  at XUnity.Common.Utilities.CachedProperty.Get (System.Object instance) [0x0000a] in <5f5c77dda5b3447393f01a7ca8c77c71>:IL_000A 
-  at GameTranslator.Patches.Translatons.TextTranslationInfo.ChangeFont (System.Object ui) [0x00082] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_0082 
-  at GameTranslator.Patches.Utils.TextTranslate.DiscoverComponent (System.Object ui, GameTranslator.Patches.Translatons.TextTranslationInfo info) [0x0003a] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_003A 
-[Warning:GameTranslator] 处理UI发现时发生错误.
-System.NullReferenceException: Object reference not set to an instance of an object.
-  at (wrapper managed-to-native) UnityEngine.Font.get_fontSize(UnityEngine.Font)
-  at (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.FastReflection<UnityEngine.Font.get_fontSize>(object,object[])
-  at XUnity.Common.Utilities.CachedProperty.Get (System.Object instance) [0x0000a] in <5f5c77dda5b3447393f01a7ca8c77c71>:IL_000A 
-  at GameTranslator.Patches.Translatons.TextTranslationInfo.ChangeFont (System.Object ui) [0x00082] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_0082 
-  at GameTranslator.Patches.Utils.TextTranslate.DiscoverComponent (System.Object ui, GameTranslator.Patches.Translatons.TextTranslationInfo info) [0x0003a] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_003A 
-[Warning:GameTranslator] 处理UI发现时发生错误.
-System.NullReferenceException: Object reference not set to an instance of an object.
-  at (wrapper managed-to-native) UnityEngine.Font.get_fontSize(UnityEngine.Font)
-  at (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.FastReflection<UnityEngine.Font.get_fontSize>(object,object[])
-  at XUnity.Common.Utilities.CachedProperty.Get (System.Object instance) [0x0000a] in <5f5c77dda5b3447393f01a7ca8c77c71>:IL_000A 
-  at GameTranslator.Patches.Translatons.TextTranslationInfo.ChangeFont (System.Object ui) [0x00082] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_0082 
-  at GameTranslator.Patches.Utils.TextTranslate.DiscoverComponent (System.Object ui, GameTranslator.Patches.Translatons.TextTranslationInfo info) [0x0003a] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_003A 
-[Warning:GameTranslator] 处理UI发现时发生错误.
-System.NullReferenceException: Object reference not set to an instance of an object.
-  at (wrapper managed-to-native) UnityEngine.Font.get_fontSize(UnityEngine.Font)
-  at (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.FastReflection<UnityEngine.Font.get_fontSize>(object,object[])
-  at XUnity.Common.Utilities.CachedProperty.Get (System.Object instance) [0x0000a] in <5f5c77dda5b3447393f01a7ca8c77c71>:IL_000A 
-  at GameTranslator.Patches.Translatons.TextTranslationInfo.ChangeFont (System.Object ui) [0x00082] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_0082 
-  at GameTranslator.Patches.Utils.TextTranslate.DiscoverComponent (System.Object ui, GameTranslator.Patches.Translatons.TextTranslationInfo info) [0x0003a] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_003A 
 [Info   :RuntimeNetcodeRPCValidator] Successfully added SignEmoteText to PlayerControllerB via Awake. Triggered by plugin MoreEmotes
 [Info   :RuntimeNetcodeRPCValidator] Successfully added SyncAnimatorToOthers to PlayerControllerB via Awake. Triggered by plugin MoreEmotes
-[Warning:GameTranslator] 处理UI发现时发生错误.
-System.NullReferenceException: Object reference not set to an instance of an object.
-  at (wrapper managed-to-native) UnityEngine.Font.get_fontSize(UnityEngine.Font)
-  at (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.FastReflection<UnityEngine.Font.get_fontSize>(object,object[])
-  at XUnity.Common.Utilities.CachedProperty.Get (System.Object instance) [0x0000a] in <5f5c77dda5b3447393f01a7ca8c77c71>:IL_000A 
-  at GameTranslator.Patches.Translatons.TextTranslationInfo.ChangeFont (System.Object ui) [0x00082] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_0082 
-  at GameTranslator.Patches.Utils.TextTranslate.DiscoverComponent (System.Object ui, GameTranslator.Patches.Translatons.TextTranslationInfo info) [0x0003a] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_003A 
-[Warning:GameTranslator] 处理UI发现时发生错误.
-System.NullReferenceException: Object reference not set to an instance of an object.
-  at (wrapper managed-to-native) UnityEngine.Font.get_fontSize(UnityEngine.Font)
-  at (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.FastReflection<UnityEngine.Font.get_fontSize>(object,object[])
-  at XUnity.Common.Utilities.CachedProperty.Get (System.Object instance) [0x0000a] in <5f5c77dda5b3447393f01a7ca8c77c71>:IL_000A 
-  at GameTranslator.Patches.Translatons.TextTranslationInfo.ChangeFont (System.Object ui) [0x00082] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_0082 
-  at GameTranslator.Patches.Utils.TextTranslate.DiscoverComponent (System.Object ui, GameTranslator.Patches.Translatons.TextTranslationInfo info) [0x0003a] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_003A 
-[Warning:GameTranslator] 处理UI发现时发生错误.
-System.NullReferenceException: Object reference not set to an instance of an object.
-  at (wrapper managed-to-native) UnityEngine.Font.get_fontSize(UnityEngine.Font)
-  at (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.FastReflection<UnityEngine.Font.get_fontSize>(object,object[])
-  at XUnity.Common.Utilities.CachedProperty.Get (System.Object instance) [0x0000a] in <5f5c77dda5b3447393f01a7ca8c77c71>:IL_000A 
-  at GameTranslator.Patches.Translatons.TextTranslationInfo.ChangeFont (System.Object ui) [0x00082] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_0082 
-  at GameTranslator.Patches.Utils.TextTranslate.DiscoverComponent (System.Object ui, GameTranslator.Patches.Translatons.TextTranslationInfo info) [0x0003a] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_003A 
-[Warning:GameTranslator] 处理UI发现时发生错误.
-System.NullReferenceException: Object reference not set to an instance of an object.
-  at (wrapper managed-to-native) UnityEngine.Font.get_fontSize(UnityEngine.Font)
-  at (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.FastReflection<UnityEngine.Font.get_fontSize>(object,object[])
-  at XUnity.Common.Utilities.CachedProperty.Get (System.Object instance) [0x0000a] in <5f5c77dda5b3447393f01a7ca8c77c71>:IL_000A 
-  at GameTranslator.Patches.Translatons.TextTranslationInfo.ChangeFont (System.Object ui) [0x00082] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_0082 
-  at GameTranslator.Patches.Utils.TextTranslate.DiscoverComponent (System.Object ui, GameTranslator.Patches.Translatons.TextTranslationInfo info) [0x0003a] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_003A 
-[Warning:GameTranslator] 处理UI发现时发生错误.
-System.NullReferenceException: Object reference not set to an instance of an object.
-  at (wrapper managed-to-native) UnityEngine.Font.get_fontSize(UnityEngine.Font)
-  at (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.FastReflection<UnityEngine.Font.get_fontSize>(object,object[])
-  at XUnity.Common.Utilities.CachedProperty.Get (System.Object instance) [0x0000a] in <5f5c77dda5b3447393f01a7ca8c77c71>:IL_000A 
-  at GameTranslator.Patches.Translatons.TextTranslationInfo.ChangeFont (System.Object ui) [0x00082] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_0082 
-  at GameTranslator.Patches.Utils.TextTranslate.DiscoverComponent (System.Object ui, GameTranslator.Patches.Translatons.TextTranslationInfo info) [0x0003a] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_003A 
-[Warning:GameTranslator] 处理UI发现时发生错误.
-System.NullReferenceException: Object reference not set to an instance of an object.
-  at (wrapper managed-to-native) UnityEngine.Font.get_fontSize(UnityEngine.Font)
-  at (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.FastReflection<UnityEngine.Font.get_fontSize>(object,object[])
-  at XUnity.Common.Utilities.CachedProperty.Get (System.Object instance) [0x0000a] in <5f5c77dda5b3447393f01a7ca8c77c71>:IL_000A 
-  at GameTranslator.Patches.Translatons.TextTranslationInfo.ChangeFont (System.Object ui) [0x00082] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_0082 
-  at GameTranslator.Patches.Utils.TextTranslate.DiscoverComponent (System.Object ui, GameTranslator.Patches.Translatons.TextTranslationInfo info) [0x0003a] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_003A 
-[Warning:GameTranslator] 处理UI发现时发生错误.
-System.NullReferenceException: Object reference not set to an instance of an object.
-  at (wrapper managed-to-native) UnityEngine.Font.get_fontSize(UnityEngine.Font)
-  at (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.FastReflection<UnityEngine.Font.get_fontSize>(object,object[])
-  at XUnity.Common.Utilities.CachedProperty.Get (System.Object instance) [0x0000a] in <5f5c77dda5b3447393f01a7ca8c77c71>:IL_000A 
-  at GameTranslator.Patches.Translatons.TextTranslationInfo.ChangeFont (System.Object ui) [0x00082] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_0082 
-  at GameTranslator.Patches.Utils.TextTranslate.DiscoverComponent (System.Object ui, GameTranslator.Patches.Translatons.TextTranslationInfo info) [0x0003a] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_003A 
-[Warning:GameTranslator] 处理UI发现时发生错误.
-System.NullReferenceException: Object reference not set to an instance of an object.
-  at (wrapper managed-to-native) UnityEngine.Font.get_fontSize(UnityEngine.Font)
-  at (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.FastReflection<UnityEngine.Font.get_fontSize>(object,object[])
-  at XUnity.Common.Utilities.CachedProperty.Get (System.Object instance) [0x0000a] in <5f5c77dda5b3447393f01a7ca8c77c71>:IL_000A 
-  at GameTranslator.Patches.Translatons.TextTranslationInfo.ChangeFont (System.Object ui) [0x00082] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_0082 
-  at GameTranslator.Patches.Utils.TextTranslate.DiscoverComponent (System.Object ui, GameTranslator.Patches.Translatons.TextTranslationInfo info) [0x0003a] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_003A 
-[Warning:GameTranslator] 处理UI发现时发生错误.
-System.NullReferenceException: Object reference not set to an instance of an object.
-  at (wrapper managed-to-native) UnityEngine.Font.get_fontSize(UnityEngine.Font)
-  at (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.FastReflection<UnityEngine.Font.get_fontSize>(object,object[])
-  at XUnity.Common.Utilities.CachedProperty.Get (System.Object instance) [0x0000a] in <5f5c77dda5b3447393f01a7ca8c77c71>:IL_000A 
-  at GameTranslator.Patches.Translatons.TextTranslationInfo.ChangeFont (System.Object ui) [0x00082] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_0082 
-  at GameTranslator.Patches.Utils.TextTranslate.DiscoverComponent (System.Object ui, GameTranslator.Patches.Translatons.TextTranslationInfo info) [0x0003a] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_003A 
-[Warning:GameTranslator] 处理UI发现时发生错误.
-System.NullReferenceException: Object reference not set to an instance of an object.
-  at (wrapper managed-to-native) UnityEngine.Font.get_fontSize(UnityEngine.Font)
-  at (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.FastReflection<UnityEngine.Font.get_fontSize>(object,object[])
-  at XUnity.Common.Utilities.CachedProperty.Get (System.Object instance) [0x0000a] in <5f5c77dda5b3447393f01a7ca8c77c71>:IL_000A 
-  at GameTranslator.Patches.Translatons.TextTranslationInfo.ChangeFont (System.Object ui) [0x00082] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_0082 
-  at GameTranslator.Patches.Utils.TextTranslate.DiscoverComponent (System.Object ui, GameTranslator.Patches.Translatons.TextTranslationInfo info) [0x0003a] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_003A 
-[Warning:GameTranslator] 处理UI发现时发生错误.
-System.NullReferenceException: Object reference not set to an instance of an object.
-  at (wrapper managed-to-native) UnityEngine.Font.get_fontSize(UnityEngine.Font)
-  at (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.FastReflection<UnityEngine.Font.get_fontSize>(object,object[])
-  at XUnity.Common.Utilities.CachedProperty.Get (System.Object instance) [0x0000a] in <5f5c77dda5b3447393f01a7ca8c77c71>:IL_000A 
-  at GameTranslator.Patches.Translatons.TextTranslationInfo.ChangeFont (System.Object ui) [0x00082] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_0082 
-  at GameTranslator.Patches.Utils.TextTranslate.DiscoverComponent (System.Object ui, GameTranslator.Patches.Translatons.TextTranslationInfo info) [0x0003a] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_003A 
-[Warning:GameTranslator] 处理UI发现时发生错误.
-System.NullReferenceException: Object reference not set to an instance of an object.
-  at (wrapper managed-to-native) UnityEngine.Font.get_fontSize(UnityEngine.Font)
-  at (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.FastReflection<UnityEngine.Font.get_fontSize>(object,object[])
-  at XUnity.Common.Utilities.CachedProperty.Get (System.Object instance) [0x0000a] in <5f5c77dda5b3447393f01a7ca8c77c71>:IL_000A 
-  at GameTranslator.Patches.Translatons.TextTranslationInfo.ChangeFont (System.Object ui) [0x00082] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_0082 
-  at GameTranslator.Patches.Utils.TextTranslate.DiscoverComponent (System.Object ui, GameTranslator.Patches.Translatons.TextTranslationInfo info) [0x0003a] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_003A 
 [Info   :RuntimeNetcodeRPCValidator] Successfully added SignEmoteText to PlayerControllerB via Awake. Triggered by plugin MoreEmotes
 [Info   :RuntimeNetcodeRPCValidator] Successfully added SyncAnimatorToOthers to PlayerControllerB via Awake. Triggered by plugin MoreEmotes
-[Warning:GameTranslator] 处理UI发现时发生错误.
-System.NullReferenceException: Object reference not set to an instance of an object.
-  at (wrapper managed-to-native) UnityEngine.Font.get_fontSize(UnityEngine.Font)
-  at (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.FastReflection<UnityEngine.Font.get_fontSize>(object,object[])
-  at XUnity.Common.Utilities.CachedProperty.Get (System.Object instance) [0x0000a] in <5f5c77dda5b3447393f01a7ca8c77c71>:IL_000A 
-  at GameTranslator.Patches.Translatons.TextTranslationInfo.ChangeFont (System.Object ui) [0x00082] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_0082 
-  at GameTranslator.Patches.Utils.TextTranslate.DiscoverComponent (System.Object ui, GameTranslator.Patches.Translatons.TextTranslationInfo info) [0x0003a] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_003A 
-[Warning:GameTranslator] 处理UI发现时发生错误.
-System.NullReferenceException: Object reference not set to an instance of an object.
-  at (wrapper managed-to-native) UnityEngine.Font.get_fontSize(UnityEngine.Font)
-  at (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.FastReflection<UnityEngine.Font.get_fontSize>(object,object[])
-  at XUnity.Common.Utilities.CachedProperty.Get (System.Object instance) [0x0000a] in <5f5c77dda5b3447393f01a7ca8c77c71>:IL_000A 
-  at GameTranslator.Patches.Translatons.TextTranslationInfo.ChangeFont (System.Object ui) [0x00082] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_0082 
-  at GameTranslator.Patches.Utils.TextTranslate.DiscoverComponent (System.Object ui, GameTranslator.Patches.Translatons.TextTranslationInfo info) [0x0003a] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_003A 
-[Warning:GameTranslator] 处理UI发现时发生错误.
-System.NullReferenceException: Object reference not set to an instance of an object.
-  at (wrapper managed-to-native) UnityEngine.Font.get_fontSize(UnityEngine.Font)
-  at (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.FastReflection<UnityEngine.Font.get_fontSize>(object,object[])
-  at XUnity.Common.Utilities.CachedProperty.Get (System.Object instance) [0x0000a] in <5f5c77dda5b3447393f01a7ca8c77c71>:IL_000A 
-  at GameTranslator.Patches.Translatons.TextTranslationInfo.ChangeFont (System.Object ui) [0x00082] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_0082 
-  at GameTranslator.Patches.Utils.TextTranslate.DiscoverComponent (System.Object ui, GameTranslator.Patches.Translatons.TextTranslationInfo info) [0x0003a] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_003A 
-[Warning:GameTranslator] 处理UI发现时发生错误.
-System.NullReferenceException: Object reference not set to an instance of an object.
-  at (wrapper managed-to-native) UnityEngine.Font.get_fontSize(UnityEngine.Font)
-  at (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.FastReflection<UnityEngine.Font.get_fontSize>(object,object[])
-  at XUnity.Common.Utilities.CachedProperty.Get (System.Object instance) [0x0000a] in <5f5c77dda5b3447393f01a7ca8c77c71>:IL_000A 
-  at GameTranslator.Patches.Translatons.TextTranslationInfo.ChangeFont (System.Object ui) [0x00082] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_0082 
-  at GameTranslator.Patches.Utils.TextTranslate.DiscoverComponent (System.Object ui, GameTranslator.Patches.Translatons.TextTranslationInfo info) [0x0003a] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_003A 
-[Warning:GameTranslator] 处理UI发现时发生错误.
-System.NullReferenceException: Object reference not set to an instance of an object.
-  at (wrapper managed-to-native) UnityEngine.Font.get_fontSize(UnityEngine.Font)
-  at (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.FastReflection<UnityEngine.Font.get_fontSize>(object,object[])
-  at XUnity.Common.Utilities.CachedProperty.Get (System.Object instance) [0x0000a] in <5f5c77dda5b3447393f01a7ca8c77c71>:IL_000A 
-  at GameTranslator.Patches.Translatons.TextTranslationInfo.ChangeFont (System.Object ui) [0x00082] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_0082 
-  at GameTranslator.Patches.Utils.TextTranslate.DiscoverComponent (System.Object ui, GameTranslator.Patches.Translatons.TextTranslationInfo info) [0x0003a] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_003A 
-[Warning:GameTranslator] 处理UI发现时发生错误.
-System.NullReferenceException: Object reference not set to an instance of an object.
-  at (wrapper managed-to-native) UnityEngine.Font.get_fontSize(UnityEngine.Font)
-  at (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.FastReflection<UnityEngine.Font.get_fontSize>(object,object[])
-  at XUnity.Common.Utilities.CachedProperty.Get (System.Object instance) [0x0000a] in <5f5c77dda5b3447393f01a7ca8c77c71>:IL_000A 
-  at GameTranslator.Patches.Translatons.TextTranslationInfo.ChangeFont (System.Object ui) [0x00082] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_0082 
-  at GameTranslator.Patches.Utils.TextTranslate.DiscoverComponent (System.Object ui, GameTranslator.Patches.Translatons.TextTranslationInfo info) [0x0003a] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_003A 
-[Warning:GameTranslator] 处理UI发现时发生错误.
-System.NullReferenceException: Object reference not set to an instance of an object.
-  at (wrapper managed-to-native) UnityEngine.Font.get_fontSize(UnityEngine.Font)
-  at (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.FastReflection<UnityEngine.Font.get_fontSize>(object,object[])
-  at XUnity.Common.Utilities.CachedProperty.Get (System.Object instance) [0x0000a] in <5f5c77dda5b3447393f01a7ca8c77c71>:IL_000A 
-  at GameTranslator.Patches.Translatons.TextTranslationInfo.ChangeFont (System.Object ui) [0x00082] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_0082 
-  at GameTranslator.Patches.Utils.TextTranslate.DiscoverComponent (System.Object ui, GameTranslator.Patches.Translatons.TextTranslationInfo info) [0x0003a] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_003A 
-[Warning:GameTranslator] 处理UI发现时发生错误.
-System.NullReferenceException: Object reference not set to an instance of an object.
-  at (wrapper managed-to-native) UnityEngine.Font.get_fontSize(UnityEngine.Font)
-  at (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.FastReflection<UnityEngine.Font.get_fontSize>(object,object[])
-  at XUnity.Common.Utilities.CachedProperty.Get (System.Object instance) [0x0000a] in <5f5c77dda5b3447393f01a7ca8c77c71>:IL_000A 
-  at GameTranslator.Patches.Translatons.TextTranslationInfo.ChangeFont (System.Object ui) [0x00082] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_0082 
-  at GameTranslator.Patches.Utils.TextTranslate.DiscoverComponent (System.Object ui, GameTranslator.Patches.Translatons.TextTranslationInfo info) [0x0003a] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_003A 
-[Warning:GameTranslator] 处理UI发现时发生错误.
-System.NullReferenceException: Object reference not set to an instance of an object.
-  at (wrapper managed-to-native) UnityEngine.Font.get_fontSize(UnityEngine.Font)
-  at (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.FastReflection<UnityEngine.Font.get_fontSize>(object,object[])
-  at XUnity.Common.Utilities.CachedProperty.Get (System.Object instance) [0x0000a] in <5f5c77dda5b3447393f01a7ca8c77c71>:IL_000A 
-  at GameTranslator.Patches.Translatons.TextTranslationInfo.ChangeFont (System.Object ui) [0x00082] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_0082 
-  at GameTranslator.Patches.Utils.TextTranslate.DiscoverComponent (System.Object ui, GameTranslator.Patches.Translatons.TextTranslationInfo info) [0x0003a] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_003A 
-[Warning:GameTranslator] 处理UI发现时发生错误.
-System.NullReferenceException: Object reference not set to an instance of an object.
-  at (wrapper managed-to-native) UnityEngine.Font.get_fontSize(UnityEngine.Font)
-  at (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.FastReflection<UnityEngine.Font.get_fontSize>(object,object[])
-  at XUnity.Common.Utilities.CachedProperty.Get (System.Object instance) [0x0000a] in <5f5c77dda5b3447393f01a7ca8c77c71>:IL_000A 
-  at GameTranslator.Patches.Translatons.TextTranslationInfo.ChangeFont (System.Object ui) [0x00082] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_0082 
-  at GameTranslator.Patches.Utils.TextTranslate.DiscoverComponent (System.Object ui, GameTranslator.Patches.Translatons.TextTranslationInfo info) [0x0003a] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_003A 
-[Warning:GameTranslator] 处理UI发现时发生错误.
-System.NullReferenceException: Object reference not set to an instance of an object.
-  at (wrapper managed-to-native) UnityEngine.Font.get_fontSize(UnityEngine.Font)
-  at (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.FastReflection<UnityEngine.Font.get_fontSize>(object,object[])
-  at XUnity.Common.Utilities.CachedProperty.Get (System.Object instance) [0x0000a] in <5f5c77dda5b3447393f01a7ca8c77c71>:IL_000A 
-  at GameTranslator.Patches.Translatons.TextTranslationInfo.ChangeFont (System.Object ui) [0x00082] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_0082 
-  at GameTranslator.Patches.Utils.TextTranslate.DiscoverComponent (System.Object ui, GameTranslator.Patches.Translatons.TextTranslationInfo info) [0x0003a] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_003A 
-[Warning:GameTranslator] 处理UI发现时发生错误.
-System.NullReferenceException: Object reference not set to an instance of an object.
-  at (wrapper managed-to-native) UnityEngine.Font.get_fontSize(UnityEngine.Font)
-  at (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.FastReflection<UnityEngine.Font.get_fontSize>(object,object[])
-  at XUnity.Common.Utilities.CachedProperty.Get (System.Object instance) [0x0000a] in <5f5c77dda5b3447393f01a7ca8c77c71>:IL_000A 
-  at GameTranslator.Patches.Translatons.TextTranslationInfo.ChangeFont (System.Object ui) [0x00082] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_0082 
-  at GameTranslator.Patches.Utils.TextTranslate.DiscoverComponent (System.Object ui, GameTranslator.Patches.Translatons.TextTranslationInfo info) [0x0003a] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_003A 
 [Info   :RuntimeNetcodeRPCValidator] Successfully added SignEmoteText to PlayerControllerB via Awake. Triggered by plugin MoreEmotes
 [Info   :RuntimeNetcodeRPCValidator] Successfully added SyncAnimatorToOthers to PlayerControllerB via Awake. Triggered by plugin MoreEmotes
-[Warning:GameTranslator] 处理UI发现时发生错误.
-System.NullReferenceException: Object reference not set to an instance of an object.
-  at (wrapper managed-to-native) UnityEngine.Font.get_fontSize(UnityEngine.Font)
-  at (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.FastReflection<UnityEngine.Font.get_fontSize>(object,object[])
-  at XUnity.Common.Utilities.CachedProperty.Get (System.Object instance) [0x0000a] in <5f5c77dda5b3447393f01a7ca8c77c71>:IL_000A 
-  at GameTranslator.Patches.Translatons.TextTranslationInfo.ChangeFont (System.Object ui) [0x00082] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_0082 
-  at GameTranslator.Patches.Utils.TextTranslate.DiscoverComponent (System.Object ui, GameTranslator.Patches.Translatons.TextTranslationInfo info) [0x0003a] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_003A 
-[Warning:GameTranslator] 处理UI发现时发生错误.
-System.NullReferenceException: Object reference not set to an instance of an object.
-  at (wrapper managed-to-native) UnityEngine.Font.get_fontSize(UnityEngine.Font)
-  at (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.FastReflection<UnityEngine.Font.get_fontSize>(object,object[])
-  at XUnity.Common.Utilities.CachedProperty.Get (System.Object instance) [0x0000a] in <5f5c77dda5b3447393f01a7ca8c77c71>:IL_000A 
-  at GameTranslator.Patches.Translatons.TextTranslationInfo.ChangeFont (System.Object ui) [0x00082] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_0082 
-  at GameTranslator.Patches.Utils.TextTranslate.DiscoverComponent (System.Object ui, GameTranslator.Patches.Translatons.TextTranslationInfo info) [0x0003a] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_003A 
-[Warning:GameTranslator] 处理UI发现时发生错误.
-System.NullReferenceException: Object reference not set to an instance of an object.
-  at (wrapper managed-to-native) UnityEngine.Font.get_fontSize(UnityEngine.Font)
-  at (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.FastReflection<UnityEngine.Font.get_fontSize>(object,object[])
-  at XUnity.Common.Utilities.CachedProperty.Get (System.Object instance) [0x0000a] in <5f5c77dda5b3447393f01a7ca8c77c71>:IL_000A 
-  at GameTranslator.Patches.Translatons.TextTranslationInfo.ChangeFont (System.Object ui) [0x00082] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_0082 
-  at GameTranslator.Patches.Utils.TextTranslate.DiscoverComponent (System.Object ui, GameTranslator.Patches.Translatons.TextTranslationInfo info) [0x0003a] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_003A 
-[Warning:GameTranslator] 处理UI发现时发生错误.
-System.NullReferenceException: Object reference not set to an instance of an object.
-  at (wrapper managed-to-native) UnityEngine.Font.get_fontSize(UnityEngine.Font)
-  at (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.FastReflection<UnityEngine.Font.get_fontSize>(object,object[])
-  at XUnity.Common.Utilities.CachedProperty.Get (System.Object instance) [0x0000a] in <5f5c77dda5b3447393f01a7ca8c77c71>:IL_000A 
-  at GameTranslator.Patches.Translatons.TextTranslationInfo.ChangeFont (System.Object ui) [0x00082] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_0082 
-  at GameTranslator.Patches.Utils.TextTranslate.DiscoverComponent (System.Object ui, GameTranslator.Patches.Translatons.TextTranslationInfo info) [0x0003a] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_003A 
-[Warning:GameTranslator] 处理UI发现时发生错误.
-System.NullReferenceException: Object reference not set to an instance of an object.
-  at (wrapper managed-to-native) UnityEngine.Font.get_fontSize(UnityEngine.Font)
-  at (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.FastReflection<UnityEngine.Font.get_fontSize>(object,object[])
-  at XUnity.Common.Utilities.CachedProperty.Get (System.Object instance) [0x0000a] in <5f5c77dda5b3447393f01a7ca8c77c71>:IL_000A 
-  at GameTranslator.Patches.Translatons.TextTranslationInfo.ChangeFont (System.Object ui) [0x00082] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_0082 
-  at GameTranslator.Patches.Utils.TextTranslate.DiscoverComponent (System.Object ui, GameTranslator.Patches.Translatons.TextTranslationInfo info) [0x0003a] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_003A 
-[Warning:GameTranslator] 处理UI发现时发生错误.
-System.NullReferenceException: Object reference not set to an instance of an object.
-  at (wrapper managed-to-native) UnityEngine.Font.get_fontSize(UnityEngine.Font)
-  at (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.FastReflection<UnityEngine.Font.get_fontSize>(object,object[])
-  at XUnity.Common.Utilities.CachedProperty.Get (System.Object instance) [0x0000a] in <5f5c77dda5b3447393f01a7ca8c77c71>:IL_000A 
-  at GameTranslator.Patches.Translatons.TextTranslationInfo.ChangeFont (System.Object ui) [0x00082] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_0082 
-  at GameTranslator.Patches.Utils.TextTranslate.DiscoverComponent (System.Object ui, GameTranslator.Patches.Translatons.TextTranslationInfo info) [0x0003a] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_003A 
-[Warning:GameTranslator] 处理UI发现时发生错误.
-System.NullReferenceException: Object reference not set to an instance of an object.
-  at (wrapper managed-to-native) UnityEngine.Font.get_fontSize(UnityEngine.Font)
-  at (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.FastReflection<UnityEngine.Font.get_fontSize>(object,object[])
-  at XUnity.Common.Utilities.CachedProperty.Get (System.Object instance) [0x0000a] in <5f5c77dda5b3447393f01a7ca8c77c71>:IL_000A 
-  at GameTranslator.Patches.Translatons.TextTranslationInfo.ChangeFont (System.Object ui) [0x00082] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_0082 
-  at GameTranslator.Patches.Utils.TextTranslate.DiscoverComponent (System.Object ui, GameTranslator.Patches.Translatons.TextTranslationInfo info) [0x0003a] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_003A 
-[Warning:GameTranslator] 处理UI发现时发生错误.
-System.NullReferenceException: Object reference not set to an instance of an object.
-  at (wrapper managed-to-native) UnityEngine.Font.get_fontSize(UnityEngine.Font)
-  at (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.FastReflection<UnityEngine.Font.get_fontSize>(object,object[])
-  at XUnity.Common.Utilities.CachedProperty.Get (System.Object instance) [0x0000a] in <5f5c77dda5b3447393f01a7ca8c77c71>:IL_000A 
-  at GameTranslator.Patches.Translatons.TextTranslationInfo.ChangeFont (System.Object ui) [0x00082] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_0082 
-  at GameTranslator.Patches.Utils.TextTranslate.DiscoverComponent (System.Object ui, GameTranslator.Patches.Translatons.TextTranslationInfo info) [0x0003a] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_003A 
-[Warning:GameTranslator] 处理UI发现时发生错误.
-System.NullReferenceException: Object reference not set to an instance of an object.
-  at (wrapper managed-to-native) UnityEngine.Font.get_fontSize(UnityEngine.Font)
-  at (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.FastReflection<UnityEngine.Font.get_fontSize>(object,object[])
-  at XUnity.Common.Utilities.CachedProperty.Get (System.Object instance) [0x0000a] in <5f5c77dda5b3447393f01a7ca8c77c71>:IL_000A 
-  at GameTranslator.Patches.Translatons.TextTranslationInfo.ChangeFont (System.Object ui) [0x00082] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_0082 
-  at GameTranslator.Patches.Utils.TextTranslate.DiscoverComponent (System.Object ui, GameTranslator.Patches.Translatons.TextTranslationInfo info) [0x0003a] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_003A 
-[Warning:GameTranslator] 处理UI发现时发生错误.
-System.NullReferenceException: Object reference not set to an instance of an object.
-  at (wrapper managed-to-native) UnityEngine.Font.get_fontSize(UnityEngine.Font)
-  at (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.FastReflection<UnityEngine.Font.get_fontSize>(object,object[])
-  at XUnity.Common.Utilities.CachedProperty.Get (System.Object instance) [0x0000a] in <5f5c77dda5b3447393f01a7ca8c77c71>:IL_000A 
-  at GameTranslator.Patches.Translatons.TextTranslationInfo.ChangeFont (System.Object ui) [0x00082] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_0082 
-  at GameTranslator.Patches.Utils.TextTranslate.DiscoverComponent (System.Object ui, GameTranslator.Patches.Translatons.TextTranslationInfo info) [0x0003a] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_003A 
-[Warning:GameTranslator] 处理UI发现时发生错误.
-System.NullReferenceException: Object reference not set to an instance of an object.
-  at (wrapper managed-to-native) UnityEngine.Font.get_fontSize(UnityEngine.Font)
-  at (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.FastReflection<UnityEngine.Font.get_fontSize>(object,object[])
-  at XUnity.Common.Utilities.CachedProperty.Get (System.Object instance) [0x0000a] in <5f5c77dda5b3447393f01a7ca8c77c71>:IL_000A 
-  at GameTranslator.Patches.Translatons.TextTranslationInfo.ChangeFont (System.Object ui) [0x00082] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_0082 
-  at GameTranslator.Patches.Utils.TextTranslate.DiscoverComponent (System.Object ui, GameTranslator.Patches.Translatons.TextTranslationInfo info) [0x0003a] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_003A 
-[Warning:GameTranslator] 处理UI发现时发生错误.
-System.NullReferenceException: Object reference not set to an instance of an object.
-  at (wrapper managed-to-native) UnityEngine.Font.get_fontSize(UnityEngine.Font)
-  at (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.FastReflection<UnityEngine.Font.get_fontSize>(object,object[])
-  at XUnity.Common.Utilities.CachedProperty.Get (System.Object instance) [0x0000a] in <5f5c77dda5b3447393f01a7ca8c77c71>:IL_000A 
-  at GameTranslator.Patches.Translatons.TextTranslationInfo.ChangeFont (System.Object ui) [0x00082] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_0082 
-  at GameTranslator.Patches.Utils.TextTranslate.DiscoverComponent (System.Object ui, GameTranslator.Patches.Translatons.TextTranslationInfo info) [0x0003a] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_003A 
 [Info   :RuntimeNetcodeRPCValidator] Successfully added SignEmoteText to PlayerControllerB via Awake. Triggered by plugin MoreEmotes
 [Info   :RuntimeNetcodeRPCValidator] Successfully added SyncAnimatorToOthers to PlayerControllerB via Awake. Triggered by plugin MoreEmotes
-[Warning:GameTranslator] 处理UI发现时发生错误.
-System.NullReferenceException: Object reference not set to an instance of an object.
-  at (wrapper managed-to-native) UnityEngine.Font.get_fontSize(UnityEngine.Font)
-  at (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.FastReflection<UnityEngine.Font.get_fontSize>(object,object[])
-  at XUnity.Common.Utilities.CachedProperty.Get (System.Object instance) [0x0000a] in <5f5c77dda5b3447393f01a7ca8c77c71>:IL_000A 
-  at GameTranslator.Patches.Translatons.TextTranslationInfo.ChangeFont (System.Object ui) [0x00082] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_0082 
-  at GameTranslator.Patches.Utils.TextTranslate.DiscoverComponent (System.Object ui, GameTranslator.Patches.Translatons.TextTranslationInfo info) [0x0003a] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_003A 
-[Warning:GameTranslator] 处理UI发现时发生错误.
-System.NullReferenceException: Object reference not set to an instance of an object.
-  at (wrapper managed-to-native) UnityEngine.Font.get_fontSize(UnityEngine.Font)
-  at (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.FastReflection<UnityEngine.Font.get_fontSize>(object,object[])
-  at XUnity.Common.Utilities.CachedProperty.Get (System.Object instance) [0x0000a] in <5f5c77dda5b3447393f01a7ca8c77c71>:IL_000A 
-  at GameTranslator.Patches.Translatons.TextTranslationInfo.ChangeFont (System.Object ui) [0x00082] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_0082 
-  at GameTranslator.Patches.Utils.TextTranslate.DiscoverComponent (System.Object ui, GameTranslator.Patches.Translatons.TextTranslationInfo info) [0x0003a] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_003A 
-[Warning:GameTranslator] 处理UI发现时发生错误.
-System.NullReferenceException: Object reference not set to an instance of an object.
-  at (wrapper managed-to-native) UnityEngine.Font.get_fontSize(UnityEngine.Font)
-  at (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.FastReflection<UnityEngine.Font.get_fontSize>(object,object[])
-  at XUnity.Common.Utilities.CachedProperty.Get (System.Object instance) [0x0000a] in <5f5c77dda5b3447393f01a7ca8c77c71>:IL_000A 
-  at GameTranslator.Patches.Translatons.TextTranslationInfo.ChangeFont (System.Object ui) [0x00082] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_0082 
-  at GameTranslator.Patches.Utils.TextTranslate.DiscoverComponent (System.Object ui, GameTranslator.Patches.Translatons.TextTranslationInfo info) [0x0003a] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_003A 
-[Warning:GameTranslator] 处理UI发现时发生错误.
-System.NullReferenceException: Object reference not set to an instance of an object.
-  at (wrapper managed-to-native) UnityEngine.Font.get_fontSize(UnityEngine.Font)
-  at (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.FastReflection<UnityEngine.Font.get_fontSize>(object,object[])
-  at XUnity.Common.Utilities.CachedProperty.Get (System.Object instance) [0x0000a] in <5f5c77dda5b3447393f01a7ca8c77c71>:IL_000A 
-  at GameTranslator.Patches.Translatons.TextTranslationInfo.ChangeFont (System.Object ui) [0x00082] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_0082 
-  at GameTranslator.Patches.Utils.TextTranslate.DiscoverComponent (System.Object ui, GameTranslator.Patches.Translatons.TextTranslationInfo info) [0x0003a] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_003A 
-[Warning:GameTranslator] 处理UI发现时发生错误.
-System.NullReferenceException: Object reference not set to an instance of an object.
-  at (wrapper managed-to-native) UnityEngine.Font.get_fontSize(UnityEngine.Font)
-  at (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.FastReflection<UnityEngine.Font.get_fontSize>(object,object[])
-  at XUnity.Common.Utilities.CachedProperty.Get (System.Object instance) [0x0000a] in <5f5c77dda5b3447393f01a7ca8c77c71>:IL_000A 
-  at GameTranslator.Patches.Translatons.TextTranslationInfo.ChangeFont (System.Object ui) [0x00082] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_0082 
-  at GameTranslator.Patches.Utils.TextTranslate.DiscoverComponent (System.Object ui, GameTranslator.Patches.Translatons.TextTranslationInfo info) [0x0003a] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_003A 
-[Warning:GameTranslator] 处理UI发现时发生错误.
-System.NullReferenceException: Object reference not set to an instance of an object.
-  at (wrapper managed-to-native) UnityEngine.Font.get_fontSize(UnityEngine.Font)
-  at (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.FastReflection<UnityEngine.Font.get_fontSize>(object,object[])
-  at XUnity.Common.Utilities.CachedProperty.Get (System.Object instance) [0x0000a] in <5f5c77dda5b3447393f01a7ca8c77c71>:IL_000A 
-  at GameTranslator.Patches.Translatons.TextTranslationInfo.ChangeFont (System.Object ui) [0x00082] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_0082 
-  at GameTranslator.Patches.Utils.TextTranslate.DiscoverComponent (System.Object ui, GameTranslator.Patches.Translatons.TextTranslationInfo info) [0x0003a] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_003A 
-[Warning:GameTranslator] 处理UI发现时发生错误.
-System.NullReferenceException: Object reference not set to an instance of an object.
-  at (wrapper managed-to-native) UnityEngine.Font.get_fontSize(UnityEngine.Font)
-  at (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.FastReflection<UnityEngine.Font.get_fontSize>(object,object[])
-  at XUnity.Common.Utilities.CachedProperty.Get (System.Object instance) [0x0000a] in <5f5c77dda5b3447393f01a7ca8c77c71>:IL_000A 
-  at GameTranslator.Patches.Translatons.TextTranslationInfo.ChangeFont (System.Object ui) [0x00082] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_0082 
-  at GameTranslator.Patches.Utils.TextTranslate.DiscoverComponent (System.Object ui, GameTranslator.Patches.Translatons.TextTranslationInfo info) [0x0003a] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_003A 
-[Warning:GameTranslator] 处理UI发现时发生错误.
-System.NullReferenceException: Object reference not set to an instance of an object.
-  at (wrapper managed-to-native) UnityEngine.Font.get_fontSize(UnityEngine.Font)
-  at (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.FastReflection<UnityEngine.Font.get_fontSize>(object,object[])
-  at XUnity.Common.Utilities.CachedProperty.Get (System.Object instance) [0x0000a] in <5f5c77dda5b3447393f01a7ca8c77c71>:IL_000A 
-  at GameTranslator.Patches.Translatons.TextTranslationInfo.ChangeFont (System.Object ui) [0x00082] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_0082 
-  at GameTranslator.Patches.Utils.TextTranslate.DiscoverComponent (System.Object ui, GameTranslator.Patches.Translatons.TextTranslationInfo info) [0x0003a] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_003A 
-[Warning:GameTranslator] 处理UI发现时发生错误.
-System.NullReferenceException: Object reference not set to an instance of an object.
-  at (wrapper managed-to-native) UnityEngine.Font.get_fontSize(UnityEngine.Font)
-  at (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.FastReflection<UnityEngine.Font.get_fontSize>(object,object[])
-  at XUnity.Common.Utilities.CachedProperty.Get (System.Object instance) [0x0000a] in <5f5c77dda5b3447393f01a7ca8c77c71>:IL_000A 
-  at GameTranslator.Patches.Translatons.TextTranslationInfo.ChangeFont (System.Object ui) [0x00082] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_0082 
-  at GameTranslator.Patches.Utils.TextTranslate.DiscoverComponent (System.Object ui, GameTranslator.Patches.Translatons.TextTranslationInfo info) [0x0003a] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_003A 
-[Warning:GameTranslator] 处理UI发现时发生错误.
-System.NullReferenceException: Object reference not set to an instance of an object.
-  at (wrapper managed-to-native) UnityEngine.Font.get_fontSize(UnityEngine.Font)
-  at (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.FastReflection<UnityEngine.Font.get_fontSize>(object,object[])
-  at XUnity.Common.Utilities.CachedProperty.Get (System.Object instance) [0x0000a] in <5f5c77dda5b3447393f01a7ca8c77c71>:IL_000A 
-  at GameTranslator.Patches.Translatons.TextTranslationInfo.ChangeFont (System.Object ui) [0x00082] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_0082 
-  at GameTranslator.Patches.Utils.TextTranslate.DiscoverComponent (System.Object ui, GameTranslator.Patches.Translatons.TextTranslationInfo info) [0x0003a] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_003A 
-[Warning:GameTranslator] 处理UI发现时发生错误.
-System.NullReferenceException: Object reference not set to an instance of an object.
-  at (wrapper managed-to-native) UnityEngine.Font.get_fontSize(UnityEngine.Font)
-  at (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.FastReflection<UnityEngine.Font.get_fontSize>(object,object[])
-  at XUnity.Common.Utilities.CachedProperty.Get (System.Object instance) [0x0000a] in <5f5c77dda5b3447393f01a7ca8c77c71>:IL_000A 
-  at GameTranslator.Patches.Translatons.TextTranslationInfo.ChangeFont (System.Object ui) [0x00082] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_0082 
-  at GameTranslator.Patches.Utils.TextTranslate.DiscoverComponent (System.Object ui, GameTranslator.Patches.Translatons.TextTranslationInfo info) [0x0003a] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_003A 
-[Warning:GameTranslator] 处理UI发现时发生错误.
-System.NullReferenceException: Object reference not set to an instance of an object.
-  at (wrapper managed-to-native) UnityEngine.Font.get_fontSize(UnityEngine.Font)
-  at (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.FastReflection<UnityEngine.Font.get_fontSize>(object,object[])
-  at XUnity.Common.Utilities.CachedProperty.Get (System.Object instance) [0x0000a] in <5f5c77dda5b3447393f01a7ca8c77c71>:IL_000A 
-  at GameTranslator.Patches.Translatons.TextTranslationInfo.ChangeFont (System.Object ui) [0x00082] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_0082 
-  at GameTranslator.Patches.Utils.TextTranslate.DiscoverComponent (System.Object ui, GameTranslator.Patches.Translatons.TextTranslationInfo info) [0x0003a] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_003A 
 [Info   :RuntimeNetcodeRPCValidator] Successfully added SignEmoteText to PlayerControllerB via Awake. Triggered by plugin MoreEmotes
 [Info   :RuntimeNetcodeRPCValidator] Successfully added SyncAnimatorToOthers to PlayerControllerB via Awake. Triggered by plugin MoreEmotes
-[Warning:GameTranslator] 处理UI发现时发生错误.
-System.NullReferenceException: Object reference not set to an instance of an object.
-  at (wrapper managed-to-native) UnityEngine.Font.get_fontSize(UnityEngine.Font)
-  at (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.FastReflection<UnityEngine.Font.get_fontSize>(object,object[])
-  at XUnity.Common.Utilities.CachedProperty.Get (System.Object instance) [0x0000a] in <5f5c77dda5b3447393f01a7ca8c77c71>:IL_000A 
-  at GameTranslator.Patches.Translatons.TextTranslationInfo.ChangeFont (System.Object ui) [0x00082] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_0082 
-  at GameTranslator.Patches.Utils.TextTranslate.DiscoverComponent (System.Object ui, GameTranslator.Patches.Translatons.TextTranslationInfo info) [0x0003a] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_003A 
-[Warning:GameTranslator] 处理UI发现时发生错误.
-System.NullReferenceException: Object reference not set to an instance of an object.
-  at (wrapper managed-to-native) UnityEngine.Font.get_fontSize(UnityEngine.Font)
-  at (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.FastReflection<UnityEngine.Font.get_fontSize>(object,object[])
-  at XUnity.Common.Utilities.CachedProperty.Get (System.Object instance) [0x0000a] in <5f5c77dda5b3447393f01a7ca8c77c71>:IL_000A 
-  at GameTranslator.Patches.Translatons.TextTranslationInfo.ChangeFont (System.Object ui) [0x00082] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_0082 
-  at GameTranslator.Patches.Utils.TextTranslate.DiscoverComponent (System.Object ui, GameTranslator.Patches.Translatons.TextTranslationInfo info) [0x0003a] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_003A 
-[Warning:GameTranslator] 处理UI发现时发生错误.
-System.NullReferenceException: Object reference not set to an instance of an object.
-  at (wrapper managed-to-native) UnityEngine.Font.get_fontSize(UnityEngine.Font)
-  at (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.FastReflection<UnityEngine.Font.get_fontSize>(object,object[])
-  at XUnity.Common.Utilities.CachedProperty.Get (System.Object instance) [0x0000a] in <5f5c77dda5b3447393f01a7ca8c77c71>:IL_000A 
-  at GameTranslator.Patches.Translatons.TextTranslationInfo.ChangeFont (System.Object ui) [0x00082] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_0082 
-  at GameTranslator.Patches.Utils.TextTranslate.DiscoverComponent (System.Object ui, GameTranslator.Patches.Translatons.TextTranslationInfo info) [0x0003a] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_003A 
-[Warning:GameTranslator] 处理UI发现时发生错误.
-System.NullReferenceException: Object reference not set to an instance of an object.
-  at (wrapper managed-to-native) UnityEngine.Font.get_fontSize(UnityEngine.Font)
-  at (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.FastReflection<UnityEngine.Font.get_fontSize>(object,object[])
-  at XUnity.Common.Utilities.CachedProperty.Get (System.Object instance) [0x0000a] in <5f5c77dda5b3447393f01a7ca8c77c71>:IL_000A 
-  at GameTranslator.Patches.Translatons.TextTranslationInfo.ChangeFont (System.Object ui) [0x00082] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_0082 
-  at GameTranslator.Patches.Utils.TextTranslate.DiscoverComponent (System.Object ui, GameTranslator.Patches.Translatons.TextTranslationInfo info) [0x0003a] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_003A 
-[Warning:GameTranslator] 处理UI发现时发生错误.
-System.NullReferenceException: Object reference not set to an instance of an object.
-  at (wrapper managed-to-native) UnityEngine.Font.get_fontSize(UnityEngine.Font)
-  at (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.FastReflection<UnityEngine.Font.get_fontSize>(object,object[])
-  at XUnity.Common.Utilities.CachedProperty.Get (System.Object instance) [0x0000a] in <5f5c77dda5b3447393f01a7ca8c77c71>:IL_000A 
-  at GameTranslator.Patches.Translatons.TextTranslationInfo.ChangeFont (System.Object ui) [0x00082] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_0082 
-  at GameTranslator.Patches.Utils.TextTranslate.DiscoverComponent (System.Object ui, GameTranslator.Patches.Translatons.TextTranslationInfo info) [0x0003a] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_003A 
-[Warning:GameTranslator] 处理UI发现时发生错误.
-System.NullReferenceException: Object reference not set to an instance of an object.
-  at (wrapper managed-to-native) UnityEngine.Font.get_fontSize(UnityEngine.Font)
-  at (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.FastReflection<UnityEngine.Font.get_fontSize>(object,object[])
-  at XUnity.Common.Utilities.CachedProperty.Get (System.Object instance) [0x0000a] in <5f5c77dda5b3447393f01a7ca8c77c71>:IL_000A 
-  at GameTranslator.Patches.Translatons.TextTranslationInfo.ChangeFont (System.Object ui) [0x00082] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_0082 
-  at GameTranslator.Patches.Utils.TextTranslate.DiscoverComponent (System.Object ui, GameTranslator.Patches.Translatons.TextTranslationInfo info) [0x0003a] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_003A 
-[Warning:GameTranslator] 处理UI发现时发生错误.
-System.NullReferenceException: Object reference not set to an instance of an object.
-  at (wrapper managed-to-native) UnityEngine.Font.get_fontSize(UnityEngine.Font)
-  at (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.FastReflection<UnityEngine.Font.get_fontSize>(object,object[])
-  at XUnity.Common.Utilities.CachedProperty.Get (System.Object instance) [0x0000a] in <5f5c77dda5b3447393f01a7ca8c77c71>:IL_000A 
-  at GameTranslator.Patches.Translatons.TextTranslationInfo.ChangeFont (System.Object ui) [0x00082] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_0082 
-  at GameTranslator.Patches.Utils.TextTranslate.DiscoverComponent (System.Object ui, GameTranslator.Patches.Translatons.TextTranslationInfo info) [0x0003a] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_003A 
-[Warning:GameTranslator] 处理UI发现时发生错误.
-System.NullReferenceException: Object reference not set to an instance of an object.
-  at (wrapper managed-to-native) UnityEngine.Font.get_fontSize(UnityEngine.Font)
-  at (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.FastReflection<UnityEngine.Font.get_fontSize>(object,object[])
-  at XUnity.Common.Utilities.CachedProperty.Get (System.Object instance) [0x0000a] in <5f5c77dda5b3447393f01a7ca8c77c71>:IL_000A 
-  at GameTranslator.Patches.Translatons.TextTranslationInfo.ChangeFont (System.Object ui) [0x00082] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_0082 
-  at GameTranslator.Patches.Utils.TextTranslate.DiscoverComponent (System.Object ui, GameTranslator.Patches.Translatons.TextTranslationInfo info) [0x0003a] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_003A 
-[Warning:GameTranslator] 处理UI发现时发生错误.
-System.NullReferenceException: Object reference not set to an instance of an object.
-  at (wrapper managed-to-native) UnityEngine.Font.get_fontSize(UnityEngine.Font)
-  at (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.FastReflection<UnityEngine.Font.get_fontSize>(object,object[])
-  at XUnity.Common.Utilities.CachedProperty.Get (System.Object instance) [0x0000a] in <5f5c77dda5b3447393f01a7ca8c77c71>:IL_000A 
-  at GameTranslator.Patches.Translatons.TextTranslationInfo.ChangeFont (System.Object ui) [0x00082] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_0082 
-  at GameTranslator.Patches.Utils.TextTranslate.DiscoverComponent (System.Object ui, GameTranslator.Patches.Translatons.TextTranslationInfo info) [0x0003a] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_003A 
-[Warning:GameTranslator] 处理UI发现时发生错误.
-System.NullReferenceException: Object reference not set to an instance of an object.
-  at (wrapper managed-to-native) UnityEngine.Font.get_fontSize(UnityEngine.Font)
-  at (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.FastReflection<UnityEngine.Font.get_fontSize>(object,object[])
-  at XUnity.Common.Utilities.CachedProperty.Get (System.Object instance) [0x0000a] in <5f5c77dda5b3447393f01a7ca8c77c71>:IL_000A 
-  at GameTranslator.Patches.Translatons.TextTranslationInfo.ChangeFont (System.Object ui) [0x00082] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_0082 
-  at GameTranslator.Patches.Utils.TextTranslate.DiscoverComponent (System.Object ui, GameTranslator.Patches.Translatons.TextTranslationInfo info) [0x0003a] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_003A 
-[Warning:GameTranslator] 处理UI发现时发生错误.
-System.NullReferenceException: Object reference not set to an instance of an object.
-  at (wrapper managed-to-native) UnityEngine.Font.get_fontSize(UnityEngine.Font)
-  at (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.FastReflection<UnityEngine.Font.get_fontSize>(object,object[])
-  at XUnity.Common.Utilities.CachedProperty.Get (System.Object instance) [0x0000a] in <5f5c77dda5b3447393f01a7ca8c77c71>:IL_000A 
-  at GameTranslator.Patches.Translatons.TextTranslationInfo.ChangeFont (System.Object ui) [0x00082] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_0082 
-  at GameTranslator.Patches.Utils.TextTranslate.DiscoverComponent (System.Object ui, GameTranslator.Patches.Translatons.TextTranslationInfo info) [0x0003a] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_003A 
-[Warning:GameTranslator] 处理UI发现时发生错误.
-System.NullReferenceException: Object reference not set to an instance of an object.
-  at (wrapper managed-to-native) UnityEngine.Font.get_fontSize(UnityEngine.Font)
-  at (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.FastReflection<UnityEngine.Font.get_fontSize>(object,object[])
-  at XUnity.Common.Utilities.CachedProperty.Get (System.Object instance) [0x0000a] in <5f5c77dda5b3447393f01a7ca8c77c71>:IL_000A 
-  at GameTranslator.Patches.Translatons.TextTranslationInfo.ChangeFont (System.Object ui) [0x00082] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_0082 
-  at GameTranslator.Patches.Utils.TextTranslate.DiscoverComponent (System.Object ui, GameTranslator.Patches.Translatons.TextTranslationInfo info) [0x0003a] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_003A 
 [Info   :RuntimeNetcodeRPCValidator] Successfully added SignEmoteText to PlayerControllerB via Awake. Triggered by plugin MoreEmotes
 [Info   :RuntimeNetcodeRPCValidator] Successfully added SyncAnimatorToOthers to PlayerControllerB via Awake. Triggered by plugin MoreEmotes
-[Warning:GameTranslator] 处理UI发现时发生错误.
-System.NullReferenceException: Object reference not set to an instance of an object.
-  at (wrapper managed-to-native) UnityEngine.Font.get_fontSize(UnityEngine.Font)
-  at (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.FastReflection<UnityEngine.Font.get_fontSize>(object,object[])
-  at XUnity.Common.Utilities.CachedProperty.Get (System.Object instance) [0x0000a] in <5f5c77dda5b3447393f01a7ca8c77c71>:IL_000A 
-  at GameTranslator.Patches.Translatons.TextTranslationInfo.ChangeFont (System.Object ui) [0x00082] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_0082 
-  at GameTranslator.Patches.Utils.TextTranslate.DiscoverComponent (System.Object ui, GameTranslator.Patches.Translatons.TextTranslationInfo info) [0x0003a] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_003A 
-[Warning:GameTranslator] 处理UI发现时发生错误.
-System.NullReferenceException: Object reference not set to an instance of an object.
-  at (wrapper managed-to-native) UnityEngine.Font.get_fontSize(UnityEngine.Font)
-  at (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.FastReflection<UnityEngine.Font.get_fontSize>(object,object[])
-  at XUnity.Common.Utilities.CachedProperty.Get (System.Object instance) [0x0000a] in <5f5c77dda5b3447393f01a7ca8c77c71>:IL_000A 
-  at GameTranslator.Patches.Translatons.TextTranslationInfo.ChangeFont (System.Object ui) [0x00082] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_0082 
-  at GameTranslator.Patches.Utils.TextTranslate.DiscoverComponent (System.Object ui, GameTranslator.Patches.Translatons.TextTranslationInfo info) [0x0003a] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_003A 
-[Warning:GameTranslator] 处理UI发现时发生错误.
-System.NullReferenceException: Object reference not set to an instance of an object.
-  at (wrapper managed-to-native) UnityEngine.Font.get_fontSize(UnityEngine.Font)
-  at (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.FastReflection<UnityEngine.Font.get_fontSize>(object,object[])
-  at XUnity.Common.Utilities.CachedProperty.Get (System.Object instance) [0x0000a] in <5f5c77dda5b3447393f01a7ca8c77c71>:IL_000A 
-  at GameTranslator.Patches.Translatons.TextTranslationInfo.ChangeFont (System.Object ui) [0x00082] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_0082 
-  at GameTranslator.Patches.Utils.TextTranslate.DiscoverComponent (System.Object ui, GameTranslator.Patches.Translatons.TextTranslationInfo info) [0x0003a] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_003A 
-[Warning:GameTranslator] 处理UI发现时发生错误.
-System.NullReferenceException: Object reference not set to an instance of an object.
-  at (wrapper managed-to-native) UnityEngine.Font.get_fontSize(UnityEngine.Font)
-  at (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.FastReflection<UnityEngine.Font.get_fontSize>(object,object[])
-  at XUnity.Common.Utilities.CachedProperty.Get (System.Object instance) [0x0000a] in <5f5c77dda5b3447393f01a7ca8c77c71>:IL_000A 
-  at GameTranslator.Patches.Translatons.TextTranslationInfo.ChangeFont (System.Object ui) [0x00082] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_0082 
-  at GameTranslator.Patches.Utils.TextTranslate.DiscoverComponent (System.Object ui, GameTranslator.Patches.Translatons.TextTranslationInfo info) [0x0003a] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_003A 
-[Warning:GameTranslator] 处理UI发现时发生错误.
-System.NullReferenceException: Object reference not set to an instance of an object.
-  at (wrapper managed-to-native) UnityEngine.Font.get_fontSize(UnityEngine.Font)
-  at (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.FastReflection<UnityEngine.Font.get_fontSize>(object,object[])
-  at XUnity.Common.Utilities.CachedProperty.Get (System.Object instance) [0x0000a] in <5f5c77dda5b3447393f01a7ca8c77c71>:IL_000A 
-  at GameTranslator.Patches.Translatons.TextTranslationInfo.ChangeFont (System.Object ui) [0x00082] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_0082 
-  at GameTranslator.Patches.Utils.TextTranslate.DiscoverComponent (System.Object ui, GameTranslator.Patches.Translatons.TextTranslationInfo info) [0x0003a] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_003A 
-[Warning:GameTranslator] 处理UI发现时发生错误.
-System.NullReferenceException: Object reference not set to an instance of an object.
-  at (wrapper managed-to-native) UnityEngine.Font.get_fontSize(UnityEngine.Font)
-  at (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.FastReflection<UnityEngine.Font.get_fontSize>(object,object[])
-  at XUnity.Common.Utilities.CachedProperty.Get (System.Object instance) [0x0000a] in <5f5c77dda5b3447393f01a7ca8c77c71>:IL_000A 
-  at GameTranslator.Patches.Translatons.TextTranslationInfo.ChangeFont (System.Object ui) [0x00082] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_0082 
-  at GameTranslator.Patches.Utils.TextTranslate.DiscoverComponent (System.Object ui, GameTranslator.Patches.Translatons.TextTranslationInfo info) [0x0003a] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_003A 
-[Warning:GameTranslator] 处理UI发现时发生错误.
-System.NullReferenceException: Object reference not set to an instance of an object.
-  at (wrapper managed-to-native) UnityEngine.Font.get_fontSize(UnityEngine.Font)
-  at (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.FastReflection<UnityEngine.Font.get_fontSize>(object,object[])
-  at XUnity.Common.Utilities.CachedProperty.Get (System.Object instance) [0x0000a] in <5f5c77dda5b3447393f01a7ca8c77c71>:IL_000A 
-  at GameTranslator.Patches.Translatons.TextTranslationInfo.ChangeFont (System.Object ui) [0x00082] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_0082 
-  at GameTranslator.Patches.Utils.TextTranslate.DiscoverComponent (System.Object ui, GameTranslator.Patches.Translatons.TextTranslationInfo info) [0x0003a] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_003A 
-[Warning:GameTranslator] 处理UI发现时发生错误.
-System.NullReferenceException: Object reference not set to an instance of an object.
-  at (wrapper managed-to-native) UnityEngine.Font.get_fontSize(UnityEngine.Font)
-  at (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.FastReflection<UnityEngine.Font.get_fontSize>(object,object[])
-  at XUnity.Common.Utilities.CachedProperty.Get (System.Object instance) [0x0000a] in <5f5c77dda5b3447393f01a7ca8c77c71>:IL_000A 
-  at GameTranslator.Patches.Translatons.TextTranslationInfo.ChangeFont (System.Object ui) [0x00082] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_0082 
-  at GameTranslator.Patches.Utils.TextTranslate.DiscoverComponent (System.Object ui, GameTranslator.Patches.Translatons.TextTranslationInfo info) [0x0003a] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_003A 
-[Warning:GameTranslator] 处理UI发现时发生错误.
-System.NullReferenceException: Object reference not set to an instance of an object.
-  at (wrapper managed-to-native) UnityEngine.Font.get_fontSize(UnityEngine.Font)
-  at (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.FastReflection<UnityEngine.Font.get_fontSize>(object,object[])
-  at XUnity.Common.Utilities.CachedProperty.Get (System.Object instance) [0x0000a] in <5f5c77dda5b3447393f01a7ca8c77c71>:IL_000A 
-  at GameTranslator.Patches.Translatons.TextTranslationInfo.ChangeFont (System.Object ui) [0x00082] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_0082 
-  at GameTranslator.Patches.Utils.TextTranslate.DiscoverComponent (System.Object ui, GameTranslator.Patches.Translatons.TextTranslationInfo info) [0x0003a] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_003A 
-[Warning:GameTranslator] 处理UI发现时发生错误.
-System.NullReferenceException: Object reference not set to an instance of an object.
-  at (wrapper managed-to-native) UnityEngine.Font.get_fontSize(UnityEngine.Font)
-  at (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.FastReflection<UnityEngine.Font.get_fontSize>(object,object[])
-  at XUnity.Common.Utilities.CachedProperty.Get (System.Object instance) [0x0000a] in <5f5c77dda5b3447393f01a7ca8c77c71>:IL_000A 
-  at GameTranslator.Patches.Translatons.TextTranslationInfo.ChangeFont (System.Object ui) [0x00082] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_0082 
-  at GameTranslator.Patches.Utils.TextTranslate.DiscoverComponent (System.Object ui, GameTranslator.Patches.Translatons.TextTranslationInfo info) [0x0003a] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_003A 
-[Warning:GameTranslator] 处理UI发现时发生错误.
-System.NullReferenceException: Object reference not set to an instance of an object.
-  at (wrapper managed-to-native) UnityEngine.Font.get_fontSize(UnityEngine.Font)
-  at (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.FastReflection<UnityEngine.Font.get_fontSize>(object,object[])
-  at XUnity.Common.Utilities.CachedProperty.Get (System.Object instance) [0x0000a] in <5f5c77dda5b3447393f01a7ca8c77c71>:IL_000A 
-  at GameTranslator.Patches.Translatons.TextTranslationInfo.ChangeFont (System.Object ui) [0x00082] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_0082 
-  at GameTranslator.Patches.Utils.TextTranslate.DiscoverComponent (System.Object ui, GameTranslator.Patches.Translatons.TextTranslationInfo info) [0x0003a] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_003A 
-[Warning:GameTranslator] 处理UI发现时发生错误.
-System.NullReferenceException: Object reference not set to an instance of an object.
-  at (wrapper managed-to-native) UnityEngine.Font.get_fontSize(UnityEngine.Font)
-  at (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.FastReflection<UnityEngine.Font.get_fontSize>(object,object[])
-  at XUnity.Common.Utilities.CachedProperty.Get (System.Object instance) [0x0000a] in <5f5c77dda5b3447393f01a7ca8c77c71>:IL_000A 
-  at GameTranslator.Patches.Translatons.TextTranslationInfo.ChangeFont (System.Object ui) [0x00082] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_0082 
-  at GameTranslator.Patches.Utils.TextTranslate.DiscoverComponent (System.Object ui, GameTranslator.Patches.Translatons.TextTranslationInfo info) [0x0003a] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_003A 
 [Info   :RuntimeNetcodeRPCValidator] Successfully added SignEmoteText to PlayerControllerB via Awake. Triggered by plugin MoreEmotes
 [Info   :RuntimeNetcodeRPCValidator] Successfully added SyncAnimatorToOthers to PlayerControllerB via Awake. Triggered by plugin MoreEmotes
-[Warning:GameTranslator] 处理UI发现时发生错误.
-System.NullReferenceException: Object reference not set to an instance of an object.
-  at (wrapper managed-to-native) UnityEngine.Font.get_fontSize(UnityEngine.Font)
-  at (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.FastReflection<UnityEngine.Font.get_fontSize>(object,object[])
-  at XUnity.Common.Utilities.CachedProperty.Get (System.Object instance) [0x0000a] in <5f5c77dda5b3447393f01a7ca8c77c71>:IL_000A 
-  at GameTranslator.Patches.Translatons.TextTranslationInfo.ChangeFont (System.Object ui) [0x00082] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_0082 
-  at GameTranslator.Patches.Utils.TextTranslate.DiscoverComponent (System.Object ui, GameTranslator.Patches.Translatons.TextTranslationInfo info) [0x0003a] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_003A 
-[Warning:GameTranslator] 处理UI发现时发生错误.
-System.NullReferenceException: Object reference not set to an instance of an object.
-  at (wrapper managed-to-native) UnityEngine.Font.get_fontSize(UnityEngine.Font)
-  at (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.FastReflection<UnityEngine.Font.get_fontSize>(object,object[])
-  at XUnity.Common.Utilities.CachedProperty.Get (System.Object instance) [0x0000a] in <5f5c77dda5b3447393f01a7ca8c77c71>:IL_000A 
-  at GameTranslator.Patches.Translatons.TextTranslationInfo.ChangeFont (System.Object ui) [0x00082] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_0082 
-  at GameTranslator.Patches.Utils.TextTranslate.DiscoverComponent (System.Object ui, GameTranslator.Patches.Translatons.TextTranslationInfo info) [0x0003a] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_003A 
-[Warning:GameTranslator] 处理UI发现时发生错误.
-System.NullReferenceException: Object reference not set to an instance of an object.
-  at (wrapper managed-to-native) UnityEngine.Font.get_fontSize(UnityEngine.Font)
-  at (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.FastReflection<UnityEngine.Font.get_fontSize>(object,object[])
-  at XUnity.Common.Utilities.CachedProperty.Get (System.Object instance) [0x0000a] in <5f5c77dda5b3447393f01a7ca8c77c71>:IL_000A 
-  at GameTranslator.Patches.Translatons.TextTranslationInfo.ChangeFont (System.Object ui) [0x00082] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_0082 
-  at GameTranslator.Patches.Utils.TextTranslate.DiscoverComponent (System.Object ui, GameTranslator.Patches.Translatons.TextTranslationInfo info) [0x0003a] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_003A 
-[Warning:GameTranslator] 处理UI发现时发生错误.
-System.NullReferenceException: Object reference not set to an instance of an object.
-  at (wrapper managed-to-native) UnityEngine.Font.get_fontSize(UnityEngine.Font)
-  at (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.FastReflection<UnityEngine.Font.get_fontSize>(object,object[])
-  at XUnity.Common.Utilities.CachedProperty.Get (System.Object instance) [0x0000a] in <5f5c77dda5b3447393f01a7ca8c77c71>:IL_000A 
-  at GameTranslator.Patches.Translatons.TextTranslationInfo.ChangeFont (System.Object ui) [0x00082] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_0082 
-  at GameTranslator.Patches.Utils.TextTranslate.DiscoverComponent (System.Object ui, GameTranslator.Patches.Translatons.TextTranslationInfo info) [0x0003a] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_003A 
-[Warning:GameTranslator] 处理UI发现时发生错误.
-System.NullReferenceException: Object reference not set to an instance of an object.
-  at (wrapper managed-to-native) UnityEngine.Font.get_fontSize(UnityEngine.Font)
-  at (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.FastReflection<UnityEngine.Font.get_fontSize>(object,object[])
-  at XUnity.Common.Utilities.CachedProperty.Get (System.Object instance) [0x0000a] in <5f5c77dda5b3447393f01a7ca8c77c71>:IL_000A 
-  at GameTranslator.Patches.Translatons.TextTranslationInfo.ChangeFont (System.Object ui) [0x00082] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_0082 
-  at GameTranslator.Patches.Utils.TextTranslate.DiscoverComponent (System.Object ui, GameTranslator.Patches.Translatons.TextTranslationInfo info) [0x0003a] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_003A 
-[Warning:GameTranslator] 处理UI发现时发生错误.
-System.NullReferenceException: Object reference not set to an instance of an object.
-  at (wrapper managed-to-native) UnityEngine.Font.get_fontSize(UnityEngine.Font)
-  at (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.FastReflection<UnityEngine.Font.get_fontSize>(object,object[])
-  at XUnity.Common.Utilities.CachedProperty.Get (System.Object instance) [0x0000a] in <5f5c77dda5b3447393f01a7ca8c77c71>:IL_000A 
-  at GameTranslator.Patches.Translatons.TextTranslationInfo.ChangeFont (System.Object ui) [0x00082] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_0082 
-  at GameTranslator.Patches.Utils.TextTranslate.DiscoverComponent (System.Object ui, GameTranslator.Patches.Translatons.TextTranslationInfo info) [0x0003a] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_003A 
-[Warning:GameTranslator] 处理UI发现时发生错误.
-System.NullReferenceException: Object reference not set to an instance of an object.
-  at (wrapper managed-to-native) UnityEngine.Font.get_fontSize(UnityEngine.Font)
-  at (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.FastReflection<UnityEngine.Font.get_fontSize>(object,object[])
-  at XUnity.Common.Utilities.CachedProperty.Get (System.Object instance) [0x0000a] in <5f5c77dda5b3447393f01a7ca8c77c71>:IL_000A 
-  at GameTranslator.Patches.Translatons.TextTranslationInfo.ChangeFont (System.Object ui) [0x00082] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_0082 
-  at GameTranslator.Patches.Utils.TextTranslate.DiscoverComponent (System.Object ui, GameTranslator.Patches.Translatons.TextTranslationInfo info) [0x0003a] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_003A 
-[Warning:GameTranslator] 处理UI发现时发生错误.
-System.NullReferenceException: Object reference not set to an instance of an object.
-  at (wrapper managed-to-native) UnityEngine.Font.get_fontSize(UnityEngine.Font)
-  at (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.FastReflection<UnityEngine.Font.get_fontSize>(object,object[])
-  at XUnity.Common.Utilities.CachedProperty.Get (System.Object instance) [0x0000a] in <5f5c77dda5b3447393f01a7ca8c77c71>:IL_000A 
-  at GameTranslator.Patches.Translatons.TextTranslationInfo.ChangeFont (System.Object ui) [0x00082] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_0082 
-  at GameTranslator.Patches.Utils.TextTranslate.DiscoverComponent (System.Object ui, GameTranslator.Patches.Translatons.TextTranslationInfo info) [0x0003a] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_003A 
-[Warning:GameTranslator] 处理UI发现时发生错误.
-System.NullReferenceException: Object reference not set to an instance of an object.
-  at (wrapper managed-to-native) UnityEngine.Font.get_fontSize(UnityEngine.Font)
-  at (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.FastReflection<UnityEngine.Font.get_fontSize>(object,object[])
-  at XUnity.Common.Utilities.CachedProperty.Get (System.Object instance) [0x0000a] in <5f5c77dda5b3447393f01a7ca8c77c71>:IL_000A 
-  at GameTranslator.Patches.Translatons.TextTranslationInfo.ChangeFont (System.Object ui) [0x00082] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_0082 
-  at GameTranslator.Patches.Utils.TextTranslate.DiscoverComponent (System.Object ui, GameTranslator.Patches.Translatons.TextTranslationInfo info) [0x0003a] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_003A 
-[Warning:GameTranslator] 处理UI发现时发生错误.
-System.NullReferenceException: Object reference not set to an instance of an object.
-  at (wrapper managed-to-native) UnityEngine.Font.get_fontSize(UnityEngine.Font)
-  at (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.FastReflection<UnityEngine.Font.get_fontSize>(object,object[])
-  at XUnity.Common.Utilities.CachedProperty.Get (System.Object instance) [0x0000a] in <5f5c77dda5b3447393f01a7ca8c77c71>:IL_000A 
-  at GameTranslator.Patches.Translatons.TextTranslationInfo.ChangeFont (System.Object ui) [0x00082] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_0082 
-  at GameTranslator.Patches.Utils.TextTranslate.DiscoverComponent (System.Object ui, GameTranslator.Patches.Translatons.TextTranslationInfo info) [0x0003a] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_003A 
-[Warning:GameTranslator] 处理UI发现时发生错误.
-System.NullReferenceException: Object reference not set to an instance of an object.
-  at (wrapper managed-to-native) UnityEngine.Font.get_fontSize(UnityEngine.Font)
-  at (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.FastReflection<UnityEngine.Font.get_fontSize>(object,object[])
-  at XUnity.Common.Utilities.CachedProperty.Get (System.Object instance) [0x0000a] in <5f5c77dda5b3447393f01a7ca8c77c71>:IL_000A 
-  at GameTranslator.Patches.Translatons.TextTranslationInfo.ChangeFont (System.Object ui) [0x00082] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_0082 
-  at GameTranslator.Patches.Utils.TextTranslate.DiscoverComponent (System.Object ui, GameTranslator.Patches.Translatons.TextTranslationInfo info) [0x0003a] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_003A 
-[Warning:GameTranslator] 处理UI发现时发生错误.
-System.NullReferenceException: Object reference not set to an instance of an object.
-  at (wrapper managed-to-native) UnityEngine.Font.get_fontSize(UnityEngine.Font)
-  at (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.FastReflection<UnityEngine.Font.get_fontSize>(object,object[])
-  at XUnity.Common.Utilities.CachedProperty.Get (System.Object instance) [0x0000a] in <5f5c77dda5b3447393f01a7ca8c77c71>:IL_000A 
-  at GameTranslator.Patches.Translatons.TextTranslationInfo.ChangeFont (System.Object ui) [0x00082] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_0082 
-  at GameTranslator.Patches.Utils.TextTranslate.DiscoverComponent (System.Object ui, GameTranslator.Patches.Translatons.TextTranslationInfo info) [0x0003a] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_003A 
 [Info   :RuntimeNetcodeRPCValidator] Successfully added SignEmoteText to PlayerControllerB via Awake. Triggered by plugin MoreEmotes
 [Info   :RuntimeNetcodeRPCValidator] Successfully added SyncAnimatorToOthers to PlayerControllerB via Awake. Triggered by plugin MoreEmotes
-[Warning:GameTranslator] 处理UI发现时发生错误.
-System.NullReferenceException: Object reference not set to an instance of an object.
-  at (wrapper managed-to-native) UnityEngine.Font.get_fontSize(UnityEngine.Font)
-  at (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.FastReflection<UnityEngine.Font.get_fontSize>(object,object[])
-  at XUnity.Common.Utilities.CachedProperty.Get (System.Object instance) [0x0000a] in <5f5c77dda5b3447393f01a7ca8c77c71>:IL_000A 
-  at GameTranslator.Patches.Translatons.TextTranslationInfo.ChangeFont (System.Object ui) [0x00082] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_0082 
-  at GameTranslator.Patches.Utils.TextTranslate.DiscoverComponent (System.Object ui, GameTranslator.Patches.Translatons.TextTranslationInfo info) [0x0003a] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_003A 
-[Warning:GameTranslator] 处理UI发现时发生错误.
-System.NullReferenceException: Object reference not set to an instance of an object.
-  at (wrapper managed-to-native) UnityEngine.Font.get_fontSize(UnityEngine.Font)
-  at (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.FastReflection<UnityEngine.Font.get_fontSize>(object,object[])
-  at XUnity.Common.Utilities.CachedProperty.Get (System.Object instance) [0x0000a] in <5f5c77dda5b3447393f01a7ca8c77c71>:IL_000A 
-  at GameTranslator.Patches.Translatons.TextTranslationInfo.ChangeFont (System.Object ui) [0x00082] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_0082 
-  at GameTranslator.Patches.Utils.TextTranslate.DiscoverComponent (System.Object ui, GameTranslator.Patches.Translatons.TextTranslationInfo info) [0x0003a] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_003A 
-[Warning:GameTranslator] 处理UI发现时发生错误.
-System.NullReferenceException: Object reference not set to an instance of an object.
-  at (wrapper managed-to-native) UnityEngine.Font.get_fontSize(UnityEngine.Font)
-  at (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.FastReflection<UnityEngine.Font.get_fontSize>(object,object[])
-  at XUnity.Common.Utilities.CachedProperty.Get (System.Object instance) [0x0000a] in <5f5c77dda5b3447393f01a7ca8c77c71>:IL_000A 
-  at GameTranslator.Patches.Translatons.TextTranslationInfo.ChangeFont (System.Object ui) [0x00082] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_0082 
-  at GameTranslator.Patches.Utils.TextTranslate.DiscoverComponent (System.Object ui, GameTranslator.Patches.Translatons.TextTranslationInfo info) [0x0003a] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_003A 
-[Warning:GameTranslator] 处理UI发现时发生错误.
-System.NullReferenceException: Object reference not set to an instance of an object.
-  at (wrapper managed-to-native) UnityEngine.Font.get_fontSize(UnityEngine.Font)
-  at (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.FastReflection<UnityEngine.Font.get_fontSize>(object,object[])
-  at XUnity.Common.Utilities.CachedProperty.Get (System.Object instance) [0x0000a] in <5f5c77dda5b3447393f01a7ca8c77c71>:IL_000A 
-  at GameTranslator.Patches.Translatons.TextTranslationInfo.ChangeFont (System.Object ui) [0x00082] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_0082 
-  at GameTranslator.Patches.Utils.TextTranslate.DiscoverComponent (System.Object ui, GameTranslator.Patches.Translatons.TextTranslationInfo info) [0x0003a] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_003A 
-[Warning:GameTranslator] 处理UI发现时发生错误.
-System.NullReferenceException: Object reference not set to an instance of an object.
-  at (wrapper managed-to-native) UnityEngine.Font.get_fontSize(UnityEngine.Font)
-  at (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.FastReflection<UnityEngine.Font.get_fontSize>(object,object[])
-  at XUnity.Common.Utilities.CachedProperty.Get (System.Object instance) [0x0000a] in <5f5c77dda5b3447393f01a7ca8c77c71>:IL_000A 
-  at GameTranslator.Patches.Translatons.TextTranslationInfo.ChangeFont (System.Object ui) [0x00082] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_0082 
-  at GameTranslator.Patches.Utils.TextTranslate.DiscoverComponent (System.Object ui, GameTranslator.Patches.Translatons.TextTranslationInfo info) [0x0003a] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_003A 
-[Warning:GameTranslator] 处理UI发现时发生错误.
-System.NullReferenceException: Object reference not set to an instance of an object.
-  at (wrapper managed-to-native) UnityEngine.Font.get_fontSize(UnityEngine.Font)
-  at (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.FastReflection<UnityEngine.Font.get_fontSize>(object,object[])
-  at XUnity.Common.Utilities.CachedProperty.Get (System.Object instance) [0x0000a] in <5f5c77dda5b3447393f01a7ca8c77c71>:IL_000A 
-  at GameTranslator.Patches.Translatons.TextTranslationInfo.ChangeFont (System.Object ui) [0x00082] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_0082 
-  at GameTranslator.Patches.Utils.TextTranslate.DiscoverComponent (System.Object ui, GameTranslator.Patches.Translatons.TextTranslationInfo info) [0x0003a] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_003A 
-[Warning:GameTranslator] 处理UI发现时发生错误.
-System.NullReferenceException: Object reference not set to an instance of an object.
-  at (wrapper managed-to-native) UnityEngine.Font.get_fontSize(UnityEngine.Font)
-  at (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.FastReflection<UnityEngine.Font.get_fontSize>(object,object[])
-  at XUnity.Common.Utilities.CachedProperty.Get (System.Object instance) [0x0000a] in <5f5c77dda5b3447393f01a7ca8c77c71>:IL_000A 
-  at GameTranslator.Patches.Translatons.TextTranslationInfo.ChangeFont (System.Object ui) [0x00082] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_0082 
-  at GameTranslator.Patches.Utils.TextTranslate.DiscoverComponent (System.Object ui, GameTranslator.Patches.Translatons.TextTranslationInfo info) [0x0003a] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_003A 
-[Warning:GameTranslator] 处理UI发现时发生错误.
-System.NullReferenceException: Object reference not set to an instance of an object.
-  at (wrapper managed-to-native) UnityEngine.Font.get_fontSize(UnityEngine.Font)
-  at (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.FastReflection<UnityEngine.Font.get_fontSize>(object,object[])
-  at XUnity.Common.Utilities.CachedProperty.Get (System.Object instance) [0x0000a] in <5f5c77dda5b3447393f01a7ca8c77c71>:IL_000A 
-  at GameTranslator.Patches.Translatons.TextTranslationInfo.ChangeFont (System.Object ui) [0x00082] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_0082 
-  at GameTranslator.Patches.Utils.TextTranslate.DiscoverComponent (System.Object ui, GameTranslator.Patches.Translatons.TextTranslationInfo info) [0x0003a] in <4b1e6f4ce97f4e37a4555f3a98471a2f>:IL_003A 
 [Info   : LethalLib] Diagetic mixer is Diagetic
 [Info   : LethalLib] Found 25 prefabs to fix
 [Info   : LethalLib] Set mixer group for TeleporterTrap in TeleporterTrap to Diagetic:SFX
@@ -1578,40 +665,82 @@ System.NullReferenceException: Object reference not set to an instance of an obj
 [Info   : LethalLib] Set mixer group for ArsonPlush in ArsonPlush to Diagetic:Master
 [Info   :Jordo.NeedyCats] Added Needy Cats to all levels.
 [Info   :UnlockOnStart] New save detected, loading unlockables from config.
-[Info   :UnlockOnStart] Unlocking Toilet.
-[Info   :UnlockOnStart] Unlocking Signal translator.
-[Info   :UnlockOnStart] Unlocking Lockpicker * 2.
-[Debug  :UnlockOnStart] Spawning Lockpicker at (3.87, 0.84, -12.23).
-[Debug  :UnlockOnStart] Spawning Lockpicker at (3.23, 0.84, -12.23).
-[Info   :UnlockOnStart] Unlocking Pro-flashlight * 8.
-[Debug  :UnlockOnStart] Spawning Pro-flashlight at (3.88, 0.84, -12.23).
-[Debug  :UnlockOnStart] Spawning Pro-flashlight at (3.75, 0.84, -12.23).
-[Debug  :UnlockOnStart] Spawning Pro-flashlight at (3.58, 0.84, -12.23).
-[Debug  :UnlockOnStart] Spawning Pro-flashlight at (3.33, 0.84, -12.23).
-[Debug  :UnlockOnStart] Spawning Pro-flashlight at (4.38, 0.84, -12.23).
-[Debug  :UnlockOnStart] Spawning Pro-flashlight at (3.53, 0.84, -12.23).
-[Debug  :UnlockOnStart] Spawning Pro-flashlight at (3.31, 0.84, -12.23).
-[Debug  :UnlockOnStart] Spawning Pro-flashlight at (3.84, 0.84, -12.23).
-[Info   :UnlockOnStart] Unlocking Shovel * 4.
-[Debug  :UnlockOnStart] Spawning Shovel at (4.27, 0.84, -12.23).
-[Debug  :UnlockOnStart] Spawning Shovel at (3.44, 0.84, -12.23).
-[Debug  :UnlockOnStart] Spawning Shovel at (3.40, 0.84, -12.23).
-[Debug  :UnlockOnStart] Spawning Shovel at (4.00, 0.84, -12.23).
-[Info   :UnlockOnStart] Unlocking Walkie-talkie * 4.
-[Warning: Unity Log] Only custom filters can be played. Please add a custom filter or an audioclip to the audiosource (Target).
-[Debug  :UnlockOnStart] Spawning Walkie-talkie at (3.41, 0.84, -12.23).
-[Warning: Unity Log] Only custom filters can be played. Please add a custom filter or an audioclip to the audiosource (Target).
-[Debug  :UnlockOnStart] Spawning Walkie-talkie at (3.68, 0.84, -12.23).
-[Warning: Unity Log] Only custom filters can be played. Please add a custom filter or an audioclip to the audiosource (Target).
-[Debug  :UnlockOnStart] Spawning Walkie-talkie at (4.41, 0.84, -12.23).
-[Warning: Unity Log] Only custom filters can be played. Please add a custom filter or an audioclip to the audiosource (Target).
-[Debug  :UnlockOnStart] Spawning Walkie-talkie at (4.10, 0.84, -12.23).
-[Info   :UnlockOnStart] Unlocking Spray paint * 4.
-[Debug  :UnlockOnStart] Spawning Spray paint at (3.43, 0.84, -12.23).
-[Debug  :UnlockOnStart] Spawning Spray paint at (3.52, 0.84, -12.23).
-[Debug  :UnlockOnStart] Spawning Spray paint at (3.47, 0.84, -12.23).
-[Debug  :UnlockOnStart] Spawning Spray paint at (3.81, 0.84, -12.23).
-[Info   :Cabinet Item Storage] True
+[Debug  :UnlockOnStart] Unlockable |Binoculars| not found in config.
+[Debug  :UnlockOnStart] Unlockable |Boombox| not found in config.
+[Debug  :UnlockOnStart] Unlockable |box| not found in config.
+[Debug  :UnlockOnStart] Unlockable |Key| not found in config.
+[Debug  :UnlockOnStart] Unlockable |Apparatus| not found in config.
+[Debug  :UnlockOnStart] Unlockable |Mapper| not found in config.
+[Debug  :UnlockOnStart] Unlockable |Magic 7 ball| not found in config.
+[Debug  :UnlockOnStart] Unlockable |Airhorn| not found in config.
+[Debug  :UnlockOnStart] Unlockable |Bell| not found in config.
+[Debug  :UnlockOnStart] Unlockable |Big bolt| not found in config.
+[Debug  :UnlockOnStart] Unlockable |Bottles| not found in config.
+[Debug  :UnlockOnStart] Unlockable |Brush| not found in config.
+[Debug  :UnlockOnStart] Unlockable |Candy| not found in config.
+[Debug  :UnlockOnStart] Unlockable |Cash register| not found in config.
+[Debug  :UnlockOnStart] Unlockable |Chemical jug| not found in config.
+[Debug  :UnlockOnStart] Unlockable |Clown horn| not found in config.
+[Debug  :UnlockOnStart] Unlockable |Large axle| not found in config.
+[Debug  :UnlockOnStart] Unlockable |Teeth| not found in config.
+[Debug  :UnlockOnStart] Unlockable |Dust pan| not found in config.
+[Debug  :UnlockOnStart] Unlockable |Egg beater| not found in config.
+[Debug  :UnlockOnStart] Unlockable |V-type engine| not found in config.
+[Debug  :UnlockOnStart] Unlockable |Golden cup| not found in config.
+[Debug  :UnlockOnStart] Unlockable |Fancy lamp| not found in config.
+[Debug  :UnlockOnStart] Unlockable |Painting| not found in config.
+[Debug  :UnlockOnStart] Unlockable |Plastic fish| not found in config.
+[Debug  :UnlockOnStart] Unlockable |Laser pointer| not found in config.
+[Debug  :UnlockOnStart] Unlockable |Gold bar| not found in config.
+[Debug  :UnlockOnStart] Unlockable |Hairdryer| not found in config.
+[Debug  :UnlockOnStart] Unlockable |Magnifying glass| not found in config.
+[Debug  :UnlockOnStart] Unlockable |Metal sheet| not found in config.
+[Debug  :UnlockOnStart] Unlockable |Cookie mold pan| not found in config.
+[Debug  :UnlockOnStart] Unlockable |Mug| not found in config.
+[Debug  :UnlockOnStart] Unlockable |Perfume bottle| not found in config.
+[Debug  :UnlockOnStart] Unlockable |Old phone| not found in config.
+[Debug  :UnlockOnStart] Unlockable |Jar of pickles| not found in config.
+[Debug  :UnlockOnStart] Unlockable |Pill bottle| not found in config.
+[Debug  :UnlockOnStart] Unlockable |Remote| not found in config.
+[Debug  :UnlockOnStart] Unlockable |Ring| not found in config.
+[Debug  :UnlockOnStart] Unlockable |Toy robot| not found in config.
+[Debug  :UnlockOnStart] Unlockable |Rubber Ducky| not found in config.
+[Debug  :UnlockOnStart] Unlockable |Red soda| not found in config.
+[Debug  :UnlockOnStart] Unlockable |Steering wheel| not found in config.
+[Debug  :UnlockOnStart] Unlockable |Stop sign| not found in config.
+[Debug  :UnlockOnStart] Unlockable |Tea kettle| not found in config.
+[Debug  :UnlockOnStart] Unlockable |Toothpaste| not found in config.
+[Debug  :UnlockOnStart] Unlockable |Toy cube| not found in config.
+[Debug  :UnlockOnStart] Unlockable |Hive| not found in config.
+[Debug  :UnlockOnStart] Unlockable |Yield sign| not found in config.
+[Debug  :UnlockOnStart] Unlockable |Shells| not found in config.
+[Debug  :UnlockOnStart] Unlockable |Homemade flashbang| not found in config.
+[Debug  :UnlockOnStart] Unlockable |Gift| not found in config.
+[Debug  :UnlockOnStart] Unlockable |Flask| not found in config.
+[Debug  :UnlockOnStart] Unlockable |Tragedy| not found in config.
+[Debug  :UnlockOnStart] Unlockable |Comedy| not found in config.
+[Debug  :UnlockOnStart] Unlockable |Whoopie cushion| not found in config.
+[Debug  :UnlockOnStart] Unlockable |Cat| not found in config.
+[Debug  :UnlockOnStart] Unlockable |Arson Plush| not found in config.
+[Debug  :UnlockOnStart] Unlockable |Cookie Fumo| not found in config.
+[Debug  :UnlockOnStart] Unlockable |Toimari Plush| not found in config.
+[Debug  :UnlockOnStart] Unlockable |Hamis Plush| not found in config.
+[Debug  :UnlockOnStart] Unlockable |Dirty Arson Plush| not found in config.
+[Debug  :UnlockOnStart] Unlockable |Maxwell| not found in config.
+[Debug  :UnlockOnStart] Unlockable |Glizzy| not found in config.
+[Debug  :UnlockOnStart] Unlockable |Revolver| not found in config.
+[Debug  :UnlockOnStart] Unlockable |Gremlin Can| not found in config.
+[Debug  :UnlockOnStart] Unlockable |Toy Hammer| not found in config.
+[Debug  :UnlockOnStart] Unlockable |Gnarpy Plush| not found in config.
+[Debug  :UnlockOnStart] Unlockable |Rocket Launcher| not found in config.
+[Debug  :UnlockOnStart] Unlockable |Flaregun| not found in config.
+[Debug  :UnlockOnStart] Unlockable |Emergency Flare (ammo)| not found in config.
+[Debug  :UnlockOnStart] Unlockable |Toy Hammer| not found in config.
+[Debug  :UnlockOnStart] Unlockable |Remote Radar| not found in config.
+[Debug  :UnlockOnStart] Unlockable |Utility Belt| not found in config.
+[Debug  :UnlockOnStart] Unlockable |Hacking Tool| not found in config.
+[Debug  :UnlockOnStart] Unlockable |Pinger| not found in config.
+[Debug  :UnlockOnStart] Unlockable |Dart| not found in config.
 [Info   :Possessed Mask] Asset bundle loaded
 [Warning: Unity Log] TerminalKeyword must be instantiated using the ScriptableObject.CreateInstance method instead of new TerminalKeyword.
 [Warning: Unity Log] TerminalKeyword must be instantiated using the ScriptableObject.CreateInstance method instead of new TerminalKeyword.
@@ -1847,8 +976,7 @@ If you absolutely need to use negative scaling you can use the convex MeshCollid
 [Warning: Unity Log] BoxColliders does not support negative scale or size.
 The effective box size has been forced positive and is likely to give unexpected collision geometry.
 If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Environment/HangarShip/ShipBottomColliders/Cube (4)"
-[Info   :Junypai.GamblersMod] ConnectClientToPlayerObjectPatch
-[Info   :Junypai.GamblersMod] Registering host config message handler: Junypai.GamblersMod_OnHostRecievesClientConfigRequest
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (Z:/SteamLibrary/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
 [Info   :Custom Boombox Music] Loaded C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\Custom Songs\Boombox Music\All My people.mp3
 [Info   :Custom Boombox Music] Loaded C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\Custom Songs\Boombox Music\Attention.mp3
 [Info   :Custom Boombox Music] Loaded C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\Custom Songs\Boombox Music\Believer.mp3
@@ -2062,10 +1190,120 @@ If you absolutely need to use negative scaling you can use the convex MeshCollid
 [Info   :PestControl] MouthDog, old rarity: 75, new rariy: 82
 [Info   :PestControl] ForestGiant, old rarity: 0, new rariy: 0
 [Info   :PestControl] Earth Leviathan, old rarity: 56, new rariy: 44
-[Info   :Junypai.GamblersMod] FinishGeneratingNewLevelServerRpcPatch was called
-[Info   :Junypai.GamblersMod] Despawning gambling machine...
-[Message:Junypai.GamblersMod] Despwawning gambling machine...
-[Info   :Junypai.GamblersMod] Resetting gambling machine manager state...
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Systems/LevelGeneration/LevelGenerationRoot/CatwalkTile2x1Split(Clone)/Colliders/StairCollider (25)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Systems/LevelGeneration/LevelGenerationRoot/CatwalkTile2x1Split(Clone)/Colliders/StairCollider (18)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Systems/LevelGeneration/LevelGenerationRoot/CatwalkTile2x1Split(Clone)/Colliders/StairCollider (16)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Systems/LevelGeneration/LevelGenerationRoot/CatwalkTile2x1Split(Clone)/Colliders/StairCollider (15)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Systems/LevelGeneration/LevelGenerationRoot/CatwalkTile2x1Split(Clone)/Colliders/StairCollider (17)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Systems/LevelGeneration/LevelGenerationRoot/CatwalkTile2x1Split(Clone)/Colliders/StairCollider (13)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Systems/LevelGeneration/LevelGenerationRoot/CatwalkTile2x1Split(Clone)/Colliders/StairCollider (24)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Systems/LevelGeneration/LevelGenerationRoot/CatwalkTile2x1Split(Clone)/Colliders/StairCollider (14)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Systems/LevelGeneration/LevelGenerationRoot/CatwalkTile2x1Split(Clone)/Colliders/StairCollider (20)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Systems/LevelGeneration/LevelGenerationRoot/CatwalkTile2x1Split(Clone)/Colliders/StairCollider (11)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Systems/LevelGeneration/LevelGenerationRoot/CatwalkTile2x1Split(Clone)/Colliders/StairCollider (19)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Systems/LevelGeneration/LevelGenerationRoot/CatwalkTile2x1Split(Clone)/Colliders/StairCollider (12)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Systems/LevelGeneration/LevelGenerationRoot/CatwalkTile2x1Split(Clone)/Colliders/StairCollider (21)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Systems/LevelGeneration/LevelGenerationRoot/CatwalkTile2x1Split(Clone)/Colliders/StairCollider (23)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Systems/LevelGeneration/LevelGenerationRoot/CatwalkTile2x1Split(Clone)/Colliders/StairCollider (22)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Systems/LevelGeneration/LevelGenerationRoot/CatwalkTile2x1Split(Clone)/Colliders/StairCollider (26)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Systems/LevelGeneration/LevelGenerationRoot/CatwalkTile2x1Split(Clone)/Colliders/StairCollider (25)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Systems/LevelGeneration/LevelGenerationRoot/CatwalkTile2x1Split(Clone)/Colliders/StairCollider (18)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Systems/LevelGeneration/LevelGenerationRoot/CatwalkTile2x1Split(Clone)/Colliders/StairCollider (16)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Systems/LevelGeneration/LevelGenerationRoot/CatwalkTile2x1Split(Clone)/Colliders/StairCollider (15)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Systems/LevelGeneration/LevelGenerationRoot/CatwalkTile2x1Split(Clone)/Colliders/StairCollider (17)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Systems/LevelGeneration/LevelGenerationRoot/CatwalkTile2x1Split(Clone)/Colliders/StairCollider (13)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Systems/LevelGeneration/LevelGenerationRoot/CatwalkTile2x1Split(Clone)/Colliders/StairCollider (24)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Systems/LevelGeneration/LevelGenerationRoot/CatwalkTile2x1Split(Clone)/Colliders/StairCollider (14)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Systems/LevelGeneration/LevelGenerationRoot/CatwalkTile2x1Split(Clone)/Colliders/StairCollider (20)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Systems/LevelGeneration/LevelGenerationRoot/CatwalkTile2x1Split(Clone)/Colliders/StairCollider (11)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Systems/LevelGeneration/LevelGenerationRoot/CatwalkTile2x1Split(Clone)/Colliders/StairCollider (19)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Systems/LevelGeneration/LevelGenerationRoot/CatwalkTile2x1Split(Clone)/Colliders/StairCollider (12)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Systems/LevelGeneration/LevelGenerationRoot/CatwalkTile2x1Split(Clone)/Colliders/StairCollider (21)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Systems/LevelGeneration/LevelGenerationRoot/CatwalkTile2x1Split(Clone)/Colliders/StairCollider (23)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Systems/LevelGeneration/LevelGenerationRoot/CatwalkTile2x1Split(Clone)/Colliders/StairCollider (22)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Systems/LevelGeneration/LevelGenerationRoot/CatwalkTile2x1Split(Clone)/Colliders/StairCollider (26)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Systems/LevelGeneration/LevelGenerationRoot/DoubleDoorRoom(Clone)/Pipes/Pipe7 (1)/Cube (39)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Systems/LevelGeneration/LevelGenerationRoot/DoubleDoorRoom(Clone)/Pipes/Pipe7 (1)/Cube (38)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Systems/LevelGeneration/LevelGenerationRoot/DoubleDoorRoom(Clone)/Pipes/Pipe7 (1)/Cube (37)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Systems/LevelGeneration/LevelGenerationRoot/DoubleDoorRoom(Clone)/Pipes/Pipe6 (1)/Cube (34)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Systems/LevelGeneration/LevelGenerationRoot/DoubleDoorRoom(Clone)/Pipes/Pipe6 (1)/Cube (36)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Systems/LevelGeneration/LevelGenerationRoot/DoubleDoorRoom(Clone)/Pipes/Pipe6 (1)/Cube (35)"
 [Warning: Unity Log] BoxColliders does not support negative scale or size.
 The effective box size has been forced positive and is likely to give unexpected collision geometry.
 If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Systems/LevelGeneration/LevelGenerationRoot/CatwalkTile2x1(Clone)/CatwalkStairs.002/StairCollider (1)"
@@ -2134,121 +1372,64 @@ The effective box size has been forced positive and is likely to give unexpected
 If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Systems/LevelGeneration/LevelGenerationRoot/CatwalkTile2x1(Clone)/CatwalkStairs.002/StairCollider (5)"
 [Warning: Unity Log] BoxColliders does not support negative scale or size.
 The effective box size has been forced positive and is likely to give unexpected collision geometry.
-If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Systems/LevelGeneration/LevelGenerationRoot/CatwalkTile2x1(Clone)/CatwalkStairs.002/StairCollider (1)"
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Systems/LevelGeneration/LevelGenerationRoot/CatwalkTile2x1Split(Clone)/Colliders/StairCollider (25)"
 [Warning: Unity Log] BoxColliders does not support negative scale or size.
 The effective box size has been forced positive and is likely to give unexpected collision geometry.
-If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Systems/LevelGeneration/LevelGenerationRoot/CatwalkTile2x1(Clone)/CatwalkStairs.002/StairCollider (2)"
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Systems/LevelGeneration/LevelGenerationRoot/CatwalkTile2x1Split(Clone)/Colliders/StairCollider (18)"
 [Warning: Unity Log] BoxColliders does not support negative scale or size.
 The effective box size has been forced positive and is likely to give unexpected collision geometry.
-If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Systems/LevelGeneration/LevelGenerationRoot/CatwalkTile2x1(Clone)/CatwalkStairs.002/StairCollider (9)"
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Systems/LevelGeneration/LevelGenerationRoot/CatwalkTile2x1Split(Clone)/Colliders/StairCollider (16)"
 [Warning: Unity Log] BoxColliders does not support negative scale or size.
 The effective box size has been forced positive and is likely to give unexpected collision geometry.
-If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Systems/LevelGeneration/LevelGenerationRoot/CatwalkTile2x1(Clone)/CatwalkStairs.002/StairCollider (8)"
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Systems/LevelGeneration/LevelGenerationRoot/CatwalkTile2x1Split(Clone)/Colliders/StairCollider (15)"
 [Warning: Unity Log] BoxColliders does not support negative scale or size.
 The effective box size has been forced positive and is likely to give unexpected collision geometry.
-If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Systems/LevelGeneration/LevelGenerationRoot/CatwalkTile2x1(Clone)/CatwalkStairs.002/StairCollider (4)"
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Systems/LevelGeneration/LevelGenerationRoot/CatwalkTile2x1Split(Clone)/Colliders/StairCollider (17)"
 [Warning: Unity Log] BoxColliders does not support negative scale or size.
 The effective box size has been forced positive and is likely to give unexpected collision geometry.
-If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Systems/LevelGeneration/LevelGenerationRoot/CatwalkTile2x1(Clone)/CatwalkStairs.002/StairCollider (6)"
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Systems/LevelGeneration/LevelGenerationRoot/CatwalkTile2x1Split(Clone)/Colliders/StairCollider (13)"
 [Warning: Unity Log] BoxColliders does not support negative scale or size.
 The effective box size has been forced positive and is likely to give unexpected collision geometry.
-If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Systems/LevelGeneration/LevelGenerationRoot/CatwalkTile2x1(Clone)/CatwalkStairs.002/StairCollider"
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Systems/LevelGeneration/LevelGenerationRoot/CatwalkTile2x1Split(Clone)/Colliders/StairCollider (24)"
 [Warning: Unity Log] BoxColliders does not support negative scale or size.
 The effective box size has been forced positive and is likely to give unexpected collision geometry.
-If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Systems/LevelGeneration/LevelGenerationRoot/CatwalkTile2x1(Clone)/CatwalkStairs.002/StairCollider (7)"
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Systems/LevelGeneration/LevelGenerationRoot/CatwalkTile2x1Split(Clone)/Colliders/StairCollider (14)"
 [Warning: Unity Log] BoxColliders does not support negative scale or size.
 The effective box size has been forced positive and is likely to give unexpected collision geometry.
-If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Systems/LevelGeneration/LevelGenerationRoot/CatwalkTile2x1(Clone)/CatwalkStairs.002/StairCollider (10)"
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Systems/LevelGeneration/LevelGenerationRoot/CatwalkTile2x1Split(Clone)/Colliders/StairCollider (20)"
 [Warning: Unity Log] BoxColliders does not support negative scale or size.
 The effective box size has been forced positive and is likely to give unexpected collision geometry.
-If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Systems/LevelGeneration/LevelGenerationRoot/CatwalkTile2x1(Clone)/CatwalkStairs.002/StairCollider (3)"
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Systems/LevelGeneration/LevelGenerationRoot/CatwalkTile2x1Split(Clone)/Colliders/StairCollider (11)"
 [Warning: Unity Log] BoxColliders does not support negative scale or size.
 The effective box size has been forced positive and is likely to give unexpected collision geometry.
-If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Systems/LevelGeneration/LevelGenerationRoot/CatwalkTile2x1(Clone)/CatwalkStairs.002/StairCollider (5)"
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Systems/LevelGeneration/LevelGenerationRoot/CatwalkTile2x1Split(Clone)/Colliders/StairCollider (19)"
 [Warning: Unity Log] BoxColliders does not support negative scale or size.
 The effective box size has been forced positive and is likely to give unexpected collision geometry.
-If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Systems/LevelGeneration/LevelGenerationRoot/CatwalkTile2x1(Clone)/CatwalkStairs.002/StairCollider (1)"
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Systems/LevelGeneration/LevelGenerationRoot/CatwalkTile2x1Split(Clone)/Colliders/StairCollider (12)"
 [Warning: Unity Log] BoxColliders does not support negative scale or size.
 The effective box size has been forced positive and is likely to give unexpected collision geometry.
-If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Systems/LevelGeneration/LevelGenerationRoot/CatwalkTile2x1(Clone)/CatwalkStairs.002/StairCollider (2)"
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Systems/LevelGeneration/LevelGenerationRoot/CatwalkTile2x1Split(Clone)/Colliders/StairCollider (21)"
 [Warning: Unity Log] BoxColliders does not support negative scale or size.
 The effective box size has been forced positive and is likely to give unexpected collision geometry.
-If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Systems/LevelGeneration/LevelGenerationRoot/CatwalkTile2x1(Clone)/CatwalkStairs.002/StairCollider (9)"
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Systems/LevelGeneration/LevelGenerationRoot/CatwalkTile2x1Split(Clone)/Colliders/StairCollider (23)"
 [Warning: Unity Log] BoxColliders does not support negative scale or size.
 The effective box size has been forced positive and is likely to give unexpected collision geometry.
-If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Systems/LevelGeneration/LevelGenerationRoot/CatwalkTile2x1(Clone)/CatwalkStairs.002/StairCollider (8)"
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Systems/LevelGeneration/LevelGenerationRoot/CatwalkTile2x1Split(Clone)/Colliders/StairCollider (22)"
 [Warning: Unity Log] BoxColliders does not support negative scale or size.
 The effective box size has been forced positive and is likely to give unexpected collision geometry.
-If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Systems/LevelGeneration/LevelGenerationRoot/CatwalkTile2x1(Clone)/CatwalkStairs.002/StairCollider (4)"
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Systems/LevelGeneration/LevelGenerationRoot/CatwalkTile2x1Split(Clone)/Colliders/StairCollider (26)"
 [Warning: Unity Log] BoxColliders does not support negative scale or size.
 The effective box size has been forced positive and is likely to give unexpected collision geometry.
-If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Systems/LevelGeneration/LevelGenerationRoot/CatwalkTile2x1(Clone)/CatwalkStairs.002/StairCollider (6)"
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Systems/LevelGeneration/LevelGenerationRoot/HallwayCorner(Clone)/Pipes/NWCorner/Pipe1 (1)/Collider (3)"
 [Warning: Unity Log] BoxColliders does not support negative scale or size.
 The effective box size has been forced positive and is likely to give unexpected collision geometry.
-If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Systems/LevelGeneration/LevelGenerationRoot/CatwalkTile2x1(Clone)/CatwalkStairs.002/StairCollider"
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Systems/LevelGeneration/LevelGenerationRoot/HallwayCorner(Clone)/Pipes/NWCorner/Pipe1 (1)/Collider (1)"
 [Warning: Unity Log] BoxColliders does not support negative scale or size.
 The effective box size has been forced positive and is likely to give unexpected collision geometry.
-If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Systems/LevelGeneration/LevelGenerationRoot/CatwalkTile2x1(Clone)/CatwalkStairs.002/StairCollider (7)"
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Systems/LevelGeneration/LevelGenerationRoot/HallwayCorner(Clone)/Pipes/NWCorner/Pipe1 (1)/Collider"
 [Warning: Unity Log] BoxColliders does not support negative scale or size.
 The effective box size has been forced positive and is likely to give unexpected collision geometry.
-If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Systems/LevelGeneration/LevelGenerationRoot/CatwalkTile2x1(Clone)/CatwalkStairs.002/StairCollider (10)"
-[Warning: Unity Log] BoxColliders does not support negative scale or size.
-The effective box size has been forced positive and is likely to give unexpected collision geometry.
-If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Systems/LevelGeneration/LevelGenerationRoot/CatwalkTile2x1(Clone)/CatwalkStairs.002/StairCollider (3)"
-[Warning: Unity Log] BoxColliders does not support negative scale or size.
-The effective box size has been forced positive and is likely to give unexpected collision geometry.
-If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Systems/LevelGeneration/LevelGenerationRoot/CatwalkTile2x1(Clone)/CatwalkStairs.002/StairCollider (5)"
-[Warning: Unity Log] BoxColliders does not support negative scale or size.
-The effective box size has been forced positive and is likely to give unexpected collision geometry.
-If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Systems/LevelGeneration/LevelGenerationRoot/HallwayCorner(Clone)/Pipes/SWCorner/Pipe6/Collider (5)"
-[Warning: Unity Log] BoxColliders does not support negative scale or size.
-The effective box size has been forced positive and is likely to give unexpected collision geometry.
-If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Systems/LevelGeneration/LevelGenerationRoot/HallwayCorner(Clone)/Pipes/SWCorner/Pipe6/Collider (4)"
-[Warning: Unity Log] BoxColliders does not support negative scale or size.
-The effective box size has been forced positive and is likely to give unexpected collision geometry.
-If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Systems/LevelGeneration/LevelGenerationRoot/HallwayCorner(Clone)/Pipes/SWCorner/Pipe7/Collider (7)"
-[Warning: Unity Log] BoxColliders does not support negative scale or size.
-The effective box size has been forced positive and is likely to give unexpected collision geometry.
-If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Systems/LevelGeneration/LevelGenerationRoot/HallwayCorner(Clone)/Pipes/SWCorner/Pipe7/Collider (9)"
-[Warning: Unity Log] BoxColliders does not support negative scale or size.
-The effective box size has been forced positive and is likely to give unexpected collision geometry.
-If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Systems/LevelGeneration/LevelGenerationRoot/HallwayCorner(Clone)/Pipes/SWCorner/Pipe6/Collider (6)"
-[Warning: Unity Log] BoxColliders does not support negative scale or size.
-The effective box size has been forced positive and is likely to give unexpected collision geometry.
-If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Systems/LevelGeneration/LevelGenerationRoot/HallwayCorner(Clone)/Pipes/SWCorner/Pipe7/Collider (8)"
-[Warning: Unity Log] BoxColliders does not support negative scale or size.
-The effective box size has been forced positive and is likely to give unexpected collision geometry.
-If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Systems/LevelGeneration/LevelGenerationRoot/CatwalkTile2x1(Clone)/CatwalkStairs.002/StairCollider (1)"
-[Warning: Unity Log] BoxColliders does not support negative scale or size.
-The effective box size has been forced positive and is likely to give unexpected collision geometry.
-If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Systems/LevelGeneration/LevelGenerationRoot/CatwalkTile2x1(Clone)/CatwalkStairs.002/StairCollider (2)"
-[Warning: Unity Log] BoxColliders does not support negative scale or size.
-The effective box size has been forced positive and is likely to give unexpected collision geometry.
-If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Systems/LevelGeneration/LevelGenerationRoot/CatwalkTile2x1(Clone)/CatwalkStairs.002/StairCollider (9)"
-[Warning: Unity Log] BoxColliders does not support negative scale or size.
-The effective box size has been forced positive and is likely to give unexpected collision geometry.
-If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Systems/LevelGeneration/LevelGenerationRoot/CatwalkTile2x1(Clone)/CatwalkStairs.002/StairCollider (8)"
-[Warning: Unity Log] BoxColliders does not support negative scale or size.
-The effective box size has been forced positive and is likely to give unexpected collision geometry.
-If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Systems/LevelGeneration/LevelGenerationRoot/CatwalkTile2x1(Clone)/CatwalkStairs.002/StairCollider (4)"
-[Warning: Unity Log] BoxColliders does not support negative scale or size.
-The effective box size has been forced positive and is likely to give unexpected collision geometry.
-If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Systems/LevelGeneration/LevelGenerationRoot/CatwalkTile2x1(Clone)/CatwalkStairs.002/StairCollider (6)"
-[Warning: Unity Log] BoxColliders does not support negative scale or size.
-The effective box size has been forced positive and is likely to give unexpected collision geometry.
-If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Systems/LevelGeneration/LevelGenerationRoot/CatwalkTile2x1(Clone)/CatwalkStairs.002/StairCollider"
-[Warning: Unity Log] BoxColliders does not support negative scale or size.
-The effective box size has been forced positive and is likely to give unexpected collision geometry.
-If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Systems/LevelGeneration/LevelGenerationRoot/CatwalkTile2x1(Clone)/CatwalkStairs.002/StairCollider (7)"
-[Warning: Unity Log] BoxColliders does not support negative scale or size.
-The effective box size has been forced positive and is likely to give unexpected collision geometry.
-If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Systems/LevelGeneration/LevelGenerationRoot/CatwalkTile2x1(Clone)/CatwalkStairs.002/StairCollider (10)"
-[Warning: Unity Log] BoxColliders does not support negative scale or size.
-The effective box size has been forced positive and is likely to give unexpected collision geometry.
-If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Systems/LevelGeneration/LevelGenerationRoot/CatwalkTile2x1(Clone)/CatwalkStairs.002/StairCollider (3)"
-[Warning: Unity Log] BoxColliders does not support negative scale or size.
-The effective box size has been forced positive and is likely to give unexpected collision geometry.
-If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Systems/LevelGeneration/LevelGenerationRoot/CatwalkTile2x1(Clone)/CatwalkStairs.002/StairCollider (5)"
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Systems/LevelGeneration/LevelGenerationRoot/HallwayCorner(Clone)/Pipes/NWCorner/Pipe1 (1)/Collider (2)"
 [Warning: Unity Log] BoxColliders does not support negative scale or size.
 The effective box size has been forced positive and is likely to give unexpected collision geometry.
 If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Systems/LevelGeneration/LevelGenerationRoot/DoubleDoorRoom(Clone)/Props/LungDockingStation2/LungSocketMachine/BigSocket/Collisions/Cube"
@@ -2278,6 +1459,8 @@ If you absolutely need to use negative scaling you can use the convex MeshCollid
 [Warning: Unity Log] Only custom filters can be played. Please add a custom filter or an audioclip to the audiosource (SteamValve(Clone)).
 [Warning: Unity Log] Audio source failed to initialize audio spatializer. An audio spatializer is specified in the audio project settings, but the associated plugin was not found or initialized properly. Please make sure that the selected spatializer is compatible with the target.
 [Warning: Unity Log] Only custom filters can be played. Please add a custom filter or an audioclip to the audiosource (SteamValve(Clone)).
+[Warning: Unity Log] Audio source failed to initialize audio spatializer. An audio spatializer is specified in the audio project settings, but the associated plugin was not found or initialized properly. Please make sure that the selected spatializer is compatible with the target.
+[Warning: Unity Log] Only custom filters can be played. Please add a custom filter or an audioclip to the audiosource (SteamValve(Clone)).
 [Info   :WeatherMultipliers.ScrapGeneration] No weather multiplier found for "None"
 [Warning: Unity Log] Audio source failed to initialize audio spatializer. An audio spatializer is specified in the audio project settings, but the associated plugin was not found or initialized properly. Please make sure that the selected spatializer is compatible with the target.
 [Warning: Unity Log] Audio source failed to initialize audio spatializer. An audio spatializer is specified in the audio project settings, but the associated plugin was not found or initialized properly. Please make sure that the selected spatializer is compatible with the target.
@@ -2286,22 +1469,10 @@ If you absolutely need to use negative scaling you can use the convex MeshCollid
 [Warning: Unity Log] Audio source failed to initialize audio spatializer. An audio spatializer is specified in the audio project settings, but the associated plugin was not found or initialized properly. Please make sure that the selected spatializer is compatible with the target.
 [Warning: Unity Log] Audio source failed to initialize audio spatializer. An audio spatializer is specified in the audio project settings, but the associated plugin was not found or initialized properly. Please make sure that the selected spatializer is compatible with the target.
 [Warning: Unity Log] Audio source failed to initialize audio spatializer. An audio spatializer is specified in the audio project settings, but the associated plugin was not found or initialized properly. Please make sure that the selected spatializer is compatible with the target.
-[Warning: Unity Log] Audio source failed to initialize audio spatializer. An audio spatializer is specified in the audio project settings, but the associated plugin was not found or initialized properly. Please make sure that the selected spatializer is compatible with the target.
-[Warning: Unity Log] Audio source failed to initialize audio spatializer. An audio spatializer is specified in the audio project settings, but the associated plugin was not found or initialized properly. Please make sure that the selected spatializer is compatible with the target.
-[Warning: Unity Log] Audio source failed to initialize audio spatializer. An audio spatializer is specified in the audio project settings, but the associated plugin was not found or initialized properly. Please make sure that the selected spatializer is compatible with the target.
-[Warning: Unity Log] Audio source failed to initialize audio spatializer. An audio spatializer is specified in the audio project settings, but the associated plugin was not found or initialized properly. Please make sure that the selected spatializer is compatible with the target.
-[Warning: Unity Log] Audio source failed to initialize audio spatializer. An audio spatializer is specified in the audio project settings, but the associated plugin was not found or initialized properly. Please make sure that the selected spatializer is compatible with the target.
-[Warning: Unity Log] Audio source failed to initialize audio spatializer. An audio spatializer is specified in the audio project settings, but the associated plugin was not found or initialized properly. Please make sure that the selected spatializer is compatible with the target.
-[Warning: Unity Log] Audio source failed to initialize audio spatializer. An audio spatializer is specified in the audio project settings, but the associated plugin was not found or initialized properly. Please make sure that the selected spatializer is compatible with the target.
-[Warning: Unity Log] Audio source failed to initialize audio spatializer. An audio spatializer is specified in the audio project settings, but the associated plugin was not found or initialized properly. Please make sure that the selected spatializer is compatible with the target.
-[Warning: Unity Log] BoxColliders does not support negative scale or size.
-The effective box size has been forced positive and is likely to give unexpected collision geometry.
-If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "EnginePart(Clone)/ScanNode"
-[Warning: Unity Log] BoxColliders does not support negative scale or size.
-The effective box size has been forced positive and is likely to give unexpected collision geometry.
-If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "EnginePart(Clone)"
 [Info   :BoomboxSyncFix] Round has loaded for all -- forcing everyone to reinitialize musicRandomizer.
 [Info   :Possessed Mask] Reset timers and reloaded config values
+[Warning: Unity Log] Audio source failed to initialize audio spatializer. An audio spatializer is specified in the audio project settings, but the associated plugin was not found or initialized properly. Please make sure that the selected spatializer is compatible with the target.
+[Warning: Unity Log] Audio source failed to initialize audio spatializer. An audio spatializer is specified in the audio project settings, but the associated plugin was not found or initialized properly. Please make sure that the selected spatializer is compatible with the target.
 [Warning: Unity Log] Audio source failed to initialize audio spatializer. An audio spatializer is specified in the audio project settings, but the associated plugin was not found or initialized properly. Please make sure that the selected spatializer is compatible with the target.
 [Warning: Unity Log] Audio source failed to initialize audio spatializer. An audio spatializer is specified in the audio project settings, but the associated plugin was not found or initialized properly. Please make sure that the selected spatializer is compatible with the target.
 [Warning: Unity Log] Audio source failed to initialize audio spatializer. An audio spatializer is specified in the audio project settings, but the associated plugin was not found or initialized properly. Please make sure that the selected spatializer is compatible with the target.
@@ -2333,25 +1504,9 @@ If you absolutely need to use negative scaling you can use the convex MeshCollid
 [Info   :LethalPresents] ForestGiant
 [Info   :LethalPresents] SandWorm
 [Info   :LethalPresents] MaskedPlayerEnemy
-[Warning: Unity Log] Audio source failed to initialize audio spatializer. An audio spatializer is specified in the audio project settings, but the associated plugin was not found or initialized properly. Please make sure that the selected spatializer is compatible with the target.
-[Warning: Unity Log] Audio source failed to initialize audio spatializer. An audio spatializer is specified in the audio project settings, but the associated plugin was not found or initialized properly. Please make sure that the selected spatializer is compatible with the target.
-[Warning: Unity Log] Audio source failed to initialize audio spatializer. An audio spatializer is specified in the audio project settings, but the associated plugin was not found or initialized properly. Please make sure that the selected spatializer is compatible with the target.
-[Warning: Unity Log] Audio source failed to initialize audio spatializer. An audio spatializer is specified in the audio project settings, but the associated plugin was not found or initialized properly. Please make sure that the selected spatializer is compatible with the target.
-[Warning: Unity Log] Audio source failed to initialize audio spatializer. An audio spatializer is specified in the audio project settings, but the associated plugin was not found or initialized properly. Please make sure that the selected spatializer is compatible with the target.
-[Warning: Unity Log] Audio source failed to initialize audio spatializer. An audio spatializer is specified in the audio project settings, but the associated plugin was not found or initialized properly. Please make sure that the selected spatializer is compatible with the target.
-[Warning: Unity Log] Audio source failed to initialize audio spatializer. An audio spatializer is specified in the audio project settings, but the associated plugin was not found or initialized properly. Please make sure that the selected spatializer is compatible with the target.
-[Warning: Unity Log] Audio source failed to initialize audio spatializer. An audio spatializer is specified in the audio project settings, but the associated plugin was not found or initialized properly. Please make sure that the selected spatializer is compatible with the target.
-[Warning: Unity Log] Audio source failed to initialize audio spatializer. An audio spatializer is specified in the audio project settings, but the associated plugin was not found or initialized properly. Please make sure that the selected spatializer is compatible with the target.
-[Warning: Unity Log] Audio source failed to initialize audio spatializer. An audio spatializer is specified in the audio project settings, but the associated plugin was not found or initialized properly. Please make sure that the selected spatializer is compatible with the target.
-[Warning: Unity Log] Audio source failed to initialize audio spatializer. An audio spatializer is specified in the audio project settings, but the associated plugin was not found or initialized properly. Please make sure that the selected spatializer is compatible with the target.
-[Warning: Unity Log] Audio source failed to initialize audio spatializer. An audio spatializer is specified in the audio project settings, but the associated plugin was not found or initialized properly. Please make sure that the selected spatializer is compatible with the target.
-[Warning: Unity Log] Audio source failed to initialize audio spatializer. An audio spatializer is specified in the audio project settings, but the associated plugin was not found or initialized properly. Please make sure that the selected spatializer is compatible with the target.
-[Warning: Unity Log] Audio source failed to initialize audio spatializer. An audio spatializer is specified in the audio project settings, but the associated plugin was not found or initialized properly. Please make sure that the selected spatializer is compatible with the target.
-[Warning: Unity Log] Audio source failed to initialize audio spatializer. An audio spatializer is specified in the audio project settings, but the associated plugin was not found or initialized properly. Please make sure that the selected spatializer is compatible with the target.
-[Warning: Unity Log] Audio source failed to initialize audio spatializer. An audio spatializer is specified in the audio project settings, but the associated plugin was not found or initialized properly. Please make sure that the selected spatializer is compatible with the target.
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled DocileLocustBees(Clone) False
 [Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (Z:/SteamLibrary/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :Junypai.GamblersMod] Player disconnected. Resetting the user's configuration settings.
-[Info   :Junypai.GamblersMod] Resetting gambling machine manager state...
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled DocileLocustBees(Clone) False
 [Info   :RugbugRedfern.SkinwalkerMod] SkinwalkerNetworkManager OnDestroy
 [Info   :BuyableShotgun] Shotgun added to Shop for 700 credits
 [Info   :Buyable Shotgun Shells] Shotgun Shells added to Shop for 20 credits
