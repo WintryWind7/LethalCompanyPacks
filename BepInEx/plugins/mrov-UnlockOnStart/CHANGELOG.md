@@ -31,3 +31,34 @@ Initial release
 
 - configs are now separated into 3 files: Items, Ship upgrades and Decorations
 - fixed an issue with shotgun shells not spawning
+
+# 0.3.1
+
+- fixed plushie man not unlocking (thanks, [Re-VelatoR](https://github.com/Re-VelatoR))
+
+# 0.4.0
+
+### Please regenerate your config file!
+
+- reverted change to config directory - now all settings are in one file again (LethalConfig compatibility)
+- added option to set up starting money
+- shotguns are spawned with 0 bullets and safety on (thanks, [Anonym-12321](https://github.com/Anonym-12321))
+
+# 0.5.0
+
+### Please regenerate your config file!
+
+- added support for unlocking modded decorations/upgrades/items
+
+# 0.6.0
+
+### Please regenerate your config file!
+
+- added purple suit option
+- added per-suit option to unlock
+
+(thanks, [Anonym-12321](https://github.com/Anonym-12321))
+
+# 0.6.1
+
+- fixed an issue with shotguns not unlocking (thanks, [Anonym-12321](https://github.com/Anonym-12321))

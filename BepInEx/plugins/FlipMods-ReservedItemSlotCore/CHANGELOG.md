@@ -1,5 +1,11 @@
+# 1.8.14
++ Gave internal access to the ReservedKeySlot mod by: nitsuD
+# 1.8.13
++ Revised a few methods to help prevent the error spam with players sending negative hotbar slot changes to the server.
++ Added more logs to help debug current or future errors.
++ Removed a block of code that could have been miscalculating the new reserved item slots start index when inventory size changes. (for other players)
++ As always, if this version seems unstable, please revert back to 1.8.12 until this has been updated.
 # 1.8.12
-+ Nothing too crazy.
 + Disabled adjusting inventory HUD elements in AdvancedCompany is enabled. (temporary maybe)
 + Small tweaks to code.
 # 1.8.11

@@ -1,8 +1,19 @@
 import requests
-from .base import delete
+from .base import get_ver_pack, VerPack, delete, info, info_two, pause_exit
 from tqdm import tqdm
 import os
 import zipfile
+
+
+ver1000 = VerPack('1000', '完整整合包')
+ver1000.exclusions = ['']
+
+ver1009 = VerPack('1009', '不加载自定义音效')
+ver1009.exclusions = ['CustomSounds']
+
+verblack = VerPack('', '')
+verexit = VerPack('exit', '退出')
+veruninstall = VerPack('uninstall', '卸载')
 
 
 def download_file(url):
@@ -29,11 +40,35 @@ def dirname(file, n=1):
     return file
 
 
-def unzip(exclusions):
+def uninstall():
+    rm_list = ['BepInEx', '_state', 'doorstop_config.ini', 'arialuni_sdf_u2019', 'Sinter-Normal', 'winhttp.dll',
+               'mods.yml', 'LICENSE', '.gitignore']
+
+    for file in rm_list:
+        delete(file)
+
+def if_uninstall(code):
+    if code.lower() == 'uninstall':
+        uninstall()
+        print('执行卸载操作完毕')
+        pause_exit()
+
+
+def rm_temp():
+    delete('temp')
+    delete('temp.zip')
+
+def unzip(code):
     """解压文件，排除传入列表中的文件"""
+    ver = get_ver_pack(code)
+    if ver:
+        exclusions = ver.exclusions
+    else:
+        exclusions = []
+    exclusions += ['README.md', 'LICENSE', 'test', '.gitignore', '.idea', '.git']
     zip_path = './temp.zip'
     extract_to = './'
-
+    print('正在解压...')
     with zipfile.ZipFile(zip_path, 'r') as zip_ref:
         zip_files = zip_ref.namelist()
         subfolder = zip_files[0].split('/')[0] + '/'
@@ -63,19 +98,19 @@ def show_version():
                 ver = line
     else:
         ver = '未知'
-    print(f'本地版本: {ver}')
+    info(f'本地版本: {ver}')
     for _ in range(2):
         try:
             response = requests.get(url, timeout=3)
             if response.status_code == 200:
-                print(f"远程整合包版本: {response.text}")
-                print('')
+                info(f"远程整合包版本: {response.text}")
+                info('')
                 return 0
         except:
             pass
         url = 'https://raw.yzuu.cf/WintryWind7/LethalCompanyPacks/main/BepInEx/config/Wintrymods_version.txt'
-    print('无法读取远程版本')
-    print('')
+    info('无法读取远程版本!')
+    info('')
 
 
 def show_info(command):
@@ -85,15 +120,40 @@ def show_info(command):
     else:
         url = "https://raw.githubusercontent.com/WintryWind7/LethalCompanyPacks/main/README.md"
     try:
-        print(f'尝试读取简介文件。')
+        info('尝试读取简介文件...', a='')
         response = requests.get(url, timeout=10)
         if response.status_code == 200:
             print(response.text)
             return 0
     except:
         pass
-    print('无法读取简介文。')
+    info('无法读取简介文件。', a='')
+    info('', a='')
 
 
 def get_input():
     """获取需求代码"""
+    info_two('需求代码', '包信息')
+    for ver in VerPack.ver_list:
+        info_two(ver.code, ver.name)
+    print()
+    num = input("请输入需求代码 >>")
+    code = num
+    command = False
+    if '-' in num:
+        code = num.split('-')[0]
+        command = num.split('-')[1]
+    if code == 'exit':
+        print('程序退出!')
+        pause_exit()
+    return code, command
+
+
+def download(command):
+    """下载的main函数"""
+    if command == 'i':  # 镜像
+        url = 'https://hub.yzuu.cf/WintryWind7/LethalCompanyPacks/archive/refs/heads/main.zip'
+    else:
+        url = 'https://github.com/WintryWind7/LethalCompanyPacks/archive/refs/heads/main.zip'
+    download_file(url)
+

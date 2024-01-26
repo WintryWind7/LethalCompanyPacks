@@ -1,3 +1,12 @@
+#### 1.0.5
+- Fixed white block icon and interaction bug that happens with Brutal Company Minus
+
+#### 1.0.4
+- Small fix for scan node error
+
+#### 1.0.3
+- Changes to how I register the items
+
 #### 1.0.2
 - Added terminal info for shells
 - Fixed shells disappearing in item store when quitting to main menu and starting/loading a new game.

@@ -20,7 +20,7 @@ This mod gives you the ability to start game with:
 - Signal translator
 - Green, hazmat and pajama suits
 
-You can also configure how many items to spawn:
+You can also configure how many items to spawn (including, but not limited to):
 
 - Flashlights
 - Pro-flashlights
@@ -33,13 +33,19 @@ You can also configure how many items to spawn:
 - Stun grenades
 - Zap guns
 
+and which decorations to unlock.
+
 ## Configuration
 
-This mod creates its config files in **`BepInEx/config/UnlockOnStart/`** directory:
+This mod creates its config entries in **`BepInEx/config/UnlockOnStart.cfg`** file:
 
-- **`Items.cfg`** - config for items - how many of them to spawn
-- **`ShipUpgrades.cfg`** - config for ship upgrades - which ones to unlock
-- **`Decorations.cfg`** - config for decorations - which ones to unlock
+- **Decorations** - list of decorations to unlock on start.
+- **General** - general settings.
+- **Items** - list of items to spawn on start.
+- **Teleporter/Inverse Teleporter** - teleporter settings.
+- **Money** - money settings.
+- **Suits** - suits settings.
+- **Ship Upgrades** - ship upgrades settings.
 
 ## License
 

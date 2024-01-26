@@ -5,6 +5,22 @@ import os
 import shutil
 
 
+class VerPack(object):
+    ver_list = []
+    def __init__(self, code, name):
+        self.code = code.lower()
+        self.name = name
+        self.exclusions = []
+        VerPack.ver_list.append(self)
+
+
+def get_ver_pack(code):
+    for ver in VerPack.ver_list:
+        if ver.code == code:
+            return ver
+    return 0
+
+
 def pause_exit():
     """暂停并退出程序"""
     time.sleep(3)
@@ -48,24 +64,31 @@ def delete(path):
             shutil.rmtree(path)
         return 1
     else:
-        print('路径不存在')
         return 0
 
 
-def show_tools_version():
-    """输出加载工具模板"""
-    info()
-
-
-def info(string, a=''):
+def info(string='', a=''):
     """作为基础的输出模板"""
     if a == '^':
         print('{:^55}'.format(string))
     elif a == '|^|':
-        print('|{:^55}|'.format(string))
+        print('| {:^51} |'.format(string))
+    elif a == '|<|':
+        print('| {:<51} |'.format(string))
     elif a == '-':
         print('{:-55}'.format(string))
     elif a == '=':
-        print('{:=55}'.format(string))
+        print('{:=^55}'.format(string))
     elif a == '' or a == '<':
         print(string)
+
+
+def info_two(string1, string2, a=''):
+    """按照表格格式输出信息"""
+    print('{:^18}{:^36}'.format(string1, string2))
+
+
+
+
+
+

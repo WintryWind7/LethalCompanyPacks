@@ -186,7 +186,7 @@
   versionNumber:
     major: 1
     minor: 8
-    patch: 12
+    patch: 14
   enabled: true
   icon: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\FlipMods-ReservedItemSlotCore\icon.png
 - manifestVersion: 1
@@ -209,33 +209,9 @@
   versionNumber:
     major: 1
     minor: 6
-    patch: 1
+    patch: 2
   enabled: true
   icon: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\FlipMods-ReservedFlashlightSlot\icon.png
-- manifestVersion: 1
-  name: FlipMods-ReservedSprayPaintSlot
-  authorName: FlipMods
-  websiteUrl: https://thunderstore.io/c/lethal-company/p/FlipMods/ReservedSprayPaintSlot/
-  displayName: ReservedSprayPaintSlot
-  description: Gives a free, dedicated SprayPaint slot on the right side of your
-    screen, and adds quality of life tweaks to them! Required
-    ReservedItemSlotCore mod.
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - BepInEx-BepInExPack-5.4.2100
-    - FlipMods-ReservedItemSlotCore-1.8.9
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 1
-    minor: 0
-    patch: 7
-  enabled: true
-  icon: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\FlipMods-ReservedSprayPaintSlot\icon.png
 - manifestVersion: 1
   name: FlipMods-ReservedWalkieSlot
   authorName: FlipMods
@@ -256,7 +232,7 @@
   versionNumber:
     major: 1
     minor: 6
-    patch: 0
+    patch: 1
   enabled: true
   icon: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\FlipMods-ReservedWalkieSlot\icon.png
 - manifestVersion: 1
@@ -639,13 +615,13 @@
   dependencies:
     - BepInEx-BepInExPack-5.4.2100
     - Evaisa-HookGenPatcher-0.0.5
-    - Evaisa-LethalLib-0.3.0
+    - Evaisa-LethalLib-0.13.2
   incompatibilities: []
   optionalDependencies: []
   versionNumber:
     major: 1
     minor: 0
-    patch: 2
+    patch: 5
   enabled: true
   icon: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\MegaPiggy-BuyableShotgunShells\icon.png
 - manifestVersion: 1
@@ -662,13 +638,13 @@
   dependencies:
     - BepInEx-BepInExPack-5.4.2100
     - Evaisa-HookGenPatcher-0.0.5
-    - Evaisa-LethalLib-0.3.0
+    - Evaisa-LethalLib-0.13.2
   incompatibilities: []
   optionalDependencies: []
   versionNumber:
     major: 1
     minor: 0
-    patch: 1
+    patch: 4
   enabled: true
   icon: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\MegaPiggy-BuyableShotgun\icon.png
 - manifestVersion: 1
@@ -689,10 +665,10 @@
   optionalDependencies: []
   versionNumber:
     major: 0
-    minor: 5
-    patch: 6
+    minor: 6
+    patch: 0
   enabled: true
-  icon: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\cache\Rune580-LethalCompany_InputUtils\0.5.6\icon.png
+  icon: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\Rune580-LethalCompany_InputUtils\icon.png
 - manifestVersion: 1
   name: HomelessGinger-MaskedEnemyOverhaul
   authorName: HomelessGinger
@@ -832,7 +808,7 @@
   authorName: mrov
   websiteUrl: https://thunderstore.io/c/lethal-company/p/mrov/UnlockOnStart/
   displayName: UnlockOnStart
-  description: Unlock ship upgrades and items on new runs.
+  description: Unlock ship upgrades, items, decorations and suits on new runs.
   gameVersion: "0"
   networkMode: both
   packageType: other
@@ -844,8 +820,8 @@
   optionalDependencies: []
   versionNumber:
     major: 0
-    minor: 3
-    patch: 0
+    minor: 6
+    patch: 1
   enabled: true
   icon: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\mrov-UnlockOnStart\icon.png
 - manifestVersion: 1
@@ -1012,9 +988,9 @@
   incompatibilities: []
   optionalDependencies: []
   versionNumber:
-    major: 1
-    minor: 1
-    patch: 2
+    major: 2
+    minor: 0
+    patch: 0
   enabled: true
   icon: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\OE_Tweaks-Possessed_Masks\icon.png
 - manifestVersion: 1
@@ -1160,8 +1136,8 @@
   optionalDependencies: []
   versionNumber:
     major: 1
-    minor: 6
-    patch: 9
+    minor: 7
+    patch: 4
   enabled: true
   icon: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\SweetFox-Lethal_Company_Simplified_Chinese_Localization\icon.png
 - manifestVersion: 1
@@ -1189,29 +1165,6 @@
   enabled: true
   icon: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\cache\JunLethalCompany-GamblingMachineAtTheCompany\1.3.5\icon.png
 - manifestVersion: 1
-  name: Ozone-Cabinet_Item_Storage
-  authorName: Ozone
-  websiteUrl: https://thunderstore.io/c/lethal-company/p/Ozone/Cabinet_Item_Storage/
-  displayName: Cabinet_Item_Storage
-  description: Allows bulk item storage inside the drawers of the file cabinet.
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - BepInEx-BepInExPack-5.4.2100
-    - Ozone-BepInUtils-1.2.1
-    - Ozone-NC_LC_API-0.0.5
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 0
-    minor: 0
-    patch: 4
-  enabled: true
-  icon: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\cache\Ozone-Cabinet_Item_Storage\0.0.4\icon.png
-- manifestVersion: 1
   name: Clementinise-CustomSounds
   authorName: Clementinise
   websiteUrl: https://thunderstore.io/c/lethal-company/p/Clementinise/CustomSounds/
@@ -1234,3 +1187,70 @@
     patch: 2
   enabled: true
   icon: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\Clementinise-CustomSounds\icon.png
+- manifestVersion: 1
+  name: boxofbiscuits97-QuotaRollover
+  authorName: boxofbiscuits97
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/boxofbiscuits97/QuotaRollover/
+  displayName: QuotaRollover
+  description: Anti-hoarding technology that only removes required credits for the
+    quota instead of setting progress to 0
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 2
+    minor: 2
+    patch: 1
+  enabled: true
+  icon: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\boxofbiscuits97-QuotaRollover\icon.png
+- manifestVersion: 1
+  name: FlipMods-BetterStamina
+  authorName: FlipMods
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/FlipMods/BetterStamina/
+  displayName: BetterStamina
+  description: Makes stamina consumption/regen a bit better. All values can be
+    tweaked in config, and will sync with the host.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 3
+    patch: 2
+  enabled: true
+  icon: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\FlipMods-BetterStamina\icon.png
+- manifestVersion: 1
+  name: Ozone-Cabinet_Item_Storage
+  authorName: Ozone
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/Ozone/Cabinet_Item_Storage/
+  displayName: Cabinet_Item_Storage
+  description: Allows bulk item storage inside the drawers of the file cabinet.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+    - Ozone-BepInUtils-1.2.1
+    - Ozone-NC_LC_API-0.0.5
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 0
+    minor: 0
+    patch: 4
+  enabled: true
+  icon: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\cache\Ozone-Cabinet_Item_Storage\0.0.4\icon.png

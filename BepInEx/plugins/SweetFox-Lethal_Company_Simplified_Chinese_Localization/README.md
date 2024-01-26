@@ -32,9 +32,13 @@ arialuni为字体文件
 
 1. R2Modman 中下载并启用这个MOD。
 
-也可以下载压缩包，然后解压到Lethal Company根目录里面
+由于R2Modman目前只有英文的版本，所以我自制了一个汉化包，翻译了大部分常用的功能。
 
-一些小更小补的更新会上传到百度云盘：https://pan.baidu.com/s/1TAaPCpTJ3uj3rfiQ8kt4aA?pwd=64n8
+下载地址：https://pan.baidu.com/s/1EB5InhINjEtGF6jE4xvrDA?pwd=eep1 
+
+2. 也可以下载压缩包，然后解压到Lethal Company根目录里面
+
+一些小更小补的更新和一些可替换字体会上传到百度云盘：https://pan.baidu.com/s/1TAaPCpTJ3uj3rfiQ8kt4aA?pwd=64n8
 
 # 重要说明
 
@@ -44,9 +48,24 @@ arialuni为字体文件
 
 目前该汉化还属于测试阶段，可能还存在一些bug或者未汉化到的地方
 
+# BUG和反馈
+
+作者的b站空间:https://space.bilibili.com/403741521
+
+遇到问题和BUG可以来找我反馈
 
 # 更新日志
 
+## 1.7.4
++ 修复字体文件为mysh而不是arialuni.cfg的bug
+## 1.7.3
++ 修复部分原版指令失效的bug，字体库添加部分特殊符号
+## 1.7.2
++ 更换中文指令和拼音指令的添加方式，修复部分汉化bug
+## 1.7.1
++ 字体范围扩大到为整个GBK表,新增部分汉化.
+## 1.7.0
++ 字体换回微软雅黑,其他字体放进百度云盘里面可供自行选择,新增语言配置，可以根据填入值，访问不同目录的文件.
 ## 1.6.9
 + 字体范围增加,改良部分汉化.
 ## 1.6.8
