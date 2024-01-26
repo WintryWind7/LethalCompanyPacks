@@ -136,6 +136,7 @@ def get_input():
     info_two('需求代码', '包信息')
     for ver in VerPack.ver_list:
         info_two(ver.code, ver.name)
+    print('末尾跟 -i 可以使用镜像源下载')
     print()
     num = input("请输入需求代码 >>")
     code = num

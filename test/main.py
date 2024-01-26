@@ -3,13 +3,13 @@ from pack.version import tool_info
 import pack.moudle as moudle
 
 # 检查环境(管理员运行，目录，)
-# check_env()
+check_env()
 
 # 工具信息载入
 tool_info()
 
 # 查询远程版本
-# moudle.show_version()
+moudle.show_version()
 
 # 获取input
 code, command = moudle.get_input()
