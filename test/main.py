@@ -16,6 +16,7 @@ code, command = moudle.get_input()
 moudle.if_uninstall(code)
 moudle.show_info(command)   # 读取简介
 moudle.download(command)    # 下载获取temp.zip
+
 moudle.unzip(code)          # 选择不解压的
 moudle.rm_temp()
 

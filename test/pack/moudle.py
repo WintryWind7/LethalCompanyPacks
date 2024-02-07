@@ -61,6 +61,7 @@ def rm_temp():
 def unzip(code):
     """解压文件，排除传入列表中的文件"""
     ver = get_ver_pack(code)
+    uninstall()
     if ver:
         exclusions = ver.exclusions
     else:
