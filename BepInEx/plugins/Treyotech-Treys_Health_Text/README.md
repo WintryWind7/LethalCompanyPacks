@@ -23,10 +23,11 @@
 
 ### These are the config options
 
-- HPTextPosition: Defines if the label should be above or below the number
-- UnderlineTopLine: Separates the top and bottom row with a line
+- HPTextPosition: Defines if the label should be above or below the number.
+- UnderlineTopLine: Separates the top and bottom row with a line.
 - HPLabelName: Replaces the "HP" text with whatever you want! You could have your text say "100 men" if you wanted idk.
 - TextColor: Sets the color of the text using the RGB format.
-- XOffset: Moves the text left and right
-- YOffset: Moves the text up and down
+- XOffset: Moves the text left and right.
+- YOffset: Moves the text up and down.
 
+## If you find any bugs, you can open an issue on my GitHub linked at the top of the page

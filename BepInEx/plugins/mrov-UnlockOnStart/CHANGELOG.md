@@ -62,3 +62,13 @@ Initial release
 # 0.6.1
 
 - fixed an issue with shotguns not unlocking (thanks, [Anonym-12321](https://github.com/Anonym-12321))
+
+# 0.6.2
+
+- fixed an issue with [BetterShotgun](https://thunderstore.io/c/lethal-company/p/Hypick/BetterShotgun/) changing Ammo name (thanks, [Anonym-12321](https://github.com/Anonym-12321))
+- added Key as an unlockable item (thanks, [Anonym-12321](https://github.com/Anonym-12321))
+- fixed some dirty things in my code
+
+# 0.6.3
+
+- fixed an issue with [BetterShotgun](https://thunderstore.io/c/lethal-company/p/Hypick/BetterShotgun/) spawning too much shotguns/shells (thanks, [Anonym-12321](https://github.com/Anonym-12321))

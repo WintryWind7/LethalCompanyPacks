@@ -1,3 +1,16 @@
+-   **1.5.1**
+
+    -   Fixed a bug where the Boombox and other vanilla audio was not being randomized properly after the last update.
+    -	Fixed a bug where the Extension Ladder and few other vanilla audio sources that played multiple different sounds were not working properly after the last update. 
+    -	Fixed a bug where all sounds using a specific audio source could get wrongly checked for the source name filter if one sound playing through it had it defined.
+	-	Fixed a bug where syncing all networked sounds to clients could cause an overflow error if the string array was too long.
+	-	Fixed a bug where the legacy path warning was triggered wrongly for CustomSounds based mods. (sorry for taking this long Clementinise lol)
+	-	Fixed a bug where certain sounds could get stuck in the fileType dictionary as it has now been removed.
+	-	Improved networked sound handling. Now channels and frequency gets synced and handled properly.
+    -	Further tweaks to logging. New logging messages and fixes to existing ones.
+    -	Rewrote the SoundTool class to remove bloat and simplify future updates. You need to now define all parameters and nothing gets parsed automatically from the sound name anymore!
+	-	Other small internal tweaks and QoL changes for myself for future updates :)
+	
 -   **1.5.0**
 
     -   Added support for AudioSource names as filters to where sounds can play. No more same sound from different sources!

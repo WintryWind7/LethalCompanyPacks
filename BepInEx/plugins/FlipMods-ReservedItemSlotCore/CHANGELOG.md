@@ -1,3 +1,11 @@
+# 1.8.17
++ Fixed warnings when InputUtils is not enabled.
+# 1.8.16
++ Re-restricted the use of this mod for non-host clients if the host does not have it enabled. This still CAN, and likely WILL cause desync issues if used this way, but for those who are stubborn enough, you can force allow this in the config. You have been warned!
+# 1.8.15
++ Keybind display names should now display the correct keybind, whether on keyboard or controller.
++ All relevant keybind display names for this mod should automatically switch between keyboard and controller accordingly.
++ Added more controller support, with and without InputUtils. Works best with InputUtils installed, and easier to configure the controls.
 # 1.8.14
 + Gave internal access to the ReservedKeySlot mod by: nitsuD
 # 1.8.13

@@ -1,6 +1,6 @@
 {
     "name": "QuotaRollover",
-    "version_number": "2.2.1",
+    "version_number": "2.3.0",
     "website_url": "",
     "description": "Anti-hoarding technology that only removes required credits for the quota instead of setting progress to 0",
     "dependencies": [

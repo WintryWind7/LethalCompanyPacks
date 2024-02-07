@@ -23,13 +23,18 @@
 [Message:   BepInEx] Preloader finished
 [Message:   BepInEx] Chainloader ready
 [Message:   BepInEx] Chainloader started
-[Debug  :   BepInEx] Skipping loading C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\SweetFox-Lethal_Company_Simplified_Chinese_Localization\winhttp.dll because it's not a valid .NET assembly. Full error: Format of the executable (.exe) or library (.dll) is invalid.
-[Info   :   BepInEx] 59 plugins to load
-[Warning:   BepInEx] Skipping [LC Sound Tool 1.4.0] because a newer version exists (LC Sound Tool 1.5.0)
+[Info   :   BepInEx] 64 plugins to load
+[Warning:   BepInEx] Skipping [LC Sound Tool 1.4.0] because a newer version exists (LC Sound Tool 1.5.1)
 [Warning:   BepInEx] Plugin [Custom Boombox Music 1.4.0] targets a wrong version of BepInEx (5.4.22.0) and might not work until you update
 [Warning:   BepInEx] Plugin [MoreEmotes-Sligili 1.3.2] targets a wrong version of BepInEx (5.4.22.0) and might not work until you update
 [Warning:   BepInEx] Plugin [HDLethalCompany-Sligili 1.5.6] targets a wrong version of BepInEx (5.4.22.0) and might not work until you update
-[Warning:   BepInEx] Plugin [TreysHealthText 1.3.0] targets a wrong version of BepInEx (5.4.22.0) and might not work until you update
+[Warning:   BepInEx] Plugin [TreysHealthText 1.3.1] targets a wrong version of BepInEx (5.4.22.0) and might not work until you update
+[Warning:   BepInEx] Plugin [Backrooms 0.1.3] targets a wrong version of BepInEx (5.4.22.0) and might not work until you update
+[Warning:   BepInEx] Plugin [Scoopy's Variety Mod 1.0.0] targets a wrong version of BepInEx (5.4.22.0) and might not work until you update
+[Info   :   BepInEx] Loading [AHook 1.0.0]
+[Info   :     AHook] 插件AHook已加载!
+[Info   :     AHook] GameTranslator正在载入配置文件Item-Translate
+[Info   :     AHook] Trying to be compatible with ReservedItemSlotCore
 [Info   :   BepInEx] Loading [Terminal Api 1.5.0]
 [Info   :Terminal Api] Plugin TerminalApi is loaded!
 [Info   :   BepInEx] Loading [AlwaysShowClock 1.0.0]
@@ -40,7 +45,7 @@
 [Info   :   BepInEx] Loading [DimmingFlashlights 1.0.1]
 [Info   :   BepInEx] Loading [BoomboxSyncFix 1.1.0]
 [Info   :BoomboxSyncFix] Plugin BoomboxSyncFix has loaded!
-[Info   :   BepInEx] Loading [Quota Rollover 2.2.0]
+[Info   :   BepInEx] Loading [Quota Rollover 2.3.0]
 [Info   :Quota Rollover] Mod Boxofbiscuits97.QuotraRollover is loaded!
 [Info   :   BepInEx] Loading [Lethal Company API 3.4.5]
 [Warning:Lethal Company API] 
@@ -67,9 +72,9 @@
 [Info   :SlimeTamingFix] Plugin SlimeTamingFix (com.elitemastereric.slimetamingfix) is loaded!
 [Info   :   BepInEx] Loading [ShipLoot 1.0]
 [Info   :   BepInEx] Loading [SpidersBegone 1.0]
-[Info   :   BepInEx] Loading [Lethal Company Input Utils 0.6.0]
+[Info   :   BepInEx] Loading [Lethal Company Input Utils 0.6.3]
 [Info   :Lethal Company Input Utils] Registered InputUtilsExtendedMouse Layout Override!
-[Info   :Lethal Company Input Utils] InputUtils 0.6.0 has finished loading!
+[Info   :Lethal Company Input Utils] InputUtils 0.6.3 has finished loading!
 [Info   :   BepInEx] Loading [Custom Boombox Music 1.4.0]
 [Info   :Custom Boombox Music] Loading...
 [Info   :Custom Boombox Music] Created directory at C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\Custom Songs\Boombox Music
@@ -81,34 +86,27 @@
 [Info   :CustomSounds] Plugin CustomSounds is loaded!
 [Info   :   BepInEx] Loading [Bigger Battery 1.0.2]
 [Info   :Bigger Battery] Plugin Bigger Battery-1.0.2 loaded!
-[Info   :   BepInEx] Loading [LethalLib 0.13.2]
+[Info   :   BepInEx] Loading [LethalLib 0.14.2]
 [Info   : LethalLib] LethalLib loaded!!
-[Info   : LethalLib] Utilities.Init()
-[Info   :   BepInEx] Loading [ReservedItemSlotCore 1.8.14]
-[Info   :ReservedItemSlotCore-1.8.14] BindingConfigs
-[Info   :ReservedItemSlotCore-1.8.14] Cleaning old config entries
-[Info   :ReservedItemSlotCore-1.8.14] ReservedItemSlotCore loaded
-[Info   :   BepInEx] Loading [LethalThings 0.9.4]
-[Info   :LethalThings] LethalLib version is 0.13.2, which is compatible with LethalThings 0.9.0+
-[Info   :LethalThings] [Optional dependency] LethalCompanyInputUtils version is 0.6.0, which is compatible with LethalThings 0.8.0+
-[Info   :LethalThings] [Compatibility] ReservedItemSlotCore version is 1.8.14, which is compatible with LethalThings 0.8.0+
-[Info   : LethalLib] [LethalLib] LethalThings is registering 26 content items!
-[Info   :LethalThings] LethalThings loaded successfully!!!
 [Info   :   BepInEx] Loading [BetterStamina 1.3.2]
 [Info   :BetterStamina] BindingConfigs
 [Info   :BetterStamina] BetterStamina loaded
 [Info   :   BepInEx] Loading [ObjectVolumeController 1.0.4]
 [Info   :ObjectVolumeController] BindingConfigs
 [Info   :ObjectVolumeController] ObjectVolumeController loaded
-[Info   :   BepInEx] Loading [ReservedFlashlightSlot 1.6.2]
-[Info   :ReservedFlashlightSlot] BindingConfigs
-[Info   :ReservedFlashlightSlot] Cleaning old config entries
-[Info   :ReservedFlashlightSlot] ReservedFlashlightSlot loaded
-[Info   :   BepInEx] Loading [ReservedWalkieSlot 1.6.1]
-[Info   :ReservedWalkieSlot] BindingConfigs
-[Info   :ReservedWalkieSlot] Cleaning old config entries
-[Info   :ReservedWalkieSlot] ReservedWalkieSlot loaded
-[Info   :   BepInEx] Loading [GameTranslator 1.7.2]
+[Info   :   BepInEx] Loading [ReservedItemSlotCore 1.8.17]
+[Info   :ReservedItemSlotCore-1.8.17] BindingConfigs
+[Info   :ReservedItemSlotCore-1.8.17] Cleaning old config entries
+[Info   :ReservedItemSlotCore-1.8.17] ReservedItemSlotCore loaded
+[Info   :   BepInEx] Loading [ReservedFlashlightSlot 1.6.3]
+[Info   :ReservedFlashlightSlot-1.6.3] BindingConfigs
+[Info   :ReservedFlashlightSlot-1.6.3] Cleaning old config entries
+[Info   :ReservedFlashlightSlot-1.6.3] ReservedFlashlightSlot loaded
+[Info   :   BepInEx] Loading [ReservedWalkieSlot 1.6.2]
+[Info   :ReservedWalkieSlot-1.6.2] BindingConfigs
+[Info   :ReservedWalkieSlot-1.6.2] Cleaning old config entries
+[Info   :ReservedWalkieSlot-1.6.2] ReservedWalkieSlot loaded
+[Info   :   BepInEx] Loading [GameTranslator 1.8.33]
 [Info   :GameTranslator] 插件GameTranslator已加载!
 [Info   :GameTranslator] GameTranslator正在载入配置文件HUD-Translate
 [Info   :GameTranslator] GameTranslator正在载入配置文件Item-Translate
@@ -122,12 +120,44 @@
 [Info   :GameTranslator] 正在加载文本文件: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\config\translations\zh-CN\Normal-Translate.cfg.
 [Info   :GameTranslator] --- 正在载入HUD-Translate.cfg文件 ---
 [Info   :GameTranslator] 正在加载文本文件: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\config\translations\zh-CN\HUD-Translate.cfg.
+[Debug  :XUnity.AutoTranslator] Image loaded: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\config\translations\zh-CN\Texture\AlertText[52CF932FDE-AB216CEFD9].png.
+[Debug  :XUnity.AutoTranslator] Image loaded: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\config\translations\zh-CN\Texture\endgameAllPlayersDead[7C79AB720A-AAE050C65E].png.
+[Debug  :XUnity.AutoTranslator] Image loaded: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\config\translations\zh-CN\Texture\endgameStatsBoxes[295886F7C3-4BC87000CE].png.
+[Debug  :XUnity.AutoTranslator] Image loaded: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\config\translations\zh-CN\Texture\endgameStatsDeceased[C6A5B6686B-D9522974DE].png.
+[Debug  :XUnity.AutoTranslator] Image loaded: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\config\translations\zh-CN\Texture\endgameStatsMissing[72D507A3C8-DB73092A8A].png.
+[Debug  :XUnity.AutoTranslator] Image loaded: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\config\translations\zh-CN\Texture\LogoTextV1[A6946826E1-170022950F].png.
+[Debug  :XUnity.AutoTranslator] Image loaded: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\config\translations\zh-CN\Texture\Logo[83FCE83274-09B09F5E0E].png.
+[Debug  :XUnity.AutoTranslator] Image loaded: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\config\translations\zh-CN\Texture\RedUIPanelGlitchBWarningRadiationB[7D4ED37952-95F686DE01].png.
+[Debug  :XUnity.AutoTranslator] Image loaded: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\config\translations\zh-CN\Texture\RedUIPanelGlitchBWarningRadiationC[7FBAA1AA30-9E2C036778].png.
+[Debug  :XUnity.AutoTranslator] Image loaded: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\config\translations\zh-CN\Texture\RedUIPanelGlitchBWarningRadiationD[4877939F7B-47E20481B0].png.
+[Debug  :XUnity.AutoTranslator] Image loaded: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\config\translations\zh-CN\Texture\RedUIPanelGlitchBWarningRadiation[FFCC97E055-2C688E6DC8].png.
+[Debug  :XUnity.AutoTranslator] Image loaded: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\config\translations\zh-CN\Texture\RedUIPanelGlitchBWarning[E5C5C6E52B-F9F9EA9261].png.
+[Debug  :XUnity.AutoTranslator] Image loaded: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\config\translations\zh-CN\Texture\RedUIPanelGlitchB[C864CEDFD2-470F6C25C6].png.
+[Debug  :XUnity.AutoTranslator] Loaded texture files (took 0.18 seconds)
 [Info   :GameTranslator] 开始监测C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\config\translations\zh-CN\
+[Debug  :XUnity.AutoTranslator] Hooked UnityEngine.UI.MaskableGraphic.OnEnable through Harmony hooks.
+[Debug  :XUnity.AutoTranslator] Hooked UnityEngine.UI.Image.set_sprite through Harmony hooks.
+[Debug  :XUnity.AutoTranslator] Hooked UnityEngine.UI.Image.set_overrideSprite through Harmony hooks.
+[Debug  :XUnity.AutoTranslator] Hooked UnityEngine.UI.Image.set_material through Harmony hooks.
+[Debug  :XUnity.AutoTranslator] Hooked UnityEngine.UI.RawImage.set_texture through Harmony hooks.
+[Debug  :XUnity.AutoTranslator] Hooked UnityEngine.Cursor.SetCursor through Harmony hooks.
+[Debug  :XUnity.AutoTranslator] Hooked UnityEngine.Material.set_mainTexture through Harmony hooks.
+[Debug  :XUnity.AutoTranslator] Hooked UnityEngine.Sprite.get_texture through Harmony hooks.
+[Debug  :XUnity.AutoTranslator] Hooked UnityEngine.SpriteRenderer.set_sprite through Harmony hooks.
 [Info   :   BepInEx] Loading [HDLethalCompany-Sligili 1.5.6]
 [Info   :HDLethalCompany-Sligili] HDLethalCompany loaded
+[Info   :   BepInEx] Loading [LethalLevelLoader 1.0.3]
+[Info   :LethalLevelLoader] LethalLevelLoader loaded!!
+[Info   :   BepInEx] Loading [Scarlet Mansion 1.2.0]
+[Info   :ImoutoSama.ScarletMansion] Plugin Scarlet Mansion has been added!
+[Info   :ImoutoSama.ScarletMansion] Loading asset SDMLevel
+[Info   :ImoutoSama.ScarletMansion] Loading asset SDMList
+[Info   :ImoutoSama.ScarletMansion] Loading asset NET_KnightEnemy
+[Info   :ImoutoSama.ScarletMansion] Loading asset KnightNode
+[Info   :ImoutoSama.ScarletMansion] Loading asset KnightKeyword
 [Info   :   BepInEx] Loading [Needy Cats 1.1.1]
 [Info   :Jordo.NeedyCats] Initialized Needy Cats
-[Info   :   BepInEx] Loading [LC Sound Tool 1.5.0]
+[Info   :   BepInEx] Loading [LC Sound Tool 1.5.1]
 [Info   :LCSoundTool] Plugin LCSoundTool is loaded!
 [Info   :   BepInEx] Loading [LethalPresents 1.0.4]
 [Info   :LethalPresents] Plugin LethalPresents is loaded!
@@ -185,6 +215,8 @@
 [Info   :RuntimeNetcodeRPCValidator] Successfully registered first patch for type PlayerControllerB.Awake | Triggered by MoreEmotes
 [Info   :   BepInEx] Loading [MoreItems 1.0.2]
 [Info   : MoreItems] Plugin MoreItems is loaded!
+[Info   :   BepInEx] Loading [Backrooms 0.1.3]
+[Info   : Backrooms] Plugin Backrooms is loaded!
 [Info   :   BepInEx] Loading [NuclearLib 1.0.4]
 [Info   :   BepInEx] Loading [PestControl 1.0.1]
 [Info   :PestControl] Started Transpiling [LoadNewLevel].
@@ -210,11 +242,9 @@
 [Info   :Glow Steps] [Production] Patched class FootstepPatcher, containing 2 methods.
 [Info   :   BepInEx] Loading [Always Pickup 1.0.0]
 [Info   :Always Pickup] Always Pickup plugin loaded!
-[Info   :   BepInEx] Loading [Possessed Masks 2.0.0]
+[Info   :   BepInEx] Loading [Possessed Masks 2.0.4]
 [Info   :Possessed Masks] 'Possessed Masks' is loading...
 [Info   :Possessed Masks] Asset bundle loaded
-[Warning: Unity Log] The referenced script (PossessedMasksRewrite.networking.PossessedBehaviour) on this Behaviour is missing!
-[Warning: Unity Log] The referenced script on this Behaviour (Game Object 'PMNetPrefab') is missing!
 [Info   :Possessed Masks] 'Possessed Masks' loaded!
 [Info   :   BepInEx] Loading [Helmet_Cameras 2.1.5]
 [Info   :Helmet_Cameras] Plugin Helmet_Cameras is loaded with version 2.1.5!
@@ -240,6 +270,32 @@
 [Info   :RugbugRedfern.SkinwalkerMod] VoiceEnabled_OtherEnemies VALUE LOADED FROM CONFIG: [True]
 [Info   :RugbugRedfern.SkinwalkerMod] VoiceLineFrequency VALUE LOADED FROM CONFIG: [3]
 [Info   :RugbugRedfern.SkinwalkerMod] Skinwalker Mod Object Initialized
+[Info   :   BepInEx] Loading [Scoopy's Variety Mod 1.0.0]
+[Info   :ScoopysVarietyMod] Successfully loaded WeezerGuitar (Item)
+[Info   :ScoopysVarietyMod] Successfully loaded FireAxe (Item)
+[Info   :ScoopysVarietyMod] Successfully loaded CrownItem (Item)
+[Info   :ScoopysVarietyMod] Custom Scrap Loaded Successfully
+[Info   :ScoopysVarietyMod] Registering flow CastleFlow with:
+dungeonRarity: 300
+dungeonMoons: vanilla
+guaranteeDungeon: False
+dungeonSizeMax: 2
+dungeonSizeMin:1
+[Info   :ScoopysVarietyMod] Registered CastleFlow dungeon interior on all vanilla moons with rarity300.
+[Info   :ScoopysVarietyMod] Registering flow SewerFlow with:
+dungeonRarity: 300
+dungeonMoons: vanilla
+guaranteeDungeon: False
+dungeonSizeMax: 2
+dungeonSizeMin:1
+[Info   :ScoopysVarietyMod] Registered SewerFlow dungeon interior on all vanilla moons with rarity300.
+[Info   :ScoopysVarietyMod] Initialised Successfully
+[Info   :   BepInEx] Loading [SCPCBDunGen 2.3.0]
+[Info   :SCPCBDunGen] Registering SCP dungeon for predefined moon list.
+[Info   :SCPCBDunGen] Registering SCP dungeon for moon Titan at default rarity 100
+[Info   :SCPCBDunGen] Registering SCP dungeon for moon Secret Labs at default rarity 100
+[Info   :SCPCBDunGen] Registed SCP 914 json file successfully: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\Badham_Mods-SCPFoundationDungeon\badhamknibbs-scp914-recipes\default.json
+[Info   :SCPCBDunGen] SCP:CB DunGen for Lethal Company [Version 2.3.0] successfully loaded.
 [Info   :   BepInEx] Loading [LC Always Hear Active Walkies 1.4.4]
 [Info   :suskitech.LCAlwaysHearActiveWalkie] \ /
 [Info   :suskitech.LCAlwaysHearActiveWalkie] /|\
@@ -270,7 +326,7 @@
    LethalRegeneration 1.2.0
         By Toskan4134
 
-[Info   :   BepInEx] Loading [TreysHealthText 1.3.0]
+[Info   :   BepInEx] Loading [TreysHealthText 1.3.1]
 [Info   :TreysHealthText] Plugin TreysHealthText is loaded!
 [Info   :PestControl] Started Transpiling [LoadNewLevel].
 [Info   :PestControl] Transpiled method successfully.
@@ -284,125 +340,90 @@
 [Info   :   BepInEx] Loading [More Suits 1.3.3]
 [Info   :More Suits] Plugin More Suits is loaded!
 [Message:   BepInEx] Chainloader startup complete
-[Info   :ReservedFlashlightSlot] Initializing hotkeys.
-[Info   :ReservedWalkieSlot] Initializing hotkeys.
+[Info   :ReservedFlashlightSlot-1.6.3] Initializing hotkeys.
+[Info   :ReservedWalkieSlot-1.6.2] Initializing hotkeys.
 [Info   :Buyable Shotgun] Scene "InitSceneLaunchOptions" loaded with 2 mode.
 [Info   :Lethal Company API] LC_API Started!
-[Warning:LCSoundTool] Legacy path contains the requested audio file at path C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\CustomSounds\YourOwnSoundPack\bracken_death_sound\CrackNeck.wav!
-[Debug  :LCSoundTool] Loading AudioClip C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\CustomSounds\YourOwnSoundPack\bracken_death_sound\CrackNeck.wav from legacy path: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\CustomSounds\YourOwnSoundPack\bracken_death_sound\CrackNeck.wav
+[Debug  :LCSoundTool] Loading AudioClip C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\CustomSounds\YourOwnSoundPack\bracken_death_sound\CrackNeck.wav from path: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\CustomSounds\YourOwnSoundPack\bracken_death_sound\CrackNeck.wav
 [Debug  :LCSoundTool] Finished loading AudioClip C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\CustomSounds\YourOwnSoundPack\bracken_death_sound\CrackNeck.wav with length of 0.975!
-[Warning:LCSoundTool] Legacy path contains the requested audio file at path C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\CustomSounds\YourOwnSoundPack\bracken_death_sound\Roar_0.wav!
-[Debug  :LCSoundTool] Loading AudioClip C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\CustomSounds\YourOwnSoundPack\bracken_death_sound\Roar_0.wav from legacy path: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\CustomSounds\YourOwnSoundPack\bracken_death_sound\Roar_0.wav
+[Debug  :LCSoundTool] Loading AudioClip C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\CustomSounds\YourOwnSoundPack\bracken_death_sound\Roar_0.wav from path: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\CustomSounds\YourOwnSoundPack\bracken_death_sound\Roar_0.wav
 [Debug  :LCSoundTool] Finished loading AudioClip C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\CustomSounds\YourOwnSoundPack\bracken_death_sound\Roar_0.wav with length of 2.078!
-[Warning:LCSoundTool] Legacy path contains the requested audio file at path C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\CustomSounds\YourOwnSoundPack\FindingLootBugSoundPack\Angry.wav!
-[Debug  :LCSoundTool] Loading AudioClip C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\CustomSounds\YourOwnSoundPack\FindingLootBugSoundPack\Angry.wav from legacy path: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\CustomSounds\YourOwnSoundPack\FindingLootBugSoundPack\Angry.wav
+[Debug  :LCSoundTool] Loading AudioClip C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\CustomSounds\YourOwnSoundPack\FindingLootBugSoundPack\Angry.wav from path: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\CustomSounds\YourOwnSoundPack\FindingLootBugSoundPack\Angry.wav
 [Debug  :LCSoundTool] Finished loading AudioClip C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\CustomSounds\YourOwnSoundPack\FindingLootBugSoundPack\Angry.wav with length of 1.393!
-[Warning:LCSoundTool] Legacy path contains the requested audio file at path C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\CustomSounds\YourOwnSoundPack\FindingLootBugSoundPack\AngryScreech.wav!
-[Debug  :LCSoundTool] Loading AudioClip C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\CustomSounds\YourOwnSoundPack\FindingLootBugSoundPack\AngryScreech.wav from legacy path: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\CustomSounds\YourOwnSoundPack\FindingLootBugSoundPack\AngryScreech.wav
+[Debug  :LCSoundTool] Loading AudioClip C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\CustomSounds\YourOwnSoundPack\FindingLootBugSoundPack\AngryScreech.wav from path: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\CustomSounds\YourOwnSoundPack\FindingLootBugSoundPack\AngryScreech.wav
 [Debug  :LCSoundTool] Finished loading AudioClip C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\CustomSounds\YourOwnSoundPack\FindingLootBugSoundPack\AngryScreech.wav with length of 1.335!
-[Warning:LCSoundTool] Legacy path contains the requested audio file at path C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\CustomSounds\YourOwnSoundPack\FindingLootBugSoundPack\AngryScreech2.wav!
-[Debug  :LCSoundTool] Loading AudioClip C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\CustomSounds\YourOwnSoundPack\FindingLootBugSoundPack\AngryScreech2.wav from legacy path: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\CustomSounds\YourOwnSoundPack\FindingLootBugSoundPack\AngryScreech2.wav
+[Debug  :LCSoundTool] Loading AudioClip C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\CustomSounds\YourOwnSoundPack\FindingLootBugSoundPack\AngryScreech2.wav from path: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\CustomSounds\YourOwnSoundPack\FindingLootBugSoundPack\AngryScreech2.wav
 [Debug  :LCSoundTool] Finished loading AudioClip C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\CustomSounds\YourOwnSoundPack\FindingLootBugSoundPack\AngryScreech2.wav with length of 1.787!
-[Warning:LCSoundTool] Legacy path contains the requested audio file at path C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\CustomSounds\YourOwnSoundPack\FindingLootBugSoundPack\Chitter1.wav!
-[Debug  :LCSoundTool] Loading AudioClip C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\CustomSounds\YourOwnSoundPack\FindingLootBugSoundPack\Chitter1.wav from legacy path: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\CustomSounds\YourOwnSoundPack\FindingLootBugSoundPack\Chitter1.wav
+[Debug  :LCSoundTool] Loading AudioClip C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\CustomSounds\YourOwnSoundPack\FindingLootBugSoundPack\Chitter1.wav from path: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\CustomSounds\YourOwnSoundPack\FindingLootBugSoundPack\Chitter1.wav
 [Debug  :LCSoundTool] Finished loading AudioClip C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\CustomSounds\YourOwnSoundPack\FindingLootBugSoundPack\Chitter1.wav with length of 1.902!
-[Warning:LCSoundTool] Legacy path contains the requested audio file at path C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\CustomSounds\YourOwnSoundPack\FindingLootBugSoundPack\Chitter2.wav!
-[Debug  :LCSoundTool] Loading AudioClip C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\CustomSounds\YourOwnSoundPack\FindingLootBugSoundPack\Chitter2.wav from legacy path: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\CustomSounds\YourOwnSoundPack\FindingLootBugSoundPack\Chitter2.wav
+[Debug  :LCSoundTool] Loading AudioClip C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\CustomSounds\YourOwnSoundPack\FindingLootBugSoundPack\Chitter2.wav from path: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\CustomSounds\YourOwnSoundPack\FindingLootBugSoundPack\Chitter2.wav
 [Debug  :LCSoundTool] Finished loading AudioClip C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\CustomSounds\YourOwnSoundPack\FindingLootBugSoundPack\Chitter2.wav with length of 2.986!
-[Warning:LCSoundTool] Legacy path contains the requested audio file at path C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\CustomSounds\YourOwnSoundPack\FindingLootBugSoundPack\Chitter3.wav!
-[Debug  :LCSoundTool] Loading AudioClip C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\CustomSounds\YourOwnSoundPack\FindingLootBugSoundPack\Chitter3.wav from legacy path: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\CustomSounds\YourOwnSoundPack\FindingLootBugSoundPack\Chitter3.wav
+[Debug  :LCSoundTool] Loading AudioClip C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\CustomSounds\YourOwnSoundPack\FindingLootBugSoundPack\Chitter3.wav from path: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\CustomSounds\YourOwnSoundPack\FindingLootBugSoundPack\Chitter3.wav
 [Error  : Unity Log] Error: Cannot create FMOD::Sound instance for clip "" (FMOD error: Unsupported file or audio format. )
 [Debug  :LCSoundTool] Finished loading AudioClip C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\CustomSounds\YourOwnSoundPack\FindingLootBugSoundPack\Chitter3.wav with length of 0!
-[Warning:LCSoundTool] Legacy path contains the requested audio file at path C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\CustomSounds\YourOwnSoundPack\FindingLootBugSoundPack\Fly.wav!
-[Debug  :LCSoundTool] Loading AudioClip C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\CustomSounds\YourOwnSoundPack\FindingLootBugSoundPack\Fly.wav from legacy path: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\CustomSounds\YourOwnSoundPack\FindingLootBugSoundPack\Fly.wav
+[Debug  :LCSoundTool] Loading AudioClip C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\CustomSounds\YourOwnSoundPack\FindingLootBugSoundPack\Fly.wav from path: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\CustomSounds\YourOwnSoundPack\FindingLootBugSoundPack\Fly.wav
 [Debug  :LCSoundTool] Finished loading AudioClip C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\CustomSounds\YourOwnSoundPack\FindingLootBugSoundPack\Fly.wav with length of 4.365!
-[Warning:LCSoundTool] Legacy path contains the requested audio file at path C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\CustomSounds\YourOwnSoundPack\FindingLootBugSoundPack\Found1.wav!
-[Debug  :LCSoundTool] Loading AudioClip C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\CustomSounds\YourOwnSoundPack\FindingLootBugSoundPack\Found1.wav from legacy path: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\CustomSounds\YourOwnSoundPack\FindingLootBugSoundPack\Found1.wav
+[Debug  :LCSoundTool] Loading AudioClip C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\CustomSounds\YourOwnSoundPack\FindingLootBugSoundPack\Found1.wav from path: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\CustomSounds\YourOwnSoundPack\FindingLootBugSoundPack\Found1.wav
 [Debug  :LCSoundTool] Finished loading AudioClip C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\CustomSounds\YourOwnSoundPack\FindingLootBugSoundPack\Found1.wav with length of 1.16!
-[Warning:LCSoundTool] Legacy path contains the requested audio file at path C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\CustomSounds\YourOwnSoundPack\FindingLootBugSoundPack\HoarderBugCry.wav!
-[Debug  :LCSoundTool] Loading AudioClip C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\CustomSounds\YourOwnSoundPack\FindingLootBugSoundPack\HoarderBugCry.wav from legacy path: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\CustomSounds\YourOwnSoundPack\FindingLootBugSoundPack\HoarderBugCry.wav
+[Debug  :LCSoundTool] Loading AudioClip C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\CustomSounds\YourOwnSoundPack\FindingLootBugSoundPack\HoarderBugCry.wav from path: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\CustomSounds\YourOwnSoundPack\FindingLootBugSoundPack\HoarderBugCry.wav
 [Debug  :LCSoundTool] Finished loading AudioClip C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\CustomSounds\YourOwnSoundPack\FindingLootBugSoundPack\HoarderBugCry.wav with length of 1.741!
-[Warning:LCSoundTool] Legacy path contains the requested audio file at path C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\CustomSounds\YourOwnSoundPack\FreeJester+\JackInTheBoxTheme.wav!
-[Debug  :LCSoundTool] Loading AudioClip C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\CustomSounds\YourOwnSoundPack\FreeJester+\JackInTheBoxTheme.wav from legacy path: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\CustomSounds\YourOwnSoundPack\FreeJester+\JackInTheBoxTheme.wav
+[Debug  :LCSoundTool] Loading AudioClip C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\CustomSounds\YourOwnSoundPack\FreeJester+\JackInTheBoxTheme.wav from path: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\CustomSounds\YourOwnSoundPack\FreeJester+\JackInTheBoxTheme.wav
 [Error  : Unity Log] Error: Cannot create FMOD::Sound instance for clip "" (FMOD error: Unsupported file or audio format. )
 [Debug  :LCSoundTool] Finished loading AudioClip C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\CustomSounds\YourOwnSoundPack\FreeJester+\JackInTheBoxTheme.wav with length of 0!
-[Warning:LCSoundTool] Legacy path contains the requested audio file at path C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\CustomSounds\YourOwnSoundPack\FreeJester+\Pop1.wav!
-[Debug  :LCSoundTool] Loading AudioClip C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\CustomSounds\YourOwnSoundPack\FreeJester+\Pop1.wav from legacy path: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\CustomSounds\YourOwnSoundPack\FreeJester+\Pop1.wav
+[Debug  :LCSoundTool] Loading AudioClip C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\CustomSounds\YourOwnSoundPack\FreeJester+\Pop1.wav from path: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\CustomSounds\YourOwnSoundPack\FreeJester+\Pop1.wav
 [Debug  :LCSoundTool] Finished loading AudioClip C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\CustomSounds\YourOwnSoundPack\FreeJester+\Pop1.wav with length of 1.6!
-[Warning:LCSoundTool] Legacy path contains the requested audio file at path C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\CustomSounds\YourOwnSoundPack\FreeJester+\Scream1.wav!
-[Debug  :LCSoundTool] Loading AudioClip C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\CustomSounds\YourOwnSoundPack\FreeJester+\Scream1.wav from legacy path: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\CustomSounds\YourOwnSoundPack\FreeJester+\Scream1.wav
+[Debug  :LCSoundTool] Loading AudioClip C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\CustomSounds\YourOwnSoundPack\FreeJester+\Scream1.wav from path: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\CustomSounds\YourOwnSoundPack\FreeJester+\Scream1.wav
 [Error  : Unity Log] Error: Cannot create FMOD::Sound instance for clip "" (FMOD error: Unsupported file or audio format. )
 [Debug  :LCSoundTool] Finished loading AudioClip C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\CustomSounds\YourOwnSoundPack\FreeJester+\Scream1.wav with length of 0!
-[Warning:LCSoundTool] Legacy path contains the requested audio file at path C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\CustomSounds\YourOwnSoundPack\Giant\FGiantEatPlayerSFX.wav!
-[Debug  :LCSoundTool] Loading AudioClip C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\CustomSounds\YourOwnSoundPack\Giant\FGiantEatPlayerSFX.wav from legacy path: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\CustomSounds\YourOwnSoundPack\Giant\FGiantEatPlayerSFX.wav
+[Debug  :LCSoundTool] Loading AudioClip C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\CustomSounds\YourOwnSoundPack\Giant\FGiantEatPlayerSFX.wav from path: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\CustomSounds\YourOwnSoundPack\Giant\FGiantEatPlayerSFX.wav
 [Debug  :LCSoundTool] Finished loading AudioClip C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\CustomSounds\YourOwnSoundPack\Giant\FGiantEatPlayerSFX.wav with length of 1.834!
-[Warning:LCSoundTool] Legacy path contains the requested audio file at path C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\CustomSounds\YourOwnSoundPack\MG_Spotted\TurretSeePlayer.wav!
-[Debug  :LCSoundTool] Loading AudioClip C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\CustomSounds\YourOwnSoundPack\MG_Spotted\TurretSeePlayer.wav from legacy path: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\CustomSounds\YourOwnSoundPack\MG_Spotted\TurretSeePlayer.wav
+[Debug  :LCSoundTool] Loading AudioClip C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\CustomSounds\YourOwnSoundPack\MG_Spotted\TurretSeePlayer.wav from path: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\CustomSounds\YourOwnSoundPack\MG_Spotted\TurretSeePlayer.wav
 [Debug  :LCSoundTool] Finished loading AudioClip C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\CustomSounds\YourOwnSoundPack\MG_Spotted\TurretSeePlayer.wav with length of 1.75!
-[Warning:LCSoundTool] Legacy path contains the requested audio file at path C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\CustomSounds\YourOwnSoundPack\Minecraft Doors\BigDoorClose.wav!
-[Debug  :LCSoundTool] Loading AudioClip C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\CustomSounds\YourOwnSoundPack\Minecraft Doors\BigDoorClose.wav from legacy path: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\CustomSounds\YourOwnSoundPack\Minecraft Doors\BigDoorClose.wav
+[Debug  :LCSoundTool] Loading AudioClip C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\CustomSounds\YourOwnSoundPack\Minecraft Doors\BigDoorClose.wav from path: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\CustomSounds\YourOwnSoundPack\Minecraft Doors\BigDoorClose.wav
 [Debug  :LCSoundTool] Finished loading AudioClip C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\CustomSounds\YourOwnSoundPack\Minecraft Doors\BigDoorClose.wav with length of 0.529!
-[Warning:LCSoundTool] Legacy path contains the requested audio file at path C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\CustomSounds\YourOwnSoundPack\Minecraft Doors\BigDoorOpen.wav!
-[Debug  :LCSoundTool] Loading AudioClip C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\CustomSounds\YourOwnSoundPack\Minecraft Doors\BigDoorOpen.wav from legacy path: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\CustomSounds\YourOwnSoundPack\Minecraft Doors\BigDoorOpen.wav
+[Debug  :LCSoundTool] Loading AudioClip C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\CustomSounds\YourOwnSoundPack\Minecraft Doors\BigDoorOpen.wav from path: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\CustomSounds\YourOwnSoundPack\Minecraft Doors\BigDoorOpen.wav
 [Debug  :LCSoundTool] Finished loading AudioClip C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\CustomSounds\YourOwnSoundPack\Minecraft Doors\BigDoorOpen.wav with length of 0.553!
-[Warning:LCSoundTool] Legacy path contains the requested audio file at path C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\CustomSounds\YourOwnSoundPack\Minecraft Doors\DoorClose1.wav!
-[Debug  :LCSoundTool] Loading AudioClip C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\CustomSounds\YourOwnSoundPack\Minecraft Doors\DoorClose1.wav from legacy path: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\CustomSounds\YourOwnSoundPack\Minecraft Doors\DoorClose1.wav
+[Debug  :LCSoundTool] Loading AudioClip C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\CustomSounds\YourOwnSoundPack\Minecraft Doors\DoorClose1.wav from path: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\CustomSounds\YourOwnSoundPack\Minecraft Doors\DoorClose1.wav
 [Debug  :LCSoundTool] Finished loading AudioClip C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\CustomSounds\YourOwnSoundPack\Minecraft Doors\DoorClose1.wav with length of 0.301!
-[Warning:LCSoundTool] Legacy path contains the requested audio file at path C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\CustomSounds\YourOwnSoundPack\Minecraft Doors\DoorClose2.wav!
-[Debug  :LCSoundTool] Loading AudioClip C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\CustomSounds\YourOwnSoundPack\Minecraft Doors\DoorClose2.wav from legacy path: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\CustomSounds\YourOwnSoundPack\Minecraft Doors\DoorClose2.wav
+[Debug  :LCSoundTool] Loading AudioClip C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\CustomSounds\YourOwnSoundPack\Minecraft Doors\DoorClose2.wav from path: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\CustomSounds\YourOwnSoundPack\Minecraft Doors\DoorClose2.wav
 [Debug  :LCSoundTool] Finished loading AudioClip C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\CustomSounds\YourOwnSoundPack\Minecraft Doors\DoorClose2.wav with length of 0.301!
-[Warning:LCSoundTool] Legacy path contains the requested audio file at path C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\CustomSounds\YourOwnSoundPack\Minecraft Doors\DoorOpen1.wav!
-[Debug  :LCSoundTool] Loading AudioClip C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\CustomSounds\YourOwnSoundPack\Minecraft Doors\DoorOpen1.wav from legacy path: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\CustomSounds\YourOwnSoundPack\Minecraft Doors\DoorOpen1.wav
+[Debug  :LCSoundTool] Loading AudioClip C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\CustomSounds\YourOwnSoundPack\Minecraft Doors\DoorOpen1.wav from path: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\CustomSounds\YourOwnSoundPack\Minecraft Doors\DoorOpen1.wav
 [Debug  :LCSoundTool] Finished loading AudioClip C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\CustomSounds\YourOwnSoundPack\Minecraft Doors\DoorOpen1.wav with length of 0.361!
-[Warning:LCSoundTool] Legacy path contains the requested audio file at path C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\CustomSounds\YourOwnSoundPack\Minecraft Doors\DoorOpen2.wav!
-[Debug  :LCSoundTool] Loading AudioClip C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\CustomSounds\YourOwnSoundPack\Minecraft Doors\DoorOpen2.wav from legacy path: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\CustomSounds\YourOwnSoundPack\Minecraft Doors\DoorOpen2.wav
+[Debug  :LCSoundTool] Loading AudioClip C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\CustomSounds\YourOwnSoundPack\Minecraft Doors\DoorOpen2.wav from path: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\CustomSounds\YourOwnSoundPack\Minecraft Doors\DoorOpen2.wav
 [Debug  :LCSoundTool] Finished loading AudioClip C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\CustomSounds\YourOwnSoundPack\Minecraft Doors\DoorOpen2.wav with length of 0.361!
-[Warning:LCSoundTool] Legacy path contains the requested audio file at path C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\CustomSounds\YourOwnSoundPack\Minecraft Doors\DoorSlam1.wav!
-[Debug  :LCSoundTool] Loading AudioClip C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\CustomSounds\YourOwnSoundPack\Minecraft Doors\DoorSlam1.wav from legacy path: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\CustomSounds\YourOwnSoundPack\Minecraft Doors\DoorSlam1.wav
+[Debug  :LCSoundTool] Loading AudioClip C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\CustomSounds\YourOwnSoundPack\Minecraft Doors\DoorSlam1.wav from path: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\CustomSounds\YourOwnSoundPack\Minecraft Doors\DoorSlam1.wav
 [Debug  :LCSoundTool] Finished loading AudioClip C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\CustomSounds\YourOwnSoundPack\Minecraft Doors\DoorSlam1.wav with length of 0.54!
-[Warning:LCSoundTool] Legacy path contains the requested audio file at path C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\CustomSounds\YourOwnSoundPack\Minecraft Doors\DoorSlam2.wav!
-[Debug  :LCSoundTool] Loading AudioClip C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\CustomSounds\YourOwnSoundPack\Minecraft Doors\DoorSlam2.wav from legacy path: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\CustomSounds\YourOwnSoundPack\Minecraft Doors\DoorSlam2.wav
+[Debug  :LCSoundTool] Loading AudioClip C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\CustomSounds\YourOwnSoundPack\Minecraft Doors\DoorSlam2.wav from path: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\CustomSounds\YourOwnSoundPack\Minecraft Doors\DoorSlam2.wav
 [Debug  :LCSoundTool] Finished loading AudioClip C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\CustomSounds\YourOwnSoundPack\Minecraft Doors\DoorSlam2.wav with length of 0.54!
-[Warning:LCSoundTool] Legacy path contains the requested audio file at path C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\CustomSounds\YourOwnSoundPack\Minecraft Doors\DoorUnlock.wav!
-[Debug  :LCSoundTool] Loading AudioClip C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\CustomSounds\YourOwnSoundPack\Minecraft Doors\DoorUnlock.wav from legacy path: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\CustomSounds\YourOwnSoundPack\Minecraft Doors\DoorUnlock.wav
+[Debug  :LCSoundTool] Loading AudioClip C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\CustomSounds\YourOwnSoundPack\Minecraft Doors\DoorUnlock.wav from path: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\CustomSounds\YourOwnSoundPack\Minecraft Doors\DoorUnlock.wav
 [Error  : Unity Log] Error: Cannot create FMOD::Sound instance for clip "" (FMOD error: Unsupported file or audio format. )
 [Debug  :LCSoundTool] Finished loading AudioClip C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\CustomSounds\YourOwnSoundPack\Minecraft Doors\DoorUnlock.wav with length of 0!
-[Warning:LCSoundTool] Legacy path contains the requested audio file at path C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\CustomSounds\YourOwnSoundPack\Minecraft Doors\DoorUnlock2.wav!
-[Debug  :LCSoundTool] Loading AudioClip C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\CustomSounds\YourOwnSoundPack\Minecraft Doors\DoorUnlock2.wav from legacy path: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\CustomSounds\YourOwnSoundPack\Minecraft Doors\DoorUnlock2.wav
+[Debug  :LCSoundTool] Loading AudioClip C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\CustomSounds\YourOwnSoundPack\Minecraft Doors\DoorUnlock2.wav from path: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\CustomSounds\YourOwnSoundPack\Minecraft Doors\DoorUnlock2.wav
 [Error  : Unity Log] Error: Cannot create FMOD::Sound instance for clip "" (FMOD error: Unsupported file or audio format. )
 [Debug  :LCSoundTool] Finished loading AudioClip C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\CustomSounds\YourOwnSoundPack\Minecraft Doors\DoorUnlock2.wav with length of 0!
-[Warning:LCSoundTool] Legacy path contains the requested audio file at path C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\CustomSounds\YourOwnSoundPack\Minecraft Doors\HangarDoorOpen1.wav!
-[Debug  :LCSoundTool] Loading AudioClip C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\CustomSounds\YourOwnSoundPack\Minecraft Doors\HangarDoorOpen1.wav from legacy path: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\CustomSounds\YourOwnSoundPack\Minecraft Doors\HangarDoorOpen1.wav
+[Debug  :LCSoundTool] Loading AudioClip C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\CustomSounds\YourOwnSoundPack\Minecraft Doors\HangarDoorOpen1.wav from path: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\CustomSounds\YourOwnSoundPack\Minecraft Doors\HangarDoorOpen1.wav
 [Debug  :LCSoundTool] Finished loading AudioClip C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\CustomSounds\YourOwnSoundPack\Minecraft Doors\HangarDoorOpen1.wav with length of 0.841!
-[Warning:LCSoundTool] Legacy path contains the requested audio file at path C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\CustomSounds\YourOwnSoundPack\Minecraft Doors\HangarDoorShut.wav!
-[Debug  :LCSoundTool] Loading AudioClip C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\CustomSounds\YourOwnSoundPack\Minecraft Doors\HangarDoorShut.wav from legacy path: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\CustomSounds\YourOwnSoundPack\Minecraft Doors\HangarDoorShut.wav
+[Debug  :LCSoundTool] Loading AudioClip C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\CustomSounds\YourOwnSoundPack\Minecraft Doors\HangarDoorShut.wav from path: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\CustomSounds\YourOwnSoundPack\Minecraft Doors\HangarDoorShut.wav
 [Debug  :LCSoundTool] Finished loading AudioClip C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\CustomSounds\YourOwnSoundPack\Minecraft Doors\HangarDoorShut.wav with length of 0.871!
-[Warning:LCSoundTool] Legacy path contains the requested audio file at path C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\CustomSounds\YourOwnSoundPack\Minecraft Doors\MetalHatchClose.wav!
-[Debug  :LCSoundTool] Loading AudioClip C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\CustomSounds\YourOwnSoundPack\Minecraft Doors\MetalHatchClose.wav from legacy path: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\CustomSounds\YourOwnSoundPack\Minecraft Doors\MetalHatchClose.wav
+[Debug  :LCSoundTool] Loading AudioClip C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\CustomSounds\YourOwnSoundPack\Minecraft Doors\MetalHatchClose.wav from path: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\CustomSounds\YourOwnSoundPack\Minecraft Doors\MetalHatchClose.wav
 [Debug  :LCSoundTool] Finished loading AudioClip C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\CustomSounds\YourOwnSoundPack\Minecraft Doors\MetalHatchClose.wav with length of 0.438!
-[Warning:LCSoundTool] Legacy path contains the requested audio file at path C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\CustomSounds\YourOwnSoundPack\Minecraft Doors\MetalHatchOpen.wav!
-[Debug  :LCSoundTool] Loading AudioClip C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\CustomSounds\YourOwnSoundPack\Minecraft Doors\MetalHatchOpen.wav from legacy path: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\CustomSounds\YourOwnSoundPack\Minecraft Doors\MetalHatchOpen.wav
+[Debug  :LCSoundTool] Loading AudioClip C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\CustomSounds\YourOwnSoundPack\Minecraft Doors\MetalHatchOpen.wav from path: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\CustomSounds\YourOwnSoundPack\Minecraft Doors\MetalHatchOpen.wav
 [Debug  :LCSoundTool] Finished loading AudioClip C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\CustomSounds\YourOwnSoundPack\Minecraft Doors\MetalHatchOpen.wav with length of 0.474!
-[Warning:LCSoundTool] Legacy path contains the requested audio file at path C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\CustomSounds\YourOwnSoundPack\Steps\Step1.wav!
-[Debug  :LCSoundTool] Loading AudioClip C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\CustomSounds\YourOwnSoundPack\Steps\Step1.wav from legacy path: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\CustomSounds\YourOwnSoundPack\Steps\Step1.wav
+[Debug  :LCSoundTool] Loading AudioClip C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\CustomSounds\YourOwnSoundPack\Steps\Step1.wav from path: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\CustomSounds\YourOwnSoundPack\Steps\Step1.wav
 [Debug  :LCSoundTool] Finished loading AudioClip C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\CustomSounds\YourOwnSoundPack\Steps\Step1.wav with length of 1.01!
-[Warning:LCSoundTool] Legacy path contains the requested audio file at path C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\CustomSounds\YourOwnSoundPack\Steps\Step2.wav!
-[Debug  :LCSoundTool] Loading AudioClip C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\CustomSounds\YourOwnSoundPack\Steps\Step2.wav from legacy path: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\CustomSounds\YourOwnSoundPack\Steps\Step2.wav
+[Debug  :LCSoundTool] Loading AudioClip C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\CustomSounds\YourOwnSoundPack\Steps\Step2.wav from path: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\CustomSounds\YourOwnSoundPack\Steps\Step2.wav
 [Debug  :LCSoundTool] Finished loading AudioClip C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\CustomSounds\YourOwnSoundPack\Steps\Step2.wav with length of 1.01!
-[Warning:LCSoundTool] Legacy path contains the requested audio file at path C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\CustomSounds\YourOwnSoundPack\Steps\Step3.wav!
-[Debug  :LCSoundTool] Loading AudioClip C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\CustomSounds\YourOwnSoundPack\Steps\Step3.wav from legacy path: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\CustomSounds\YourOwnSoundPack\Steps\Step3.wav
+[Debug  :LCSoundTool] Loading AudioClip C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\CustomSounds\YourOwnSoundPack\Steps\Step3.wav from path: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\CustomSounds\YourOwnSoundPack\Steps\Step3.wav
 [Debug  :LCSoundTool] Finished loading AudioClip C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\CustomSounds\YourOwnSoundPack\Steps\Step3.wav with length of 1.01!
-[Warning:LCSoundTool] Legacy path contains the requested audio file at path C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\CustomSounds\YourOwnSoundPack\Steps\Step4.wav!
-[Debug  :LCSoundTool] Loading AudioClip C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\CustomSounds\YourOwnSoundPack\Steps\Step4.wav from legacy path: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\CustomSounds\YourOwnSoundPack\Steps\Step4.wav
+[Debug  :LCSoundTool] Loading AudioClip C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\CustomSounds\YourOwnSoundPack\Steps\Step4.wav from path: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\CustomSounds\YourOwnSoundPack\Steps\Step4.wav
 [Debug  :LCSoundTool] Finished loading AudioClip C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\CustomSounds\YourOwnSoundPack\Steps\Step4.wav with length of 0.975!
-[Warning:LCSoundTool] Legacy path contains the requested audio file at path C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\CustomSounds\YourOwnSoundPack\Steps\Step5.wav!
-[Debug  :LCSoundTool] Loading AudioClip C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\CustomSounds\YourOwnSoundPack\Steps\Step5.wav from legacy path: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\CustomSounds\YourOwnSoundPack\Steps\Step5.wav
+[Debug  :LCSoundTool] Loading AudioClip C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\CustomSounds\YourOwnSoundPack\Steps\Step5.wav from path: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\CustomSounds\YourOwnSoundPack\Steps\Step5.wav
 [Debug  :LCSoundTool] Finished loading AudioClip C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\CustomSounds\YourOwnSoundPack\Steps\Step5.wav with length of 0.975!
-[Warning:LCSoundTool] Legacy path contains the requested audio file at path C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\CustomSounds\YourOwnSoundPack\Steps\Step6.wav!
-[Debug  :LCSoundTool] Loading AudioClip C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\CustomSounds\YourOwnSoundPack\Steps\Step6.wav from legacy path: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\CustomSounds\YourOwnSoundPack\Steps\Step6.wav
+[Debug  :LCSoundTool] Loading AudioClip C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\CustomSounds\YourOwnSoundPack\Steps\Step6.wav from path: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\CustomSounds\YourOwnSoundPack\Steps\Step6.wav
 [Debug  :LCSoundTool] Finished loading AudioClip C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\CustomSounds\YourOwnSoundPack\Steps\Step6.wav with length of 0.975!
 [Warning:LCSoundTool] Networking disabled. Mod in fully client side mode, but no networked actions can take place! You can safely ignore this if you want the mod to run fully client side.
-[Info   : Elads HUD] 58 plugins loaded
+[Info   : Elads HUD] 63 plugins loaded
+[Info   : Elads HUD] Plugin GUID: AHook
 [Info   : Elads HUD] Plugin GUID: atomic.terminalapi
 [Info   : Elads HUD] Plugin GUID: AUniqueName.AlwaysShowClock
 [Info   : Elads HUD] Plugin GUID: BetterTeleporter
@@ -420,14 +441,15 @@
 [Info   : Elads HUD] Plugin GUID: CustomSounds
 [Info   : Elads HUD] Plugin GUID: dev.alexanderdiaz.biggerbattery
 [Info   : Elads HUD] Plugin GUID: evaisa.lethallib
-[Info   : Elads HUD] Plugin GUID: FlipMods.ReservedItemSlotCore
-[Info   : Elads HUD] Plugin GUID: evaisa.lethalthings
 [Info   : Elads HUD] Plugin GUID: FlipMods.BetterStamina
 [Info   : Elads HUD] Plugin GUID: FlipMods.ObjectVolumeController
+[Info   : Elads HUD] Plugin GUID: FlipMods.ReservedItemSlotCore
 [Info   : Elads HUD] Plugin GUID: FlipMods.ReservedFlashlightSlot
 [Info   : Elads HUD] Plugin GUID: FlipMods.ReservedWalkieSlot
 [Info   : Elads HUD] Plugin GUID: GameTranslator
 [Info   : Elads HUD] Plugin GUID: HDLethalCompany
+[Info   : Elads HUD] Plugin GUID: imabatby.lethallevelloader
+[Info   : Elads HUD] Plugin GUID: ImoutoSama.ScarletMansion
 [Info   : Elads HUD] Plugin GUID: Jordo.NeedyCats
 [Info   : Elads HUD] Plugin GUID: LCSoundTool
 [Info   : Elads HUD] Plugin GUID: LethalPresents
@@ -442,6 +464,7 @@
 [Info   : Elads HUD] Plugin GUID: NicholaScott.BepInEx.RuntimeNetcodeRPCValidator
 [Info   : Elads HUD] Plugin GUID: MoreEmotes
 [Info   : Elads HUD] Plugin GUID: MoreItems
+[Info   : Elads HUD] Plugin GUID: Neekhaulas.Backrooms
 [Info   : Elads HUD] Plugin GUID: niceh.NuclearLib
 [Info   : Elads HUD] Plugin GUID: niceh.PestControl
 [Info   : Elads HUD] Plugin GUID: niceh.Symbiosis
@@ -453,6 +476,8 @@
 [Info   : Elads HUD] Plugin GUID: oe.tweaks.qol.possessedmasks
 [Info   : Elads HUD] Plugin GUID: RickArg.lethalcompany.helmetcameras
 [Info   : Elads HUD] Plugin GUID: RugbugRedfern.SkinwalkerMod
+[Info   : Elads HUD] Plugin GUID: ScoopysVarietyMod
+[Info   : Elads HUD] Plugin GUID: SCPCBDunGen
 [Info   : Elads HUD] Plugin GUID: suskitech.LCAlwaysHearActiveWalkie
 [Info   : Elads HUD] Plugin GUID: taffyko.NameplateTweaks
 [Info   : Elads HUD] Plugin GUID: Toskan4134.LethalRegeneration
@@ -472,10 +497,10 @@
 [Info   :GameTranslator] 加载的TextMesh Pro字体版本为: 1.1.0
 [Info   :Buyable Shotgun] Scene "InitScene" loaded with Single mode.
 [Info   :Jordo.NeedyCats] Added Needy Cats prefab to Network Manager.
-[Debug  :Possessed Masks] GameNetworkManager Start
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (Z:/SteamLibrary/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
 [Info   :Buyable Shotgun] Scene "MainMenu" loaded with Single mode.
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (Z:/SteamLibrary/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
 [Message:Lethal Company API] server pre-setup success
-[Info   :LethalThings] Spawning config manager
 [Info   :Custom Boombox Music] Preparing to load AudioClips...
 [Info   :Custom Boombox Music] Loading C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\Custom Songs\Boombox Music\All My people.mp3!
 [Info   :Custom Boombox Music] Loading C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\Custom Songs\Boombox Music\Attention.mp3!
@@ -518,28 +543,7 @@
 [Info   :Custom Boombox Music] Loading C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\Custom Songs\Boombox Music\鸡你太美.mp3!
 [Info   :Custom Boombox Music] Loading C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\Custom Songs\Boombox Music\黑桃A.mp3!
 [Info   :Jordo.NeedyCats] Added Needy Cats to items list.
-[Debug  :Possessed Masks] StartOfRound Awake
-[Warning: Unity Log] The referenced script on this Behaviour (Game Object '<null>') is missing!
-[Warning: Unity Log] The referenced script (PossessedMasksRewrite.networking.PossessedBehaviour) on this Behaviour is missing!
-[Warning: Unity Log] The referenced script on this Behaviour (Game Object 'PMNetPrefab') is missing!
-[Info   : LethalLib] Added Boomba to ExperimentationLevel with SpawnType [Default]
-[Info   : LethalLib] Added Boomba to AssuranceLevel with SpawnType [Default]
-[Info   : LethalLib] Added Boomba to VowLevel with SpawnType [Default]
-[Info   : LethalLib] Added Boomba to CompanyBuildingLevel with SpawnType [Default]
-[Info   : LethalLib] Added Boomba to MarchLevel with SpawnType [Default]
-[Info   : LethalLib] Added Boomba to RendLevel with SpawnType [Default]
-[Info   : LethalLib] Added Boomba to DineLevel with SpawnType [Default]
-[Info   : LethalLib] Added Boomba to OffenseLevel with SpawnType [Default]
-[Info   : LethalLib] Added Boomba to TitanLevel with SpawnType [Default]
-[Info   : LethalLib] Added TeleporterTrap to ExperimentationLevel
-[Info   : LethalLib] Added TeleporterTrap to AssuranceLevel
-[Info   : LethalLib] Added TeleporterTrap to VowLevel
-[Info   : LethalLib] Added TeleporterTrap to CompanyBuildingLevel
-[Info   : LethalLib] Added TeleporterTrap to MarchLevel
-[Info   : LethalLib] Added TeleporterTrap to RendLevel
-[Info   : LethalLib] Added TeleporterTrap to DineLevel
-[Info   : LethalLib] Added TeleporterTrap to OffenseLevel
-[Info   : LethalLib] Added TeleporterTrap to TitanLevel
+[Message:Possessed Masks] Spawning network prefabs (host only)
 [Info   :RuntimeNetcodeRPCValidator] Successfully added SignEmoteText to PlayerControllerB via Awake. Triggered by plugin MoreEmotes
 [Info   :RuntimeNetcodeRPCValidator] Successfully added SyncAnimatorToOthers to PlayerControllerB via Awake. Triggered by plugin MoreEmotes
 [Info   :RuntimeNetcodeRPCValidator] Successfully added SignEmoteText to PlayerControllerB via Awake. Triggered by plugin MoreEmotes
@@ -548,206 +552,11 @@
 [Info   :RuntimeNetcodeRPCValidator] Successfully added SyncAnimatorToOthers to PlayerControllerB via Awake. Triggered by plugin MoreEmotes
 [Info   :RuntimeNetcodeRPCValidator] Successfully added SignEmoteText to PlayerControllerB via Awake. Triggered by plugin MoreEmotes
 [Info   :RuntimeNetcodeRPCValidator] Successfully added SyncAnimatorToOthers to PlayerControllerB via Awake. Triggered by plugin MoreEmotes
-[Info   : LethalLib] Adding 4 unlockables to unlockables list
-[Info   : LethalLib] Adding 4 items to terminal
-[Info   : LethalLib] LethalLib registered item: Small Rug
-[Info   : LethalLib] LethalLib registered item: Large Rug
-[Info   : LethalLib] LethalLib registered item: Fatalities Sign
-[Info   : LethalLib] LethalLib registered item: Dartboard
-[Info   : LethalLib] Added ArsonPlush to ExperimentationLevel
-[Info   : LethalLib] Added ArsonPlush to AssuranceLevel
-[Info   : LethalLib] Added ArsonPlush to VowLevel
-[Info   : LethalLib] Added ArsonPlush to CompanyBuildingLevel
-[Info   : LethalLib] Added ArsonPlush to MarchLevel
-[Info   : LethalLib] Added ArsonPlush to RendLevel
-[Info   : LethalLib] Added ArsonPlush to DineLevel
-[Info   : LethalLib] Added ArsonPlush to OffenseLevel
-[Info   : LethalLib] Added ArsonPlush to TitanLevel
-[Info   : LethalLib] Added CookieFumo to ExperimentationLevel
-[Info   : LethalLib] Added CookieFumo to AssuranceLevel
-[Info   : LethalLib] Added CookieFumo to VowLevel
-[Info   : LethalLib] Added CookieFumo to CompanyBuildingLevel
-[Info   : LethalLib] Added CookieFumo to MarchLevel
-[Info   : LethalLib] Added CookieFumo to RendLevel
-[Info   : LethalLib] Added CookieFumo to DineLevel
-[Info   : LethalLib] Added CookieFumo to OffenseLevel
-[Info   : LethalLib] Added CookieFumo to TitanLevel
-[Info   : LethalLib] Added ToimariPlush to ExperimentationLevel
-[Info   : LethalLib] Added ToimariPlush to AssuranceLevel
-[Info   : LethalLib] Added ToimariPlush to VowLevel
-[Info   : LethalLib] Added ToimariPlush to CompanyBuildingLevel
-[Info   : LethalLib] Added ToimariPlush to MarchLevel
-[Info   : LethalLib] Added ToimariPlush to RendLevel
-[Info   : LethalLib] Added ToimariPlush to DineLevel
-[Info   : LethalLib] Added ToimariPlush to OffenseLevel
-[Info   : LethalLib] Added ToimariPlush to TitanLevel
-[Info   : LethalLib] Added HamisPlush to ExperimentationLevel
-[Info   : LethalLib] Added HamisPlush to AssuranceLevel
-[Info   : LethalLib] Added HamisPlush to VowLevel
-[Info   : LethalLib] Added HamisPlush to CompanyBuildingLevel
-[Info   : LethalLib] Added HamisPlush to MarchLevel
-[Info   : LethalLib] Added HamisPlush to RendLevel
-[Info   : LethalLib] Added HamisPlush to DineLevel
-[Info   : LethalLib] Added HamisPlush to OffenseLevel
-[Info   : LethalLib] Added HamisPlush to TitanLevel
-[Info   : LethalLib] Added ArsonPlushDirty to ExperimentationLevel
-[Info   : LethalLib] Added ArsonPlushDirty to AssuranceLevel
-[Info   : LethalLib] Added ArsonPlushDirty to VowLevel
-[Info   : LethalLib] Added ArsonPlushDirty to CompanyBuildingLevel
-[Info   : LethalLib] Added ArsonPlushDirty to MarchLevel
-[Info   : LethalLib] Added ArsonPlushDirty to RendLevel
-[Info   : LethalLib] Added ArsonPlushDirty to DineLevel
-[Info   : LethalLib] Added ArsonPlushDirty to OffenseLevel
-[Info   : LethalLib] Added ArsonPlushDirty to TitanLevel
-[Info   : LethalLib] Added Dingus to ExperimentationLevel
-[Info   : LethalLib] Added Dingus to AssuranceLevel
-[Info   : LethalLib] Added Dingus to VowLevel
-[Info   : LethalLib] Added Dingus to CompanyBuildingLevel
-[Info   : LethalLib] Added Dingus to MarchLevel
-[Info   : LethalLib] Added Dingus to RendLevel
-[Info   : LethalLib] Added Dingus to DineLevel
-[Info   : LethalLib] Added Dingus to OffenseLevel
-[Info   : LethalLib] Added Dingus to TitanLevel
-[Info   : LethalLib] Added glizzy to ExperimentationLevel
-[Info   : LethalLib] Added glizzy to AssuranceLevel
-[Info   : LethalLib] Added glizzy to VowLevel
-[Info   : LethalLib] Added glizzy to CompanyBuildingLevel
-[Info   : LethalLib] Added glizzy to MarchLevel
-[Info   : LethalLib] Added glizzy to RendLevel
-[Info   : LethalLib] Added glizzy to DineLevel
-[Info   : LethalLib] Added glizzy to OffenseLevel
-[Info   : LethalLib] Added glizzy to TitanLevel
-[Info   : LethalLib] Added Toygun to ExperimentationLevel
-[Info   : LethalLib] Added Toygun to AssuranceLevel
-[Info   : LethalLib] Added Toygun to VowLevel
-[Info   : LethalLib] Added Toygun to CompanyBuildingLevel
-[Info   : LethalLib] Added Toygun to MarchLevel
-[Info   : LethalLib] Added Toygun to RendLevel
-[Info   : LethalLib] Added Toygun to DineLevel
-[Info   : LethalLib] Added Toygun to OffenseLevel
-[Info   : LethalLib] Added Toygun to TitanLevel
-[Info   : LethalLib] Added GremlinEnergy to ExperimentationLevel
-[Info   : LethalLib] Added GremlinEnergy to AssuranceLevel
-[Info   : LethalLib] Added GremlinEnergy to VowLevel
-[Info   : LethalLib] Added GremlinEnergy to CompanyBuildingLevel
-[Info   : LethalLib] Added GremlinEnergy to MarchLevel
-[Info   : LethalLib] Added GremlinEnergy to RendLevel
-[Info   : LethalLib] Added GremlinEnergy to DineLevel
-[Info   : LethalLib] Added GremlinEnergy to OffenseLevel
-[Info   : LethalLib] Added GremlinEnergy to TitanLevel
-[Info   : LethalLib] Added ToyHammer to ExperimentationLevel
-[Info   : LethalLib] Added ToyHammer to AssuranceLevel
-[Info   : LethalLib] Added ToyHammer to VowLevel
-[Info   : LethalLib] Added ToyHammer to CompanyBuildingLevel
-[Info   : LethalLib] Added ToyHammer to MarchLevel
-[Info   : LethalLib] Added ToyHammer to RendLevel
-[Info   : LethalLib] Added ToyHammer to DineLevel
-[Info   : LethalLib] Added ToyHammer to OffenseLevel
-[Info   : LethalLib] Added ToyHammer to TitanLevel
-[Info   : LethalLib] Added GnarpyPlush to ExperimentationLevel
-[Info   : LethalLib] Added GnarpyPlush to AssuranceLevel
-[Info   : LethalLib] Added GnarpyPlush to VowLevel
-[Info   : LethalLib] Added GnarpyPlush to CompanyBuildingLevel
-[Info   : LethalLib] Added GnarpyPlush to MarchLevel
-[Info   : LethalLib] Added GnarpyPlush to RendLevel
-[Info   : LethalLib] Added GnarpyPlush to DineLevel
-[Info   : LethalLib] Added GnarpyPlush to OffenseLevel
-[Info   : LethalLib] Added GnarpyPlush to TitanLevel
-[Info   : LethalLib] Registered scrap item: Arson Plush
-[Info   : LethalLib] Registered scrap item: Cookie Fumo
-[Info   : LethalLib] Registered scrap item: Toimari Plush
-[Info   : LethalLib] Registered scrap item: Hamis Plush
-[Info   : LethalLib] Registered scrap item: Dirty Arson Plush
-[Info   : LethalLib] Registered scrap item: Maxwell
-[Info   : LethalLib] Registered scrap item: Glizzy
-[Info   : LethalLib] Registered scrap item: Revolver
-[Info   : LethalLib] Registered scrap item: Gremlin Can
-[Info   : LethalLib] Registered scrap item: Toy Hammer
-[Info   : LethalLib] Registered scrap item: Gnarpy Plush
-[Info   : LethalLib] Registered shop item: Rocket Launcher
-[Info   : LethalLib] Registered shop item: Flaregun
-[Info   : LethalLib] Registered shop item: Emergency Flare (ammo)
-[Info   : LethalLib] Registered shop item: Toy Hammer
-[Info   : LethalLib] Registered shop item: Remote Radar
-[Info   : LethalLib] Registered shop item: Utility Belt
-[Info   : LethalLib] Registered shop item: Hacking Tool
-[Info   : LethalLib] Registered shop item: Pinger
-[Info   : LethalLib] BuyableShotgun registered shop item: Shotgun
-[Info   : LethalLib] BuyableShotgunShells registered shop item: Shells
-[Info   : LethalLib] Registered item: Dart
-[Info   : LethalLib] Adding 10 items to terminal
-[Info   : LethalLib] Adding Rocket Launcher to terminal
-[Info   : LethalLib] Generating buynode2
-[Info   : LethalLib] Item price: 300, Item index: 13
-[Info   : LethalLib] Generating buynode1
-[Info   : LethalLib] Item price: 300, Item index: 13
-[Info   : LethalLib] Generated keyword: rocket-launcher
-[Info   : LethalLib] Adding Flaregun to terminal
-[Info   : LethalLib] Generating buynode2
-[Info   : LethalLib] Item price: 100, Item index: 14
-[Info   : LethalLib] Generating buynode1
-[Info   : LethalLib] Item price: 100, Item index: 14
-[Info   : LethalLib] Generated keyword: flaregun
-[Info   : LethalLib] Adding Emergency Flare (ammo) to terminal
-[Info   : LethalLib] Generating buynode2
-[Info   : LethalLib] Item price: 20, Item index: 15
-[Info   : LethalLib] Generating buynode1
-[Info   : LethalLib] Item price: 20, Item index: 15
-[Info   : LethalLib] Generated keyword: emergency-flare-(ammo)
-[Info   : LethalLib] Adding Toy Hammer to terminal
-[Info   : LethalLib] Generating buynode2
-[Info   : LethalLib] Item price: 15, Item index: 16
-[Info   : LethalLib] Generating buynode1
-[Info   : LethalLib] Item price: 15, Item index: 16
-[Info   : LethalLib] Generated keyword: toy-hammer
-[Info   : LethalLib] Adding Remote Radar to terminal
-[Info   : LethalLib] Generating buynode2
-[Info   : LethalLib] Item price: 150, Item index: 17
-[Info   : LethalLib] Generating buynode1
-[Info   : LethalLib] Item price: 150, Item index: 17
-[Info   : LethalLib] Generated keyword: remote-radar
-[Info   : LethalLib] Adding Utility Belt to terminal
-[Info   : LethalLib] Generating buynode2
-[Info   : LethalLib] Item price: 290, Item index: 18
-[Info   : LethalLib] Generating buynode1
-[Info   : LethalLib] Item price: 290, Item index: 18
-[Info   : LethalLib] Generated keyword: utility-belt
-[Info   : LethalLib] Adding Hacking Tool to terminal
-[Info   : LethalLib] Generating buynode2
-[Info   : LethalLib] Item price: 120, Item index: 19
-[Info   : LethalLib] Generating buynode1
-[Info   : LethalLib] Item price: 120, Item index: 19
-[Info   : LethalLib] Generated keyword: hacking-tool
-[Info   : LethalLib] Adding Pinger to terminal
-[Info   : LethalLib] Generating buynode2
-[Info   : LethalLib] Item price: 100, Item index: 20
-[Info   : LethalLib] Generating buynode1
-[Info   : LethalLib] Item price: 100, Item index: 20
-[Info   : LethalLib] Generated keyword: pinger
-[Info   : LethalLib] Adding Shotgun to terminal
-[Info   : LethalLib] Generating buynode2
-[Info   : LethalLib] Item price: 700, Item index: 21
-[Info   : LethalLib] Generating buynode1
-[Info   : LethalLib] Item price: 700, Item index: 21
-[Info   : LethalLib] Generated keyword: shotgun
-[Info   : LethalLib] Adding Shells to terminal
-[Info   : LethalLib] Generating buynode2
-[Info   : LethalLib] Item price: 20, Item index: 22
-[Info   : LethalLib] Generating buynode1
-[Info   : LethalLib] Item price: 20, Item index: 22
-[Info   : LethalLib] Generated keyword: shells
-[Debug  :Possessed Masks] Terminal Awake
-[Debug  :Possessed Masks] Registering all!
-[Debug  :Possessed Masks] Comedy item found!
-[Debug  :Possessed Masks] Tragedy item found!
-[Debug  :Possessed Masks] Registering on level: 41 Experimentation
-[Debug  :Possessed Masks] Registering on level: 220 Assurance
-[Debug  :Possessed Masks] Registering on level: 56 Vow
-[Debug  :Possessed Masks] Registering on level: 21 Offense
-[Debug  :Possessed Masks] Registering on level: 61 March
-[Debug  :Possessed Masks] Registering on level: 85 Rend
-[Debug  :Possessed Masks] Registering on level: 7 Dine
-[Debug  :Possessed Masks] Registering on level: 8 Titan
+[Info   : LethalLib] Adding 0 unlockables to unlockables list
+[Info   : LethalLib] Adding 2 items to terminal
+[Info   :ImoutoSama.ScarletMansion] Properly read level2 dungeon flow to find values to reference
+[Info   :TreysHealthText] HUDManager Patch Ran
+[Info   :TreysHealthText] UpdateHealthUI Patch Ran
 [Info   :TreysHealthText] UpdatedHealth
 [Info   :Buyable Shotgun] Scene "SampleSceneRelay" loaded with Single mode.
 [Info   :RugbugRedfern.SkinwalkerMod] HOST SENDING CONFIG TO CLIENTS
@@ -768,38 +577,7 @@
 [Info   :RuntimeNetcodeRPCValidator] Successfully added SyncAnimatorToOthers to PlayerControllerB via Awake. Triggered by plugin MoreEmotes
 [Info   :RuntimeNetcodeRPCValidator] Successfully added SignEmoteText to PlayerControllerB via Awake. Triggered by plugin MoreEmotes
 [Info   :RuntimeNetcodeRPCValidator] Successfully added SyncAnimatorToOthers to PlayerControllerB via Awake. Triggered by plugin MoreEmotes
-[Info   : LethalLib] Diagetic mixer is Diagetic
-[Info   : LethalLib] Found 25 prefabs to fix
-[Info   : LethalLib] Set mixer group for TeleporterTrap in TeleporterTrap to Diagetic:SFX
-[Info   : LethalLib] Set mixer group for Idle in TeleporterTrap to Diagetic:Master
-[Info   : LethalLib] Set mixer group for Boomba in Boomba to Diagetic:Master
-[Info   : LethalLib] Set mixer group for FarAudio in Boomba to Diagetic:SFX
-[Info   : LethalLib] Set mixer group for Idle in Boomba to Diagetic:Master
-[Info   : LethalLib] Set mixer group for PlacementCollider in Dartboard to Diagetic:Master
-[Info   : LethalLib] Set mixer group for PlacementCollider in Sign to Diagetic:Master
-[Info   : LethalLib] Set mixer group for PlacementCollider in Rug2 to Diagetic:Master
-[Info   : LethalLib] Set mixer group for PlacementCollider in Rug to Diagetic:Master
-[Info   : LethalLib] Set mixer group for Dart in Dart to Diagetic:Master
-[Info   : LethalLib] Set mixer group for PingTool in PingTool to Diagetic:Master
-[Info   : LethalLib] Set mixer group for HackingTool in HackingTool to Diagetic:Master
-[Info   : LethalLib] Set mixer group for PouchItem in PouchItem to Diagetic:Master
-[Info   : LethalLib] Set mixer group for HandheldRadar in HandheldRadar to Diagetic:Master
-[Info   : LethalLib] Set mixer group for FlaregunAmmo in FlaregunAmmo to Diagetic:Master
-[Info   : LethalLib] Set mixer group for Flaregun in Flaregun to Diagetic:Master
-[Info   : LethalLib] Set mixer group for RocketLauncher in RocketLauncher to Diagetic:Master
-[Info   : LethalLib] Set mixer group for GnarpyPlush in GnarpyPlush to Diagetic:Master
-[Info   : LethalLib] Set mixer group for ToyHammer in ToyHammer to Diagetic:Master
-[Info   : LethalLib] Set mixer group for GremlinEnergy in GremlinEnergy to Diagetic:Master
-[Info   : LethalLib] Set mixer group for Toygun in Toygun to Diagetic:Master
-[Info   : LethalLib] Set mixer group for glizzy in glizzy to Diagetic:Master
-[Info   : LethalLib] Set mixer group for Dingus in Dingus to Diagetic:Master
-[Info   : LethalLib] Set mixer group for Music in Dingus to Diagetic:Master
-[Info   : LethalLib] Set mixer group for Purr in Dingus to Diagetic:Master
-[Info   : LethalLib] Set mixer group for ArsonPlushDirty in ArsonPlushDirty to Diagetic:Master
-[Info   : LethalLib] Set mixer group for HamisPlush in HamisPlush to Diagetic:Master
-[Info   : LethalLib] Set mixer group for ToimariPlush in ToimariPlush to Diagetic:Master
-[Info   : LethalLib] Set mixer group for CookieFumo in CookieFumo to Diagetic:Master
-[Info   : LethalLib] Set mixer group for ArsonPlush in ArsonPlush to Diagetic:Master
+[Info   : LethalLib] Found 0 prefabs to fix
 [Info   :Jordo.NeedyCats] Added Needy Cats to all levels.
 [Info   :UnlockOnStart] New save detected, loading unlockables from config.
 [Debug  :UnlockOnStart] Unlockable ID: 0 / Unlockable name: Default
@@ -837,278 +615,238 @@
 [Debug  :UnlockOnStart] Unlockable ID: 22 / Unlockable name: Goldfish
 [Debug  :UnlockOnStart] Unlockable ID: 23 / Unlockable name: Plushie pajama man
 [Debug  :UnlockOnStart] Unlockable ID: 24 / Unlockable name: Purple Suit
-[Debug  :UnlockOnStart] Unlockable ID: 25 / Unlockable name: Small Rug
-[Debug  :UnlockOnStart] Unlockable |Small Rug| not found in config.
-[Debug  :UnlockOnStart] Unlockable ID: 26 / Unlockable name: Large Rug
-[Debug  :UnlockOnStart] Unlockable |Large Rug| not found in config.
-[Debug  :UnlockOnStart] Unlockable ID: 27 / Unlockable name: Fatalities Sign
-[Debug  :UnlockOnStart] Unlockable |Fatalities Sign| not found in config.
-[Debug  :UnlockOnStart] Unlockable ID: 28 / Unlockable name: Dartboard
-[Debug  :UnlockOnStart] Unlockable |Dartboard| not found in config.
-[Debug  :UnlockOnStart] Unlockable ID: 29 / Unlockable name: Glow
+[Debug  :UnlockOnStart] Unlockable ID: 25 / Unlockable name: Glow
 [Debug  :UnlockOnStart] Unlockable |Glow| not found in config.
-[Debug  :UnlockOnStart] Unlockable ID: 30 / Unlockable name: GlowBlue
+[Debug  :UnlockOnStart] Unlockable ID: 26 / Unlockable name: GlowBlue
 [Debug  :UnlockOnStart] Unlockable |GlowBlue| not found in config.
-[Debug  :UnlockOnStart] Unlockable ID: 31 / Unlockable name: GlowGreen
+[Debug  :UnlockOnStart] Unlockable ID: 27 / Unlockable name: GlowGreen
 [Debug  :UnlockOnStart] Unlockable |GlowGreen| not found in config.
-[Debug  :UnlockOnStart] Unlockable ID: 32 / Unlockable name: GlowHazmat
+[Debug  :UnlockOnStart] Unlockable ID: 28 / Unlockable name: GlowHazmat
 [Debug  :UnlockOnStart] Unlockable |GlowHazmat| not found in config.
-[Debug  :UnlockOnStart] Unlockable ID: 33 / Unlockable name: GlowOrange
+[Debug  :UnlockOnStart] Unlockable ID: 29 / Unlockable name: GlowOrange
 [Debug  :UnlockOnStart] Unlockable |GlowOrange| not found in config.
-[Debug  :UnlockOnStart] Unlockable ID: 34 / Unlockable name: GlowPink
+[Debug  :UnlockOnStart] Unlockable ID: 30 / Unlockable name: GlowPink
 [Debug  :UnlockOnStart] Unlockable |GlowPink| not found in config.
-[Debug  :UnlockOnStart] Unlockable ID: 35 / Unlockable name: GlowPurple
+[Debug  :UnlockOnStart] Unlockable ID: 31 / Unlockable name: GlowPurple
 [Debug  :UnlockOnStart] Unlockable |GlowPurple| not found in config.
-[Debug  :UnlockOnStart] Unlockable ID: 36 / Unlockable name: GlowRed
+[Debug  :UnlockOnStart] Unlockable ID: 32 / Unlockable name: GlowRed
 [Debug  :UnlockOnStart] Unlockable |GlowRed| not found in config.
-[Debug  :UnlockOnStart] Unlockable ID: 37 / Unlockable name: GlowWhite
+[Debug  :UnlockOnStart] Unlockable ID: 33 / Unlockable name: GlowWhite
 [Debug  :UnlockOnStart] Unlockable |GlowWhite| not found in config.
-[Debug  :UnlockOnStart] Unlockable ID: 38 / Unlockable name: GlowYellow
+[Debug  :UnlockOnStart] Unlockable ID: 34 / Unlockable name: GlowYellow
 [Debug  :UnlockOnStart] Unlockable |GlowYellow| not found in config.
-[Debug  :UnlockOnStart] Unlockable ID: 39 / Unlockable name: Kirby
+[Debug  :UnlockOnStart] Unlockable ID: 35 / Unlockable name: Kirby
 [Debug  :UnlockOnStart] Unlockable |Kirby| not found in config.
-[Debug  :UnlockOnStart] Unlockable ID: 40 / Unlockable name: Knuckles
+[Debug  :UnlockOnStart] Unlockable ID: 36 / Unlockable name: Knuckles
 [Debug  :UnlockOnStart] Unlockable |Knuckles| not found in config.
-[Debug  :UnlockOnStart] Unlockable ID: 41 / Unlockable name: Luigi
+[Debug  :UnlockOnStart] Unlockable ID: 37 / Unlockable name: Luigi
 [Debug  :UnlockOnStart] Unlockable |Luigi| not found in config.
-[Debug  :UnlockOnStart] Unlockable ID: 42 / Unlockable name: Mario
+[Debug  :UnlockOnStart] Unlockable ID: 38 / Unlockable name: Mario
 [Debug  :UnlockOnStart] Unlockable |Mario| not found in config.
-[Debug  :UnlockOnStart] Unlockable ID: 43 / Unlockable name: Minion
+[Debug  :UnlockOnStart] Unlockable ID: 39 / Unlockable name: Minion
 [Debug  :UnlockOnStart] Unlockable |Minion| not found in config.
-[Debug  :UnlockOnStart] Unlockable ID: 44 / Unlockable name: Skeleton
+[Debug  :UnlockOnStart] Unlockable ID: 40 / Unlockable name: Skeleton
 [Debug  :UnlockOnStart] Unlockable |Skeleton| not found in config.
-[Debug  :UnlockOnStart] Unlockable ID: 45 / Unlockable name: Slayer
+[Debug  :UnlockOnStart] Unlockable ID: 41 / Unlockable name: Slayer
 [Debug  :UnlockOnStart] Unlockable |Slayer| not found in config.
-[Debug  :UnlockOnStart] Unlockable ID: 46 / Unlockable name: Smile
+[Debug  :UnlockOnStart] Unlockable ID: 42 / Unlockable name: Smile
 [Debug  :UnlockOnStart] Unlockable |Smile| not found in config.
-[Debug  :UnlockOnStart] Item ID: 0 / Item name: Binoculars
-[Debug  :UnlockOnStart] Is scrap: False
-[Debug  :UnlockOnStart] Item ID: 1 / Item name: Boombox
-[Debug  :UnlockOnStart] Is scrap: False
-[Debug  :UnlockOnStart] Item ID: 2 / Item name: box
-[Debug  :UnlockOnStart] Is scrap: False
-[Debug  :UnlockOnStart] Item ID: 3 / Item name: Flashlight
-[Debug  :UnlockOnStart] Is scrap: False
-[Debug  :UnlockOnStart] Item ID: 4 / Item name: Jetpack
-[Debug  :UnlockOnStart] Is scrap: False
-[Debug  :UnlockOnStart] Item ID: 5 / Item name: Key
-[Debug  :UnlockOnStart] Is scrap: False
-[Debug  :UnlockOnStart] Item ID: 6 / Item name: Lockpicker
-[Debug  :UnlockOnStart] Is scrap: False
+[Debug  :UnlockOnStart] Item ID: 0 / Item name: Binoculars / Is scrap: False
+[Debug  :UnlockOnStart] Is in dictionary: False
+[Debug  :UnlockOnStart] Item ID: 1 / Item name: Boombox / Is scrap: False
+[Debug  :UnlockOnStart] Is in dictionary: True
+[Debug  :UnlockOnStart] Item ID: 2 / Item name: box / Is scrap: False
+[Debug  :UnlockOnStart] Is in dictionary: False
+[Debug  :UnlockOnStart] Item ID: 3 / Item name: Flashlight / Is scrap: False
+[Debug  :UnlockOnStart] Is in dictionary: True
+[Debug  :UnlockOnStart] Item ID: 4 / Item name: Jetpack / Is scrap: False
+[Debug  :UnlockOnStart] Is in dictionary: True
+[Debug  :UnlockOnStart] Item ID: 5 / Item name: Key / Is scrap: False
+[Debug  :UnlockOnStart] Is in dictionary: True
+[Debug  :UnlockOnStart] Item ID: 6 / Item name: Lockpicker / Is scrap: False
+[Debug  :UnlockOnStart] Is in dictionary: True
 [Info   :UnlockOnStart] Unlocking Lockpicker * 2.
-[Debug  :UnlockOnStart] Spawning Lockpicker at (3.62, 0.84, -12.23).
-[Debug  :UnlockOnStart] Spawning Lockpicker at (3.83, 0.84, -12.23).
-[Debug  :UnlockOnStart] Item ID: 7 / Item name: Apparatus
-[Debug  :UnlockOnStart] Is scrap: True
-[Debug  :UnlockOnStart] Item ID: 8 / Item name: Mapper
-[Debug  :UnlockOnStart] Is scrap: False
-[Debug  :UnlockOnStart] Item ID: 9 / Item name: Pro-flashlight
-[Debug  :UnlockOnStart] Is scrap: False
+[Debug  :UnlockOnStart] Spawning Lockpicker at (3.27, 0.84, -12.23).
+[Debug  :UnlockOnStart] Spawning Lockpicker at (3.29, 0.84, -12.23).
+[Debug  :UnlockOnStart] Item ID: 7 / Item name: Apparatus / Is scrap: True
+[Debug  :UnlockOnStart] Is in dictionary: False
+[Debug  :UnlockOnStart] Item ID: 8 / Item name: Mapper / Is scrap: False
+[Debug  :UnlockOnStart] Is in dictionary: False
+[Debug  :UnlockOnStart] Item ID: 9 / Item name: Pro-flashlight / Is scrap: False
+[Debug  :UnlockOnStart] Is in dictionary: True
 [Info   :UnlockOnStart] Unlocking Pro-flashlight * 8.
-[Debug  :UnlockOnStart] Spawning Pro-flashlight at (3.75, 0.84, -12.23).
-[Debug  :UnlockOnStart] Spawning Pro-flashlight at (3.38, 0.84, -12.23).
-[Debug  :UnlockOnStart] Spawning Pro-flashlight at (3.91, 0.84, -12.23).
-[Debug  :UnlockOnStart] Spawning Pro-flashlight at (3.46, 0.84, -12.23).
-[Debug  :UnlockOnStart] Spawning Pro-flashlight at (4.36, 0.84, -12.23).
-[Debug  :UnlockOnStart] Spawning Pro-flashlight at (4.13, 0.84, -12.23).
-[Debug  :UnlockOnStart] Spawning Pro-flashlight at (4.42, 0.84, -12.23).
-[Debug  :UnlockOnStart] Spawning Pro-flashlight at (3.42, 0.84, -12.23).
-[Debug  :UnlockOnStart] Item ID: 10 / Item name: Shovel
-[Debug  :UnlockOnStart] Is scrap: False
+[Debug  :UnlockOnStart] Spawning Pro-flashlight at (4.38, 0.84, -12.23).
+[Debug  :UnlockOnStart] Spawning Pro-flashlight at (4.43, 0.84, -12.23).
+[Debug  :UnlockOnStart] Spawning Pro-flashlight at (3.79, 0.84, -12.23).
+[Debug  :UnlockOnStart] Spawning Pro-flashlight at (3.56, 0.84, -12.23).
+[Debug  :UnlockOnStart] Spawning Pro-flashlight at (3.84, 0.84, -12.23).
+[Debug  :UnlockOnStart] Spawning Pro-flashlight at (4.02, 0.84, -12.23).
+[Debug  :UnlockOnStart] Spawning Pro-flashlight at (3.64, 0.84, -12.23).
+[Debug  :UnlockOnStart] Spawning Pro-flashlight at (3.57, 0.84, -12.23).
+[Debug  :UnlockOnStart] Item ID: 10 / Item name: Shovel / Is scrap: False
+[Debug  :UnlockOnStart] Is in dictionary: True
 [Info   :UnlockOnStart] Unlocking Shovel * 4.
-[Debug  :UnlockOnStart] Spawning Shovel at (4.56, 0.84, -12.23).
-[Debug  :UnlockOnStart] Spawning Shovel at (4.25, 0.84, -12.23).
-[Debug  :UnlockOnStart] Spawning Shovel at (4.12, 0.84, -12.23).
-[Debug  :UnlockOnStart] Spawning Shovel at (4.13, 0.84, -12.23).
-[Debug  :UnlockOnStart] Item ID: 11 / Item name: Stun grenade
-[Debug  :UnlockOnStart] Is scrap: False
+[Debug  :UnlockOnStart] Spawning Shovel at (3.45, 0.84, -12.23).
+[Debug  :UnlockOnStart] Spawning Shovel at (3.44, 0.84, -12.23).
+[Debug  :UnlockOnStart] Spawning Shovel at (3.28, 0.84, -12.23).
+[Debug  :UnlockOnStart] Spawning Shovel at (3.17, 0.84, -12.23).
+[Debug  :UnlockOnStart] Item ID: 11 / Item name: Stun grenade / Is scrap: False
+[Debug  :UnlockOnStart] Is in dictionary: True
 [Info   :UnlockOnStart] Unlocking Stun grenade * 4.
-[Debug  :UnlockOnStart] Spawning Stun grenade at (3.21, 0.84, -12.23).
-[Debug  :UnlockOnStart] Spawning Stun grenade at (4.07, 0.84, -12.23).
-[Debug  :UnlockOnStart] Spawning Stun grenade at (3.82, 0.84, -12.23).
-[Debug  :UnlockOnStart] Spawning Stun grenade at (4.20, 0.84, -12.23).
-[Debug  :UnlockOnStart] Item ID: 12 / Item name: Extension ladder
-[Debug  :UnlockOnStart] Is scrap: False
+[Debug  :UnlockOnStart] Spawning Stun grenade at (4.42, 0.84, -12.23).
+[Debug  :UnlockOnStart] Spawning Stun grenade at (3.51, 0.84, -12.23).
+[Debug  :UnlockOnStart] Spawning Stun grenade at (4.41, 0.84, -12.23).
+[Debug  :UnlockOnStart] Spawning Stun grenade at (4.03, 0.84, -12.23).
+[Debug  :UnlockOnStart] Item ID: 12 / Item name: Extension ladder / Is scrap: False
+[Debug  :UnlockOnStart] Is in dictionary: True
 [Info   :UnlockOnStart] Unlocking Extension ladder * 1.
-[Debug  :UnlockOnStart] Spawning Extension ladder at (4.03, 0.84, -12.23).
-[Debug  :UnlockOnStart] Item ID: 13 / Item name: TZP-Inhalant
-[Debug  :UnlockOnStart] Is scrap: False
-[Debug  :UnlockOnStart] Item ID: 14 / Item name: Walkie-talkie
-[Debug  :UnlockOnStart] Is scrap: False
+[Debug  :UnlockOnStart] Spawning Extension ladder at (3.26, 0.84, -12.23).
+[Debug  :UnlockOnStart] Item ID: 13 / Item name: TZP-Inhalant / Is scrap: False
+[Debug  :UnlockOnStart] Is in dictionary: True
+[Debug  :UnlockOnStart] Item ID: 14 / Item name: Walkie-talkie / Is scrap: False
+[Debug  :UnlockOnStart] Is in dictionary: True
 [Info   :UnlockOnStart] Unlocking Walkie-talkie * 8.
 [Warning: Unity Log] Only custom filters can be played. Please add a custom filter or an audioclip to the audiosource (Target).
-[Debug  :UnlockOnStart] Spawning Walkie-talkie at (3.79, 0.84, -12.23).
+[Debug  :UnlockOnStart] Spawning Walkie-talkie at (3.36, 0.84, -12.23).
 [Warning: Unity Log] Only custom filters can be played. Please add a custom filter or an audioclip to the audiosource (Target).
-[Debug  :UnlockOnStart] Spawning Walkie-talkie at (4.01, 0.84, -12.23).
+[Debug  :UnlockOnStart] Spawning Walkie-talkie at (3.17, 0.84, -12.23).
+[Warning: Unity Log] Only custom filters can be played. Please add a custom filter or an audioclip to the audiosource (Target).
+[Debug  :UnlockOnStart] Spawning Walkie-talkie at (3.30, 0.84, -12.23).
+[Warning: Unity Log] Only custom filters can be played. Please add a custom filter or an audioclip to the audiosource (Target).
+[Debug  :UnlockOnStart] Spawning Walkie-talkie at (4.44, 0.84, -12.23).
+[Warning: Unity Log] Only custom filters can be played. Please add a custom filter or an audioclip to the audiosource (Target).
+[Debug  :UnlockOnStart] Spawning Walkie-talkie at (4.09, 0.84, -12.23).
+[Warning: Unity Log] Only custom filters can be played. Please add a custom filter or an audioclip to the audiosource (Target).
+[Debug  :UnlockOnStart] Spawning Walkie-talkie at (4.55, 0.84, -12.23).
+[Warning: Unity Log] Only custom filters can be played. Please add a custom filter or an audioclip to the audiosource (Target).
+[Debug  :UnlockOnStart] Spawning Walkie-talkie at (3.81, 0.84, -12.23).
 [Warning: Unity Log] Only custom filters can be played. Please add a custom filter or an audioclip to the audiosource (Target).
 [Debug  :UnlockOnStart] Spawning Walkie-talkie at (4.51, 0.84, -12.23).
-[Warning: Unity Log] Only custom filters can be played. Please add a custom filter or an audioclip to the audiosource (Target).
-[Debug  :UnlockOnStart] Spawning Walkie-talkie at (3.96, 0.84, -12.23).
-[Warning: Unity Log] Only custom filters can be played. Please add a custom filter or an audioclip to the audiosource (Target).
-[Debug  :UnlockOnStart] Spawning Walkie-talkie at (4.43, 0.84, -12.23).
-[Warning: Unity Log] Only custom filters can be played. Please add a custom filter or an audioclip to the audiosource (Target).
-[Debug  :UnlockOnStart] Spawning Walkie-talkie at (3.58, 0.84, -12.23).
-[Warning: Unity Log] Only custom filters can be played. Please add a custom filter or an audioclip to the audiosource (Target).
-[Debug  :UnlockOnStart] Spawning Walkie-talkie at (3.79, 0.84, -12.23).
-[Warning: Unity Log] Only custom filters can be played. Please add a custom filter or an audioclip to the audiosource (Target).
-[Debug  :UnlockOnStart] Spawning Walkie-talkie at (3.78, 0.84, -12.23).
-[Debug  :UnlockOnStart] Item ID: 15 / Item name: Zap gun
-[Debug  :UnlockOnStart] Is scrap: False
-[Debug  :UnlockOnStart] Item ID: 16 / Item name: Magic 7 ball
-[Debug  :UnlockOnStart] Is scrap: True
-[Debug  :UnlockOnStart] Item ID: 17 / Item name: Airhorn
-[Debug  :UnlockOnStart] Is scrap: True
-[Debug  :UnlockOnStart] Item ID: 18 / Item name: Bell
-[Debug  :UnlockOnStart] Is scrap: True
-[Debug  :UnlockOnStart] Item ID: 19 / Item name: Big bolt
-[Debug  :UnlockOnStart] Is scrap: True
-[Debug  :UnlockOnStart] Item ID: 20 / Item name: Bottles
-[Debug  :UnlockOnStart] Is scrap: True
-[Debug  :UnlockOnStart] Item ID: 21 / Item name: Brush
-[Debug  :UnlockOnStart] Is scrap: True
-[Debug  :UnlockOnStart] Item ID: 22 / Item name: Candy
-[Debug  :UnlockOnStart] Is scrap: True
-[Debug  :UnlockOnStart] Item ID: 23 / Item name: Cash register
-[Debug  :UnlockOnStart] Is scrap: True
-[Debug  :UnlockOnStart] Item ID: 24 / Item name: Chemical jug
-[Debug  :UnlockOnStart] Is scrap: True
-[Debug  :UnlockOnStart] Item ID: 25 / Item name: Clown horn
-[Debug  :UnlockOnStart] Is scrap: True
-[Debug  :UnlockOnStart] Item ID: 26 / Item name: Large axle
-[Debug  :UnlockOnStart] Is scrap: True
-[Debug  :UnlockOnStart] Item ID: 27 / Item name: Teeth
-[Debug  :UnlockOnStart] Is scrap: True
-[Debug  :UnlockOnStart] Item ID: 28 / Item name: Dust pan
-[Debug  :UnlockOnStart] Is scrap: True
-[Debug  :UnlockOnStart] Item ID: 29 / Item name: Egg beater
-[Debug  :UnlockOnStart] Is scrap: True
-[Debug  :UnlockOnStart] Item ID: 30 / Item name: V-type engine
-[Debug  :UnlockOnStart] Is scrap: True
-[Debug  :UnlockOnStart] Item ID: 31 / Item name: Golden cup
-[Debug  :UnlockOnStart] Is scrap: True
-[Debug  :UnlockOnStart] Item ID: 32 / Item name: Fancy lamp
-[Debug  :UnlockOnStart] Is scrap: True
-[Debug  :UnlockOnStart] Item ID: 33 / Item name: Painting
-[Debug  :UnlockOnStart] Is scrap: True
-[Debug  :UnlockOnStart] Item ID: 34 / Item name: Plastic fish
-[Debug  :UnlockOnStart] Is scrap: True
-[Debug  :UnlockOnStart] Item ID: 35 / Item name: Laser pointer
-[Debug  :UnlockOnStart] Is scrap: True
-[Debug  :UnlockOnStart] Item ID: 36 / Item name: Gold bar
-[Debug  :UnlockOnStart] Is scrap: True
-[Debug  :UnlockOnStart] Item ID: 37 / Item name: Hairdryer
-[Debug  :UnlockOnStart] Is scrap: True
-[Debug  :UnlockOnStart] Item ID: 38 / Item name: Magnifying glass
-[Debug  :UnlockOnStart] Is scrap: True
-[Debug  :UnlockOnStart] Item ID: 39 / Item name: Metal sheet
-[Debug  :UnlockOnStart] Is scrap: True
-[Debug  :UnlockOnStart] Item ID: 40 / Item name: Cookie mold pan
-[Debug  :UnlockOnStart] Is scrap: True
-[Debug  :UnlockOnStart] Item ID: 41 / Item name: Mug
-[Debug  :UnlockOnStart] Is scrap: True
-[Debug  :UnlockOnStart] Item ID: 42 / Item name: Perfume bottle
-[Debug  :UnlockOnStart] Is scrap: True
-[Debug  :UnlockOnStart] Item ID: 43 / Item name: Old phone
-[Debug  :UnlockOnStart] Is scrap: True
-[Debug  :UnlockOnStart] Item ID: 44 / Item name: Jar of pickles
-[Debug  :UnlockOnStart] Is scrap: True
-[Debug  :UnlockOnStart] Item ID: 45 / Item name: Pill bottle
-[Debug  :UnlockOnStart] Is scrap: True
-[Debug  :UnlockOnStart] Item ID: 46 / Item name: Remote
-[Debug  :UnlockOnStart] Is scrap: True
-[Debug  :UnlockOnStart] Item ID: 47 / Item name: Ring
-[Debug  :UnlockOnStart] Is scrap: True
-[Debug  :UnlockOnStart] Item ID: 48 / Item name: Toy robot
-[Debug  :UnlockOnStart] Is scrap: True
-[Debug  :UnlockOnStart] Item ID: 49 / Item name: Rubber Ducky
-[Debug  :UnlockOnStart] Is scrap: True
-[Debug  :UnlockOnStart] Item ID: 50 / Item name: Red soda
-[Debug  :UnlockOnStart] Is scrap: True
-[Debug  :UnlockOnStart] Item ID: 51 / Item name: Steering wheel
-[Debug  :UnlockOnStart] Is scrap: True
-[Debug  :UnlockOnStart] Item ID: 52 / Item name: Stop sign
-[Debug  :UnlockOnStart] Is scrap: True
-[Debug  :UnlockOnStart] Item ID: 53 / Item name: Tea kettle
-[Debug  :UnlockOnStart] Is scrap: True
-[Debug  :UnlockOnStart] Item ID: 54 / Item name: Toothpaste
-[Debug  :UnlockOnStart] Is scrap: True
-[Debug  :UnlockOnStart] Item ID: 55 / Item name: Toy cube
-[Debug  :UnlockOnStart] Is scrap: True
-[Debug  :UnlockOnStart] Item ID: 56 / Item name: Hive
-[Debug  :UnlockOnStart] Is scrap: True
-[Debug  :UnlockOnStart] Item ID: 57 / Item name: Radar-booster
-[Debug  :UnlockOnStart] Is scrap: False
-[Debug  :UnlockOnStart] Item ID: 58 / Item name: Yield sign
-[Debug  :UnlockOnStart] Is scrap: True
-[Debug  :UnlockOnStart] Item ID: 59 / Item name: Shotgun
-[Debug  :UnlockOnStart] Is scrap: True
-[Debug  :UnlockOnStart] Item ID: 60 / Item name: Ammo
-[Debug  :UnlockOnStart] Is scrap: False
-[Debug  :UnlockOnStart] Item ID: 61 / Item name: Spray paint
-[Debug  :UnlockOnStart] Is scrap: False
+[Debug  :UnlockOnStart] Item ID: 15 / Item name: Zap gun / Is scrap: False
+[Debug  :UnlockOnStart] Is in dictionary: True
+[Debug  :UnlockOnStart] Item ID: 16 / Item name: Magic 7 ball / Is scrap: True
+[Debug  :UnlockOnStart] Is in dictionary: False
+[Debug  :UnlockOnStart] Item ID: 17 / Item name: Airhorn / Is scrap: True
+[Debug  :UnlockOnStart] Is in dictionary: False
+[Debug  :UnlockOnStart] Item ID: 18 / Item name: Bell / Is scrap: True
+[Debug  :UnlockOnStart] Is in dictionary: False
+[Debug  :UnlockOnStart] Item ID: 19 / Item name: Big bolt / Is scrap: True
+[Debug  :UnlockOnStart] Is in dictionary: False
+[Debug  :UnlockOnStart] Item ID: 20 / Item name: Bottles / Is scrap: True
+[Debug  :UnlockOnStart] Is in dictionary: False
+[Debug  :UnlockOnStart] Item ID: 21 / Item name: Brush / Is scrap: True
+[Debug  :UnlockOnStart] Is in dictionary: False
+[Debug  :UnlockOnStart] Item ID: 22 / Item name: Candy / Is scrap: True
+[Debug  :UnlockOnStart] Is in dictionary: False
+[Debug  :UnlockOnStart] Item ID: 23 / Item name: Cash register / Is scrap: True
+[Debug  :UnlockOnStart] Is in dictionary: False
+[Debug  :UnlockOnStart] Item ID: 24 / Item name: Chemical jug / Is scrap: True
+[Debug  :UnlockOnStart] Is in dictionary: False
+[Debug  :UnlockOnStart] Item ID: 25 / Item name: Clown horn / Is scrap: True
+[Debug  :UnlockOnStart] Is in dictionary: False
+[Debug  :UnlockOnStart] Item ID: 26 / Item name: Large axle / Is scrap: True
+[Debug  :UnlockOnStart] Is in dictionary: False
+[Debug  :UnlockOnStart] Item ID: 27 / Item name: Teeth / Is scrap: True
+[Debug  :UnlockOnStart] Is in dictionary: False
+[Debug  :UnlockOnStart] Item ID: 28 / Item name: Dust pan / Is scrap: True
+[Debug  :UnlockOnStart] Is in dictionary: False
+[Debug  :UnlockOnStart] Item ID: 29 / Item name: Egg beater / Is scrap: True
+[Debug  :UnlockOnStart] Is in dictionary: False
+[Debug  :UnlockOnStart] Item ID: 30 / Item name: V-type engine / Is scrap: True
+[Debug  :UnlockOnStart] Is in dictionary: False
+[Debug  :UnlockOnStart] Item ID: 31 / Item name: Golden cup / Is scrap: True
+[Debug  :UnlockOnStart] Is in dictionary: False
+[Debug  :UnlockOnStart] Item ID: 32 / Item name: Fancy lamp / Is scrap: True
+[Debug  :UnlockOnStart] Is in dictionary: False
+[Debug  :UnlockOnStart] Item ID: 33 / Item name: Painting / Is scrap: True
+[Debug  :UnlockOnStart] Is in dictionary: False
+[Debug  :UnlockOnStart] Item ID: 34 / Item name: Plastic fish / Is scrap: True
+[Debug  :UnlockOnStart] Is in dictionary: False
+[Debug  :UnlockOnStart] Item ID: 35 / Item name: Laser pointer / Is scrap: True
+[Debug  :UnlockOnStart] Is in dictionary: False
+[Debug  :UnlockOnStart] Item ID: 36 / Item name: Gold bar / Is scrap: True
+[Debug  :UnlockOnStart] Is in dictionary: False
+[Debug  :UnlockOnStart] Item ID: 37 / Item name: Hairdryer / Is scrap: True
+[Debug  :UnlockOnStart] Is in dictionary: False
+[Debug  :UnlockOnStart] Item ID: 38 / Item name: Magnifying glass / Is scrap: True
+[Debug  :UnlockOnStart] Is in dictionary: False
+[Debug  :UnlockOnStart] Item ID: 39 / Item name: Metal sheet / Is scrap: True
+[Debug  :UnlockOnStart] Is in dictionary: False
+[Debug  :UnlockOnStart] Item ID: 40 / Item name: Cookie mold pan / Is scrap: True
+[Debug  :UnlockOnStart] Is in dictionary: False
+[Debug  :UnlockOnStart] Item ID: 41 / Item name: Mug / Is scrap: True
+[Debug  :UnlockOnStart] Is in dictionary: False
+[Debug  :UnlockOnStart] Item ID: 42 / Item name: Perfume bottle / Is scrap: True
+[Debug  :UnlockOnStart] Is in dictionary: False
+[Debug  :UnlockOnStart] Item ID: 43 / Item name: Old phone / Is scrap: True
+[Debug  :UnlockOnStart] Is in dictionary: False
+[Debug  :UnlockOnStart] Item ID: 44 / Item name: Jar of pickles / Is scrap: True
+[Debug  :UnlockOnStart] Is in dictionary: False
+[Debug  :UnlockOnStart] Item ID: 45 / Item name: Pill bottle / Is scrap: True
+[Debug  :UnlockOnStart] Is in dictionary: False
+[Debug  :UnlockOnStart] Item ID: 46 / Item name: Remote / Is scrap: True
+[Debug  :UnlockOnStart] Is in dictionary: False
+[Debug  :UnlockOnStart] Item ID: 47 / Item name: Ring / Is scrap: True
+[Debug  :UnlockOnStart] Is in dictionary: False
+[Debug  :UnlockOnStart] Item ID: 48 / Item name: Toy robot / Is scrap: True
+[Debug  :UnlockOnStart] Is in dictionary: False
+[Debug  :UnlockOnStart] Item ID: 49 / Item name: Rubber Ducky / Is scrap: True
+[Debug  :UnlockOnStart] Is in dictionary: False
+[Debug  :UnlockOnStart] Item ID: 50 / Item name: Red soda / Is scrap: True
+[Debug  :UnlockOnStart] Is in dictionary: False
+[Debug  :UnlockOnStart] Item ID: 51 / Item name: Steering wheel / Is scrap: True
+[Debug  :UnlockOnStart] Is in dictionary: False
+[Debug  :UnlockOnStart] Item ID: 52 / Item name: Stop sign / Is scrap: True
+[Debug  :UnlockOnStart] Is in dictionary: False
+[Debug  :UnlockOnStart] Item ID: 53 / Item name: Tea kettle / Is scrap: True
+[Debug  :UnlockOnStart] Is in dictionary: False
+[Debug  :UnlockOnStart] Item ID: 54 / Item name: Toothpaste / Is scrap: True
+[Debug  :UnlockOnStart] Is in dictionary: False
+[Debug  :UnlockOnStart] Item ID: 55 / Item name: Toy cube / Is scrap: True
+[Debug  :UnlockOnStart] Is in dictionary: False
+[Debug  :UnlockOnStart] Item ID: 56 / Item name: Hive / Is scrap: True
+[Debug  :UnlockOnStart] Is in dictionary: False
+[Debug  :UnlockOnStart] Item ID: 57 / Item name: Radar-booster / Is scrap: False
+[Debug  :UnlockOnStart] Is in dictionary: True
+[Debug  :UnlockOnStart] Item ID: 58 / Item name: Yield sign / Is scrap: True
+[Debug  :UnlockOnStart] Is in dictionary: False
+[Debug  :UnlockOnStart] Item ID: 59 / Item name: Shotgun / Is scrap: True
+[Debug  :UnlockOnStart] Is in dictionary: True
+[Debug  :UnlockOnStart] Item ID: 60 / Item name: Ammo / Is scrap: False
+[Debug  :UnlockOnStart] Is in dictionary: True
+[Debug  :UnlockOnStart] Item ID: 61 / Item name: Spray paint / Is scrap: False
+[Debug  :UnlockOnStart] Is in dictionary: True
 [Info   :UnlockOnStart] Unlocking Spray paint * 2.
-[Debug  :UnlockOnStart] Spawning Spray paint at (4.25, 0.84, -12.23).
-[Debug  :UnlockOnStart] Spawning Spray paint at (4.36, 0.84, -12.23).
-[Debug  :UnlockOnStart] Item ID: 62 / Item name: Homemade flashbang
-[Debug  :UnlockOnStart] Is scrap: True
-[Debug  :UnlockOnStart] Item ID: 63 / Item name: Gift
-[Debug  :UnlockOnStart] Is scrap: True
-[Debug  :UnlockOnStart] Item ID: 64 / Item name: Flask
-[Debug  :UnlockOnStart] Is scrap: True
-[Debug  :UnlockOnStart] Item ID: 65 / Item name: Tragedy
-[Debug  :UnlockOnStart] Is scrap: True
-[Debug  :UnlockOnStart] Item ID: 66 / Item name: Comedy
-[Debug  :UnlockOnStart] Is scrap: True
-[Debug  :UnlockOnStart] Item ID: 67 / Item name: Whoopie cushion
-[Debug  :UnlockOnStart] Is scrap: True
-[Debug  :UnlockOnStart] Item ID: 68 / Item name: Cat
-[Debug  :UnlockOnStart] Is scrap: True
-[Debug  :UnlockOnStart] Item ID: 69 / Item name: Arson Plush
-[Debug  :UnlockOnStart] Is scrap: True
-[Debug  :UnlockOnStart] Item ID: 70 / Item name: Cookie Fumo
-[Debug  :UnlockOnStart] Is scrap: True
-[Debug  :UnlockOnStart] Item ID: 71 / Item name: Toimari Plush
-[Debug  :UnlockOnStart] Is scrap: True
-[Debug  :UnlockOnStart] Item ID: 72 / Item name: Hamis Plush
-[Debug  :UnlockOnStart] Is scrap: True
-[Debug  :UnlockOnStart] Item ID: 73 / Item name: Dirty Arson Plush
-[Debug  :UnlockOnStart] Is scrap: True
-[Debug  :UnlockOnStart] Item ID: 74 / Item name: Maxwell
-[Debug  :UnlockOnStart] Is scrap: True
-[Debug  :UnlockOnStart] Item ID: 75 / Item name: Glizzy
-[Debug  :UnlockOnStart] Is scrap: True
-[Debug  :UnlockOnStart] Item ID: 76 / Item name: Revolver
-[Debug  :UnlockOnStart] Is scrap: True
-[Debug  :UnlockOnStart] Item ID: 77 / Item name: Gremlin Can
-[Debug  :UnlockOnStart] Is scrap: True
-[Debug  :UnlockOnStart] Item ID: 78 / Item name: Toy Hammer
-[Debug  :UnlockOnStart] Is scrap: True
-[Debug  :UnlockOnStart] Item ID: 79 / Item name: Gnarpy Plush
-[Debug  :UnlockOnStart] Is scrap: True
-[Debug  :UnlockOnStart] Item ID: 80 / Item name: Rocket Launcher
-[Debug  :UnlockOnStart] Is scrap: False
-[Debug  :UnlockOnStart] Item ID: 81 / Item name: Flaregun
-[Debug  :UnlockOnStart] Is scrap: False
-[Debug  :UnlockOnStart] Item ID: 82 / Item name: Emergency Flare (ammo)
-[Debug  :UnlockOnStart] Is scrap: False
-[Debug  :UnlockOnStart] Item ID: 83 / Item name: Toy Hammer
-[Debug  :UnlockOnStart] Is scrap: False
-[Debug  :UnlockOnStart] Item ID: 84 / Item name: Remote Radar
-[Debug  :UnlockOnStart] Is scrap: False
-[Debug  :UnlockOnStart] Item ID: 85 / Item name: Utility Belt
-[Debug  :UnlockOnStart] Is scrap: False
-[Debug  :UnlockOnStart] Item ID: 86 / Item name: Hacking Tool
-[Debug  :UnlockOnStart] Is scrap: False
-[Debug  :UnlockOnStart] Item ID: 87 / Item name: Pinger
-[Debug  :UnlockOnStart] Is scrap: False
-[Debug  :UnlockOnStart] Item ID: 88 / Item name: Shotgun
-[Debug  :UnlockOnStart] Is scrap: True
-[Debug  :UnlockOnStart] Item ID: 89 / Item name: Shells
-[Debug  :UnlockOnStart] Is scrap: False
-[Debug  :UnlockOnStart] Item ID: 90 / Item name: Dart
-[Debug  :UnlockOnStart] Is scrap: False
+[Debug  :UnlockOnStart] Spawning Spray paint at (3.40, 0.84, -12.23).
+[Debug  :UnlockOnStart] Spawning Spray paint at (3.31, 0.84, -12.23).
+[Debug  :UnlockOnStart] Item ID: 62 / Item name: Homemade flashbang / Is scrap: True
+[Debug  :UnlockOnStart] Is in dictionary: False
+[Debug  :UnlockOnStart] Item ID: 63 / Item name: Gift / Is scrap: True
+[Debug  :UnlockOnStart] Is in dictionary: False
+[Debug  :UnlockOnStart] Item ID: 64 / Item name: Flask / Is scrap: True
+[Debug  :UnlockOnStart] Is in dictionary: False
+[Debug  :UnlockOnStart] Item ID: 65 / Item name: Tragedy / Is scrap: True
+[Debug  :UnlockOnStart] Is in dictionary: False
+[Debug  :UnlockOnStart] Item ID: 66 / Item name: Comedy / Is scrap: True
+[Debug  :UnlockOnStart] Is in dictionary: False
+[Debug  :UnlockOnStart] Item ID: 67 / Item name: Whoopie cushion / Is scrap: True
+[Debug  :UnlockOnStart] Is in dictionary: False
+[Debug  :UnlockOnStart] Item ID: 68 / Item name: Cat / Is scrap: True
+[Debug  :UnlockOnStart] Is in dictionary: False
+[Debug  :UnlockOnStart] Item ID: 69 / Item name: Decorative crystal / Is scrap: True
+[Debug  :UnlockOnStart] Is in dictionary: False
+[Debug  :UnlockOnStart] Item ID: 70 / Item name: Demonic painting / Is scrap: True
+[Debug  :UnlockOnStart] Is in dictionary: False
+[Debug  :UnlockOnStart] Item ID: 71 / Item name: Weezer Guitar / Is scrap: True
+[Debug  :UnlockOnStart] Is in dictionary: False
+[Debug  :UnlockOnStart] Item ID: 72 / Item name: Fire Axe / Is scrap: True
+[Debug  :UnlockOnStart] Is in dictionary: False
+[Debug  :UnlockOnStart] Item ID: 73 / Item name: Shotgun / Is scrap: True
+[Debug  :UnlockOnStart] Is in dictionary: True
+[Debug  :UnlockOnStart] Item ID: 74 / Item name: Shells / Is scrap: False
+[Debug  :UnlockOnStart] Is in dictionary: False
 [Info   :Cabinet Item Storage] True
-[Debug  :Possessed Masks] StartOfRound Start
+[Message:Possessed Masks] Starting manager (host only)
 [Info   :MaskedEnemyRework] Found Flowerman!
 [Info   :MaskedEnemyRework] Found Flowerman!
 [Info   :MaskedEnemyRework] Found Flowerman!
@@ -1137,8 +875,6 @@
 [Info   :PestControl] Multiplier:1.1 Addition:0
 [Info   :PestControl] Nutcracker:
 [Info   :PestControl] Multiplier:1.1 Addition:0
-[Info   :PestControl] Boomba:
-[Info   :PestControl] Multiplier:1.1 Addition:0
 [Info   :PestControl] Red Locust Bees:
 [Info   :PestControl] Multiplier:1.1 Addition:0
 [Info   :PestControl] Manticoil:
@@ -1161,45 +897,10 @@
 [Info   :PestControl] Multiplier:1.1 Addition:0
 [Info   :PestControl] Masked:
 [Info   :PestControl] Multiplier:1 Addition:0
+[Message:Possessed Masks] Registering all!
+[Message:Possessed Masks] Comedy item found!
+[Message:Possessed Masks] Tragedy item found!
 [Warning: Unity Log] TerminalKeyword must be instantiated using the ScriptableObject.CreateInstance method instead of new TerminalKeyword.
-[Warning: Unity Log] BoxColliders does not support negative scale or size.
-The effective box size has been forced positive and is likely to give unexpected collision geometry.
-If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Environment/HangarShip/LightSwitchContainer/PlacementCollider"
-[Warning: Unity Log] BoxColliders does not support negative scale or size.
-The effective box size has been forced positive and is likely to give unexpected collision geometry.
-If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Environment/HangarShip/Cube"
-[Warning: Unity Log] BoxColliders does not support negative scale or size.
-The effective box size has been forced positive and is likely to give unexpected collision geometry.
-If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Environment/HangarShip/AnimatedShipDoor/HangarDoorLeft (1)"
-[Warning: Unity Log] BoxColliders does not support negative scale or size.
-The effective box size has been forced positive and is likely to give unexpected collision geometry.
-If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Environment/HangarShip/ShipBottomColliders/Cube (1)"
-[Warning: Unity Log] BoxColliders does not support negative scale or size.
-The effective box size has been forced positive and is likely to give unexpected collision geometry.
-If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Environment/HangarShip/ControlDesk.001"
-[Warning: Unity Log] BoxColliders does not support negative scale or size.
-The effective box size has been forced positive and is likely to give unexpected collision geometry.
-If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Environment/HangarShip/ShipBottomColliders/Cube (3)"
-[Warning: Unity Log] BoxColliders does not support negative scale or size.
-The effective box size has been forced positive and is likely to give unexpected collision geometry.
-If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Environment/HangarShip/ShipBottomColliders/Cube (7)"
-[Warning: Unity Log] BoxColliders does not support negative scale or size.
-The effective box size has been forced positive and is likely to give unexpected collision geometry.
-If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Environment/HangarShip/StorageCloset/Cube.000/Cube"
-[Warning: Unity Log] BoxColliders does not support negative scale or size.
-The effective box size has been forced positive and is likely to give unexpected collision geometry.
-If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Environment/HangarShip/ShipBottomColliders/Cube (6)"
-[Warning: Unity Log] BoxColliders does not support negative scale or size.
-The effective box size has been forced positive and is likely to give unexpected collision geometry.
-If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Environment/HangarShip/ShipBottomColliders/Cube (8)"
-[Warning: Unity Log] BoxColliders does not support negative scale or size.
-The effective box size has been forced positive and is likely to give unexpected collision geometry.
-If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Environment/HangarShip/ShipBottomColliders/Cube (5)"
-[Warning: Unity Log] BoxColliders does not support negative scale or size.
-The effective box size has been forced positive and is likely to give unexpected collision geometry.
-If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Environment/HangarShip/ShipBottomColliders/Cube (4)"
-[Debug  :Possessed Masks] Waiting until allowed
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (Z:/SteamLibrary/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
 [Info   :Custom Boombox Music] Loaded C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\Custom Songs\Boombox Music\All My people.mp3
 [Info   :Custom Boombox Music] Loaded C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\Custom Songs\Boombox Music\Attention.mp3
 [Info   :Custom Boombox Music] Loaded C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\Custom Songs\Boombox Music\Believer.mp3
@@ -1240,18 +941,492 @@ If you absolutely need to use negative scaling you can use the convex MeshCollid
 [Info   :Custom Boombox Music] Loaded C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\Custom Songs\Boombox Music\病变.mp3
 [Info   :Custom Boombox Music] Loaded C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\Custom Songs\Boombox Music\鸡你太美.mp3
 [Info   :Custom Boombox Music] Loaded C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\Custom Songs\Boombox Music\黑桃A.mp3
+[Info   :ImoutoSama.ScarletMansion] Loading SDM with predefined moon list
+[Info   :ImoutoSama.ScarletMansion] Clearing previous custom dungeon load
+[Info   :ImoutoSama.ScarletMansion] Tried to remove ManualPlanetNameReference: (Rend, 0) but it's already gone
+[Info   :ImoutoSama.ScarletMansion] Tried to remove ManualPlanetNameReference: (Dine, 0) but it's already gone
+[Info   :ImoutoSama.ScarletMansion] Tried to remove ManualPlanetNameReference: (Titan, 0) but it's already gone
+[Info   :ImoutoSama.ScarletMansion] Loading SDM to default snow moons
+[Info   :ImoutoSama.ScarletMansion] Added ManualPlanetNameReference: (Dine, 300)
+[Info   :ImoutoSama.ScarletMansion] Added ManualPlanetNameReference: (Rend, 300)
+[Info   :ImoutoSama.ScarletMansion] Added ManualPlanetNameReference: (Titan, 69)
+[Info   :ImoutoSama.ScarletMansion] 1, 2
+[Info   :ImoutoSama.ScarletMansion] Set networked config values
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Environment/HangarShip/LightSwitchContainer/PlacementCollider"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Environment/HangarShip/Cube"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Environment/HangarShip/AnimatedShipDoor/HangarDoorLeft (1)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Environment/HangarShip/ShipBottomColliders/Cube (1)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Environment/HangarShip/ControlDesk.001"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Environment/HangarShip/ShipBottomColliders/Cube (3)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Environment/HangarShip/ShipBottomColliders/Cube (7)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Environment/HangarShip/ShipBottomColliders/Cube (6)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Environment/HangarShip/ShipBottomColliders/Cube (8)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Environment/HangarShip/ShipBottomColliders/Cube (5)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Environment/HangarShip/ShipBottomColliders/Cube (4)"
 [Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (Z:/SteamLibrary/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Environment/HangarShip/StorageCloset/Cube.000/Cube"
 [Warning:Lethal Company API] Asking all other players for their mod list..
-[Info   :ReservedItemSlotCore-1.8.14] Finalizing sync with server. New hotbar size: 6
-[Info   :ReservedItemSlotCore-1.8.14] Adding 2 reserved item slots to the inventory HUD. Previous inventory HUD size: 4
-[Info   :ReservedItemSlotCore-1.8.14] Adding Reserved item slot for item types [Pro-flashlight]. Inventory index: 4
-[Info   :ReservedItemSlotCore-1.8.14] Adding Reserved item slot for item types [Walkie-talkie]. Inventory index: 5
-[Info   :ReservedItemSlotCore-1.8.14] Finished adding 2 Reserved Item slots in the inventory HUD.
+[Info   :ReservedItemSlotCore-1.8.17] Finalizing sync with server. New hotbar size: 6
+[Info   :ReservedItemSlotCore-1.8.17] Adding 2 reserved item slots to the inventory HUD. Previous inventory HUD size: 4
+[Info   :ReservedItemSlotCore-1.8.17] Adding Reserved item slot for item types [专业手电筒]. Inventory index: 4
+[Info   :ReservedItemSlotCore-1.8.17] Adding Reserved item slot for item types [对讲机]. Inventory index: 5
+[Info   :ReservedItemSlotCore-1.8.17] Finished adding 2 Reserved Item slots in the inventory HUD.
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (Z:/SteamLibrary/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Info   :ReservedItemSlotCore-1.8.17] Focusing reserved hotbar slots. NewIndex: 4 OldIndex: 0 ReservedStartIndex: 4
+[Info   :ReservedItemSlotCore-1.8.17] Sending OnSwapReservedHotbar update to server. Hotbar slot: 4
+[Info   :ReservedItemSlotCore-1.8.17] Receiving OnSwapReservedHotbar update from client. ClientId: 0 Slot: 4
+[Info   :ReservedItemSlotCore-1.8.17] Receiving OnSwapReservedHotbar update from client. ClientId: 0 Slot: 4
 [Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (Z:/SteamLibrary/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
 [Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (Z:/SteamLibrary/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Info   :Buyable Shotgun] Scene "Level1Experimentation" loaded with Additive mode.
+[Debug  :MoreDeathNotes] Item dropship spawned! Modifying kill trigger...
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Environment/Map/ModelsIntroScene/AlleyBeams/LargePipeSupportBeam (6)/Collision/Cube (47)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Environment/Map/ModelsIntroScene/ChainlinkFence (8)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Environment/Map/ModelsIntroScene/LargePipeSupportBeam (7)/Collision (1)/Cube (48)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Environment/Map/ModelsIntroScene/ChainlinkFence (3)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Environment/Map/ModelsIntroScene/LargePipeSupportBeam/Collision (6)/Cube (47)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Environment/Map/ModelsIntroScene/CatwalkStairsAlley/Collision/Cube (37)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Environment/Map/ModelsIntroScene/CatwalkStairsAlley/Collision/Cube (4)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Environment/Map/ModelsIntroScene/LargePipeSupportBeam (1)/Collision (5)/Cube (47)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Environment/Map/ModelsIntroScene/CatwalkStairsAlley/Collision/Cube (41)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Environment/Map/ModelsIntroScene/ChainlinkFence (6)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Environment/Map/ModelsIntroScene/CatwalkStairsAlley/Collision/Cube (11)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Environment/Map/ModelsIntroScene/CatwalkStairsAlley/Collision/Cube (59)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Environment/Map/ModelsIntroScene/CatwalkStairsAlley/Collision/Cube (55)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Environment/Map/ModelsIntroScene/AlleyBeams/LargePipeSupportBeam (4)/Collision (2)/Cube (48)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Environment/Map/ModelsIntroScene/CatwalkStairsAlley/Collision/Cube (56)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Environment/Map/ModelsIntroScene/AlleyBeams/LargePipeSupportBeam (5)/Collision (1)/Cube (48)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Environment/Map/ModelsIntroScene/LargePipeSupportBeam (3)/Collision (3)/Cube (48)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Environment/Map/ModelsIntroScene/CatwalkStairsAlley/Collision/Cube (27)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Environment/Map/ModelsIntroScene/CatwalkStairsAlley/Collision/Cube (57)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Environment/Map/ModelsIntroScene/LargePipeSupportBeam (2)/Collision (4)/Cube (47)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Environment/Map/ModelsIntroScene/CatwalkStairsAlley/Collision/Cube (35)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Environment/Map/ModelsIntroScene/LargePipeSupportBeam (4)/Collision (4)/Cube (47)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Environment/Map/ModelsIntroScene/CatwalkStairsAlley/Collision/Cube (34)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Environment/Map/ModelsIntroScene/LargePipeSupportBeam (7)/Collision (1)/Cube (47)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Environment/Map/ModelsIntroScene/CatwalkStairsAlley/Collision/Cube (26)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Environment/Map/ModelsIntroScene/AlleyBeams/LargePipeSupportBeam (4)/Collision (2)/Cube (47)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Environment/Map/ModelsIntroScene/ChainlinkFence (18)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Environment/Map/ModelsIntroScene/CatwalkStairsAlley/Collision/Cube (38)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Environment/Map/ModelsIntroScene/CatwalkStairsAlley/Collision/Cube (60)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Environment/Map/ModelsIntroScene/CatwalkStairsAlley/Collision/Cube (49)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Environment/Map/ModelsIntroScene/CatwalkStairsAlley/Collision/Cube (51)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Environment/Map/ModelsIntroScene/LargePipeSupportBeam (4)/Collision (4)/Cube (48)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Environment/Map/ModelsIntroScene/ChainlinkFence (15)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Environment/Map/ModelsIntroScene/AlleyBeams/LargePipeSupportBeam (6)/Collision/Cube (48)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Environment/Map/ModelsIntroScene/ChainlinkFence (5)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Environment/Map/ModelsIntroScene/LargePipeSupportBeam (2)/Collision (4)/Cube (48)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Environment/Map/ModelsIntroScene/ChainlinkFence (7)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Environment/Map/ModelsIntroScene/CatwalkStairsAlley/Collision/Cube (10)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Environment/Map/ModelsIntroScene/CatwalkStairsAlley/Collision/Cube (48)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Environment/Map/ModelsIntroScene/LargePipeSupportBeam (1)/Collision (5)/Cube (48)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Environment/Map/ModelsIntroScene/ChainlinkFence (17)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Environment/Map/ModelsIntroScene/LargePipeSupportBeam/Collision (6)/Cube (48)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Environment/Map/ModelsIntroScene/CatwalkStairsAlley/Collision/Cube (5)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Environment/Map/ModelsIntroScene/CatwalkStairsAlley/Collision/Cube (39)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Environment/Map/ModelsIntroScene/CatwalkStairsAlley/Collision/Cube (36)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Environment/Map/ModelsIntroScene/AlleyBeams/LargePipeSupportBeam (5)/Collision (1)/Cube (47)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Environment/Map/ModelsIntroScene/ChainlinkFence (9)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Environment/Map/ModelsIntroScene/LargePipeSupportBeam (3)/Collision (3)/Cube (47)"
+[Error  : Unity Log] RuntimeNavMeshBuilder: Source mesh Cylinder is skipped because it does not allow read access
+[Error  : Unity Log] RuntimeNavMeshBuilder: Source mesh toilet_b is skipped because it does not allow read access
+[Info   :PestControl] Setting adjusted weights!
+[Info   :PestControl] Centipede, old rarity: 51, new rariy: 51
+[Info   :PestControl] Bunker Spider, old rarity: 58, new rariy: 0
+[Info   :PestControl] Hoarding bug, old rarity: 28, new rariy: 30
+[Info   :PestControl] Flowerman, old rarity: 13, new rariy: 15
+[Info   :PestControl] Crawler, old rarity: 16, new rariy: 16
+[Info   :PestControl] Blob, old rarity: 31, new rariy: 34
+[Info   :PestControl] Girl, old rarity: 1, new rariy: 1
+[Info   :PestControl] Puffer, old rarity: 28, new rariy: 30
+[Info   :PestControl] Nutcracker, old rarity: 1, new rariy: 1
+[Info   :PestControl] Red Locust Bees, old rarity: 22, new rariy: 24
+[Info   :PestControl] Manticoil, old rarity: 74, new rariy: 81
+[Info   :PestControl] Docile Locust Bees, old rarity: 52, new rariy: 52
+[Info   :PestControl] MouthDog, old rarity: 75, new rariy: 82
+[Info   :PestControl] ForestGiant, old rarity: 0, new rariy: 0
+[Info   :PestControl] Earth Leviathan, old rarity: 56, new rariy: 44
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Systems/LevelGeneration/LevelGenerationRoot/DoubleDoorRoom(Clone)/Pipes/Pipe6 (1)/Cube (34)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Systems/LevelGeneration/LevelGenerationRoot/DoubleDoorRoom(Clone)/Pipes/Pipe6 (1)/Cube (36)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Systems/LevelGeneration/LevelGenerationRoot/DoubleDoorRoom(Clone)/Pipes/Pipe6 (1)/Cube (35)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Systems/LevelGeneration/LevelGenerationRoot/CatwalkTile2x1(Clone)/CatwalkStairs.002/StairCollider (1)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Systems/LevelGeneration/LevelGenerationRoot/CatwalkTile2x1(Clone)/CatwalkStairs.002/StairCollider (2)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Systems/LevelGeneration/LevelGenerationRoot/CatwalkTile2x1(Clone)/CatwalkStairs.002/StairCollider (9)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Systems/LevelGeneration/LevelGenerationRoot/CatwalkTile2x1(Clone)/CatwalkStairs.002/StairCollider (8)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Systems/LevelGeneration/LevelGenerationRoot/CatwalkTile2x1(Clone)/CatwalkStairs.002/StairCollider (4)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Systems/LevelGeneration/LevelGenerationRoot/CatwalkTile2x1(Clone)/CatwalkStairs.002/StairCollider (6)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Systems/LevelGeneration/LevelGenerationRoot/CatwalkTile2x1(Clone)/CatwalkStairs.002/StairCollider"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Systems/LevelGeneration/LevelGenerationRoot/CatwalkTile2x1(Clone)/CatwalkStairs.002/StairCollider (7)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Systems/LevelGeneration/LevelGenerationRoot/CatwalkTile2x1(Clone)/CatwalkStairs.002/StairCollider (10)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Systems/LevelGeneration/LevelGenerationRoot/CatwalkTile2x1(Clone)/CatwalkStairs.002/StairCollider (3)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Systems/LevelGeneration/LevelGenerationRoot/CatwalkTile2x1(Clone)/CatwalkStairs.002/StairCollider (5)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Systems/LevelGeneration/LevelGenerationRoot/CatwalkTile2x1(Clone)/CatwalkStairs.002/StairCollider (1)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Systems/LevelGeneration/LevelGenerationRoot/CatwalkTile2x1(Clone)/CatwalkStairs.002/StairCollider (2)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Systems/LevelGeneration/LevelGenerationRoot/CatwalkTile2x1(Clone)/CatwalkStairs.002/StairCollider (9)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Systems/LevelGeneration/LevelGenerationRoot/CatwalkTile2x1(Clone)/CatwalkStairs.002/StairCollider (8)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Systems/LevelGeneration/LevelGenerationRoot/CatwalkTile2x1(Clone)/CatwalkStairs.002/StairCollider (4)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Systems/LevelGeneration/LevelGenerationRoot/CatwalkTile2x1(Clone)/CatwalkStairs.002/StairCollider (6)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Systems/LevelGeneration/LevelGenerationRoot/CatwalkTile2x1(Clone)/CatwalkStairs.002/StairCollider"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Systems/LevelGeneration/LevelGenerationRoot/CatwalkTile2x1(Clone)/CatwalkStairs.002/StairCollider (7)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Systems/LevelGeneration/LevelGenerationRoot/CatwalkTile2x1(Clone)/CatwalkStairs.002/StairCollider (10)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Systems/LevelGeneration/LevelGenerationRoot/CatwalkTile2x1(Clone)/CatwalkStairs.002/StairCollider (3)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Systems/LevelGeneration/LevelGenerationRoot/CatwalkTile2x1(Clone)/CatwalkStairs.002/StairCollider (5)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Systems/LevelGeneration/LevelGenerationRoot/CatwalkTile2x1Split(Clone)/Colliders/StairCollider (25)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Systems/LevelGeneration/LevelGenerationRoot/CatwalkTile2x1Split(Clone)/Colliders/StairCollider (18)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Systems/LevelGeneration/LevelGenerationRoot/CatwalkTile2x1Split(Clone)/Colliders/StairCollider (16)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Systems/LevelGeneration/LevelGenerationRoot/CatwalkTile2x1Split(Clone)/Colliders/StairCollider (15)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Systems/LevelGeneration/LevelGenerationRoot/CatwalkTile2x1Split(Clone)/Colliders/StairCollider (17)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Systems/LevelGeneration/LevelGenerationRoot/CatwalkTile2x1Split(Clone)/Colliders/StairCollider (13)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Systems/LevelGeneration/LevelGenerationRoot/CatwalkTile2x1Split(Clone)/Colliders/StairCollider (24)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Systems/LevelGeneration/LevelGenerationRoot/CatwalkTile2x1Split(Clone)/Colliders/StairCollider (14)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Systems/LevelGeneration/LevelGenerationRoot/CatwalkTile2x1Split(Clone)/Colliders/StairCollider (20)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Systems/LevelGeneration/LevelGenerationRoot/CatwalkTile2x1Split(Clone)/Colliders/StairCollider (11)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Systems/LevelGeneration/LevelGenerationRoot/CatwalkTile2x1Split(Clone)/Colliders/StairCollider (19)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Systems/LevelGeneration/LevelGenerationRoot/CatwalkTile2x1Split(Clone)/Colliders/StairCollider (12)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Systems/LevelGeneration/LevelGenerationRoot/CatwalkTile2x1Split(Clone)/Colliders/StairCollider (21)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Systems/LevelGeneration/LevelGenerationRoot/CatwalkTile2x1Split(Clone)/Colliders/StairCollider (23)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Systems/LevelGeneration/LevelGenerationRoot/CatwalkTile2x1Split(Clone)/Colliders/StairCollider (22)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Systems/LevelGeneration/LevelGenerationRoot/CatwalkTile2x1Split(Clone)/Colliders/StairCollider (26)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Systems/LevelGeneration/LevelGenerationRoot/CatwalkTile2x1Split(Clone)/Colliders/StairCollider (25)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Systems/LevelGeneration/LevelGenerationRoot/CatwalkTile2x1Split(Clone)/Colliders/StairCollider (18)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Systems/LevelGeneration/LevelGenerationRoot/CatwalkTile2x1Split(Clone)/Colliders/StairCollider (16)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Systems/LevelGeneration/LevelGenerationRoot/CatwalkTile2x1Split(Clone)/Colliders/StairCollider (15)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Systems/LevelGeneration/LevelGenerationRoot/CatwalkTile2x1Split(Clone)/Colliders/StairCollider (17)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Systems/LevelGeneration/LevelGenerationRoot/CatwalkTile2x1Split(Clone)/Colliders/StairCollider (13)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Systems/LevelGeneration/LevelGenerationRoot/CatwalkTile2x1Split(Clone)/Colliders/StairCollider (24)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Systems/LevelGeneration/LevelGenerationRoot/CatwalkTile2x1Split(Clone)/Colliders/StairCollider (14)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Systems/LevelGeneration/LevelGenerationRoot/CatwalkTile2x1Split(Clone)/Colliders/StairCollider (20)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Systems/LevelGeneration/LevelGenerationRoot/CatwalkTile2x1Split(Clone)/Colliders/StairCollider (11)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Systems/LevelGeneration/LevelGenerationRoot/CatwalkTile2x1Split(Clone)/Colliders/StairCollider (19)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Systems/LevelGeneration/LevelGenerationRoot/CatwalkTile2x1Split(Clone)/Colliders/StairCollider (12)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Systems/LevelGeneration/LevelGenerationRoot/CatwalkTile2x1Split(Clone)/Colliders/StairCollider (21)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Systems/LevelGeneration/LevelGenerationRoot/CatwalkTile2x1Split(Clone)/Colliders/StairCollider (23)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Systems/LevelGeneration/LevelGenerationRoot/CatwalkTile2x1Split(Clone)/Colliders/StairCollider (22)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Systems/LevelGeneration/LevelGenerationRoot/CatwalkTile2x1Split(Clone)/Colliders/StairCollider (26)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Systems/LevelGeneration/LevelGenerationRoot/DoubleDoorRoom(Clone)/Props/LungDockingStation/LungSocketMachine/BigSocket/Collisions/Cube"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Systems/LevelGeneration/LevelGenerationRoot/DoubleDoorRoom(Clone)/Props/LungDockingStation/LungSocketMachine/BigSocket/Collisions/Cube (1)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Systems/LevelGeneration/LevelGenerationRoot/DoubleDoorRoom(Clone)/Props/LungDockingStation/LungSocketMachine/BigSocket/Collisions/Cube (3)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Systems/LevelGeneration/LevelGenerationRoot/DoubleDoorRoom(Clone)/Props/LungDockingStation/LungSocketMachine/BigSocket/Collisions/Cube (4)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Systems/LevelGeneration/LevelGenerationRoot/DoubleDoorRoom(Clone)/Props/LungDockingStation/LungSocketMachine/BigSocket/Collisions/Cube (5)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Systems/LevelGeneration/LevelGenerationRoot/DoubleDoorRoom(Clone)/Props/LungDockingStation/LungSocketMachine/BigSocket/Collisions/Cube (2)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Systems/LevelGeneration/LevelGenerationRoot/DoubleDoorRoom(Clone)/Props/LungDockingStation/LungSocketMachine/BigSocket/Collisions/Cube (6)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Systems/LevelGeneration/LevelGenerationRoot/DoubleDoorRoom(Clone)/Props/LungDockingStation/LungSocketMachine/BigSocket/Collisions/Cube (7)"
+[Warning: Unity Log] Audio source failed to initialize audio spatializer. An audio spatializer is specified in the audio project settings, but the associated plugin was not found or initialized properly. Please make sure that the selected spatializer is compatible with the target.
+[Warning: Unity Log] Only custom filters can be played. Please add a custom filter or an audioclip to the audiosource (SteamValve(Clone)).
+[Warning: Unity Log] Audio source failed to initialize audio spatializer. An audio spatializer is specified in the audio project settings, but the associated plugin was not found or initialized properly. Please make sure that the selected spatializer is compatible with the target.
+[Warning: Unity Log] Only custom filters can be played. Please add a custom filter or an audioclip to the audiosource (SteamValve(Clone)).
+[Info   :SCPCBDunGen] No 914 room found.
+[Info   :WeatherMultipliers.ScrapGeneration] No weather multiplier found for "None"
+[Warning: Unity Log] Audio source failed to initialize audio spatializer. An audio spatializer is specified in the audio project settings, but the associated plugin was not found or initialized properly. Please make sure that the selected spatializer is compatible with the target.
+[Warning: Unity Log] Audio source failed to initialize audio spatializer. An audio spatializer is specified in the audio project settings, but the associated plugin was not found or initialized properly. Please make sure that the selected spatializer is compatible with the target.
+[Warning: Unity Log] Audio source failed to initialize audio spatializer. An audio spatializer is specified in the audio project settings, but the associated plugin was not found or initialized properly. Please make sure that the selected spatializer is compatible with the target.
+[Warning: Unity Log] Audio source failed to initialize audio spatializer. An audio spatializer is specified in the audio project settings, but the associated plugin was not found or initialized properly. Please make sure that the selected spatializer is compatible with the target.
+[Warning: Unity Log] Audio source failed to initialize audio spatializer. An audio spatializer is specified in the audio project settings, but the associated plugin was not found or initialized properly. Please make sure that the selected spatializer is compatible with the target.
+[Info   :BoomboxSyncFix] Round has loaded for all -- forcing everyone to reinitialize musicRandomizer.
+[Warning: Unity Log] Audio source failed to initialize audio spatializer. An audio spatializer is specified in the audio project settings, but the associated plugin was not found or initialized properly. Please make sure that the selected spatializer is compatible with the target.
+[Warning: Unity Log] Audio source failed to initialize audio spatializer. An audio spatializer is specified in the audio project settings, but the associated plugin was not found or initialized properly. Please make sure that the selected spatializer is compatible with the target.
+[Warning: Unity Log] Audio source failed to initialize audio spatializer. An audio spatializer is specified in the audio project settings, but the associated plugin was not found or initialized properly. Please make sure that the selected spatializer is compatible with the target.
+[Warning: Unity Log] Audio source failed to initialize audio spatializer. An audio spatializer is specified in the audio project settings, but the associated plugin was not found or initialized properly. Please make sure that the selected spatializer is compatible with the target.
+[Warning: Unity Log] Audio source failed to initialize audio spatializer. An audio spatializer is specified in the audio project settings, but the associated plugin was not found or initialized properly. Please make sure that the selected spatializer is compatible with the target.
+[Warning: Unity Log] Audio source failed to initialize audio spatializer. An audio spatializer is specified in the audio project settings, but the associated plugin was not found or initialized properly. Please make sure that the selected spatializer is compatible with the target.
+[Warning: Unity Log] Audio source failed to initialize audio spatializer. An audio spatializer is specified in the audio project settings, but the associated plugin was not found or initialized properly. Please make sure that the selected spatializer is compatible with the target.
+[Warning: Unity Log] Audio source failed to initialize audio spatializer. An audio spatializer is specified in the audio project settings, but the associated plugin was not found or initialized properly. Please make sure that the selected spatializer is compatible with the target.
+[Warning: Unity Log] Audio source failed to initialize audio spatializer. An audio spatializer is specified in the audio project settings, but the associated plugin was not found or initialized properly. Please make sure that the selected spatializer is compatible with the target.
+[Warning: Unity Log] Audio source failed to initialize audio spatializer. An audio spatializer is specified in the audio project settings, but the associated plugin was not found or initialized properly. Please make sure that the selected spatializer is compatible with the target.
+[Warning: Unity Log] Audio source failed to initialize audio spatializer. An audio spatializer is specified in the audio project settings, but the associated plugin was not found or initialized properly. Please make sure that the selected spatializer is compatible with the target.
+[Warning: Unity Log] Audio source failed to initialize audio spatializer. An audio spatializer is specified in the audio project settings, but the associated plugin was not found or initialized properly. Please make sure that the selected spatializer is compatible with the target.
+[Warning: Unity Log] Audio source failed to initialize audio spatializer. An audio spatializer is specified in the audio project settings, but the associated plugin was not found or initialized properly. Please make sure that the selected spatializer is compatible with the target.
+[Warning: Unity Log] Audio source failed to initialize audio spatializer. An audio spatializer is specified in the audio project settings, but the associated plugin was not found or initialized properly. Please make sure that the selected spatializer is compatible with the target.
+[Warning: Unity Log] Audio source failed to initialize audio spatializer. An audio spatializer is specified in the audio project settings, but the associated plugin was not found or initialized properly. Please make sure that the selected spatializer is compatible with the target.
+[Warning: Unity Log] Audio source failed to initialize audio spatializer. An audio spatializer is specified in the audio project settings, but the associated plugin was not found or initialized properly. Please make sure that the selected spatializer is compatible with the target.
+[Debug  :SpidersBegone] Prevented spider spawn.
+[Debug  :SpidersBegone] Prevented spider spawn.
+[Info   :LethalPresents] List of spawnable enemies (inside):
+[Info   :LethalPresents] Centipede
+[Info   :LethalPresents] SandSpider
+[Info   :LethalPresents] HoarderBug
+[Info   :LethalPresents] Flowerman
+[Info   :LethalPresents] Crawler
+[Info   :LethalPresents] Blob
+[Info   :LethalPresents] DressGirl
+[Info   :LethalPresents] Puffer
+[Info   :LethalPresents] Nutcracker
+[Info   :LethalPresents] MaskedPlayerEnemy
+[Info   :LethalPresents] List of spawnable enemies (outside):
+[Info   :LethalPresents] MouthDog
+[Info   :LethalPresents] ForestGiant
+[Info   :LethalPresents] SandWorm
+[Info   :LethalPresents] MaskedPlayerEnemy
 [Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (Z:/SteamLibrary/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   : MoreItems] Maximum amount of items that can be saved set to 999 just before saving.
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled HoarderBug(Clone) True
+[Warning: Unity Log] Audio source failed to initialize audio spatializer. An audio spatializer is specified in the audio project settings, but the associated plugin was not found or initialized properly. Please make sure that the selected spatializer is compatible with the target.
+[Warning: Unity Log] Audio source failed to initialize audio spatializer. An audio spatializer is specified in the audio project settings, but the associated plugin was not found or initialized properly. Please make sure that the selected spatializer is compatible with the target.
+[Info   : Symbiosis] FOUND SPOT TO CHILL 0.2434775 UNITS AWAY FROM ME
+[Info   : Symbiosis] FOUND SPOT TO CHILL 0.6997631 UNITS AWAY FROM ME
+[Info   : Symbiosis] FOUND SPOT TO CHILL 0.5458046 UNITS AWAY FROM ME
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (Z:/SteamLibrary/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled HoarderBug(Clone) True
+[Warning: Unity Log] Audio source failed to initialize audio spatializer. An audio spatializer is specified in the audio project settings, but the associated plugin was not found or initialized properly. Please make sure that the selected spatializer is compatible with the target.
+[Warning: Unity Log] Audio source failed to initialize audio spatializer. An audio spatializer is specified in the audio project settings, but the associated plugin was not found or initialized properly. Please make sure that the selected spatializer is compatible with the target.
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled HoarderBug(Clone) True
+[Info   :RugbugRedfern.SkinwalkerMod] HoarderBug(Clone) played voice line no (too far away) 250.768
+[Warning: Unity Log] Audio source failed to initialize audio spatializer. An audio spatializer is specified in the audio project settings, but the associated plugin was not found or initialized properly. Please make sure that the selected spatializer is compatible with the target.
+[Warning: Unity Log] Audio source failed to initialize audio spatializer. An audio spatializer is specified in the audio project settings, but the associated plugin was not found or initialized properly. Please make sure that the selected spatializer is compatible with the target.
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (Z:/SteamLibrary/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled HoarderBug(Clone) True
+[Warning: Unity Log] Audio source failed to initialize audio spatializer. An audio spatializer is specified in the audio project settings, but the associated plugin was not found or initialized properly. Please make sure that the selected spatializer is compatible with the target.
+[Warning: Unity Log] Audio source failed to initialize audio spatializer. An audio spatializer is specified in the audio project settings, but the associated plugin was not found or initialized properly. Please make sure that the selected spatializer is compatible with the target.
+[Info   :RugbugRedfern.SkinwalkerMod] HoarderBug(Clone) played voice line no (too far away) 249.4062
 [Info   :RugbugRedfern.SkinwalkerMod] SkinwalkerNetworkManager OnDestroy
 [Info   :Buyable Shotgun] Scene "MainMenu" loaded with Single mode.
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (Z:/SteamLibrary/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
 [Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (Z:/SteamLibrary/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)

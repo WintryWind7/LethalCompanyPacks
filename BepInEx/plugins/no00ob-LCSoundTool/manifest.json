@@ -1,6 +1,6 @@
 {
     "name": "LCSoundTool",
-    "version_number": "1.5.0",
+    "version_number": "1.5.1",
     "website_url": "https://github.com/no00ob/LCSoundTool",
     "description": "Let's you easily load audio files, replace in game audio, send audio over the network and log any audio playback into console.",
     "dependencies": [

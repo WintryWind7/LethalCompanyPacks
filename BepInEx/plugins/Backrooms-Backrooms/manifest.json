@@ -1,0 +1,9 @@
+{
+    "name": "Backrooms",
+    "version_number": "0.1.3",
+    "description": "Explore the Backrooms, a surreal labyrinth in this mod. Navigate endless, eerie spaces, and uncover mysteries.",
+    "website_url": "",
+    "dependencies": [
+        "Evaisa-LethalLib-0.9.0"
+    ]
+}

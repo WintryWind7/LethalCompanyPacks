@@ -1,5 +1,10 @@
 # Changelog
 
+## [1.3.1]
+### Fixed
+- Fixed a bug where the "SystemsOnline" and "OpenEyes" animation wouldn't play when joining a lobby
+- Fixed a bug where the Health Text would be deleted on Player Death, which should give a very, very tiny performance boost on player respawn
+
 ## [1.3.0]
 ### Added
 - Added Text Color as a config option. The default is the classic orange color, but you can change it to be whatever RGB color you want.

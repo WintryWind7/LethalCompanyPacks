@@ -1,6 +1,6 @@
 {
 	"name": "UnlockOnStart",
-	"version_number": "0.6.1",
+	"version_number": "0.6.3",
 	"website_url": "https://github.com/AndreyMrovol/LethalUnlockOnStart",
 	"description": "Unlock ship upgrades, items, decorations and suits on new runs.",
 	"dependencies": ["BepInEx-BepInExPack-5.4.2100"]

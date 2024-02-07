@@ -1,4 +1,6 @@
 # Changelog
+## v3.1.2
+- fixed to work with advcom update
 ## v3.1.1
 - Readme update
 - Removed some console logs

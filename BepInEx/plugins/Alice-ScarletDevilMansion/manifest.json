@@ -1,0 +1,11 @@
+{
+    "name": "ScarletDevilMansion",
+    "version_number": "1.2.0",
+    "website_url": "",
+    "description": "Adds the Scarlet Devil Mansion from Touhou as a possible dungeon to the snow maps.",
+    "dependencies": [
+        "BepInEx-BepInExPack-5.4.2100",
+		"Evaisa-LethalLib-0.11.0",
+		"IAmBatby-LethalLevelLoader-1.0.7"
+    ]
+}

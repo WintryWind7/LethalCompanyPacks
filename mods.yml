@@ -79,9 +79,9 @@
   versionNumber:
     major: 1
     minor: 3
-    patch: 0
+    patch: 1
   enabled: true
-  icon: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\Treyotech-Treys_Health_Text\icon.png
+  icon: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\cache\Treyotech-Treys_Health_Text\1.3.1\icon.png
 - manifestVersion: 1
   name: NiceHairs-NuclearLib
   authorName: NiceHairs
@@ -173,7 +173,7 @@
   websiteUrl: https://thunderstore.io/c/lethal-company/p/FlipMods/ReservedItemSlotCore/
   displayName: ReservedItemSlotCore
   description: The core mod for all ReservedItemSlot mods. Adds functionality for
-    my ReservedItemSlot mods.
+    all ReservedItemSlot mods.
   gameVersion: "0"
   networkMode: both
   packageType: other
@@ -186,7 +186,7 @@
   versionNumber:
     major: 1
     minor: 8
-    patch: 14
+    patch: 17
   enabled: true
   icon: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\FlipMods-ReservedItemSlotCore\icon.png
 - manifestVersion: 1
@@ -209,7 +209,7 @@
   versionNumber:
     major: 1
     minor: 6
-    patch: 2
+    patch: 3
   enabled: true
   icon: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\FlipMods-ReservedFlashlightSlot\icon.png
 - manifestVersion: 1
@@ -232,7 +232,7 @@
   versionNumber:
     major: 1
     minor: 6
-    patch: 1
+    patch: 2
   enabled: true
   icon: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\FlipMods-ReservedWalkieSlot\icon.png
 - manifestVersion: 1
@@ -386,7 +386,7 @@
   versionNumber:
     major: 1
     minor: 5
-    patch: 0
+    patch: 1
   enabled: true
   icon: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\no00ob-LCSoundTool\icon.png
 - manifestVersion: 1
@@ -597,7 +597,7 @@
   optionalDependencies: []
   versionNumber:
     major: 0
-    minor: 13
+    minor: 14
     patch: 2
   enabled: true
   icon: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\Evaisa-LethalLib\icon.png
@@ -652,8 +652,9 @@
   authorName: Rune580
   websiteUrl: https://thunderstore.io/c/lethal-company/p/Rune580/LethalCompany_InputUtils/
   displayName: LethalCompany_InputUtils
-  description: Utilities for creating InputActions and providing an (opinionated)
-    improved UI.
+  description: API/Library for creating Unity InputActions with in-game re-binding
+    support. Provides an alternative UI that allows for supporting mods to have
+    in-game re-bindable keybinds.
   gameVersion: "0"
   networkMode: both
   packageType: other
@@ -666,7 +667,7 @@
   versionNumber:
     major: 0
     minor: 6
-    patch: 0
+    patch: 3
   enabled: true
   icon: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\Rune580-LethalCompany_InputUtils\icon.png
 - manifestVersion: 1
@@ -688,33 +689,9 @@
   versionNumber:
     major: 3
     minor: 1
-    patch: 1
+    patch: 2
   enabled: true
   icon: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\HomelessGinger-MaskedEnemyOverhaul\icon.png
-- manifestVersion: 1
-  name: Evaisa-LethalThings
-  authorName: Evaisa
-  websiteUrl: https://thunderstore.io/c/lethal-company/p/Evaisa/LethalThings/
-  displayName: LethalThings
-  description: Adds 11 scrap, 6 store items, 1 enemy, 4 decor, 1 map hazard, and 1
-    game mechanic.
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - BepInEx-BepInExPack-5.4.2100
-    - Evaisa-HookGenPatcher-0.0.5
-    - Evaisa-LethalLib-0.11.2
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 0
-    minor: 9
-    patch: 4
-  enabled: true
-  icon: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\Evaisa-LethalThings\icon.png
 - manifestVersion: 1
   name: FlipMods-ObjectVolumeController
   authorName: FlipMods
@@ -821,7 +798,7 @@
   versionNumber:
     major: 0
     minor: 6
-    patch: 1
+    patch: 3
   enabled: true
   icon: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\mrov-UnlockOnStart\icon.png
 - manifestVersion: 1
@@ -984,13 +961,14 @@
   packageType: other
   installMode: managed
   loaders: []
-  dependencies: []
+  dependencies:
+    - Evaisa-LethalLib-0.14.1
   incompatibilities: []
   optionalDependencies: []
   versionNumber:
     major: 2
     minor: 0
-    patch: 0
+    patch: 4
   enabled: true
   icon: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\OE_Tweaks-Possessed_Masks\icon.png
 - manifestVersion: 1
@@ -1124,7 +1102,7 @@
   authorName: SweetFox
   websiteUrl: https://thunderstore.io/c/lethal-company/p/SweetFox/Lethal_Company_Simplified_Chinese_Localization/
   displayName: Lethal_Company_Simplified_Chinese_Localization
-  description: Lethal Company 致命公司简体中文汉化
+  description: Lethal Company 致命公司简体中文本地汉化
   gameVersion: "0"
   networkMode: both
   packageType: other
@@ -1136,8 +1114,8 @@
   optionalDependencies: []
   versionNumber:
     major: 1
-    minor: 7
-    patch: 4
+    minor: 8
+    patch: 33
   enabled: true
   icon: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\SweetFox-Lethal_Company_Simplified_Chinese_Localization\icon.png
 - manifestVersion: 1
@@ -1205,8 +1183,8 @@
   optionalDependencies: []
   versionNumber:
     major: 2
-    minor: 2
-    patch: 1
+    minor: 3
+    patch: 0
   enabled: true
   icon: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\boxofbiscuits97-QuotaRollover\icon.png
 - manifestVersion: 1
@@ -1253,4 +1231,123 @@
     minor: 0
     patch: 4
   enabled: true
-  icon: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\cache\Ozone-Cabinet_Item_Storage\0.0.4\icon.png
+  icon: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\Ozone-Cabinet_Item_Storage\icon.png
+- manifestVersion: 1
+  name: IAmBatby-LethalLevelLoader
+  authorName: IAmBatby
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/IAmBatby/LethalLevelLoader/
+  displayName: LethalLevelLoader
+  description: A Custom API to support the manual and dynamic integration of
+    custom levels and dungeons in Lethal Company.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - Evaisa-LethalLib-0.13.2
+    - BepInEx-BepInExPack-5.4.2100
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 7
+  enabled: true
+  icon: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\IAmBatby-LethalLevelLoader\icon.png
+- manifestVersion: 1
+  name: scoopy-Scoopys_Variety_Mod
+  authorName: scoopy
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/scoopy/Scoopys_Variety_Mod/
+  displayName: Scoopys_Variety_Mod
+  description: Adds two new interiors (Dungeon and Sewer), and some scrap items.
+    This mod aims to add some variety to the base game of lethal company through
+    new content.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+    - Evaisa-LethalLib-0.14.2
+    - IAmBatby-LethalLevelLoader-1.0.7
+    - Evaisa-HookGenPatcher-0.0.5
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 1
+    patch: 0
+  enabled: true
+  icon: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\scoopy-Scoopys_Variety_Mod\icon.png
+- manifestVersion: 1
+  name: Badham_Mods-SCPFoundationDungeon
+  authorName: Badham_Mods
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/Badham_Mods/SCPFoundationDungeon/
+  displayName: SCPFoundationDungeon
+  description: Adds the SCP foundation as a potential dungeon to explore.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+    - Evaisa-HookGenPatcher-0.0.5
+    - Evaisa-LethalLib-0.13.2
+    - IAmBatby-LethalLevelLoader-1.0.7
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 2
+    minor: 3
+    patch: 1
+  enabled: true
+  icon: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\Badham_Mods-SCPFoundationDungeon\icon.png
+- manifestVersion: 1
+  name: Backrooms-Backrooms
+  authorName: Backrooms
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/Backrooms/Backrooms/
+  displayName: Backrooms
+  description: Explore the Backrooms, a surreal labyrinth in this mod. Navigate
+    endless, eerie spaces, and uncover mysteries.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - Evaisa-LethalLib-0.9.0
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 0
+    minor: 1
+    patch: 3
+  enabled: true
+  icon: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\Backrooms-Backrooms\icon.png
+- manifestVersion: 1
+  name: Alice-ScarletDevilMansion
+  authorName: Alice
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/Alice/ScarletDevilMansion/
+  displayName: ScarletDevilMansion
+  description: Adds the Scarlet Devil Mansion from Touhou as a possible dungeon to
+    the snow maps.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+    - Evaisa-LethalLib-0.11.0
+    - IAmBatby-LethalLevelLoader-1.0.7
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 2
+    patch: 0
+  enabled: true
+  icon: C:\Users\Win\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\modpackages\BepInEx\plugins\Alice-ScarletDevilMansion\icon.png

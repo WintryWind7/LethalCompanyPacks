@@ -1,3 +1,25 @@
+### [0.6.3]
+
+Fixes:
+- Some Keyboard/Mouse binds were being incorrectly recognized as gamepad only binds,
+  this was because I forgot about the existence of lower-case letters. I've studied up on the alphabet
+  to make up for this.
+
+Notes:
+- It was brought to my attention that the wording of the previous description could potentially come across as an insult to the vanilla rebind UI,
+  which was not my intention. As such I have updated the description to more accurately provide an overview of the features provided, while also using
+  more neutral wording.
+
+### [0.6.2]
+
+Fixes:
+- Gamepad only binds now only allow gamepads.
+
+### [0.6.1]
+
+Fixes:
+- Empty bind paths for InputActions created using the builder now properly resolve.
+
 ### [0.6.0]
 
 Features:

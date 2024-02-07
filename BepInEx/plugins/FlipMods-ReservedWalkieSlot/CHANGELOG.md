@@ -1,3 +1,5 @@
+# 1.6.2
++ Fixed warnings when InputUtils is not enabled.
 # 1.6.1
 + Fix for issue where dead masked enemies would constantly try to re-equip walkies.
 + Fix for issue where masked enemies wouldn't properly destroy their holstered reserved walkie after being destroyed.

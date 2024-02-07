@@ -1,0 +1,12 @@
+{
+    "name": "Scoopys_Variety_Mod",
+    "version_number": "1.1.0",
+    "website_url": "",
+    "description": "Adds two new interiors (Dungeon and Sewer), and some scrap items. This mod aims to add some variety to the base game of lethal company through new content.",
+    "dependencies": [
+        	"BepInEx-BepInExPack-5.4.2100",
+		"Evaisa-LethalLib-0.14.2",
+		"IAmBatby-LethalLevelLoader-1.0.7",
+		"Evaisa-HookGenPatcher-0.0.5"
+    ]
+}
